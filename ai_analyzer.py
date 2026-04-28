@@ -2,6 +2,7 @@
 
 from openai import OpenAI
 from config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL
+from fengshui_helper import get_today_fengshui_context
 import json
 
 
@@ -249,6 +250,7 @@ def generate_daily_briefing(
 ) -> str:
     """Generate a comprehensive daily market briefing with personality."""
     mood = _determine_mood(stock_data, market_data)
+    fs = get_today_fengshui_context()
 
     stock_summary = ""
     for name, data in stock_data.items():
@@ -309,12 +311,22 @@ Structure your briefing as:
 5. 🌍 大局观 - Macro factors in your own words
 6. 🔮 阿尔法的水晶球 - Your prediction/outlook for today
 7. ⚠️ 真心话 - Honest risk warnings (be direct, even blunt)
-8. 🔮 今日风水运势 (Daily Fengshui / 紫微斗数) - 根据今天的日期（使用今天真实的中国农历和天干地支五行），分析今天是什么日（金/木/水/火/土日）。
-   今天你要同时为两位读者做运势分析：
-   - 读者A（本命"弱火"之人）：今日运势如何？幸运色？宜忌？
-   - 读者B（本命"身弱乙木"之人）：今日运势如何？幸运色？宜忌？
-   再结合今天是什么五行日，给出一个共同的投资建议方位（东/南/西/北）。
-   这部分要写得神秘、有趣、又有一点点玄学的说服力。
+8. 🔮 今日风水运势 (Daily Fengshui / 紫微斗数) - 我已经给你算好了今天精确的天干地支五行（请直接使用，不要自行推算日期）：
+   ===== 今日命理数据 =====
+   日期: {fs['date_str']} ({fs['weekday_cn']})
+   今年: {fs['year_ganzhi']}年（生肖{fs['year_animal']}）
+   今日: {fs['day_ganzhi']}日 - {fs['day_yin_yang']}{fs['day_stem_element']}日（地支{fs['day_branch']}属{fs['day_branch_element']}）
+   日主五行: 【{fs['primary_element']}】
+   今日幸运色: {fs['lucky_color']}
+   今日方位: {fs['lucky_direction']}
+   ========================
+   
+   基于以上精确命理数据，请生动地为两位读者分析：
+   - 读者A（本命"弱火"之人）：{fs['reader_a_analysis']} 请把这段扩展成有趣的解读。
+   - 读者B（本命"身弱乙木"之人）：{fs['reader_b_analysis']} 请把这段扩展成有趣的解读。
+   
+   最后结合今日五行（{fs['primary_element']}），给出一个具体的投资建议方位（{fs['lucky_direction']}）和宜忌的资产类别（提示：金对应银行/贵金属，木对应医药/农业/科技，水对应物流/能源，火对应消费/科技/EV，土对应地产/建筑）。
+   写得神秘、有趣、有玄学说服力，但所有命理数据必须严格用上面给定的，不可自行推算！
 
 End with: "{mood['sign_off']}"
 

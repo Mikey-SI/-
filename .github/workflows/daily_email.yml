@@ -2,9 +2,7 @@ name: Daily Alpha Signal Email
 
 on:
   schedule:
-    # 8:00 AM Beijing/Macau Time (UTC+8) = 00:00 UTC
-    - cron: '0 0 * * *'
-    # 9:00 PM Beijing/Macau Time (UTC+8) = 13:00 UTC
+    # 9:00 PM Beijing/Macau Time (UTC+8) = 13:00 UTC, daily once
     - cron: '0 13 * * *'
   workflow_dispatch:
 
@@ -54,15 +52,18 @@ jobs:
           echo "SMTP_PORT=587" >> .env
 
       - name: Run daily pipeline and send email
+        timeout-minutes: 8
         run: python run_daily.py
 
-      - name: Run 5-dimension stock analysis
-        run: python full_analysis.py || true
+      - name: Run 5-dimension stock analysis (best-effort, max 10 min)
+        timeout-minutes: 10
+        continue-on-error: true
+        run: timeout 540 python full_analysis.py || echo "full_analysis timed out or failed - continuing"
 
       - name: Update GitHub Pages data
         run: |
           cp latest_data.json docs/data/latest.json 2>/dev/null || true
-          # Copy the latest analysis file
+          # Copy the latest analysis file (only if full_analysis succeeded)
           ls -t full_analysis_*.json 2>/dev/null | head -1 | xargs -I{} cp {} docs/data/analysis.json 2>/dev/null || true
 
       - name: Commit and push data to GitHub Pages

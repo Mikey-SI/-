@@ -2,6 +2,7 @@
 
 from openai import OpenAI
 from config import GEMINI_API_KEY, GEMINI_BASE_URL
+from fengshui_helper import get_today_fengshui_context
 import json
 
 # Uses OpenAI client because most 3rd party Gemini API sellers use OpenAI-compatible endpoints
@@ -152,6 +153,7 @@ def generate_gemini_briefing(
 ) -> str:
     """Generate a comprehensive daily market briefing by Sigma (Gemini)."""
     mood = _determine_sigma_mood(stock_data, market_data)
+    fs = get_today_fengshui_context()
 
     stock_summary = ""
     for name, data in stock_data.items():
@@ -208,12 +210,21 @@ Structure your briefing as:
    For EACH stock (Xiaomi, QQQ, Intel, Microsoft, Bitcoin), you MUST provide a clear "BULLISH" (看多) or "BEARISH" (看空) rating and a 1-sentence thesis.
 3. 📰 信号与噪音 - Pick 2 news items that actually matter to smart money.
 4. ♟️ 交易策略 - What should the elite do today?
-5. 🔮 今日风水玄学 (Sigma的紫微斗数) - 虽然你是理性的量化策略师，但你也熟读《易经》，偶尔玩玩玄学。根据今天的真实中国农历天干地支，分析今日属于五行中的哪一行（金/木/水/火/土），以及这个五行对金融市场的隐喻含义。
-   今天你需要为两位客户给出个性化建议：
-   - 客户A（本命"弱火"之人）：火弱者，今日应该避免什么、追求什么？
-   - 客户B（本命"身弱乙木"之人）：身弱乙木者，今日应该避免什么、追求什么？
-   给出：今日五行日、幸运数字、幸运颜色、今日宜做的交易方向（多/空）、今日忌讳的资产类别、投资方位（东/南/西/北）。
-   要写得像一个理性精英分析师"用玩的口吻"认真分析玄学，既装X又有说服力。
+5. 🔮 今日风水玄学 (Sigma的紫微斗数) - 我已为你计算好今日精确的天干地支五行（请直接采用，禁止自行推算日期）：
+   ===== 今日命理数据 =====
+   日期: {fs['date_str']} ({fs['weekday_cn']})
+   今年: {fs['year_ganzhi']}年（生肖{fs['year_animal']}）
+   今日: {fs['day_ganzhi']}日 - {fs['day_yin_yang']}{fs['day_stem_element']}日
+   日主五行: 【{fs['primary_element']}】
+   今日幸运色: {fs['lucky_color']}
+   今日方位: {fs['lucky_direction']}
+   ========================
+   你是理性量化策略师但熟读《易经》。基于以上精确命理：
+   - 客户A（本命"弱火"）：{fs['reader_a_analysis']} 请扩展为精英客户能用的交易建议。
+   - 客户B（本命"身弱乙木"）：{fs['reader_b_analysis']} 请扩展为精英客户能用的交易建议。
+   
+   给出：今日五行日（{fs['primary_element']}）、幸运颜色（{fs['lucky_color']}）、宜做的交易方向（多/空）、忌讳的资产类别、投资方位（{fs['lucky_direction']}）。
+   写得理性精英但用玩的口吻，既装X又有玄学说服力。所有命理数据严格按上述提供，不可自行推算！
 
 End with: "{mood['sign_off']}"
 
