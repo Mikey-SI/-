@@ -87,15 +87,16 @@ This pulls fresh data from Yahoo Finance and saves 10 PDFs.
 
 ## 🎯 Report Highlights
 
-- **Executive summary** with one-glance recommendation table
-- **Multi-segment fundamental analysis** for both companies
-- **SOTP valuation** for Xiaomi (target: HK$47.30, +51%)
-- **Scenario-weighted DCF** for SenseTime (target: HK$1.31, −29%)
-- **6 valuation lenses** showing convergence direction
-- **Information Ratio = 0.67** (institutional-grade)
-- **10 professional figures** (revenue, profitability, performance, EV trajectory, valuation bubble, pair P&L, risk heatmap, AI architecture, catalyst timeline, sentiment tracking)
-- **Multi-model AI pipeline** (DeepSeek + Gemini + quant screener)
-- **Honest discussion** of AI limitations
+- **Executive summary** with one-glance recommendation table.
+- **Multi-segment fundamental analysis** for both companies.
+- **SOTP valuation for Xiaomi**: base-case target HK$38.6 (+24% from HK$31.20); scenario-weighted HK$39.1 (+25%). Bull case HK$46, bear case HK$33.
+- **Scenario-weighted target for SenseTime**: HK$1.65 (−11% probability-weighted from HK$1.85). Bull HK$2.65, base HK$1.55, bear HK$0.80.
+- **6 valuation lenses** showing convergence direction (P/E, P/S, EV/Sales, P/B, EV/EBITDA, PEG).
+- **Information Ratio ≈ 0.55** — consistent with median active long/short mandates (0.40–0.50).
+- **Base-case 12-month spread target: +22%** at 75% sizing, after financing/borrow friction.
+- **10 professional figures** (revenue, profitability, performance, EV trajectory, valuation bubble, pair P&L, risk heatmap, AI architecture, catalyst timeline, sentiment tracking).
+- **Multi-model AI pipeline** (DeepSeek-V3 for Chinese-language news, Gemini-1.5-Pro for cross-validation, 50-stock quant screener).
+- **Honest counter-thesis** in Section 5 covering both legs and pairs-trading structural decay.
 
 ---
 
