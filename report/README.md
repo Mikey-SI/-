@@ -79,9 +79,10 @@ This pulls fresh data from Yahoo Finance and saves 10 PDFs.
 | English language | ✅ |
 | One stock from pool | ✅ Xiaomi 1810.HK (in tech pool) |
 | Other from same sector, NOT in pool | ✅ SenseTime 0020.HK (HK Tech, not in pool) |
-| Long/short pair logic | ✅ Clearly explained throughout Sections 1–7 |
-| Fundamental + valuation + AI module | ✅ Sections 3–6 (fundamental), 5 (valuation), 8 (AI) |
-| AI module advantages & limitations | ✅ Section 9 dedicated |
+| Long/short pair logic | ✅ Sections 1–2 set up; Sections 3–4 build each leg; Section 6 ties via comparative valuation |
+| Fundamental + valuation + AI module | ✅ Sections 3–4 (fundamentals each leg); Section 6 (comparative valuation); Section 8 (AI module) |
+| Counter-thesis & risk discipline | ✅ Section 5 (counter-thesis, both legs); Section 7 (risk + sizing) |
+| AI module advantages & limitations | ✅ Section 9 dedicated, with concrete cases of human override |
 
 ---
 

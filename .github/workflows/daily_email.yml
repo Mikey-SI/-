@@ -2,8 +2,10 @@ name: Daily Alpha Signal Email
 
 on:
   schedule:
-    # 9:00 PM Beijing/Macau Time (UTC+8) = 13:00 UTC, daily once
-    - cron: '0 13 * * *'
+    # 8:00 AM Beijing/Macau Time (UTC+8) = 00:00 UTC
+    - cron: '0 0 * * *'
+    # 8:00 PM Beijing/Macau Time (UTC+8) = 12:00 UTC
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 permissions:
