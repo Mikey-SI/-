@@ -6,9 +6,46 @@ from datetime import datetime, timedelta
 from config import WATCHED_STOCKS, MARKET_INDICES, COMPETITION_STOCKS
 
 
+def normalize_ticker(ticker: str) -> str:
+    """Normalize user-entered tickers for Yahoo Finance.
+
+    Examples:
+    - 700 / 0700 / 1810 -> 0700.HK / 1810.HK
+    - 600519 -> 600519.SS
+    - 000001 / 300750 / 002475 -> 000001.SZ / 300750.SZ / 002475.SZ
+    - 688256 -> 688256.SS
+    - QQQ / MSFT / BTC-USD pass through unchanged
+    """
+    raw = (ticker or "").strip().upper()
+    if not raw:
+        return raw
+    if any(raw.endswith(suffix) for suffix in (".HK", ".SS", ".SZ", ".BJ", "-USD", "=X")):
+        return raw
+    if raw.startswith("^") or any(ch.isalpha() for ch in raw):
+        return raw
+
+    digits = "".join(ch for ch in raw if ch.isdigit())
+    if not digits:
+        return raw
+
+    if len(digits) <= 4:
+        return f"{digits.zfill(4)}.HK"
+    if len(digits) == 5 and digits.startswith("0"):
+        return f"{digits.zfill(4)}.HK"
+    if len(digits) == 6:
+        if digits.startswith(("600", "601", "603", "605", "688", "689")):
+            return f"{digits}.SS"
+        if digits.startswith(("000", "001", "002", "003", "300", "301")):
+            return f"{digits}.SZ"
+        if digits.startswith(("430", "830", "831", "832", "833", "834", "835", "836", "837", "838", "839", "870", "871", "872", "873", "920")):
+            return f"{digits}.BJ"
+    return raw
+
+
 def get_stock_quote(ticker: str) -> dict:
     """Get current/latest stock quote data."""
     try:
+        ticker = normalize_ticker(ticker)
         stock = yf.Ticker(ticker)
         info = stock.info
         hist = stock.history(period="5d")
@@ -46,6 +83,7 @@ def get_stock_quote(ticker: str) -> dict:
 def get_stock_history(ticker: str, period: str = "6mo") -> pd.DataFrame:
     """Get historical stock data."""
     try:
+        ticker = normalize_ticker(ticker)
         stock = yf.Ticker(ticker)
         hist = stock.history(period=period)
         return hist
@@ -82,6 +120,7 @@ def get_competition_sector_data(sector: str) -> dict:
 def get_stock_fundamentals(ticker: str) -> dict:
     """Get fundamental financial data for a stock."""
     try:
+        ticker = normalize_ticker(ticker)
         stock = yf.Ticker(ticker)
         info = stock.info
 

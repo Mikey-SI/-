@@ -48,7 +48,14 @@
         </select>
         <button class="btn btn-primary" onclick="runValuation()">🤖 Run AI Valuation</button>
         <button class="btn btn-secondary" onclick="loadComparables()">📊 Load Comparables</button>
+        <input type="text" id="custom-ticker" placeholder="Input code: 700 / 1810 / 600519 / 300750 / QQQ"
+          style="background:var(--bg-card);border:1px solid var(--border);color:var(--text-primary);
+          padding:8px 16px;border-radius:8px;font-size:0.85rem;width:340px;">
+        <button class="btn btn-secondary" onclick="useCustomTicker()">Use Custom</button>
       </div>
+      <p style="color:var(--text-muted);font-size:0.78rem;margin-top:8px;">
+        Supports HK / A-share / US tickers. Plain HK codes are padded automatically (700 → 0700.HK).
+      </p>
     </div>
 
     <!-- Comparable Company Table -->
@@ -86,6 +93,13 @@
   </div>
 
   <script>
+    const PLOT_CONFIG = {
+      responsive: true,
+      displayModeBar: true,
+      scrollZoom: true,
+      doubleClick: 'reset',
+    };
+
     const sectorStocks = {
       "科技": {"小米": "1810.HK", "中际旭创": "300308.SZ", "豪威": "603501.SS"},
       "消费": {"石头科技": "688169.SS", "泡泡玛特": "9992.HK", "名创优品": "9896.HK"},
@@ -93,6 +107,34 @@
       "医疗健康": {"百济神州": "688235.SS", "微创机器人": "2252.HK", "爱尔眼科": "300015.SZ"},
       "能源": {"思源电气": "002028.SZ", "东方电气": "600875.SS", "杰瑞股份": "002353.SZ"}
     };
+
+    function normalizeTickerInput(raw) {
+      const value = (raw || '').trim().toUpperCase();
+      if (!value) return value;
+      if (value.includes('.') || value.includes('-') || value.includes('=') || value.startsWith('^')) return value;
+      if (/[A-Z]/.test(value)) return value;
+      const digits = value.replace(/\D/g, '');
+      if (!digits) return value;
+      if (digits.length <= 4) return `${digits.padStart(4, '0')}.HK`;
+      if (digits.length === 6) {
+        if (/^(600|601|603|605|688|689)/.test(digits)) return `${digits}.SS`;
+        if (/^(000|001|002|003|300|301)/.test(digits)) return `${digits}.SZ`;
+        if (/^(430|83|87|920)/.test(digits)) return `${digits}.BJ`;
+      }
+      return value;
+    }
+
+    function useCustomTicker() {
+      const ticker = normalizeTickerInput(document.getElementById('custom-ticker').value);
+      if (!ticker) return;
+      const stockSelect = document.getElementById('stock-select');
+      const opt = document.createElement('option');
+      opt.value = ticker;
+      opt.textContent = `Custom (${ticker})`;
+      stockSelect.appendChild(opt);
+      stockSelect.value = ticker;
+      runValuation();
+    }
 
     function loadSectorData() {
       const sector = document.getElementById('sector-select').value;
@@ -212,7 +254,7 @@
         margin: {l: 50, r: 20, t: 40, b: 80},
       };
 
-      Plotly.newPlot('valuation-chart', [trace], layout, {responsive: true, displayModeBar: false});
+      Plotly.newPlot('valuation-chart', [trace], layout, PLOT_CONFIG);
     }
 
     function formatMarketCap(val) {

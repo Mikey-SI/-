@@ -396,6 +396,12 @@ body {
   margin-bottom: 1rem;
 }
 
+.chart-container .js-plotly-plot,
+.chart-container .plot-container,
+.chart-container .svg-container {
+  touch-action: none;
+}
+
 /* Valuation Table */
 .val-table {
   width: 100%;

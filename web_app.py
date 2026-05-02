@@ -7,6 +7,7 @@ from stock_data import (
     get_all_watched_quotes, get_market_indices,
     get_stock_history, get_stock_fundamentals,
     get_competition_sector_data, get_comparable_companies,
+    normalize_ticker,
 )
 from news_fetcher import get_daily_news_digest, fetch_rss_news, categorize_news
 from ai_analyzer import (
@@ -17,6 +18,7 @@ from ai_analyzer import (
 from trend_charts import (
     create_full_chart, create_comparison_chart,
     create_valuation_comparison, create_sector_heatmap,
+    create_chan_analysis,
 )
 from stock_screener import (
     screen_stock, screen_all_candidates, rank_candidates,
@@ -95,6 +97,7 @@ def api_refresh():
 
 @app.route("/api/chart/<ticker>")
 def api_chart(ticker):
+    ticker = normalize_ticker(ticker)
     hist = get_stock_history(ticker, period="3mo")
     if hist.empty:
         return jsonify({"dates": [], "open": [], "high": [], "low": [], "close": []})
@@ -120,11 +123,22 @@ def api_comparables(sector):
 @app.route("/api/chart/technical/<ticker>")
 def api_chart_technical(ticker):
     """Full technical chart with indicators."""
+    ticker = normalize_ticker(ticker)
     period = request.args.get("period", "6mo")
     chart = create_full_chart(ticker, period=period)
     if "error" in chart:
         return jsonify(chart), 404
     return jsonify(chart)
+
+@app.route("/api/chart/chan/<ticker>")
+def api_chart_chan(ticker):
+    """Chan/market-structure indicator summary."""
+    ticker = normalize_ticker(ticker)
+    period = request.args.get("period", "1y")
+    result = create_chan_analysis(ticker, period=period)
+    if "error" in result:
+        return jsonify(result), 404
+    return jsonify(result)
 
 @app.route("/api/chart/comparison", methods=["POST"])
 def api_chart_comparison():
@@ -237,6 +251,7 @@ def api_ai_query():
 
 @app.route("/api/ai/valuation/<ticker>")
 def api_ai_valuation(ticker):
+    ticker = normalize_ticker(ticker)
     fundamentals = get_stock_fundamentals(ticker)
     comparables = get_comparable_companies(ticker)
     result = ai_stock_valuation(fundamentals, comparables)
@@ -244,6 +259,7 @@ def api_ai_valuation(ticker):
 
 @app.route("/api/ai/long-case/<ticker>")
 def api_ai_long_case(ticker):
+    ticker = normalize_ticker(ticker)
     fundamentals = get_stock_fundamentals(ticker)
     result = _call_deepseek(
         "You are a senior equity analyst at UBS. Write a compelling bull case.",
@@ -259,6 +275,7 @@ Fundamentals:
 
 @app.route("/api/ai/short-case/<ticker>")
 def api_ai_short_case(ticker):
+    ticker = normalize_ticker(ticker)
     fundamentals = get_stock_fundamentals(ticker)
     result = _call_deepseek(
         "You are a senior equity analyst at UBS. Write a compelling bear case.",
@@ -274,6 +291,8 @@ Fundamentals:
 
 @app.route("/api/ai/pair-analysis/<long_ticker>/<short_ticker>")
 def api_ai_pair_analysis(long_ticker, short_ticker):
+    long_ticker = normalize_ticker(long_ticker)
+    short_ticker = normalize_ticker(short_ticker)
     long_data = get_stock_fundamentals(long_ticker)
     short_data = get_stock_fundamentals(short_ticker)
     result = compare_stocks_for_competition(long_data, short_data)
@@ -282,6 +301,7 @@ def api_ai_pair_analysis(long_ticker, short_ticker):
 @app.route("/api/ai/technical/<ticker>")
 def api_ai_technical(ticker):
     """AI-powered technical analysis for a stock."""
+    ticker = normalize_ticker(ticker)
     hist = get_stock_history(ticker, period="6mo")
     if hist.empty:
         return jsonify({"result": "No data available"})

@@ -93,6 +93,14 @@
     <div class="section-header">
       <div class="section-title">📈 Stock Price Charts</div>
     </div>
+    <div class="card" style="margin-bottom:1rem;">
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <input type="text" id="dashboard-custom-ticker" placeholder="Input code: 700 / 1810 / 600519 / 300750 / QQQ"
+          style="background:var(--bg-card);border:1px solid var(--border);color:var(--text-primary);
+          padding:8px 16px;border-radius:8px;font-size:0.85rem;width:340px;">
+        <button class="btn btn-secondary" onclick="loadDashboardCustomChart()">Load Custom Chart</button>
+      </div>
+    </div>
     <div class="grid-2">
       <div class="chart-container">
         <div id="chart-xiaomi" style="height:350px;"></div>
@@ -112,6 +120,28 @@
   </div>
 
   <script>
+    const PLOT_CONFIG = {
+      responsive: true,
+      displayModeBar: true,
+      scrollZoom: true,
+      doubleClick: 'reset',
+    };
+
+    function normalizeTickerInput(raw) {
+      const value = (raw || '').trim().toUpperCase();
+      if (!value) return value;
+      if (value.includes('.') || value.includes('-') || value.includes('=') || value.startsWith('^')) return value;
+      if (/[A-Z]/.test(value)) return value;
+      const digits = value.replace(/\D/g, '');
+      if (!digits) return value;
+      if (digits.length <= 4) return `${digits.padStart(4, '0')}.HK`;
+      if (digits.length === 6) {
+        if (/^(600|601|603|605|688|689)/.test(digits)) return `${digits}.SS`;
+        if (/^(000|001|002|003|300|301)/.test(digits)) return `${digits}.SZ`;
+        if (/^(430|83|87|920)/.test(digits)) return `${digits}.BJ`;
+      }
+      return value;
+    }
     let dashboardData = null;
 
     async function loadData() {
@@ -292,6 +322,19 @@
       }
     }
 
+    async function loadDashboardCustomChart() {
+      const ticker = normalizeTickerInput(document.getElementById('dashboard-custom-ticker').value);
+      if (!ticker) return;
+      try {
+        const resp = await fetch(`/api/chart/${encodeURIComponent(ticker)}`);
+        const data = await resp.json();
+        renderChart('chart-qqq', data, `Custom (${ticker})`);
+      } catch (err) {
+        document.getElementById('chart-qqq').innerHTML =
+          `<div style="color:var(--accent-red);text-align:center;padding:3rem;">Error: ${err.message}</div>`;
+      }
+    }
+
     function renderChart(containerId, data, title) {
       if (!data.dates || data.dates.length === 0) {
         document.getElementById(containerId).innerHTML =
@@ -323,7 +366,7 @@
         margin: {l: 50, r: 20, t: 40, b: 40},
       };
 
-      Plotly.newPlot(containerId, [trace], layout, {responsive: true, displayModeBar: false});
+      Plotly.newPlot(containerId, [trace], layout, PLOT_CONFIG);
     }
 
     function switchTab(btn, tabId) {

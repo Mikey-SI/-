@@ -26,7 +26,7 @@
   <div class="main-content">
     <div class="page-header">
       <h1>Technical Analysis & Trend Visualization</h1>
-      <p>Candlestick charts with MA, Bollinger Bands, RSI, MACD and volume analysis</p>
+      <p>Candlestick charts with MA, Bollinger Bands, RSI, MACD, volume, fractals and Chan-style structure analysis</p>
     </div>
 
     <!-- Stock Selector -->
@@ -66,10 +66,21 @@
           <option value="2y">2 Years</option>
         </select>
         <button class="btn btn-primary" onclick="loadChart()">Load Chart</button>
-        <input type="text" id="custom-ticker" placeholder="Custom ticker (e.g. 0700.HK)"
+        <input type="text" id="custom-ticker" placeholder="Input A/H/US ticker (700, 1810, 600519, 300750, QQQ)"
           style="background:var(--bg-card);border:1px solid var(--border);color:var(--text-primary);
-          padding:8px 16px;border-radius:8px;font-size:0.85rem;width:220px;">
+          padding:8px 16px;border-radius:8px;font-size:0.85rem;width:330px;">
         <button class="btn btn-secondary" onclick="loadCustomChart()">Load Custom</button>
+      </div>
+      <p style="color:var(--text-muted);font-size:0.78rem;margin-top:8px;">
+        Supports plain codes: HK 700 → 0700.HK, A-share 600519 → 600519.SS, 300750 → 300750.SZ, plus US tickers.
+      </p>
+    </div>
+
+    <!-- Chan / Structure Indicators -->
+    <div class="card" style="margin-bottom:1rem;">
+      <div class="card-title"><span class="icon">🧩</span> Chan / Structure Indicators 缠论结构指标</div>
+      <div id="chan-analysis" class="briefing-content" style="min-height:120px;">
+        Loading Chan-style structure indicators...
       </div>
     </div>
 
@@ -105,12 +116,36 @@
   </div>
 
   <script>
+    const PLOT_CONFIG = {
+      responsive: true,
+      displayModeBar: true,
+      scrollZoom: true,
+      doubleClick: 'reset',
+      modeBarButtonsToAdd: ['drawline', 'drawrect', 'eraseshape'],
+    };
+
     const compGroups = {
       pool: {'小米':'1810.HK', '中际旭创':'300308.SZ', '豪威':'603501.SS'},
       hk_tech: {'小米':'1810.HK', '腾讯':'0700.HK', '阿里':'9988.HK', '美团':'3690.HK', '快手':'1024.HK'},
       ev: {'小米':'1810.HK', '比亚迪':'002594.SZ', '小鹏':'9868.HK', '理想':'2015.HK', '蔚来':'9866.HK'},
       indices: {'小米':'1810.HK', 'QQQ':'QQQ', '恒生指数':'^HSI', '纳斯达克':'^IXIC'},
     };
+
+    function normalizeTickerInput(raw) {
+      const value = (raw || '').trim().toUpperCase();
+      if (!value) return value;
+      if (value.includes('.') || value.includes('-') || value.includes('=') || value.startsWith('^')) return value;
+      if (/[A-Z]/.test(value)) return value;
+      const digits = value.replace(/\D/g, '');
+      if (!digits) return value;
+      if (digits.length <= 4) return `${digits.padStart(4, '0')}.HK`;
+      if (digits.length === 6) {
+        if (/^(600|601|603|605|688|689)/.test(digits)) return `${digits}.SS`;
+        if (/^(000|001|002|003|300|301)/.test(digits)) return `${digits}.SZ`;
+        if (/^(430|83|87|920)/.test(digits)) return `${digits}.BJ`;
+      }
+      return value;
+    }
 
     async function loadChart() {
       const ticker = document.getElementById('stock-select').value;
@@ -126,14 +161,15 @@
           return;
         }
         container.innerHTML = '';
-        Plotly.newPlot('main-chart', data.data, data.layout, {responsive: true, displayModeBar: true});
+        Plotly.newPlot('main-chart', data.data, data.layout, PLOT_CONFIG);
+        loadChanAnalysis(ticker);
       } catch (err) {
         container.innerHTML = `<div style="color:var(--accent-red);text-align:center;padding:3rem;">Error: ${err.message}</div>`;
       }
     }
 
     function loadCustomChart() {
-      const ticker = document.getElementById('custom-ticker').value.trim();
+      const ticker = normalizeTickerInput(document.getElementById('custom-ticker').value);
       if (!ticker) return;
       const select = document.getElementById('stock-select');
       const opt = document.createElement('option');
@@ -157,7 +193,53 @@
         });
         const data = await resp.json();
         container.innerHTML = '';
-        Plotly.newPlot('comparison-chart', data.data, data.layout, {responsive: true, displayModeBar: false});
+        Plotly.newPlot('comparison-chart', data.data, data.layout, PLOT_CONFIG);
+      } catch (err) {
+        container.innerHTML = `<div style="color:var(--accent-red);">Error: ${err.message}</div>`;
+      }
+    }
+
+    async function loadChanAnalysis(ticker) {
+      const period = document.getElementById('period-select').value;
+      const container = document.getElementById('chan-analysis');
+      container.innerHTML = '<div class="loading"><div class="spinner"></div>Loading Chan indicators...</div>';
+      try {
+        const resp = await fetch(`/api/chart/chan/${encodeURIComponent(ticker)}?period=${period}`);
+        const d = await resp.json();
+        if (d.error) {
+          container.innerHTML = `<div style="color:var(--accent-red);">${d.error}</div>`;
+          return;
+        }
+        const chips = [
+          ['Ticker', d.ticker],
+          ['Trend Bias', d.trend_bias],
+          ['MA Alignment', d.ma_alignment],
+          ['RSI', `${d.rsi ?? 'N/A'} (${d.rsi_state})`],
+          ['MACD', d.macd_state],
+          ['ATR%', d.atr_pct ?? 'N/A'],
+          ['Volume Ratio', d.volume_ratio ?? 'N/A'],
+          ['BB Width%', d.bb_width_pct ?? 'N/A'],
+          ['Top Fractals', d.chan_top_count],
+          ['Bottom Fractals', d.chan_bottom_count],
+          ['Support', `${d.support} (${d.distance_to_support_pct}% above)`],
+          ['Resistance', `${d.resistance} (${d.distance_to_resistance_pct}% away)`],
+        ];
+        let html = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;">';
+        chips.forEach(([k, v]) => {
+          html += `<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:10px;">
+            <div style="color:var(--text-muted);font-size:0.72rem;text-transform:uppercase;">${k}</div>
+            <div style="color:var(--text-primary);font-weight:700;margin-top:4px;">${v}</div>
+          </div>`;
+        });
+        html += '</div>';
+        html += `<div style="margin-top:12px;color:var(--text-secondary);line-height:1.6;">${d.structure_summary}</div>`;
+        if (d.last_top || d.last_bottom) {
+          html += `<div style="margin-top:8px;color:var(--text-muted);font-size:0.82rem;">
+            Last top: ${d.last_top ? `${d.last_top.date} @ ${d.last_top.price}` : 'N/A'} |
+            Last bottom: ${d.last_bottom ? `${d.last_bottom.date} @ ${d.last_bottom.price}` : 'N/A'}
+          </div>`;
+        }
+        container.innerHTML = html;
       } catch (err) {
         container.innerHTML = `<div style="color:var(--accent-red);">Error: ${err.message}</div>`;
       }
@@ -169,7 +251,7 @@
       container.textContent = 'Generating AI technical analysis...';
 
       try {
-        const resp = await fetch(`/api/ai/technical/${encodeURIComponent(ticker)}`);
+        const resp = await fetch(`/api/ai/technical/${encodeURIComponent(normalizeTickerInput(ticker))}`);
         const data = await resp.json();
         container.textContent = data.result || 'No result';
       } catch (err) {

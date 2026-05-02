@@ -100,6 +100,13 @@
   </div>
 
   <script>
+    const PLOT_CONFIG = {
+      responsive: true,
+      displayModeBar: true,
+      scrollZoom: true,
+      doubleClick: 'reset',
+    };
+
     let currentDirection = 'short';
 
     function setDirection(dir) {
@@ -202,7 +209,7 @@
           body: JSON.stringify({tickers}),
         });
         const perfData = await perfResp.json();
-        if (perfData.data) Plotly.newPlot('performance-chart', perfData.data, perfData.layout, {responsive:true, displayModeBar:false});
+        if (perfData.data) Plotly.newPlot('performance-chart', perfData.data, perfData.layout, PLOT_CONFIG);
 
         // Valuation comparison
         const valResp = await fetch('/api/chart/valuation-compare', {
@@ -211,7 +218,7 @@
           body: JSON.stringify({stocks: [candidates[0], candidates[1], candidates[2], candidates[3], candidates[4]].filter(Boolean)}),
         });
         const valData = await valResp.json();
-        if (valData.data) Plotly.newPlot('valuation-chart', valData.data, valData.layout, {responsive:true, displayModeBar:false});
+        if (valData.data) Plotly.newPlot('valuation-chart', valData.data, valData.layout, PLOT_CONFIG);
 
         // Heatmap
         const hmResp = await fetch('/api/chart/heatmap', {
@@ -220,7 +227,7 @@
           body: JSON.stringify({stocks: candidates.slice(0, 10)}),
         });
         const hmData = await hmResp.json();
-        if (hmData.data) Plotly.newPlot('heatmap-chart', hmData.data, hmData.layout, {responsive:true, displayModeBar:false});
+        if (hmData.data) Plotly.newPlot('heatmap-chart', hmData.data, hmData.layout, PLOT_CONFIG);
       } catch (err) {
         console.error('Chart error:', err);
       }

@@ -15,6 +15,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import json
+from stock_data import normalize_ticker
 
 
 def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
@@ -52,11 +53,112 @@ def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
     # Volume MA
     df["Vol_MA20"] = df["Volume"].rolling(20).mean()
 
+    # ATR / volatility
+    prev_close = close.shift(1)
+    tr = pd.concat([
+        df["High"] - df["Low"],
+        (df["High"] - prev_close).abs(),
+        (df["Low"] - prev_close).abs(),
+    ], axis=1).max(axis=1)
+    df["ATR14"] = tr.rolling(14).mean()
+
+    # Chan-style simple fractals (分型): local top/bottom over 3 bars.
+    df["TopFractal"] = (
+        (df["High"].shift(1) > df["High"].shift(2)) &
+        (df["High"].shift(1) > df["High"])
+    )
+    df["BottomFractal"] = (
+        (df["Low"].shift(1) < df["Low"].shift(2)) &
+        (df["Low"].shift(1) < df["Low"])
+    )
+
     return df
+
+
+def compute_chan_summary(df: pd.DataFrame) -> dict:
+    """Compute lightweight Chan/market-structure diagnostics."""
+    if df.empty:
+        return {"error": "No data available"}
+
+    recent = df.tail(120).copy()
+    last = recent.iloc[-1]
+    close = float(last["Close"])
+    top_points = recent[recent["TopFractal"]]
+    bottom_points = recent[recent["BottomFractal"]]
+
+    resistance = float(top_points["High"].tail(5).max()) if not top_points.empty else float(recent["High"].tail(20).max())
+    support = float(bottom_points["Low"].tail(5).min()) if not bottom_points.empty else float(recent["Low"].tail(20).min())
+
+    ma_alignment = "bullish" if last.get("MA5", 0) > last.get("MA10", 0) > last.get("MA20", 0) else (
+        "bearish" if last.get("MA5", 0) < last.get("MA10", 0) < last.get("MA20", 0) else "mixed"
+    )
+    macd_state = "bullish" if last.get("MACD", 0) > last.get("MACD_signal", 0) else "bearish"
+    rsi = float(last.get("RSI", np.nan))
+    rsi_state = "overbought" if rsi >= 70 else "oversold" if rsi <= 30 else "neutral"
+    bb_width = (
+        (last.get("BB_upper", np.nan) - last.get("BB_lower", np.nan)) / close * 100
+        if close else np.nan
+    )
+    vol_ratio = (
+        float(last["Volume"] / last["Vol_MA20"])
+        if last.get("Vol_MA20", 0) and not np.isnan(last.get("Vol_MA20", np.nan))
+        else np.nan
+    )
+    atr_pct = float(last.get("ATR14", np.nan) / close * 100) if close else np.nan
+
+    last_top = top_points.tail(1)
+    last_bottom = bottom_points.tail(1)
+    return {
+        "last_close": round(close, 3),
+        "trend_bias": ma_alignment,
+        "chan_top_count": int(len(top_points)),
+        "chan_bottom_count": int(len(bottom_points)),
+        "last_top": None if last_top.empty else {
+            "date": last_top.index[-1].strftime("%Y-%m-%d"),
+            "price": round(float(last_top["High"].iloc[-1]), 3),
+        },
+        "last_bottom": None if last_bottom.empty else {
+            "date": last_bottom.index[-1].strftime("%Y-%m-%d"),
+            "price": round(float(last_bottom["Low"].iloc[-1]), 3),
+        },
+        "support": round(support, 3),
+        "resistance": round(resistance, 3),
+        "distance_to_support_pct": round((close / support - 1) * 100, 2) if support else None,
+        "distance_to_resistance_pct": round((resistance / close - 1) * 100, 2) if close else None,
+        "ma_alignment": ma_alignment,
+        "rsi": round(rsi, 2) if not np.isnan(rsi) else None,
+        "rsi_state": rsi_state,
+        "macd_state": macd_state,
+        "volume_ratio": round(vol_ratio, 2) if not np.isnan(vol_ratio) else None,
+        "atr_pct": round(atr_pct, 2) if not np.isnan(atr_pct) else None,
+        "bb_width_pct": round(float(bb_width), 2) if not np.isnan(bb_width) else None,
+        "structure_summary": _structure_summary(ma_alignment, macd_state, rsi_state, close, support, resistance),
+    }
+
+
+def _structure_summary(ma_alignment: str, macd_state: str, rsi_state: str, close: float, support: float, resistance: float) -> str:
+    parts = []
+    if ma_alignment == "bullish":
+        parts.append("均线多头排列")
+    elif ma_alignment == "bearish":
+        parts.append("均线空头排列")
+    else:
+        parts.append("均线结构混合")
+    parts.append("MACD偏多" if macd_state == "bullish" else "MACD偏空")
+    if rsi_state == "overbought":
+        parts.append("RSI超买")
+    elif rsi_state == "oversold":
+        parts.append("RSI超卖")
+    else:
+        parts.append("RSI中性")
+    if support and resistance:
+        parts.append(f"区间约 {support:.2f}–{resistance:.2f}")
+    return "；".join(parts)
 
 
 def create_full_chart(ticker: str, name: str = "", period: str = "6mo") -> dict:
     """Create a full technical analysis chart as Plotly JSON."""
+    ticker = normalize_ticker(ticker)
     stock = yf.Ticker(ticker)
     df = stock.history(period=period)
     if df.empty:
@@ -104,6 +206,24 @@ def create_full_chart(ticker: str, name: str = "", period: str = "6mo") -> dict:
         fill="tonexty", fillcolor="rgba(67,97,238,0.05)",
     ), row=1, col=1)
 
+    top_points = df[df["TopFractal"]]
+    bottom_points = df[df["BottomFractal"]]
+    if not top_points.empty:
+        fig.add_trace(go.Scatter(
+            x=top_points.index, y=top_points["High"], name="顶分型",
+            mode="markers", marker=dict(symbol="triangle-down", color="#e63946", size=9),
+        ), row=1, col=1)
+    if not bottom_points.empty:
+        fig.add_trace(go.Scatter(
+            x=bottom_points.index, y=bottom_points["Low"], name="底分型",
+            mode="markers", marker=dict(symbol="triangle-up", color="#00d26a", size=9),
+        ), row=1, col=1)
+
+    chan = compute_chan_summary(df)
+    if "support" in chan:
+        fig.add_hline(y=chan["support"], line_dash="dot", line_color="#00d26a", opacity=0.5, row=1, col=1)
+        fig.add_hline(y=chan["resistance"], line_dash="dot", line_color="#e63946", opacity=0.5, row=1, col=1)
+
     # Row 2: Volume
     colors = ["#00d26a" if c >= o else "#e63946" for c, o in zip(df["Close"], df["Open"])]
     fig.add_trace(go.Bar(
@@ -149,6 +269,7 @@ def create_full_chart(ticker: str, name: str = "", period: str = "6mo") -> dict:
         legend=dict(bgcolor="rgba(18,18,26,0.8)", font=dict(size=10)),
         xaxis_rangeslider_visible=False,
         margin=dict(l=50, r=20, t=40, b=30),
+        dragmode="pan",
     )
 
     for i in range(1, 5):
@@ -156,6 +277,20 @@ def create_full_chart(ticker: str, name: str = "", period: str = "6mo") -> dict:
         fig.update_yaxes(gridcolor="#1e1e2e", row=i, col=1)
 
     return json.loads(fig.to_json())
+
+
+def create_chan_analysis(ticker: str, period: str = "1y") -> dict:
+    """Return Chan/structure analysis for the web UI."""
+    ticker = normalize_ticker(ticker)
+    stock = yf.Ticker(ticker)
+    df = stock.history(period=period)
+    if df.empty:
+        return {"error": "No data available"}
+    df = compute_indicators(df)
+    result = compute_chan_summary(df)
+    result["ticker"] = ticker
+    result["period"] = period
+    return result
 
 
 def create_comparison_chart(tickers: dict, period: str = "6mo") -> dict:
