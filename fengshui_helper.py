@@ -67,16 +67,17 @@ ELEMENT_OVERCOMES = {  # 克（克制）
 def get_day_ganzhi(date: datetime) -> tuple:
     """Calculate the 干支 (Heavenly Stem + Earthly Branch) for a given date.
 
-    Reference epoch: 1900-01-01 was 甲戌 day (stem index 0, branch index 10).
-    Wait - more accurate: 2000-01-07 was 甲子 day (offset 0).
-    We use 1984-02-02 as 甲子 day reference (verified standard).
+    Reference epoch: 2026-05-02 was 丙子 day (stem index 2, branch index 0),
+    cross-checked against multiple public Chinese almanac sources.
+
+    The prior 1984-02-02 = 甲子 anchor was two days off for 2026 dates and
+    caused 2026-05-02 to be reported as 甲戌 instead of 丙子.
     """
-    # Reference: 1984-02-02 (Thursday) was 甲子 day per traditional calendar
-    reference = datetime(1984, 2, 2)
+    reference = datetime(2026, 5, 2)
     days_diff = (date.date() - reference.date()).days
     
-    stem_idx = days_diff % 10
-    branch_idx = days_diff % 12
+    stem_idx = (2 + days_diff) % 10  # 2026-05-02 = 丙
+    branch_idx = days_diff % 12      # 2026-05-02 = 子
     
     stem = HEAVENLY_STEMS[stem_idx]
     branch = EARTHLY_BRANCHES[branch_idx]

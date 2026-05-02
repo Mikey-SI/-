@@ -5,10 +5,13 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from config import EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER, SMTP_SERVER, SMTP_PORT
 from jinja2 import Template
 
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
+LOCAL_TZ = ZoneInfo("Asia/Shanghai")
+BLOCKED_EMAIL_RECEIVERS = {"dc22712@umac.mo"}
 
 EMAIL_TEMPLATE = """
 <!DOCTYPE html>
@@ -367,7 +370,11 @@ def render_email(data: dict) -> str:
 def _get_all_receivers(receiver: str = None) -> list:
     """Parse comma-separated receiver list."""
     raw = receiver or EMAIL_RECEIVER or ""
-    addrs = [a.strip() for a in raw.split(",") if a.strip()]
+    addrs = [
+        a.strip()
+        for a in raw.split(",")
+        if a.strip() and a.strip().lower() not in BLOCKED_EMAIL_RECEIVERS
+    ]
     return addrs if addrs else []
 
 
@@ -460,7 +467,8 @@ def send_daily_briefing(
     ai_name: str = "Alpha",
 ) -> bool:
     """Compose and send the daily briefing email."""
-    date_str = datetime.now().strftime("%A, %B %d, %Y")
+    now = datetime.now(LOCAL_TZ)
+    date_str = now.strftime("%A, %B %d, %Y")
 
     mood_emojis = {
         "ecstatic": "🚀", "happy": "☀️", "calm": "☕",
@@ -484,7 +492,7 @@ def send_daily_briefing(
     }
 
     html = render_email(data)
-    subject = f"{mood_emoji} {ai_name} Signal | {mood_name.title()} Day | {datetime.now().strftime('%Y-%m-%d')}"
+    subject = f"{mood_emoji} {ai_name} Signal | {mood_name.title()} Day | {now.strftime('%Y-%m-%d')}"
 
     return send_email(subject, html)
 
@@ -500,7 +508,7 @@ def preview_email(
     ai_name: str = "Alpha",
 ) -> str:
     """Generate email HTML for preview (saves to file)."""
-    date_str = datetime.now().strftime("%A, %B %d, %Y")
+    date_str = datetime.now(LOCAL_TZ).strftime("%A, %B %d, %Y")
 
     data = {
         "date": date_str,

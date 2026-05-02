@@ -20,7 +20,7 @@ Edit `.env` file. Choose ONE method:
 3. Add to `.env`:
 ```
 RESEND_API_KEY=re_your_key_here
-EMAIL_RECEIVER=dc22712@umac.mo
+EMAIL_RECEIVER=first@example.com,second@example.com
 ```
 **Note:** Free tier sends from `onboarding@resend.dev`. To use custom domain, upgrade.
 
@@ -32,7 +32,7 @@ EMAIL_RECEIVER=dc22712@umac.mo
 ```
 EMAIL_SENDER=your_gmail@gmail.com
 EMAIL_PASSWORD=your_16_char_app_password
-EMAIL_RECEIVER=dc22712@umac.mo
+EMAIL_RECEIVER=first@example.com,second@example.com
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 ```
@@ -43,7 +43,7 @@ SMTP_PORT=587
 ```
 EMAIL_SENDER=your_qq@qq.com
 EMAIL_PASSWORD=your_authorization_code
-EMAIL_RECEIVER=dc22712@umac.mo
+EMAIL_RECEIVER=first@example.com,second@example.com
 SMTP_SERVER=smtp.qq.com
 SMTP_PORT=465
 ```
