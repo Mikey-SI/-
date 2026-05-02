@@ -100,6 +100,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt2);min-h
     <li><a onclick="show('analysis'); toggleSidebar()">📈 Stock Analysis</a></li>
     <li><a onclick="show('wave'); toggleSidebar()">🌊 Elliott Wave</a></li>
     <li><a onclick="show('dca'); toggleSidebar()">💰 DCA Simulator</a></li>
+    <li><a onclick="show('backtest'); toggleSidebar()">🧪 Quant Backtest</a></li>
     <li><a onclick="show('indicators'); toggleSidebar()">🔬 Technical Indicators</a></li>
   </ul>
   <div class="status"><div class="dot"></div><span id="ts">Loading...</span></div>
@@ -332,6 +333,87 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt2);min-h
       <div style="font-size:.85rem;line-height:1.7;color:var(--txt2)">
         <strong style="color:var(--green)">DCA</strong> means investing a fixed amount at regular intervals, regardless of price. This smooths out volatility - you buy more shares when prices are low and fewer when prices are high. Used by retail investors, 401k plans, and even Warren Buffett's recommendation for most people.<br><br>
         <strong style="color:var(--yellow)">⚠️ Note:</strong> Past performance does not guarantee future results. This simulator uses historical price data only and does not include dividends, taxes, or stock splits' adjusted prices automatically (Yahoo's adjusted close handles splits but not always perfectly).
+      </div>
+    </div>
+  </div>
+
+  <!-- Quant Backtest Page -->
+  <div id="page-backtest" style="display:none">
+    <div class="ph"><h1>🧪 Quant Backtest Lab</h1><p>TradingView-style strategy testing: input any ticker, choose a strategy, and inspect equity curve, drawdown, trades, win rate and risk metrics.</p></div>
+
+    <div class="card" style="margin-bottom:1rem">
+      <div class="ct">⚙️ Backtest Settings</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:1rem">
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Ticker / 股票代码</label>
+          <input id="bt-ticker" type="text" value="1810.HK" placeholder="700 / 1810 / 600519 / QQQ"
+            style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+        </div>
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Strategy</label>
+          <select id="bt-strategy" style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+            <option value="ma_cross">MA Cross 均线交叉</option>
+            <option value="rsi_reversion">RSI Mean Reversion 均值回归</option>
+            <option value="donchian_breakout">Donchian Breakout 唐奇安突破</option>
+            <option value="macd_trend">MACD Trend MACD趋势</option>
+            <option value="boll_reversion">Bollinger Reversion 布林回归</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Initial Capital ($)</label>
+          <input id="bt-capital" type="number" value="10000" min="100"
+            style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+        </div>
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Fee per Trade (%)</label>
+          <input id="bt-fee" type="number" value="0.10" min="0" step="0.01"
+            style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+        </div>
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Start Date</label>
+          <input id="bt-start" type="date" value="2022-01-01"
+            style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px;color-scheme:dark">
+        </div>
+        <div>
+          <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">End Date</label>
+          <input id="bt-end" type="date"
+            style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px;color-scheme:dark">
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+        <button class="refresh-btn" onclick="runBacktest()" style="background:var(--red);color:#fff;font-weight:600">▶ Run Backtest</button>
+        <span style="font-size:.8rem;color:var(--muted);margin-left:.5rem">Quick:</span>
+        <button class="refresh-btn" onclick="quickBacktest('1810.HK')">小米</button>
+        <button class="refresh-btn" onclick="quickBacktest('0700.HK')">腾讯</button>
+        <button class="refresh-btn" onclick="quickBacktest('600519.SS')">茅台</button>
+        <button class="refresh-btn" onclick="quickBacktest('300750.SZ')">宁德</button>
+        <button class="refresh-btn" onclick="quickBacktest('QQQ')">QQQ</button>
+      </div>
+      <p style="font-size:.78rem;color:var(--muted);margin-top:.75rem">Input helper: 700 → 0700.HK, 1810 → 1810.HK, 600519 → 600519.SS, 300750 → 300750.SZ.</p>
+    </div>
+
+    <div id="bt-summary" style="display:none;margin-bottom:1rem">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.8rem">
+        <div class="card" style="border-left:3px solid var(--green)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Total Return</div><div id="bt-return" style="font-size:1.45rem;font-weight:800;margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--red)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Max Drawdown</div><div id="bt-dd" style="font-size:1.45rem;font-weight:800;color:var(--red);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--blue)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Win Rate</div><div id="bt-win" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--yellow)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Trades</div><div id="bt-trades" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--purple)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Sharpe (daily)</div><div id="bt-sharpe" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--green)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Buy & Hold</div><div id="bt-bh" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:1rem">
+      <div class="ct">📈 Equity Curve / Buy-Sell Signals</div>
+      <div id="bt-chart" style="height:560px;background:var(--bg2);border-radius:10px">
+        <div style="text-align:center;padding:5rem;color:var(--muted)">Configure parameters and click "Run Backtest"</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:1rem">
+      <div class="ct">📋 Trade Log</div>
+      <div id="bt-log" style="overflow-x:auto;color:var(--txt2);font-size:.82rem">
+        <div style="color:var(--muted)">No trades yet.</div>
       </div>
     </div>
   </div>
@@ -637,7 +719,7 @@ function toggleSidebar(){
 }
 
 function show(p){
-  ['dash','news','briefing','sigma','analysis','wave','dca','indicators'].forEach(x=>document.getElementById('page-'+x).style.display=x===p?'block':'none');
+  ['dash','news','briefing','sigma','analysis','wave','dca','backtest','indicators'].forEach(x=>document.getElementById('page-'+x).style.display=x===p?'block':'none');
   document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
   event.target.classList.add('active');
 }
@@ -1434,8 +1516,12 @@ async function fetchYahooByTimestamp(ticker, startTs, endTs){
       proxyIdx=(proxyIdx+i)%PROXIES.length;
       return {
         dates: ts.map(t=>new Date(t*1000)),
+        open: q.open,
+        high: q.high,
+        low: q.low,
         close: adj || q.close,  // prefer adjusted close (handles splits/dividends)
-        rawClose: q.close
+        rawClose: q.close,
+        volume: q.volume
       };
     }catch(e){continue;}
   }
@@ -1638,6 +1724,222 @@ async function runDCA(){
     legend: {bgcolor: 'rgba(0,0,0,0.5)', bordercolor: '#2a2a3a', orientation: 'h', y: -0.15},
     hovermode: 'x unified'
   }, MOBILE_PLOTLY_CONFIG);
+}
+
+// ===========================================
+// Quant Backtest Lab
+// ===========================================
+
+(function(){
+  const today = new Date().toISOString().slice(0,10);
+  setTimeout(()=>{
+    const endInput = document.getElementById('bt-end');
+    if(endInput && !endInput.value) endInput.value = today;
+  }, 100);
+})();
+
+function normalizeTicker(raw){
+  const value = (raw || '').trim().toUpperCase();
+  if(!value) return value;
+  if(value.includes('.') || value.includes('-') || value.includes('=') || value.startsWith('^')) return value;
+  if(/[A-Z]/.test(value)) return value;
+  const digits = value.replace(/\D/g, '');
+  if(!digits) return value;
+  if(digits.length <= 4) return `${digits.padStart(4,'0')}.HK`;
+  if(digits.length === 6){
+    if(/^(600|601|603|605|688|689)/.test(digits)) return `${digits}.SS`;
+    if(/^(000|001|002|003|300|301)/.test(digits)) return `${digits}.SZ`;
+    if(/^(430|83|87|920)/.test(digits)) return `${digits}.BJ`;
+  }
+  return value;
+}
+
+function quickBacktest(ticker){
+  document.getElementById('bt-ticker').value = ticker;
+  runBacktest();
+}
+
+function generateBacktestSignals(strategy, data){
+  const c = data.close, h = data.high || data.close, l = data.low || data.close;
+  const signals = c.map(()=>0);
+  if(strategy === 'ma_cross'){
+    const fast = sma(c, 20), slow = sma(c, 60);
+    for(let i=1;i<c.length;i++){
+      if(fast[i-1] !== null && slow[i-1] !== null && fast[i] !== null && slow[i] !== null){
+        if(fast[i-1] <= slow[i-1] && fast[i] > slow[i]) signals[i] = 1;
+        if(fast[i-1] >= slow[i-1] && fast[i] < slow[i]) signals[i] = -1;
+      }
+    }
+  } else if(strategy === 'rsi_reversion'){
+    const rsi = calculateRSI(c, 14);
+    for(let i=1;i<c.length;i++){
+      if(rsi[i-1] !== null && rsi[i] !== null){
+        if(rsi[i-1] < 30 && rsi[i] >= 30) signals[i] = 1;
+        if(rsi[i-1] > 70 && rsi[i] <= 70) signals[i] = -1;
+      }
+    }
+  } else if(strategy === 'donchian_breakout'){
+    const don = calculateDonchian(h, l, 20);
+    for(let i=1;i<c.length;i++){
+      if(don.upper[i] !== null && don.lower[i] !== null){
+        if(c[i] > don.upper[i]) signals[i] = 1;
+        if(c[i] < don.lower[i]) signals[i] = -1;
+      }
+    }
+  } else if(strategy === 'macd_trend'){
+    const macd = calculateMACD(c);
+    for(let i=1;i<c.length;i++){
+      const prev = macd.macd[i-1] - macd.signal[i-1];
+      const curr = macd.macd[i] - macd.signal[i];
+      if(prev <= 0 && curr > 0) signals[i] = 1;
+      if(prev >= 0 && curr < 0) signals[i] = -1;
+    }
+  } else if(strategy === 'boll_reversion'){
+    const boll = calculateBoll(c, 20, 2);
+    for(let i=1;i<c.length;i++){
+      if(boll.lower[i-1] !== null && boll.mid[i] !== null){
+        if(c[i-1] < boll.lower[i-1] && c[i] > boll.lower[i]) signals[i] = 1;
+        if(c[i-1] > boll.upper[i-1] && c[i] < boll.upper[i]) signals[i] = -1;
+      }
+    }
+  }
+  return signals;
+}
+
+function runLongOnlyBacktest(data, signals, initialCapital, feePct){
+  let cash = initialCapital, shares = 0, entryPrice = 0, entryDate = null;
+  const equity = [], position = [], trades = [];
+  for(let i=0;i<data.close.length;i++){
+    const price = data.close[i];
+    const sig = signals[i];
+    if(sig === 1 && shares === 0){
+      const tradeValue = cash;
+      const fee = tradeValue * feePct;
+      shares = (cash - fee) / price;
+      cash = 0;
+      entryPrice = price;
+      entryDate = data.dates[i];
+      trades.push({type:'BUY', date:data.dates[i], price, shares, fee, pnl:null, ret:null});
+    } else if(sig === -1 && shares > 0){
+      const gross = shares * price;
+      const fee = gross * feePct;
+      cash = gross - fee;
+      const cost = shares * entryPrice;
+      const pnl = cash - cost;
+      const ret = (price / entryPrice - 1) * 100;
+      trades.push({type:'SELL', date:data.dates[i], price, shares, fee, pnl, ret, entryDate});
+      shares = 0; entryPrice = 0; entryDate = null;
+    }
+    equity.push(cash + shares * price);
+    position.push(shares > 0 ? 1 : 0);
+  }
+  if(shares > 0){
+    const price = data.close.at(-1);
+    const gross = shares * price;
+    const fee = gross * feePct;
+    const cashAfter = gross - fee;
+    const pnl = cashAfter - shares * entryPrice;
+    const ret = (price / entryPrice - 1) * 100;
+    trades.push({type:'SELL', date:data.dates.at(-1), price, shares, fee, pnl, ret, entryDate, forced:true});
+    equity[equity.length-1] = cashAfter;
+  }
+  return {equity, position, trades};
+}
+
+function maxDrawdown(curve){
+  let peak = curve[0], maxDD = 0;
+  curve.forEach(v=>{ peak = Math.max(peak, v); maxDD = Math.min(maxDD, (v/peak - 1) * 100); });
+  return maxDD;
+}
+
+function sharpeFromEquity(curve){
+  const rets = [];
+  for(let i=1;i<curve.length;i++) rets.push(curve[i]/curve[i-1]-1);
+  if(rets.length < 2) return 0;
+  const avg = rets.reduce((a,b)=>a+b,0)/rets.length;
+  const sd = Math.sqrt(rets.reduce((a,b)=>a+Math.pow(b-avg,2),0)/(rets.length-1));
+  return sd ? (avg/sd)*Math.sqrt(252) : 0;
+}
+
+async function runBacktest(){
+  const ticker = normalizeTicker(document.getElementById('bt-ticker').value);
+  const strategy = document.getElementById('bt-strategy').value;
+  const capital = parseFloat(document.getElementById('bt-capital').value) || 10000;
+  const feePct = (parseFloat(document.getElementById('bt-fee').value) || 0) / 100;
+  const startDate = new Date(document.getElementById('bt-start').value);
+  const endDate = new Date(document.getElementById('bt-end').value);
+  if(!ticker || !startDate || !endDate || endDate <= startDate){ alert('Please check ticker and date range'); return; }
+  document.getElementById('bt-chart').innerHTML = `<div style="text-align:center;padding:5rem;color:var(--muted)">⏳ Fetching ${ticker} and running backtest...</div>`;
+  document.getElementById('bt-summary').style.display = 'none';
+
+  const data = await fetchYahooByTimestamp(ticker, Math.floor(startDate.getTime()/1000), Math.floor(endDate.getTime()/1000));
+  if(!data || !data.close || data.close.length < 80){
+    document.getElementById('bt-chart').innerHTML = `<div style="text-align:center;padding:5rem;color:var(--red)">❌ Not enough data for ${ticker}. Try a longer date range.</div>`;
+    return;
+  }
+  const valid = data.close.map((v,i)=>v && data.dates[i] ? i : -1).filter(i=>i>=0);
+  data.dates = valid.map(i=>data.dates[i]);
+  data.close = valid.map(i=>data.close[i]);
+  data.high = valid.map(i=>(data.high || data.close)[i]);
+  data.low = valid.map(i=>(data.low || data.close)[i]);
+  data.volume = valid.map(i=>(data.volume || []).at(i) || 0);
+
+  const signals = generateBacktestSignals(strategy, data);
+  const bt = runLongOnlyBacktest(data, signals, capital, feePct);
+  const finalValue = bt.equity.at(-1);
+  const totalRet = (finalValue/capital - 1) * 100;
+  const bhRet = (data.close.at(-1)/data.close[0]-1)*100;
+  const sells = bt.trades.filter(t=>t.type==='SELL');
+  const wins = sells.filter(t=>t.pnl > 0).length;
+  const winRate = sells.length ? wins / sells.length * 100 : 0;
+  const dd = maxDrawdown(bt.equity);
+  const sharpe = sharpeFromEquity(bt.equity);
+
+  document.getElementById('bt-summary').style.display = 'block';
+  document.getElementById('bt-return').textContent = `${totalRet.toFixed(2)}%`;
+  document.getElementById('bt-return').style.color = totalRet >= 0 ? 'var(--green)' : 'var(--red)';
+  document.getElementById('bt-dd').textContent = `${dd.toFixed(2)}%`;
+  document.getElementById('bt-win').textContent = `${winRate.toFixed(1)}%`;
+  document.getElementById('bt-trades').textContent = `${sells.length}`;
+  document.getElementById('bt-sharpe').textContent = sharpe.toFixed(2);
+  document.getElementById('bt-bh').textContent = `${bhRet.toFixed(2)}%`;
+  document.getElementById('bt-bh').style.color = bhRet >= 0 ? 'var(--green)' : 'var(--red)';
+
+  plotBacktest('bt-chart', ticker, data, bt, signals, capital);
+  renderTradeLog(bt.trades);
+}
+
+function plotBacktest(id, ticker, data, bt, signals, capital){
+  const buyIdx = signals.map((s,i)=>s===1?i:-1).filter(i=>i>=0);
+  const sellIdx = signals.map((s,i)=>s===-1?i:-1).filter(i=>i>=0);
+  Plotly.newPlot(id, [
+    {x:data.dates, y:data.close, name:`${ticker} Price`, yaxis:'y2', line:{color:'#707090', width:1.5}},
+    {x:data.dates, y:bt.equity, name:'Strategy Equity', line:{color:'#00d26a', width:2}},
+    {x:data.dates, y:data.close.map(c=>capital*(c/data.close[0])), name:'Buy & Hold Equity', line:{color:'#4361ee', width:1.5, dash:'dot'}},
+    {x:buyIdx.map(i=>data.dates[i]), y:buyIdx.map(i=>data.close[i]), name:'Buy', mode:'markers', yaxis:'y2', marker:{symbol:'triangle-up', color:'#00d26a', size:11}},
+    {x:sellIdx.map(i=>data.dates[i]), y:sellIdx.map(i=>data.close[i]), name:'Sell', mode:'markers', yaxis:'y2', marker:{symbol:'triangle-down', color:'#e63946', size:11}}
+  ], {
+    paper_bgcolor:'#12121a', plot_bgcolor:'#12121a', font:{color:'#c0c0d0', family:'Inter', size:11},
+    xaxis:{gridcolor:'#2a2a3a'},
+    yaxis:{gridcolor:'#2a2a3a', title:'Equity', domain:[0,0.45]},
+    yaxis2:{gridcolor:'#2a2a3a', title:'Price', domain:[0.55,1]},
+    grid:{rows:2, columns:1},
+    legend:{bgcolor:'rgba(0,0,0,0.5)', orientation:'h', y:-0.15},
+    hovermode:'x unified',
+    margin:{l:60,r:40,t:30,b:45}
+  }, MOBILE_PLOTLY_CONFIG);
+}
+
+function renderTradeLog(trades){
+  if(!trades.length){ document.getElementById('bt-log').innerHTML = '<div style="color:var(--muted)">No trades triggered.</div>'; return; }
+  let html = '<table style="width:100%;border-collapse:collapse"><tr><th>Date</th><th>Side</th><th>Price</th><th>Shares</th><th>Fee</th><th>P&L</th><th>Return</th></tr>';
+  trades.slice(-80).forEach(t=>{
+    const pnl = t.pnl === null ? '-' : `<span style="color:${t.pnl>=0?'var(--green)':'var(--red)'}">${t.pnl.toFixed(2)}</span>`;
+    const ret = t.ret === null ? '-' : `<span style="color:${t.ret>=0?'var(--green)':'var(--red)'}">${t.ret.toFixed(2)}%</span>`;
+    html += `<tr style="border-bottom:1px solid var(--border)"><td style="padding:7px">${t.date.toISOString().slice(0,10)}</td><td style="padding:7px;color:${t.type==='BUY'?'var(--green)':'var(--red)'};font-weight:700">${t.type}${t.forced?'*':''}</td><td style="padding:7px">${t.price.toFixed(2)}</td><td style="padding:7px">${t.shares.toFixed(4)}</td><td style="padding:7px">${t.fee.toFixed(2)}</td><td style="padding:7px">${pnl}</td><td style="padding:7px">${ret}</td></tr>`;
+  });
+  html += '</table>';
+  document.getElementById('bt-log').innerHTML = html;
 }
 
 // ===========================================
