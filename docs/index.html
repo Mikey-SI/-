@@ -473,6 +473,83 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt2);min-h
         <div id="chart-pattern" style="height:420px;background:var(--bg2);border-radius:10px"></div>
         <div id="reason-pattern" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
       </div>
+
+      <!-- 9. ADX Trend Strength -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid #06b6d4">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">🧭 ADX / DMI 趋势强度</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">ADX 衡量趋势强弱，+DI/-DI 判断方向。ADX>25=有趋势，>40=强趋势。</div>
+          </div>
+          <span id="signal-adx" class="mood-badge"></span>
+        </div>
+        <div id="chart-adx" style="height:320px;background:var(--bg2);border-radius:10px"></div>
+        <div id="reason-adx" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
+      </div>
+
+      <!-- 10. ATR Risk Management -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid #f97316">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">🛡️ ATR 风控止损策略</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">ATR 衡量真实波动。用 2×ATR 做动态止损，避免被日内噪音洗出去。</div>
+          </div>
+          <span id="signal-atr" class="mood-badge"></span>
+        </div>
+        <div id="chart-atr" style="height:360px;background:var(--bg2);border-radius:10px"></div>
+        <div id="reason-atr" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
+      </div>
+
+      <!-- 11. Ichimoku Cloud -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid #22c55e">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">☁️ Ichimoku Cloud 一目均衡表</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">价格在云上=多头；云下=空头；转折线/基准线交叉提供入场信号。</div>
+          </div>
+          <span id="signal-ichi" class="mood-badge"></span>
+        </div>
+        <div id="chart-ichi" style="height:420px;background:var(--bg2);border-radius:10px"></div>
+        <div id="reason-ichi" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
+      </div>
+
+      <!-- 12. Donchian Breakout -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid #a855f7">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">🐢 Donchian / Turtle Breakout 唐奇安突破</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">20日通道突破用于海龟交易法；上轨突破追多，下轨跌破止损/做空。</div>
+          </div>
+          <span id="signal-donchian" class="mood-badge"></span>
+        </div>
+        <div id="chart-donchian" style="height:380px;background:var(--bg2);border-radius:10px"></div>
+        <div id="reason-donchian" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
+      </div>
+
+      <!-- 13. VWAP / Mean Reversion -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid #14b8a6">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">⚖️ Anchored VWAP / 均价回归</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">从区间起点计算成交量加权均价。价格远离 VWAP 代表趋势过热或回归机会。</div>
+          </div>
+          <span id="signal-vwap" class="mood-badge"></span>
+        </div>
+        <div id="chart-vwap" style="height:380px;background:var(--bg2);border-radius:10px"></div>
+        <div id="reason-vwap" style="margin-top:.8rem;font-size:.85rem;color:var(--txt2);line-height:1.6;padding:.8rem;background:var(--card);border-radius:8px"></div>
+      </div>
+
+      <!-- 14. Strategy Matrix -->
+      <div class="card" style="margin-bottom:1rem;border-left:4px solid var(--yellow)">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:.8rem">
+          <div>
+            <div style="font-size:1.1rem;font-weight:700;color:var(--txt)">🧠 Strategy Matrix 多策略交易矩阵</div>
+            <div style="font-size:.78rem;color:var(--muted);margin-top:2px">把趋势、动量、突破、均值回归、风控合成一个可执行交易计划。</div>
+          </div>
+          <span id="signal-strategy" class="mood-badge"></span>
+        </div>
+        <div id="reason-strategy" style="font-size:.88rem;color:var(--txt2);line-height:1.8;padding:1rem;background:var(--card);border-radius:8px"></div>
+      </div>
     </div>
 
     <div id="ind-loading" style="display:none;padding:5rem;text-align:center;color:var(--muted)">
@@ -2089,6 +2166,150 @@ function findClusters(arr, tolerance=0.02){
   return clusters;
 }
 
+// === ADX / DMI ===
+function calculateATRSeries(highs, lows, closes, period=14){
+  const tr = [];
+  for(let i=0; i<closes.length; i++){
+    if(i === 0) tr.push(highs[i] - lows[i]);
+    else tr.push(Math.max(
+      highs[i] - lows[i],
+      Math.abs(highs[i] - closes[i-1]),
+      Math.abs(lows[i] - closes[i-1])
+    ));
+  }
+  return sma(tr, period);
+}
+
+function calculateADX(highs, lows, closes, period=14){
+  const plusDM = [0], minusDM = [0], tr = [highs[0] - lows[0]];
+  for(let i=1; i<closes.length; i++){
+    const upMove = highs[i] - highs[i-1];
+    const downMove = lows[i-1] - lows[i];
+    plusDM.push(upMove > downMove && upMove > 0 ? upMove : 0);
+    minusDM.push(downMove > upMove && downMove > 0 ? downMove : 0);
+    tr.push(Math.max(highs[i]-lows[i], Math.abs(highs[i]-closes[i-1]), Math.abs(lows[i]-closes[i-1])));
+  }
+  const atr = sma(tr, period);
+  const plusAvg = sma(plusDM, period);
+  const minusAvg = sma(minusDM, period);
+  const plusDI = plusAvg.map((v,i)=> atr[i] ? 100 * v / atr[i] : null);
+  const minusDI = minusAvg.map((v,i)=> atr[i] ? 100 * v / atr[i] : null);
+  const dx = plusDI.map((v,i)=>{
+    if(v === null || minusDI[i] === null || (v + minusDI[i]) === 0) return null;
+    return 100 * Math.abs(v - minusDI[i]) / (v + minusDI[i]);
+  });
+  const adx = sma(dx.map(v=>v ?? 0), period);
+  return {adx, plusDI, minusDI, atr};
+}
+
+function adxSignal(adxObj){
+  const adx = adxObj.adx.at(-1), p = adxObj.plusDI.at(-1), m = adxObj.minusDI.at(-1);
+  if(adx === null || p === null || m === null) return {signal:'NEUTRAL', strength:20, reason:'ADX 数据不足，等待更多K线。'};
+  if(adx > 40 && p > m) return {signal:'BULLISH', strength:85, reason:`ADX=${adx.toFixed(1)} 强趋势，+DI(${p.toFixed(1)}) > -DI(${m.toFixed(1)})。趋势多头，适合顺势持有/突破加仓。`};
+  if(adx > 40 && m > p) return {signal:'BEARISH', strength:85, reason:`ADX=${adx.toFixed(1)} 强趋势，-DI(${m.toFixed(1)}) > +DI(${p.toFixed(1)})。趋势空头，不宜逆势抄底。`};
+  if(adx > 25 && p > m) return {signal:'BULLISH', strength:65, reason:`ADX=${adx.toFixed(1)} 已进入趋势区，+DI占优。趋势偏多但强度未极端。`};
+  if(adx > 25 && m > p) return {signal:'BEARISH', strength:65, reason:`ADX=${adx.toFixed(1)} 已进入趋势区，-DI占优。趋势偏空，等待反转确认。`};
+  return {signal:'NEUTRAL', strength:35, reason:`ADX=${adx.toFixed(1)} 低于25，趋势强度不足。更适合区间交易/均值回归，不适合追突破。`};
+}
+
+// === ATR Risk Strategy ===
+function atrRiskSignal(atr, closes){
+  const c = closes.at(-1), a = atr.at(-1);
+  if(!a) return {signal:'NEUTRAL', strength:20, reason:'ATR 数据不足。'};
+  const atrPct = a / c * 100;
+  const longStop = c - 2 * a;
+  const shortStop = c + 2 * a;
+  let signal = 'NEUTRAL', strength = 45;
+  if(atrPct > 5){ signal='NEUTRAL'; strength=65; }
+  else if(atrPct < 2){ signal='BULLISH'; strength=45; }
+  return {
+    signal, strength,
+    reason:`ATR(14)=${a.toFixed(2)}，约为价格的 ${atrPct.toFixed(2)}%。多头动态止损≈${longStop.toFixed(2)}（2×ATR），空头止损≈${shortStop.toFixed(2)}。${atrPct>5?'波动偏大，仓位应降低；':atrPct<2?'波动压缩，适合等待突破；':'波动正常，可按标准仓位执行。'}`,
+    atr, longStop, shortStop
+  };
+}
+
+// === Ichimoku Cloud ===
+function rollingMid(highs, lows, period){
+  return highs.map((_,i)=>{
+    if(i < period-1) return null;
+    const h = Math.max(...highs.slice(i-period+1, i+1));
+    const l = Math.min(...lows.slice(i-period+1, i+1));
+    return (h + l) / 2;
+  });
+}
+
+function calculateIchimoku(highs, lows, closes){
+  const tenkan = rollingMid(highs, lows, 9);
+  const kijun = rollingMid(highs, lows, 26);
+  const spanA = tenkan.map((v,i)=> v===null || kijun[i]===null ? null : (v + kijun[i]) / 2);
+  const spanB = rollingMid(highs, lows, 52);
+  return {tenkan, kijun, spanA, spanB};
+}
+
+function ichimokuSignal(ichi, closes){
+  const c = closes.at(-1), t = ichi.tenkan.at(-1), k = ichi.kijun.at(-1), a = ichi.spanA.at(-1), b = ichi.spanB.at(-1);
+  if([t,k,a,b].some(v=>v===null)) return {signal:'NEUTRAL', strength:25, reason:'一目均衡表需要更长历史数据（至少52根K线）。'};
+  const cloudTop = Math.max(a,b), cloudBottom = Math.min(a,b);
+  if(c > cloudTop && t > k) return {signal:'BULLISH', strength:80, reason:`价格 ${c.toFixed(2)} 在云层上方，转折线(${t.toFixed(2)}) > 基准线(${k.toFixed(2)})。云图多头结构，回踩云顶可视为支撑。`};
+  if(c < cloudBottom && t < k) return {signal:'BEARISH', strength:80, reason:`价格 ${c.toFixed(2)} 在云层下方，转折线(${t.toFixed(2)}) < 基准线(${k.toFixed(2)})。云图空头结构，反弹到云底易受压。`};
+  return {signal:'NEUTRAL', strength:45, reason:`价格在/接近云层 (${cloudBottom.toFixed(2)}–${cloudTop.toFixed(2)})，趋势尚未确认。等待出云方向。`};
+}
+
+// === Donchian Breakout ===
+function calculateDonchian(highs, lows, period=20){
+  const upper = highs.map((_,i)=> i<period ? null : Math.max(...highs.slice(i-period, i)));
+  const lower = lows.map((_,i)=> i<period ? null : Math.min(...lows.slice(i-period, i)));
+  const mid = upper.map((v,i)=> v===null ? null : (v + lower[i]) / 2);
+  return {upper, lower, mid};
+}
+
+function donchianSignal(don, closes){
+  const c = closes.at(-1), u = don.upper.at(-1), l = don.lower.at(-1), m = don.mid.at(-1);
+  if(u === null || l === null) return {signal:'NEUTRAL', strength:20, reason:'Donchian 数据不足。'};
+  if(c > u) return {signal:'BULLISH', strength:85, reason:`价格 ${c.toFixed(2)} 突破20日上轨 ${u.toFixed(2)}，海龟交易法追多信号。失败止损可放在中轨 ${m.toFixed(2)} 或下轨 ${l.toFixed(2)}。`};
+  if(c < l) return {signal:'BEARISH', strength:85, reason:`价格 ${c.toFixed(2)} 跌破20日下轨 ${l.toFixed(2)}，趋势破位/做空信号。反弹回中轨 ${m.toFixed(2)} 前偏空。`};
+  return {signal:'NEUTRAL', strength:40, reason:`价格位于20日通道内 (${l.toFixed(2)}–${u.toFixed(2)})，尚未触发突破。越接近上轨越偏强，越接近下轨越偏弱。`};
+}
+
+// === Anchored VWAP ===
+function calculateVWAP(highs, lows, closes, volumes){
+  let cumPV = 0, cumV = 0;
+  return closes.map((c,i)=>{
+    const typical = (highs[i] + lows[i] + c) / 3;
+    cumPV += typical * (volumes[i] || 0);
+    cumV += (volumes[i] || 0);
+    return cumV ? cumPV / cumV : c;
+  });
+}
+
+function vwapSignal(vwap, closes){
+  const c = closes.at(-1), v = vwap.at(-1);
+  const dist = (c / v - 1) * 100;
+  if(dist > 6) return {signal:'BEARISH', strength:65, reason:`价格高于区间VWAP ${dist.toFixed(2)}%，短线偏过热。若量能不能继续放大，容易回归VWAP(${v.toFixed(2)})。`};
+  if(dist < -6) return {signal:'BULLISH', strength:65, reason:`价格低于区间VWAP ${Math.abs(dist).toFixed(2)}%，短线偏超跌。若跌不动，存在均价回归机会，目标VWAP≈${v.toFixed(2)}。`};
+  if(c > v) return {signal:'BULLISH', strength:45, reason:`价格略高于VWAP(${v.toFixed(2)})，资金平均成本下方有支撑，偏多但不追高。`};
+  return {signal:'BEARISH', strength:45, reason:`价格略低于VWAP(${v.toFixed(2)})，上方平均成本形成压力，偏弱但不极端。`};
+}
+
+function strategyMatrixSignal(signals, currentPrice){
+  const bullish = signals.filter(s=>s.sig.signal==='BULLISH').map(s=>s.name);
+  const bearish = signals.filter(s=>s.sig.signal==='BEARISH').map(s=>s.name);
+  const bullScore = signals.filter(s=>s.sig.signal==='BULLISH').reduce((a,s)=>a+s.sig.strength,0);
+  const bearScore = signals.filter(s=>s.sig.signal==='BEARISH').reduce((a,s)=>a+s.sig.strength,0);
+  const signal = bullScore > bearScore + 80 ? 'BULLISH' : bearScore > bullScore + 80 ? 'BEARISH' : 'NEUTRAL';
+  const strength = Math.min(95, Math.round(Math.abs(bullScore-bearScore) / Math.max(1, bullScore+bearScore) * 100 + 35));
+  const action = signal === 'BULLISH'
+    ? '策略：顺势做多/回踩低吸；突破策略优先。'
+    : signal === 'BEARISH'
+      ? '策略：降低仓位/反弹减仓；破位策略优先。'
+      : '策略：不追涨杀跌；等待突破或极端超买超卖。';
+  return {
+    signal, strength,
+    reason:`当前价 ${currentPrice.toFixed(2)}。多头确认：${bullish.join('、') || '无'}。空头确认：${bearish.join('、') || '无'}。${action}`
+  };
+}
+
 // === Main analyzer ===
 async function analyzeIndicators(){
   const ticker = document.getElementById('ind-ticker').value.trim().toUpperCase();
@@ -2139,6 +2360,11 @@ async function analyzeIndicators(){
   const rsi = calculateRSI(data.close);
   const kdj = calculateKDJ(data.high, data.low, data.close);
   const boll = calculateBoll(data.close);
+  const adx = calculateADX(data.high, data.low, data.close);
+  const atrRisk = atrRiskSignal(adx.atr, data.close);
+  const ichi = calculateIchimoku(data.high, data.low, data.close);
+  const donchian = calculateDonchian(data.high, data.low);
+  const vwap = calculateVWAP(data.high, data.low, data.close, data.volume);
   
   const sigMACD = macdSignal(macd);
   const sigRSI = rsiSignal(rsi, data.close);
@@ -2148,6 +2374,25 @@ async function analyzeIndicators(){
   const sigMA = maSignal(data.close, data.dates);
   const sigChan = chanAnalysis(data.high, data.low, data.dates, data.close);
   const sigPattern = detectChartPatterns(data.high, data.low, data.close, data.dates);
+  const sigADX = adxSignal(adx);
+  const sigIchi = ichimokuSignal(ichi, data.close);
+  const sigDonchian = donchianSignal(donchian, data.close);
+  const sigVWAP = vwapSignal(vwap, data.close);
+  const sigStrategy = strategyMatrixSignal([
+    {name:'MACD', sig:sigMACD},
+    {name:'RSI', sig:sigRSI},
+    {name:'KDJ', sig:sigKDJ},
+    {name:'布林带', sig:sigBoll},
+    {name:'成交量', sig:sigVol},
+    {name:'均线', sig:sigMA},
+    {name:'缠论', sig:sigChan},
+    {name:'形态', sig:sigPattern},
+    {name:'ADX', sig:sigADX},
+    {name:'ATR风控', sig:atrRisk},
+    {name:'一目均衡', sig:sigIchi},
+    {name:'Donchian', sig:sigDonchian},
+    {name:'VWAP', sig:sigVWAP}
+  ], data.close[data.close.length-1]);
   
   // Render summary
   document.getElementById('ind-loading').style.display = 'none';
@@ -2161,7 +2406,13 @@ async function analyzeIndicators(){
     {name:'成交量', sig:sigVol},
     {name:'均线', sig:sigMA},
     {name:'缠论', sig:sigChan},
-    {name:'形态', sig:sigPattern}
+    {name:'形态', sig:sigPattern},
+    {name:'ADX', sig:sigADX},
+    {name:'ATR风控', sig:atrRisk},
+    {name:'一目均衡', sig:sigIchi},
+    {name:'Donchian', sig:sigDonchian},
+    {name:'VWAP', sig:sigVWAP},
+    {name:'策略矩阵', sig:sigStrategy}
   ], data.close[data.close.length-1]);
   
   // Set signal badges
@@ -2173,6 +2424,12 @@ async function analyzeIndicators(){
   setBadge('signal-ma', sigMA);
   setBadge('signal-chan', sigChan);
   setBadge('signal-pattern', sigPattern);
+  setBadge('signal-adx', sigADX);
+  setBadge('signal-atr', atrRisk);
+  setBadge('signal-ichi', sigIchi);
+  setBadge('signal-donchian', sigDonchian);
+  setBadge('signal-vwap', sigVWAP);
+  setBadge('signal-strategy', sigStrategy);
   
   document.getElementById('reason-macd').innerHTML = sigMACD.reason;
   document.getElementById('reason-rsi').innerHTML = sigRSI.reason;
@@ -2182,6 +2439,12 @@ async function analyzeIndicators(){
   document.getElementById('reason-ma').innerHTML = sigMA.reason;
   document.getElementById('reason-chan').innerHTML = sigChan.reason;
   document.getElementById('reason-pattern').innerHTML = sigPattern.reason;
+  document.getElementById('reason-adx').innerHTML = sigADX.reason;
+  document.getElementById('reason-atr').innerHTML = atrRisk.reason;
+  document.getElementById('reason-ichi').innerHTML = sigIchi.reason;
+  document.getElementById('reason-donchian').innerHTML = sigDonchian.reason;
+  document.getElementById('reason-vwap').innerHTML = sigVWAP.reason;
+  document.getElementById('reason-strategy').innerHTML = sigStrategy.reason;
   
   // Plot all charts
   plotMACD('chart-macd', data.dates, data.close, macd);
@@ -2192,6 +2455,11 @@ async function analyzeIndicators(){
   plotMA('chart-ma', data.dates, data.close, sigMA);
   plotChan('chart-chan', data.dates, data.close, sigChan);
   plotPattern('chart-pattern', data.dates, data.close, sigPattern);
+  plotADX('chart-adx', data.dates, adx);
+  plotATR('chart-atr', data.dates, data.close, adx.atr, atrRisk);
+  plotIchimoku('chart-ichi', data.dates, data.close, ichi);
+  plotDonchian('chart-donchian', data.dates, data.close, donchian);
+  plotVWAP('chart-vwap', data.dates, data.close, vwap);
 }
 
 function setBadge(id, sig){
@@ -2378,6 +2646,51 @@ function plotPattern(id, dates, closes, sigPattern){
   });
   
   Plotly.newPlot(id, traces, {...layoutBase, yaxis:{...layoutBase.yaxis, title:'Price'}, shapes}, MOBILE_PLOTLY_CONFIG);
+}
+
+function plotADX(id, dates, adxObj){
+  Plotly.newPlot(id, [
+    {x: dates, y: adxObj.adx, name: 'ADX', line:{color:'#06b6d4', width:2}},
+    {x: dates, y: adxObj.plusDI, name: '+DI', line:{color:'#00d26a', width:1.5}},
+    {x: dates, y: adxObj.minusDI, name: '-DI', line:{color:'#e63946', width:1.5}},
+    {x:[dates[0], dates.at(-1)], y:[25,25], mode:'lines', name:'Trend Threshold', line:{color:'#ffd60a', width:1, dash:'dash'}}
+  ], {...layoutBase, yaxis:{...layoutBase.yaxis, title:'ADX / DMI'}}, MOBILE_PLOTLY_CONFIG);
+}
+
+function plotATR(id, dates, closes, atr, sigATR){
+  Plotly.newPlot(id, [
+    {x: dates, y: closes, name:'Price', line:{color:'#fff', width:2}},
+    {x: dates, y: closes.map((c,i)=> atr[i] ? c - 2*atr[i] : null), name:'Long Stop (2×ATR)', line:{color:'#e63946', width:1.5, dash:'dash'}},
+    {x: dates, y: closes.map((c,i)=> atr[i] ? c + 2*atr[i] : null), name:'Short Stop (2×ATR)', line:{color:'#00d26a', width:1.5, dash:'dash'}}
+  ], {...layoutBase, yaxis:{...layoutBase.yaxis, title:'Price / ATR Stop'}}, MOBILE_PLOTLY_CONFIG);
+}
+
+function plotIchimoku(id, dates, closes, ichi){
+  Plotly.newPlot(id, [
+    {x: dates, y: closes, name:'Price', line:{color:'#fff', width:2}},
+    {x: dates, y: ichi.tenkan, name:'Tenkan 转折线', line:{color:'#ffd60a', width:1.5}},
+    {x: dates, y: ichi.kijun, name:'Kijun 基准线', line:{color:'#4361ee', width:1.5}},
+    {x: dates, y: ichi.spanA, name:'Cloud A', line:{color:'rgba(0,210,106,.6)', width:1}, fill:null},
+    {x: dates, y: ichi.spanB, name:'Cloud B', line:{color:'rgba(230,57,70,.6)', width:1}, fill:'tonexty', fillcolor:'rgba(67,97,238,.12)'}
+  ], {...layoutBase, yaxis:{...layoutBase.yaxis, title:'Ichimoku'}}, MOBILE_PLOTLY_CONFIG);
+}
+
+function plotDonchian(id, dates, closes, don){
+  Plotly.newPlot(id, [
+    {x: dates, y: don.upper, name:'20D Upper', line:{color:'#e63946', width:1.5, dash:'dot'}},
+    {x: dates, y: don.mid, name:'Mid', line:{color:'#ffd60a', width:1}},
+    {x: dates, y: don.lower, name:'20D Lower', line:{color:'#00d26a', width:1.5, dash:'dot'}, fill:'tonexty', fillcolor:'rgba(168,85,247,.08)'},
+    {x: dates, y: closes, name:'Price', line:{color:'#fff', width:2}}
+  ], {...layoutBase, yaxis:{...layoutBase.yaxis, title:'Donchian Channel'}}, MOBILE_PLOTLY_CONFIG);
+}
+
+function plotVWAP(id, dates, closes, vwap){
+  Plotly.newPlot(id, [
+    {x: dates, y: closes, name:'Price', line:{color:'#fff', width:2}},
+    {x: dates, y: vwap, name:'Anchored VWAP', line:{color:'#14b8a6', width:2}},
+    {x: dates, y: vwap.map(v=>v*1.06), name:'+6% Band', line:{color:'#e63946', width:1, dash:'dash'}},
+    {x: dates, y: vwap.map(v=>v*0.94), name:'-6% Band', line:{color:'#00d26a', width:1, dash:'dash'}}
+  ], {...layoutBase, yaxis:{...layoutBase.yaxis, title:'Price / VWAP'}}, MOBILE_PLOTLY_CONFIG);
 }
 </script>
 </body>
