@@ -11,8 +11,11 @@ email_preview.html
 screening_*.json
 chart_*.json
 
-# Local backtest artifacts - large CSV cache, regenerate any time
-量化/data/
-量化/results/*.png
-量化/results/*.csv
+# Local backtest artifacts (regenerable)
+量化/
 财富自由之路/
+
+# Private strategy - keep local only. Public site only stores encrypted payload.
+strategy_runner.py
+docs/data/strategy_rules.txt
+docs/data/strategy_signal.json

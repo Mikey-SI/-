@@ -2394,36 +2394,61 @@ function trImport(evt){
 // Private Strategy Page (password-gated)
 // ===========================================
 
-const STRATEGY_PASSWORD_HASH = 'bf680f250feea1f9d0e2419f1ec5dffcbf2a0d0888b744946c5d2acf9cf21038';
-const STRATEGY_SALT = 'alpha-signal::';
 const STRATEGY_SESSION_KEY = 'strategy_unlocked_v1';
+const STRATEGY_PASSWORD_SESSION_KEY = 'strategy_pw_v1';
 
-async function hashStrategyPassword(pw){
-  const bytes = new TextEncoder().encode(STRATEGY_SALT + pw);
-  const hash = await crypto.subtle.digest('SHA-256', bytes);
-  return Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,'0')).join('');
+function b64ToBytes(b64){
+  const bin = atob(b64);
+  const out = new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+async function deriveStrategyKey(password, saltBytes, iterations){
+  const baseKey = await crypto.subtle.importKey('raw', new TextEncoder().encode(password), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey(
+    { name:'PBKDF2', salt: saltBytes, iterations, hash:'SHA-256' },
+    baseKey,
+    { name:'AES-GCM', length: 256 },
+    false,
+    ['decrypt']
+  );
+}
+
+async function decryptStrategyPayload(password){
+  const r = await fetch('data/strategy_payload.enc', { cache: 'no-store' });
+  if(!r.ok) throw new Error('payload not found');
+  const payload = await r.json();
+  const salt = b64ToBytes(payload.salt);
+  const nonce = b64ToBytes(payload.nonce);
+  const ct = b64ToBytes(payload.ciphertext);
+  const key = await deriveStrategyKey(password, salt, payload.iter || 200000);
+  const plain = await crypto.subtle.decrypt({ name:'AES-GCM', iv: nonce }, key, ct);
+  return JSON.parse(new TextDecoder().decode(plain));
 }
 
 async function strategyUnlock(){
   const pw = document.getElementById('strategy-pass').value;
   const msg = document.getElementById('strategy-pass-msg');
   if(!pw){ msg.textContent = '请输入密码'; msg.style.color = 'var(--red)'; return; }
-  const h = await hashStrategyPassword(pw);
-  if(h === STRATEGY_PASSWORD_HASH){
+  try{
+    const data = await decryptStrategyPayload(pw);
     sessionStorage.setItem(STRATEGY_SESSION_KEY, '1');
+    sessionStorage.setItem(STRATEGY_PASSWORD_SESSION_KEY, pw);
     msg.textContent = '✓ Unlocked';
     msg.style.color = 'var(--green)';
     document.getElementById('strategy-pass').value = '';
     refreshStrategyUI();
-    await loadStrategyData();
-  } else {
-    msg.textContent = '密码错误';
+    renderStrategyData(data);
+  } catch(e){
+    msg.textContent = '密码错误 / 数据未生成';
     msg.style.color = 'var(--red)';
   }
 }
 
 function strategyLock(){
   sessionStorage.removeItem(STRATEGY_SESSION_KEY);
+  sessionStorage.removeItem(STRATEGY_PASSWORD_SESSION_KEY);
   refreshStrategyUI();
 }
 
@@ -2438,27 +2463,35 @@ function refreshStrategyUI(){
 }
 
 async function loadStrategyData(){
+  const pw = sessionStorage.getItem(STRATEGY_PASSWORD_SESSION_KEY);
+  if(!pw) return;
   try{
-    const r = await fetch('data/strategy_signal.json', { cache: 'no-store' });
-    if(!r.ok) return;
-    const d = await r.json();
-    const el = document.getElementById('strategy-latest');
-    if(!el) return;
-    el.innerHTML = `
-      <div><span style="color:var(--muted)">Generated:</span> ${d.timestamp || '-'}</div>
-      <div style="margin-top:.5rem"><span style="color:var(--muted)">Signal:</span> <strong style="color:${d.signal === 'BUY' ? 'var(--green)' : d.signal === 'SELL' ? 'var(--red)' : 'var(--yellow)'}">${d.signal || '-'}</strong></div>
-      <div style="margin-top:.5rem"><span style="color:var(--muted)">Detail:</span></div>
-      <pre style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.8rem;margin-top:.4rem;color:var(--txt2);font-size:.78rem;line-height:1.6;white-space:pre-wrap">${JSON.stringify(d, null, 2)}</pre>
-    `;
-  }catch(e){}
-  try{
-    const r2 = await fetch('data/strategy_rules.txt', { cache: 'no-store' });
-    if(r2.ok){
-      const text = await r2.text();
-      const pre = document.getElementById('strategy-rules');
-      if(pre && text.trim()) pre.textContent = text;
-    }
-  }catch(e){}
+    const data = await decryptStrategyPayload(pw);
+    renderStrategyData(data);
+  }catch(e){
+    // session got stale (e.g. payload re-encrypted with new password) -> force re-login
+    strategyLock();
+  }
+}
+
+function renderStrategyData(data){
+  if(data.rules){
+    const pre = document.getElementById('strategy-rules');
+    if(pre) pre.textContent = data.rules;
+  }
+  const el = document.getElementById('strategy-latest');
+  if(!el) return;
+  const sig = data.signal;
+  if(!sig){
+    el.innerHTML = '<div style="color:var(--muted)">尚未生成任何信号。本地跑一次 strategy_runner.py 后会更新。</div>';
+    return;
+  }
+  el.innerHTML = `
+    <div><span style="color:var(--muted)">Generated:</span> ${sig.timestamp || '-'}</div>
+    <div style="margin-top:.5rem"><span style="color:var(--muted)">Signal:</span> <strong style="color:${sig.signal === 'BUY' ? 'var(--green)' : sig.signal === 'SELL' ? 'var(--red)' : 'var(--yellow)'}">${sig.signal || '-'}</strong></div>
+    <div style="margin-top:.5rem"><span style="color:var(--muted)">Detail:</span></div>
+    <pre style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.8rem;margin-top:.4rem;color:var(--txt2);font-size:.78rem;line-height:1.6;white-space:pre-wrap">${JSON.stringify(sig, null, 2)}</pre>
+  `;
 }
 
 function renderTradeLog(trades){
