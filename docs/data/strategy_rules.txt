@@ -1,0 +1,56 @@
+美股动量 + 杠杆 ETF 趋势策略
+=============================
+目标: CAGR ≥ 40%, MaxDD ≤ 50% (实测 2012-06 ~ 2026-05: CAGR 45.8%, MaxDD -46.2%, Sharpe 1.30)
+
+一、核心思路
+  1) 个股横截面动量 (Jegadeesh & Titman 1993): 过去 ~5 个月涨幅最大的美股, 未来 1 个月仍倾向跑赢。
+  2) 杠杆 ETF + 趋势跟随 (Hedgefundie / Faber): 用 SMA200 做开关持有 TQQQ, 半数回撤换 ≈3x 收益。
+  3) 大盘 SMA200 安全开关: QQQ 跌破 200 日均线 → 100% BIL, 熊市彻底躲开。
+  组合: 80% 动量个股 + 20% TQQQ, 整体被 SMA200 总开关守护。
+
+二、完整规则 (每月最后一个交易日执行)
+  ① 大盘趋势 (用 QQQ 收盘价)
+       QQQ_close > SMA200 ?
+         是 → 牛市, 进步骤 ②
+         否 → 熊市, 100% 仓位持 BIL
+  ② 牛市强度
+       QQQ_close > SMA20 ?
+         是 (强牛) → 80% 动量股 + 20% TQQQ
+         否 (弱牛) → 100% 动量股, 不加 TQQQ
+  ③ 动量 Top-3 个股
+       候选股票池 (28 只大盘股):
+         AAPL  MSFT  NVDA  GOOGL AMZN  META  TSLA  AMD
+         AVGO  NFLX  CRM   ORCL  ADBE  QCOM  INTC  LRCX
+         ASML  TSM   MU    JPM   V     MA    JNJ   PG
+         UNH   HD    WMT   DIS
+       动量得分 = 过去 105 个交易日 (126-21) 的累计收益率
+       (用 126 日收益跳过最近 21 日, 避免短期反转噪声)
+       按得分降序取 Top-3, 等权分配剩余仓位。
+  ④ 调仓
+       在当月最后一个交易日 (或次日开盘前) 完成调仓
+       月内不动 (除非个股退市/严重异常), 不做止损 (趋势保护即宏观止损)
+
+三、参数 (冠军组)
+  lookback = 126, skip = 21, top_n = 3
+  sma_long = 200, sma_short = 20
+  leverage_alloc = 0.20 (强牛时 TQQQ 占比)
+  rebalance = "ME" (Month-End)
+
+四、自动化
+  - GitHub Actions 每天北京时间 08:00 / 20:00 自动运行 strategy_runner.py
+  - 输出: docs/data/strategy_signal.json (网页此页解锁后展示)
+  - 邮件: 通过 email_service 发送给 EMAIL_RECEIVER 列表
+  - 行情来源: yfinance 实时下载
+
+五、风险提示
+  - 测试期偏牛, 仅 2022 一次熊市样本
+  - TQQQ 长期持有有 beta slippage, 已通过 ≤20% 仓位限制缓解
+  - 候选池含事后赢家 (NVDA/TSLA), 存在生存者偏差
+  - 月度调仓属短期交易, 需考虑短期资本利得税
+  - -46% 回撤意味着 100 万 → 54 万, 心理承受是执行关键
+  - 极端单日跳水 (例: 1987 -22%) 可让 3x ETF 接近归零
+
+六、更新
+  - 此规则文件可随时修改, 网站会自动读取
+  - 策略代码: strategy_runner.py
+  - 完整回测/研究: 量化/ 目录

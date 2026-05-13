@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-14 03:07 UTC+08:00",
+  "signal": "BUY",
+  "regime": "strong_bull",
+  "bench_close": 714.79,
+  "sma200": 608.35,
+  "sma20": 673.39,
+  "leverage_alloc": 0.2,
+  "selected": [
+    "MU",
+    "INTC",
+    "LRCX"
+  ],
+  "weights": {
+    "MU": 0.2667,
+    "INTC": 0.2667,
+    "LRCX": 0.2667,
+    "TQQQ": 0.2
+  },
+  "top_momentum": {
+    "MU": 0.8399,
+    "INTC": 0.6596,
+    "LRCX": 0.642,
+    "ASML": 0.4635,
+    "TSM": 0.2937,
+    "JNJ": 0.2893,
+    "WMT": 0.226,
+    "GOOGL": 0.1491,
+    "AVGO": 0.0667,
+    "META": 0.0504
+  },
+  "notes": "QQQ > SMA200; strong bull (SMA20 also broken). Top-3 momentum names selected. Rebalance executes on last trading day of each month; intra-month positions are held."
+}

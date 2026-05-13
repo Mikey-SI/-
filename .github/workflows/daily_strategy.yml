@@ -1,0 +1,60 @@
+name: Daily Strategy Signal
+
+on:
+  schedule:
+    # 8:00 AM Beijing/Macau Time (UTC+8) = 00:00 UTC
+    - cron: '0 0 * * *'
+    # 8:00 PM Beijing/Macau Time (UTC+8) = 12:00 UTC
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-strategy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      PYTHONIOENCODING: utf-8
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+      EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+      SMTP_SERVER: smtp.gmail.com
+      SMTP_PORT: "587"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install yfinance pandas numpy jinja2 resend
+
+      - name: Create .env
+        run: |
+          echo "RESEND_API_KEY=$RESEND_API_KEY" > .env
+          echo "EMAIL_RECEIVER=$EMAIL_RECEIVER" >> .env
+          echo "EMAIL_SENDER=$EMAIL_SENDER" >> .env
+          echo "EMAIL_PASSWORD=$EMAIL_PASSWORD" >> .env
+          echo "SMTP_SERVER=smtp.gmail.com" >> .env
+          echo "SMTP_PORT=587" >> .env
+
+      - name: Run strategy signal
+        timeout-minutes: 8
+        run: python strategy_runner.py
+
+      - name: Commit signal snapshot
+        run: |
+          git config user.name "Alpha Signal Bot"
+          git config user.email "bot@alphasignal.dev"
+          git add docs/data/strategy_signal.json
+          git diff --staged --quiet || git commit -m "Update strategy signal $(date -u +%Y-%m-%dT%H:%M)"
+          git push || true

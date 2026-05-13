@@ -102,6 +102,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt2);min-h
     <li><a onclick="show('dca'); toggleSidebar()">💰 DCA Simulator</a></li>
     <li><a onclick="show('backtest'); toggleSidebar()">🧪 Quant Backtest</a></li>
     <li><a onclick="show('indicators'); toggleSidebar()">🔬 Technical Indicators</a></li>
+    <li><a onclick="show('trade'); toggleSidebar()">🎮 Paper Trading</a></li>
+    <li><a onclick="show('strategy'); toggleSidebar()">🔐 My Strategy</a></li>
   </ul>
   <div class="status"><div class="dot"></div><span id="ts">Loading...</span></div>
 </aside>
@@ -640,6 +642,150 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--txt2);min-h
     </div>
   </div>
 
+  <!-- Paper Trading Page -->
+  <div id="page-trade" style="display:none">
+    <div class="ph"><h1>🎮 Paper Trading & Leaderboard</h1><p>Create an account, get 100,000 HKD, buy/sell any A-share / HK / US stock. PnL recalculates as quotes refresh.</p></div>
+
+    <div id="trade-auth" style="margin-bottom:1rem">
+      <div class="card">
+        <div class="ct">🔐 Account</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px">
+          <div>
+            <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Username</label>
+            <input id="tr-user" type="text" placeholder="例如 alpha_trader"
+              style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Password</label>
+            <input id="tr-pass" type="password" placeholder="至少6位"
+              style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+          </div>
+          <div style="display:flex;align-items:flex-end;gap:8px">
+            <button class="refresh-btn" onclick="trLogin()" style="background:var(--red);color:#fff;font-weight:600">Login</button>
+            <button class="refresh-btn" onclick="trRegister()">Sign Up</button>
+          </div>
+        </div>
+        <p style="font-size:.78rem;color:var(--muted);margin-top:.6rem">Accounts are stored locally in this browser. Use Export / Import below to move them across devices.</p>
+      </div>
+    </div>
+
+    <div id="trade-panel" style="display:none">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:.8rem;margin-bottom:1rem">
+        <div class="card" style="border-left:3px solid var(--blue)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">User</div><div id="tr-current" style="font-size:1.2rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--green)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Cash (HKD)</div><div id="tr-cash" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--yellow)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Holdings Value (HKD)</div><div id="tr-holdings" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--purple)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Total Equity (HKD)</div><div id="tr-equity" style="font-size:1.45rem;font-weight:800;color:var(--txt);margin-top:4px">-</div></div>
+        <div class="card" style="border-left:3px solid var(--green)"><div style="font-size:.7rem;color:var(--muted);text-transform:uppercase">Total Return</div><div id="tr-return" style="font-size:1.45rem;font-weight:800;margin-top:4px">-</div></div>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem">
+        <div class="ct">💱 FX Rates (auto)</div>
+        <div id="tr-fx" style="font-size:.85rem;color:var(--txt2)">Loading...</div>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem">
+        <div class="ct">📝 Place Order</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:.6rem">
+          <div>
+            <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Ticker</label>
+            <input id="tr-ticker" type="text" placeholder="700 / 1810 / 600519 / QQQ"
+              style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+          </div>
+          <div>
+            <label style="font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Quantity (shares)</label>
+            <input id="tr-qty" type="number" value="100" min="1"
+              style="width:100%;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 12px;border-radius:8px;font-size:.95rem;margin-top:4px">
+          </div>
+          <div style="display:flex;align-items:flex-end;gap:8px">
+            <button class="refresh-btn" onclick="trBuy()" style="background:var(--green);color:#000;font-weight:700">Buy 买入</button>
+            <button class="refresh-btn" onclick="trSell()" style="background:var(--red);color:#fff;font-weight:700">Sell 卖出</button>
+          </div>
+          <div style="display:flex;align-items:flex-end;gap:8px;justify-content:flex-end">
+            <button class="refresh-btn" onclick="refreshTradeUI(true)">↻ Refresh Prices</button>
+            <button class="refresh-btn" onclick="trLogout()">Logout</button>
+          </div>
+        </div>
+        <p id="tr-msg" style="font-size:.82rem;color:var(--muted);margin-top:.4rem"></p>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem">
+        <div class="ct">📦 Holdings</div>
+        <div id="tr-holdings-table" style="overflow-x:auto;color:var(--txt2);font-size:.85rem"><div style="color:var(--muted)">No positions yet.</div></div>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem">
+        <div class="ct">📋 Order History</div>
+        <div id="tr-orders" style="overflow-x:auto;color:var(--txt2);font-size:.82rem"><div style="color:var(--muted)">No orders yet.</div></div>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem">
+        <div class="ct">💾 Data Sync (export / import)</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="refresh-btn" onclick="trExport()">Export JSON</button>
+          <button class="refresh-btn" onclick="document.getElementById('tr-import-file').click()">Import JSON</button>
+          <input id="tr-import-file" type="file" accept="application/json" style="display:none" onchange="trImport(event)">
+        </div>
+        <p style="font-size:.78rem;color:var(--muted);margin-top:.5rem">Use this to copy your trader profile to another device.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:1rem">
+      <div class="ct">🏆 Leaderboard</div>
+      <div id="tr-leaderboard" style="overflow-x:auto;font-size:.88rem"><div style="color:var(--muted)">No traders yet.</div></div>
+    </div>
+  </div>
+
+  <!-- My Strategy (password-protected) Page -->
+  <div id="page-strategy" style="display:none">
+    <div class="ph"><h1>🔐 My Strategy</h1><p>Private quantitative strategy module. Password-protected. Daily automated run + email scheduled via GitHub Actions.</p></div>
+
+    <div id="strategy-lock" style="display:none">
+      <div class="card" style="max-width:520px;margin:2rem auto;border-left:3px solid var(--red)">
+        <div class="ct">🔒 Enter Password</div>
+        <p style="font-size:.85rem;color:var(--txt2);line-height:1.6">This module is private. Enter the password to unlock the strategy panel. The password is never stored in plain text; only a SHA-256 hash is shipped in this page.</p>
+        <div style="display:flex;gap:8px;margin-top:.8rem;flex-wrap:wrap">
+          <input id="strategy-pass" type="password" placeholder="••••••••••"
+            style="flex:1;min-width:200px;background:var(--card);border:1px solid var(--border);color:var(--txt);padding:8px 14px;border-radius:8px;font-size:.95rem">
+          <button class="refresh-btn" onclick="strategyUnlock()" style="background:var(--red);color:#fff;font-weight:600">Unlock</button>
+        </div>
+        <p id="strategy-pass-msg" style="font-size:.82rem;color:var(--muted);margin-top:.6rem"></p>
+      </div>
+    </div>
+
+    <div id="strategy-content" style="display:none">
+      <div style="display:flex;justify-content:flex-end;margin-bottom:.6rem">
+        <button class="refresh-btn" onclick="strategyLock()">Lock 🔒</button>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem;border-left:3px solid var(--green)">
+        <div class="ct">📌 Strategy Definition</div>
+        <p style="font-size:.85rem;color:var(--txt2);line-height:1.8">
+          这块用来放你完整的策略规则、入场/出场条件、风控参数。<br>
+          你只要把策略文字贴给我（中文或代码都行），我就把它接进下面的"每日运行"流程并发邮件。<br>
+          <span style="color:var(--muted)">Tip: 越具体越好，例如：标的池、信号条件、仓位、止损、止盈、运行频率。</span>
+        </p>
+        <pre id="strategy-rules" style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;color:var(--txt2);font-size:.82rem;line-height:1.6;white-space:pre-wrap">尚未配置策略规则。请把策略发我，我会写进 docs/strategy_config.json 并接入 GitHub Actions。</pre>
+      </div>
+
+      <div class="card" style="margin-bottom:1rem;border-left:3px solid var(--blue)">
+        <div class="ct">🤖 Latest Automated Run</div>
+        <div id="strategy-latest" style="font-size:.85rem;color:var(--txt2);line-height:1.7">
+          <div style="color:var(--muted)">还没有任何自动运行记录。GitHub Actions 接好后，每日产物会保存到 <code>docs/data/strategy_signal.json</code> 并在此显示。</div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:3px solid var(--purple)">
+        <div class="ct">📬 Daily Email Automation</div>
+        <ul style="font-size:.85rem;color:var(--txt2);line-height:1.8;padding-left:1.2rem">
+          <li>GitHub Actions: <code>.github/workflows/daily_strategy.yml</code>（每日 UTC 00:00 + 12:00 触发，等同北京时间 08:00 + 20:00）</li>
+          <li>邮件收件人复用现有 <code>EMAIL_RECEIVER</code> secret，过滤逻辑见 <code>email_service.py</code></li>
+          <li>策略接入后会输出：买入/卖出信号、目标持仓、风险水平</li>
+        </ul>
+        <p style="font-size:.82rem;color:var(--muted);margin-top:.6rem">下一步：把策略规则贴给我，我来落地配置文件和工作流。</p>
+      </div>
+    </div>
+  </div>
+
   <!-- Analysis Page -->
   <div id="page-analysis" style="display:none">
     <div class="ph"><h1>5-Dimension Stock Analysis & Pair Selection</h1><p>AI-powered long/short recommendation for UBS competition <span class="ai-b">DeepSeek AI</span></p></div>
@@ -719,7 +865,9 @@ function toggleSidebar(){
 }
 
 function show(p){
-  ['dash','news','briefing','sigma','analysis','wave','dca','backtest','indicators'].forEach(x=>document.getElementById('page-'+x).style.display=x===p?'block':'none');
+  ['dash','news','briefing','sigma','analysis','wave','dca','backtest','indicators','trade','strategy'].forEach(x=>document.getElementById('page-'+x).style.display=x===p?'block':'none');
+  if(p === 'trade'){ try{ refreshTradeUI(); }catch(e){} }
+  if(p === 'strategy'){ try{ refreshStrategyUI(); }catch(e){} }
   document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
   event.target.classList.add('active');
 }
@@ -1928,6 +2076,389 @@ function plotBacktest(id, ticker, data, bt, signals, capital){
     hovermode:'x unified',
     margin:{l:60,r:40,t:30,b:45}
   }, MOBILE_PLOTLY_CONFIG);
+}
+
+// ===========================================
+// Paper Trading + Leaderboard
+// ===========================================
+
+const TR_BASE_CCY = 'HKD';
+const TR_STARTING_CASH = 100000;
+const TR_FX_TICKERS = { USD:'USDHKD=X', CNY:'CNYHKD=X', HKD:null };
+let trFxCache = { HKD:1 };
+let trFxLastFetched = 0;
+let trAutoTimer = null;
+
+async function trHashPassword(pw){
+  const bytes = new TextEncoder().encode(pw);
+  const hash = await crypto.subtle.digest('SHA-256', bytes);
+  return Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+function trLoadAccounts(){
+  try{ return JSON.parse(localStorage.getItem('tr_accounts') || '{}'); }catch(e){ return {}; }
+}
+function trSaveAccounts(accts){ localStorage.setItem('tr_accounts', JSON.stringify(accts)); }
+function trGetCurrent(){ return localStorage.getItem('tr_current') || null; }
+function trSetCurrent(u){ if(u){ localStorage.setItem('tr_current', u);} else { localStorage.removeItem('tr_current'); } }
+
+function trMsg(text, type){
+  const el = document.getElementById('tr-msg');
+  if(!el) return;
+  el.textContent = text || '';
+  el.style.color = type === 'error' ? 'var(--red)' : type === 'ok' ? 'var(--green)' : 'var(--muted)';
+}
+
+async function trRegister(){
+  const u = document.getElementById('tr-user').value.trim();
+  const p = document.getElementById('tr-pass').value;
+  if(!u || u.length < 3){ trMsg('用户名至少3位 / username too short', 'error'); return; }
+  if(!p || p.length < 6){ trMsg('密码至少6位 / password too short', 'error'); return; }
+  const accts = trLoadAccounts();
+  if(accts[u]){ trMsg('用户名已存在 / user exists', 'error'); return; }
+  const hash = await trHashPassword(p);
+  accts[u] = { passHash:hash, cash:TR_STARTING_CASH, holdings:{}, orders:[], createdAt:new Date().toISOString() };
+  trSaveAccounts(accts);
+  trSetCurrent(u);
+  trMsg('账号创建成功，欢迎！ / account created.', 'ok');
+  refreshTradeUI(true);
+}
+
+async function trLogin(){
+  const u = document.getElementById('tr-user').value.trim();
+  const p = document.getElementById('tr-pass').value;
+  const accts = trLoadAccounts();
+  if(!accts[u]){ trMsg('账号不存在 / no such user', 'error'); return; }
+  const hash = await trHashPassword(p);
+  if(accts[u].passHash !== hash){ trMsg('密码错误 / wrong password', 'error'); return; }
+  trSetCurrent(u);
+  trMsg('登录成功 / logged in.', 'ok');
+  refreshTradeUI(true);
+}
+
+function trLogout(){ trSetCurrent(null); refreshTradeUI(); }
+
+async function trFetchFx(force){
+  const now = Date.now();
+  if(!force && now - trFxLastFetched < 60_000) return trFxCache;
+  trFxCache = { HKD:1 };
+  for(const [ccy, ticker] of Object.entries(TR_FX_TICKERS)){
+    if(!ticker) continue;
+    try{
+      const q = await fetchYahoo(ticker);
+      if(q && q.price) trFxCache[ccy] = parseFloat(q.price);
+    }catch(e){}
+  }
+  trFxLastFetched = now;
+  return trFxCache;
+}
+
+async function trQuoteToHKD(ticker){
+  const norm = normalizeTicker(ticker);
+  const q = await fetchYahoo(norm);
+  if(!q || !q.price) return null;
+  const fx = await trFetchFx();
+  const ccy = (q.currency || 'HKD').toUpperCase();
+  const rate = fx[ccy];
+  if(!rate){ return null; }
+  return { ticker:norm, currency:ccy, priceLocal:parseFloat(q.price), rate, priceHKD:parseFloat(q.price) * rate };
+}
+
+async function trBuy(){
+  const user = trGetCurrent();
+  if(!user){ trMsg('请先登录 / login first', 'error'); return; }
+  const ticker = document.getElementById('tr-ticker').value.trim();
+  const qty = parseFloat(document.getElementById('tr-qty').value);
+  if(!ticker || !qty || qty <= 0){ trMsg('请输入代码和数量 / enter ticker and quantity', 'error'); return; }
+  trMsg('Fetching price...', 'info');
+  const q = await trQuoteToHKD(ticker);
+  if(!q){ trMsg('行情获取失败 / failed to fetch quote', 'error'); return; }
+  const cost = q.priceHKD * qty;
+  const accts = trLoadAccounts();
+  const acct = accts[user];
+  if(cost > acct.cash){ trMsg(`现金不足: 需要 HKD ${cost.toFixed(2)}，仅有 HKD ${acct.cash.toFixed(2)}`, 'error'); return; }
+  acct.cash -= cost;
+  const h = acct.holdings[q.ticker] || { shares:0, avgCostHKD:0, currency:q.currency, lastPriceHKD:q.priceHKD, lastUpdated:new Date().toISOString() };
+  const newShares = h.shares + qty;
+  h.avgCostHKD = (h.avgCostHKD * h.shares + cost) / newShares;
+  h.shares = newShares;
+  h.currency = q.currency;
+  h.lastPriceHKD = q.priceHKD;
+  h.lastUpdated = new Date().toISOString();
+  acct.holdings[q.ticker] = h;
+  acct.orders.push({ ts:new Date().toISOString(), side:'BUY', ticker:q.ticker, qty, priceLocal:q.priceLocal, currency:q.currency, fx:q.rate, priceHKD:q.priceHKD, totalHKD:cost });
+  trSaveAccounts(accts);
+  trMsg(`Bought ${qty} ${q.ticker} @ ${q.priceLocal.toFixed(2)} ${q.currency} (HKD ${q.priceHKD.toFixed(2)}/share)`, 'ok');
+  refreshTradeUI(true);
+}
+
+async function trSell(){
+  const user = trGetCurrent();
+  if(!user){ trMsg('请先登录', 'error'); return; }
+  const ticker = document.getElementById('tr-ticker').value.trim();
+  const qty = parseFloat(document.getElementById('tr-qty').value);
+  if(!ticker || !qty || qty <= 0){ trMsg('请输入代码和数量', 'error'); return; }
+  const norm = normalizeTicker(ticker);
+  const accts = trLoadAccounts();
+  const acct = accts[user];
+  const h = acct.holdings[norm];
+  if(!h || h.shares < qty){ trMsg(`持仓不足: ${norm} 你只有 ${h ? h.shares : 0} 股`, 'error'); return; }
+  trMsg('Fetching price...', 'info');
+  const q = await trQuoteToHKD(norm);
+  if(!q){ trMsg('行情获取失败', 'error'); return; }
+  const proceeds = q.priceHKD * qty;
+  acct.cash += proceeds;
+  h.shares -= qty;
+  h.lastPriceHKD = q.priceHKD;
+  h.lastUpdated = new Date().toISOString();
+  const pnlHKD = (q.priceHKD - h.avgCostHKD) * qty;
+  if(h.shares <= 1e-8) delete acct.holdings[norm];
+  acct.orders.push({ ts:new Date().toISOString(), side:'SELL', ticker:norm, qty, priceLocal:q.priceLocal, currency:q.currency, fx:q.rate, priceHKD:q.priceHKD, totalHKD:proceeds, pnlHKD });
+  trSaveAccounts(accts);
+  trMsg(`Sold ${qty} ${norm} @ ${q.priceLocal.toFixed(2)} ${q.currency}; PnL HKD ${pnlHKD.toFixed(2)}`, pnlHKD >= 0 ? 'ok' : 'error');
+  refreshTradeUI(true);
+}
+
+async function trRefreshAccountQuotes(acct){
+  await trFetchFx();
+  const tickers = Object.keys(acct.holdings);
+  for(const t of tickers){
+    const q = await trQuoteToHKD(t);
+    if(q){ acct.holdings[t].lastPriceHKD = q.priceHKD; acct.holdings[t].lastUpdated = new Date().toISOString(); }
+  }
+}
+
+function trAccountEquity(acct){
+  let holdingsValue = 0;
+  Object.values(acct.holdings).forEach(h => { holdingsValue += (h.lastPriceHKD || 0) * h.shares; });
+  return { holdingsValue, totalEquity: acct.cash + holdingsValue };
+}
+
+function trRenderFx(){
+  const el = document.getElementById('tr-fx');
+  if(!el) return;
+  const parts = Object.entries(trFxCache).map(([c,r])=>`<span class="tag" style="background:var(--card);color:var(--txt2)">1 ${c} = ${r.toFixed(4)} HKD</span>`);
+  el.innerHTML = parts.join(' ') + ` <span style="font-size:.72rem;color:var(--muted);margin-left:.5rem">updated ${new Date(trFxLastFetched).toLocaleTimeString()}</span>`;
+}
+
+function trRenderHoldings(acct){
+  const el = document.getElementById('tr-holdings-table');
+  const entries = Object.entries(acct.holdings);
+  if(!entries.length){ el.innerHTML = '<div style="color:var(--muted)">No positions yet.</div>'; return; }
+  let html = '<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;padding:6px">Ticker</th><th style="text-align:right;padding:6px">Shares</th><th style="text-align:right;padding:6px">Avg Cost (HKD)</th><th style="text-align:right;padding:6px">Last Price (HKD)</th><th style="text-align:right;padding:6px">Market Value</th><th style="text-align:right;padding:6px">PnL</th><th style="text-align:right;padding:6px">Return</th></tr>';
+  entries.forEach(([t, h])=>{
+    const mv = h.lastPriceHKD * h.shares;
+    const pnl = (h.lastPriceHKD - h.avgCostHKD) * h.shares;
+    const ret = h.avgCostHKD ? (h.lastPriceHKD / h.avgCostHKD - 1) * 100 : 0;
+    const color = pnl >= 0 ? 'var(--green)' : 'var(--red)';
+    html += `<tr style="border-bottom:1px solid var(--border)">
+      <td style="padding:6px;color:var(--txt);font-weight:600">${t} <span style="color:var(--muted);font-size:.7rem">${h.currency || ''}</span></td>
+      <td style="padding:6px;text-align:right">${h.shares.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right">${h.avgCostHKD.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right">${h.lastPriceHKD.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right">${mv.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right;color:${color};font-weight:600">${pnl.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right;color:${color};font-weight:600">${ret.toFixed(2)}%</td>
+    </tr>`;
+  });
+  html += '</table>';
+  el.innerHTML = html;
+}
+
+function trRenderOrders(acct){
+  const el = document.getElementById('tr-orders');
+  const orders = (acct.orders || []).slice(-60).reverse();
+  if(!orders.length){ el.innerHTML = '<div style="color:var(--muted)">No orders yet.</div>'; return; }
+  let html = '<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;padding:6px">Time</th><th style="text-align:left;padding:6px">Side</th><th style="text-align:left;padding:6px">Ticker</th><th style="text-align:right;padding:6px">Qty</th><th style="text-align:right;padding:6px">Price (Local)</th><th style="text-align:right;padding:6px">Total (HKD)</th><th style="text-align:right;padding:6px">PnL</th></tr>';
+  orders.forEach(o=>{
+    const color = o.side === 'BUY' ? 'var(--green)' : 'var(--red)';
+    const pnl = o.pnlHKD == null ? '-' : `<span style="color:${o.pnlHKD>=0?'var(--green)':'var(--red)'}">${o.pnlHKD.toFixed(2)}</span>`;
+    html += `<tr style="border-bottom:1px solid var(--border)">
+      <td style="padding:6px">${o.ts.slice(0,16).replace('T',' ')}</td>
+      <td style="padding:6px;color:${color};font-weight:700">${o.side}</td>
+      <td style="padding:6px">${o.ticker} <span style="color:var(--muted);font-size:.7rem">${o.currency}</span></td>
+      <td style="padding:6px;text-align:right">${o.qty}</td>
+      <td style="padding:6px;text-align:right">${o.priceLocal.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right">${o.totalHKD.toFixed(2)}</td>
+      <td style="padding:6px;text-align:right">${pnl}</td>
+    </tr>`;
+  });
+  html += '</table>';
+  el.innerHTML = html;
+}
+
+async function trRenderLeaderboard(){
+  const accts = trLoadAccounts();
+  const usernames = Object.keys(accts);
+  const el = document.getElementById('tr-leaderboard');
+  if(!usernames.length){ el.innerHTML = '<div style="color:var(--muted)">还没有玩家，注册第一个吧 / no traders yet.</div>'; return; }
+  await trFetchFx();
+  const priceCache = {};
+  for(const u of usernames){
+    for(const t of Object.keys(accts[u].holdings)){
+      if(!(t in priceCache)){
+        const q = await trQuoteToHKD(t);
+        if(q) priceCache[t] = q.priceHKD;
+      }
+      if(priceCache[t]) accts[u].holdings[t].lastPriceHKD = priceCache[t];
+    }
+  }
+  trSaveAccounts(accts);
+  const rows = usernames.map(u=>{
+    const a = accts[u];
+    const eq = trAccountEquity(a);
+    const ret = (eq.totalEquity / TR_STARTING_CASH - 1) * 100;
+    return { user:u, cash:a.cash, holdings:eq.holdingsValue, equity:eq.totalEquity, ret, orders:(a.orders || []).length };
+  }).sort((x,y)=> y.ret - x.ret);
+  let html = '<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;padding:6px">Rank</th><th style="text-align:left;padding:6px">Trader</th><th style="text-align:right;padding:6px">Equity (HKD)</th><th style="text-align:right;padding:6px">Cash</th><th style="text-align:right;padding:6px">Holdings</th><th style="text-align:right;padding:6px">Return</th><th style="text-align:right;padding:6px">Orders</th></tr>';
+  rows.forEach((r,i)=>{
+    const c = r.ret >= 0 ? 'var(--green)' : 'var(--red)';
+    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
+    html += `<tr style="border-bottom:1px solid var(--border)">
+      <td style="padding:7px;font-weight:700">${i+1} ${medal}</td>
+      <td style="padding:7px;color:var(--txt);font-weight:600">${r.user}</td>
+      <td style="padding:7px;text-align:right;font-weight:700">${r.equity.toFixed(2)}</td>
+      <td style="padding:7px;text-align:right">${r.cash.toFixed(2)}</td>
+      <td style="padding:7px;text-align:right">${r.holdings.toFixed(2)}</td>
+      <td style="padding:7px;text-align:right;color:${c};font-weight:700">${r.ret.toFixed(2)}%</td>
+      <td style="padding:7px;text-align:right">${r.orders}</td>
+    </tr>`;
+  });
+  html += '</table>';
+  el.innerHTML = html;
+}
+
+async function refreshTradeUI(forceQuotes){
+  const user = trGetCurrent();
+  const authEl = document.getElementById('trade-auth');
+  const panelEl = document.getElementById('trade-panel');
+  if(!user){
+    if(authEl) authEl.style.display = '';
+    if(panelEl) panelEl.style.display = 'none';
+  } else {
+    if(authEl) authEl.style.display = 'none';
+    if(panelEl) panelEl.style.display = '';
+    const accts = trLoadAccounts();
+    const acct = accts[user];
+    if(forceQuotes) await trRefreshAccountQuotes(acct);
+    trSaveAccounts(accts);
+    const eq = trAccountEquity(acct);
+    const ret = (eq.totalEquity / TR_STARTING_CASH - 1) * 100;
+    document.getElementById('tr-current').textContent = user;
+    document.getElementById('tr-cash').textContent = acct.cash.toFixed(2);
+    document.getElementById('tr-holdings').textContent = eq.holdingsValue.toFixed(2);
+    document.getElementById('tr-equity').textContent = eq.totalEquity.toFixed(2);
+    const retEl = document.getElementById('tr-return');
+    retEl.textContent = `${ret.toFixed(2)}%`;
+    retEl.style.color = ret >= 0 ? 'var(--green)' : 'var(--red)';
+    trRenderFx();
+    trRenderHoldings(acct);
+    trRenderOrders(acct);
+  }
+  await trRenderLeaderboard();
+  if(!trAutoTimer){
+    trAutoTimer = setInterval(()=>{
+      const tradePage = document.getElementById('page-trade');
+      if(tradePage && tradePage.style.display !== 'none') refreshTradeUI(true);
+    }, 60_000);
+  }
+}
+
+function trExport(){
+  const blob = new Blob([JSON.stringify({ accounts: trLoadAccounts(), exportedAt:new Date().toISOString() }, null, 2)], { type:'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `paper_trading_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+}
+
+function trImport(evt){
+  const file = evt.target.files?.[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e=>{
+    try{
+      const data = JSON.parse(e.target.result);
+      if(!data.accounts){ alert('Invalid file'); return; }
+      const existing = trLoadAccounts();
+      Object.assign(existing, data.accounts);
+      trSaveAccounts(existing);
+      alert('Imported. Refreshing...');
+      refreshTradeUI(true);
+    }catch(err){ alert('Failed: ' + err.message); }
+  };
+  reader.readAsText(file);
+}
+
+// ===========================================
+// Private Strategy Page (password-gated)
+// ===========================================
+
+const STRATEGY_PASSWORD_HASH = 'bf680f250feea1f9d0e2419f1ec5dffcbf2a0d0888b744946c5d2acf9cf21038';
+const STRATEGY_SALT = 'alpha-signal::';
+const STRATEGY_SESSION_KEY = 'strategy_unlocked_v1';
+
+async function hashStrategyPassword(pw){
+  const bytes = new TextEncoder().encode(STRATEGY_SALT + pw);
+  const hash = await crypto.subtle.digest('SHA-256', bytes);
+  return Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+async function strategyUnlock(){
+  const pw = document.getElementById('strategy-pass').value;
+  const msg = document.getElementById('strategy-pass-msg');
+  if(!pw){ msg.textContent = '请输入密码'; msg.style.color = 'var(--red)'; return; }
+  const h = await hashStrategyPassword(pw);
+  if(h === STRATEGY_PASSWORD_HASH){
+    sessionStorage.setItem(STRATEGY_SESSION_KEY, '1');
+    msg.textContent = '✓ Unlocked';
+    msg.style.color = 'var(--green)';
+    document.getElementById('strategy-pass').value = '';
+    refreshStrategyUI();
+    await loadStrategyData();
+  } else {
+    msg.textContent = '密码错误';
+    msg.style.color = 'var(--red)';
+  }
+}
+
+function strategyLock(){
+  sessionStorage.removeItem(STRATEGY_SESSION_KEY);
+  refreshStrategyUI();
+}
+
+function refreshStrategyUI(){
+  const unlocked = sessionStorage.getItem(STRATEGY_SESSION_KEY) === '1';
+  const lock = document.getElementById('strategy-lock');
+  const content = document.getElementById('strategy-content');
+  if(!lock || !content) return;
+  lock.style.display = unlocked ? 'none' : 'block';
+  content.style.display = unlocked ? 'block' : 'none';
+  if(unlocked) loadStrategyData();
+}
+
+async function loadStrategyData(){
+  try{
+    const r = await fetch('data/strategy_signal.json', { cache: 'no-store' });
+    if(!r.ok) return;
+    const d = await r.json();
+    const el = document.getElementById('strategy-latest');
+    if(!el) return;
+    el.innerHTML = `
+      <div><span style="color:var(--muted)">Generated:</span> ${d.timestamp || '-'}</div>
+      <div style="margin-top:.5rem"><span style="color:var(--muted)">Signal:</span> <strong style="color:${d.signal === 'BUY' ? 'var(--green)' : d.signal === 'SELL' ? 'var(--red)' : 'var(--yellow)'}">${d.signal || '-'}</strong></div>
+      <div style="margin-top:.5rem"><span style="color:var(--muted)">Detail:</span></div>
+      <pre style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.8rem;margin-top:.4rem;color:var(--txt2);font-size:.78rem;line-height:1.6;white-space:pre-wrap">${JSON.stringify(d, null, 2)}</pre>
+    `;
+  }catch(e){}
+  try{
+    const r2 = await fetch('data/strategy_rules.txt', { cache: 'no-store' });
+    if(r2.ok){
+      const text = await r2.text();
+      const pre = document.getElementById('strategy-rules');
+      if(pre && text.trim()) pre.textContent = text;
+    }
+  }catch(e){}
 }
 
 function renderTradeLog(trades){
