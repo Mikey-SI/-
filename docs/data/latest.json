@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-05-18T14:52:25.562992",
+  "timestamp": "2026-05-19T03:49:23.560115",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 30.66,
-      "change": -0.04,
-      "change_pct": -0.13,
-      "volume": 116609036,
+      "price": 30.68,
+      "change": 0.02,
+      "change_pct": 0.07,
+      "volume": 39046164,
       "high": 31.06,
-      "low": 30.14,
-      "open": 31.0,
-      "prev_close": 30.7,
-      "market_cap": 791692836864,
-      "pe_ratio": 17.033333,
+      "low": 30.46,
+      "open": 30.68,
+      "prev_close": 30.66,
+      "market_cap": 792015929344,
+      "pe_ratio": 17.139666,
       "52w_high": 61.45,
       "52w_low": 28.8,
-      "date": "2026-05-18"
+      "date": "2026-05-19"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 704.33,
-      "change": -4.6,
-      "change_pct": -0.65,
-      "volume": 15580975,
+      "price": 705.88,
+      "change": -3.05,
+      "change_pct": -0.43,
+      "volume": 49308374,
       "high": 712.07,
-      "low": 702.72,
+      "low": 698.87,
       "open": 711.54,
       "prev_close": 708.93,
       "market_cap": "N/A",
-      "pe_ratio": 34.359177,
+      "pe_ratio": 34.433815,
       "52w_high": 722.03,
       "52w_low": 505.58,
       "date": "2026-05-18"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 106.71,
-      "change": -2.06,
-      "change_pct": -1.89,
-      "volume": 58531802,
+      "price": 108.17,
+      "change": -0.6,
+      "change_pct": -0.55,
+      "volume": 144148961,
       "high": 115.53,
-      "low": 106.22,
+      "low": 103.85,
       "open": 113.51,
       "prev_close": 108.77,
-      "market_cap": 536374706176,
+      "market_cap": 543662407680,
       "pe_ratio": "N/A",
       "52w_high": 132.75,
       "52w_low": 18.97,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 420.22,
-      "change": -1.7,
-      "change_pct": -0.4,
-      "volume": 8560537,
-      "high": 424.16,
+      "price": 423.54,
+      "change": 1.62,
+      "change_pct": 0.38,
+      "volume": 31059371,
+      "high": 425.11,
       "low": 415.61,
       "open": 416.1,
       "prev_close": 421.92,
-      "market_cap": 3121576935424,
-      "pe_ratio": 25.027992,
+      "market_cap": 3146239442944,
+      "pe_ratio": 25.255814,
       "52w_high": 555.45,
       "52w_low": 356.28,
       "date": "2026-05-18"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 76358.01,
-      "change": -1071.34,
-      "change_pct": -1.38,
-      "volume": 34686648320,
-      "high": 77673.91,
-      "low": 76315.17,
-      "open": 77414.91,
+      "price": 76769.4,
+      "change": -659.95,
+      "change_pct": -0.85,
+      "volume": 39208124416,
+      "high": 77206.0,
+      "low": 76502.55,
+      "open": 76952.05,
       "prev_close": 77429.35,
-      "market_cap": 1529343770624,
+      "market_cap": 1538104229888,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 60074.203,
-      "date": "2026-05-18"
+      "date": "2026-05-19"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7399.01,
-      "change": -9.49,
-      "change_pct": -0.13,
-      "volume": 808203200,
+      "price": 7403.05,
+      "change": -5.45,
+      "change_pct": -0.07,
+      "volume": 3110807000,
       "high": 7434.06,
-      "low": 7383.31,
+      "low": 7353.17,
       "open": 7415.07,
       "prev_close": 7408.5,
       "market_cap": "N/A",
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26080.48,
-      "change": -144.66,
-      "change_pct": -0.55,
-      "volume": 3592940000,
+      "price": 26090.73,
+      "change": -134.41,
+      "change_pct": -0.51,
+      "volume": 9179088000,
       "high": 26310.84,
-      "low": 26022.73,
+      "low": 25867.3,
       "open": 26289.49,
       "prev_close": 26225.14,
       "market_cap": "N/A",
@@ -125,46 +125,46 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25675.18,
-      "change": -287.55,
-      "change_pct": -1.11,
+      "price": 25752.46,
+      "change": 77.28,
+      "change_pct": 0.3,
       "volume": 0,
-      "high": 25838.96,
-      "low": 25505.71,
-      "open": 25838.96,
-      "prev_close": 25962.73,
+      "high": 25845.46,
+      "low": 25671.12,
+      "open": 25693.37,
+      "prev_close": 25675.18,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22668.35,
-      "date": "2026-05-18"
+      "date": "2026-05-19"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4833.52,
-      "change": -26.07,
-      "change_pct": -0.54,
-      "volume": 2432922220,
-      "high": 4868.6,
-      "low": 4806.15,
-      "open": 4836.33,
-      "prev_close": 4859.59,
+      "price": 4808.46,
+      "change": -25.06,
+      "change_pct": -0.52,
+      "volume": 884791112,
+      "high": 4824.47,
+      "low": 4773.53,
+      "open": 4818.71,
+      "prev_close": 4833.52,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4868.6006,
+      "52w_high": 4824.469,
       "52w_low": 3458.44,
-      "date": "2026-05-18"
+      "date": "2026-05-19"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 49667.84,
-      "change": 141.67,
-      "change_pct": 0.29,
-      "volume": 138038821,
+      "price": 49686.12,
+      "change": 159.95,
+      "change_pct": 0.32,
+      "volume": 461523684,
       "high": 49761.16,
-      "low": 49454.66,
+      "low": 49352.56,
       "open": 49481.04,
       "prev_close": 49526.17,
       "market_cap": "N/A",
@@ -178,94 +178,82 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Musk slams Altman trial verdict as a 'technicality,' vows to appeal",
+        "source": "CNBC Top",
+        "published": "2026-05-18 22:07",
+        "link": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html"
+      },
+      {
+        "title": "After U.S. SEC, Treasury and Justice departments offer billionaire Gautam Adani legal relief",
+        "source": "CNBC Top",
+        "published": "2026-05-19 03:25",
+        "link": "https://www.cnbc.com/2026/05/19/adani-treasury-justice-department-sec-settlement.html"
+      },
+      {
+        "title": "Trump says he's postponing 'scheduled attack of Iran tomorrow' at Middle East leaders' request",
+        "source": "CNBC Top",
+        "published": "2026-05-18 22:40",
+        "link": "https://www.cnbc.com/2026/05/18/trump-iran-attack-saudi-uae-qatar-deal.html"
+      },
+      {
+        "title": "Japan's economy grows at annualized 2.1% rate in first quarter, beating expectations",
+        "source": "CNBC Top",
+        "published": "2026-05-19 03:36",
+        "link": "https://www.cnbc.com/2026/05/19/japan-first-quarter-gdp-economy-inflation-energy.html"
+      },
+      {
+        "title": "These chip stocks could extend historic gains by rallying over 110%, according to Nomura",
+        "source": "CNBC Top",
+        "published": "2026-05-18 23:09",
+        "link": "https://www.cnbc.com/2026/05/19/chip-stocks-samsung-sk-hynix-ai-memory.html"
+      },
+      {
+        "title": "Oil prices fall as Trump postpones Iran strike, easing supply disruption fears",
+        "source": "CNBC Top",
+        "published": "2026-05-19 00:47",
+        "link": "https://www.cnbc.com/2026/05/19/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude.html"
+      },
+      {
+        "title": "Asia markets trade broadly higher as oil eases after Trump delays planned Iran strike",
+        "source": "CNBC Top",
+        "published": "2026-05-19 01:52",
+        "link": "https://www.cnbc.com/2026/05/19/asia-markets-today-asx-sensex-nikkei-kospi-hang-seng-csi-300-nifty.html"
+      },
+      {
+        "title": "Trump says he's 'concerned' about Ebola after American tests positive in Africa",
+        "source": "CNBC Top",
+        "published": "2026-05-18 22:33",
+        "link": "https://www.cnbc.com/2026/05/18/trump-ebola-virus-concerned-africa.html"
+      },
+      {
         "title": "Meta layoffs starting this week stress harsh AI reality inside Zuckerberg’s company",
         "source": "CNBC Top",
-        "published": "2026-05-18 14:38",
+        "published": "2026-05-18 16:33",
         "link": "https://www.cnbc.com/2026/05/18/metas-layoffs-starting-this-week-underscore-zuckerbergs-ai-reality-.html"
-      },
-      {
-        "title": "Trump drops $10 billion lawsuit against IRS",
-        "source": "CNBC Top",
-        "published": "2026-05-18 14:28",
-        "link": "https://www.cnbc.com/2026/05/18/trump-dismiss-irs-lawsuit.html"
-      },
-      {
-        "title": "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
-        "source": "CNBC Top",
-        "published": "2026-05-18 14:32",
-        "link": "https://www.cnbc.com/2026/05/18/nextera-nee-dominion-energy-d-data-center-ai.html"
-      },
-      {
-        "title": "S&P 500, Nasdaq fall for a second day as Micron drops, traders eye oil and yields: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-05-18 14:45",
-        "link": "https://www.cnbc.com/2026/05/17/stock-market-today-live-updates.html"
-      },
-      {
-        "title": "10-year Treasury yield touches highest in a year, Japan's 30-year yield rises to a record",
-        "source": "CNBC Top",
-        "published": "2026-05-18 13:40",
-        "link": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html"
-      },
-      {
-        "title": "Dan Loeb’s Third Point expands AI bets with new stakes in Hut 8 and chip names",
-        "source": "CNBC Top",
-        "published": "2026-05-18 14:34",
-        "link": "https://www.cnbc.com/2026/05/18/dan-loebs-third-point-expands-ai-bets-with-new-stakes-in-hut-8-and-chip-names.html"
       },
       {
         "title": "Lululemon takes battle with Chip Wilson public, calls founder 'misguided' and 'outdated'",
         "source": "CNBC Top",
-        "published": "2026-05-18 14:36",
+        "published": "2026-05-18 19:03",
         "link": "https://www.cnbc.com/2026/05/18/lululemon-proxy-war-with-chip-wilson-goes-public-sets-annual-meeting.html"
-      },
-      {
-        "title": "Can colleges still deliver in the age of AI? One Ivy League school is investing $30 million to improve career outcomes",
-        "source": "CNBC Top",
-        "published": "2026-05-18 12:15",
-        "link": "https://www.cnbc.com/2026/05/18/what-this-ivy-league-is-doing-to-get-students-hired-in-the-age-of-ai.html"
-      },
-      {
-        "title": "JPMorgan's summer reading list for the wealthy includes books on AI, leadership and lemons",
-        "source": "CNBC Top",
-        "published": "2026-05-18 13:00",
-        "link": "https://www.cnbc.com/2026/05/18/jpmorgan-summer-reading-list.html"
-      },
-      {
-        "title": "Berkshire has revamped its portfolio — here's how the new stocks are trading",
-        "source": "CNBC Top",
-        "published": "2026-05-18 13:58",
-        "link": "https://www.cnbc.com/2026/05/18/berkshire-portfolio-revamp-delta-airlines-macys-unitedhealth.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Trump says he should've asked for 'more' of Intel when negotiating stake with CEO",
+        "title": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
         "source": "CNBC Top",
-        "published": "2026-05-18 12:26",
-        "link": "https://www.cnbc.com/2026/05/18/trump-stake-in-intel.html"
+        "published": "2026-05-18 23:01",
+        "link": "https://www.cnbc.com/2026/05/18/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html"
       },
       {
-        "title": "Trump's 25% cut on Nvidia chips sold to China backfired — Beijing won't approve a single H200 purchase, costs Huang $30B",
-        "source": "Yahoo Finance",
-        "published": "2026-05-18 14:30",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/trumps-25-cut-nvidia-chips-143000435.html"
+        "title": "Trump says he should've asked for 'more' of Intel when negotiating stake with CEO",
+        "source": "CNBC Tech",
+        "published": "2026-05-18 12:26",
+        "link": "https://www.cnbc.com/2026/05/18/trump-stake-in-intel.html"
       }
     ],
     "tech": [],
     "market": [
-      {
-        "title": "Homebuilder sentiment improves on late spring surge in demand",
-        "source": "CNBC Top",
-        "published": "2026-05-18 14:15",
-        "link": "https://www.cnbc.com/2026/05/18/may-homebuilder-sentiment-improves.html"
-      },
-      {
-        "title": "Here are Monday's biggest analyst calls: Nvidia, Netflix, Amazon, TJX Companies, Arm, Viking, Circle & more",
-        "source": "CNBC Top",
-        "published": "2026-05-18 12:25",
-        "link": "https://www.cnbc.com/2026/05/18/here-are-mondays-biggest-analyst-calls-nvidia-netflix-amazon-tjx-companies-arm-viking-circle-more.html"
-      },
       {
         "title": "S&P 500 manages to extend weekly win streak despite anticlimactic Trump-Xi summit",
         "source": "CNBC Tech",
@@ -273,10 +261,28 @@
         "link": "https://www.cnbc.com/2026/05/16/sp-500-manages-to-extend-weekly-win-streak-despite-anticlimactic-trump-xi-summit.html"
       },
       {
-        "title": "Stock Market Today: Dow Wavers As Oil Falls On Iran News; Nvidia, Walmart On Watch (Live Coverage)",
+        "title": "Is Alphabet (GOOGL) One of the Best Fundamentally Strong Stocks to Buy Now?",
         "source": "Yahoo Finance",
-        "published": "2026-05-18 14:02",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-walmart-tesla/?src=A00220&yptr=yahoo"
+        "published": "2026-05-17 16:38",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-one-best-fundamentally-163839846.html"
+      },
+      {
+        "title": "Hers’s Why NVIDIA (NVDA) Is One of the Best Fundamentally Strong Stocks to Buy Now",
+        "source": "Yahoo Finance",
+        "published": "2026-05-17 16:38",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/hers-why-nvidia-nvda-one-163849863.html"
+      },
+      {
+        "title": "Interactive Brokers Group (IBKR) Announces Launch of Unified Interface for Trading Prediction Markets",
+        "source": "Yahoo Finance",
+        "published": "2026-05-17 16:39",
+        "link": "https://finance.yahoo.com/markets/options/articles/interactive-brokers-group-ibkr-announces-163926970.html"
+      },
+      {
+        "title": "SpaceX IPO set to hand $20bn stake to one hedge fund",
+        "source": "FT Markets",
+        "published": "2026-05-18 23:50",
+        "link": "https://www.ft.com/content/f0838802-a923-43eb-9ea1-331cf6b5f038"
       },
       {
         "title": "Bonds bad",
@@ -300,42 +306,44 @@
   },
   "sentiment": {
     "qqq_intel": {
-      "overall_sentiment": "mixed",
-      "sentiment_score": -0.1,
-      "confidence": 0.8,
+      "overall_sentiment": "bearish",
+      "sentiment_score": -0.4,
+      "confidence": 0.7,
       "key_positive_factors": [
-        "Intel stock surged after U.S. equity deal giving government 9.9% stake",
-        "Trump's comment implies Intel's value has increased significantly"
+        "Intel stock has soared since the U.S. equity deal in August"
       ],
       "key_negative_factors": [
-        "Trump's 25% cut on Nvidia chips to China backfired, costing Huang $30B",
-        "Beijing refuses to approve H200 purchases, indicating trade tensions persist"
+        "Tech sector slid, dragging S&P 500 and Nasdaq lower",
+        "Micron Technology lost nearly 6%",
+        "Trump suggests he should have asked for more of Intel"
       ],
-      "short_term_outlook": "Uncertain; Intel benefits from government backing but broader chip sector faces headwinds from China trade restrictions.",
-      "analysis_en": "The news articles present a mixed sentiment for Intel (qqq_intel). On the positive side, Intel's stock has risen sharply following a U.S. equity deal that gave the government a 9.9% stake, and Trump's comment about wanting 'more' of Intel suggests the company's value is perceived as high. However, the negative factor is significant: Trump's 25% tariff on Nvidia chips sold to China has backfired, with Beijing refusing to approve H200 purchases, costing Nvidia $30 billion. This indicates escalating trade tensions that could spill over to Intel, especially if China retaliates against U.S. chipmakers. Overall, the sentiment is slightly bearish due to the broader geopolitical risks, despite Intel's short-term gains.",
-      "analysis_cn": "这些新闻对英特尔（qqq_intel）的情绪呈现混合状态。积极方面，英特尔股价因美国政府通过股权交易获得9.9%股份而大幅上涨，特朗普表示本应要求‘更多’股份，暗示公司价值被看好。然而，负面因素显著：特朗普对英伟达向中国销售的芯片征收25%关税适得其反，北京拒绝批准H200采购，导致英伟达损失300亿美元。这表明贸易紧张局势升级，可能波及英特尔，尤其是如果中国对美国芯片制造商采取报复措施。总体情绪略微看跌，尽管英特尔短期受益于政府支持，但地缘政治风险不容忽视。"
+      "short_term_outlook": "Near-term pressure from broad tech selloff and negative sentiment around chip stocks, but Intel's government deal provides some support.",
+      "analysis_en": "The articles indicate a bearish sentiment for Intel in the short term, driven by a broader tech sector decline and negative news about chip stocks like Micron. However, Intel's stock has performed well since the U.S. equity deal in August, which provides a positive counterbalance. Trump's comment about wanting more of Intel adds uncertainty but does not directly impact fundamentals. Overall, the sentiment is moderately bearish with a score of -0.4, reflecting the negative market context but acknowledging Intel's recent gains.",
+      "analysis_cn": "这些文章显示英特尔短期情绪偏空，主要受科技板块整体下跌和美光等芯片股负面消息拖累。但自8月美国股权交易以来，英特尔股价表现强劲，形成一定支撑。特朗普关于希望获得更多英特尔股份的言论增加了不确定性，但未直接影响基本面。整体情绪为中度看空，得分为-0.4，反映了负面市场环境，同时认可了英特尔的近期涨幅。"
     },
     "macro": {
       "overall_sentiment": "mixed",
-      "sentiment_score": -0.1,
+      "sentiment_score": 0.15,
       "confidence": 0.85,
       "key_positive_factors": [
-        "AI infrastructure investments (NextEra-Dominion, Dan Loeb's AI bets, Cerebras IPO)",
-        "Berkshire Hathaway portfolio revamp (airline and tech bets)",
-        "JPMorgan summer reading list includes AI books, indicating sustained interest"
+        "Japan's economy grew at a stronger-than-expected annualized 2.1% rate in Q1, beating forecasts",
+        "Oil prices fell as Trump postponed Iran strike, easing supply disruption fears and lowering inflation risks",
+        "Asia markets traded broadly higher on lower oil prices and reduced geopolitical tensions",
+        "Chip stocks have strong upside potential due to surging AI memory demand, per Nomura",
+        "Intel's foundry business is gaining momentum with growing customer interest",
+        "Google's AI showcase at I/O could reinforce positive market narrative"
       ],
       "key_negative_factors": [
-        "Rising global bond yields (10-year Treasury at 1-year high, Japan 30-year record)",
-        "Meta layoffs (8,000 jobs cut) signaling AI-driven job displacement",
-        "S&P 500 and Nasdaq falling for second day amid oil and yield concerns",
-        "High energy prices threatening Europe's AI race",
-        "Jim Cramer warning about bond market and IPO speculation",
-        "Lululemon proxy battle and founder dispute",
-        "College students worried about AI disrupting careers"
+        "Elon Musk lost court battle against Sam Altman and OpenAI, plans appeal, adding legal uncertainty",
+        "Meta layoffs of 8,000 jobs highlight harsh AI-driven restructuring and job market concerns",
+        "Retail stocks are ailing on fears about U.S. consumer weakness, signaling potential economic slowdown",
+        "High energy prices in Europe could derail AI race with U.S. and China, creating regional disparity",
+        "Trump expressed concern about Ebola after American tested positive in Africa, adding health risk uncertainty",
+        "Lululemon's public battle with founder Chip Wilson creates corporate governance distraction"
       ],
-      "short_term_outlook": "Markets face headwinds from rising bond yields and geopolitical tensions, but AI-related investments continue to drive selective optimism. Near-term volatility expected.",
-      "analysis_en": "The macro sentiment is mixed with a slight bearish tilt. On the positive side, AI infrastructure deals (NextEra-Dominion), hedge fund AI bets (Third Point), and strong IPO demand (Cerebras) indicate robust long-term AI investment themes. However, these are overshadowed by immediate macro pressures: global bond yields are spiking (10-year Treasury at 1-year high, Japan 30-year record), causing equity selloffs (S&P 500, Nasdaq down for second day). Meta's 8,000 layoffs highlight AI's disruptive impact on jobs, while high energy costs threaten Europe's AI competitiveness. Jim Cramer's warnings about bond yields and IPO speculation add caution. The Lululemon proxy battle and student career anxiety reflect broader societal tensions. Overall, the market is caught between AI-driven optimism and macro headwinds from inflation fears and rising yields.",
-      "analysis_cn": "宏观情绪呈现混合偏空态势。积极方面，AI基础设施交易（NextEra-Dominion）、对冲基金AI押注（Third Point）以及强劲的IPO需求（Cerebras）表明长期AI投资主题依然强劲。然而，这些被即时的宏观压力所掩盖：全球债券收益率飙升（10年期美债收益率创一年新高，日本30年期收益率创纪录），导致股市抛售（标普500、纳斯达克连续两日下跌）。Meta裁员8000人凸显了AI对就业的颠覆性影响，而高能源成本威胁欧洲AI竞争力。Jim Cramer对债券收益率和IPO投机的警告增加了谨慎情绪。Lululemon代理权之争和学生职业焦虑反映了更广泛的社会紧张局势。总体而言，市场在AI驱动的乐观情绪与通胀担忧及收益率上升的宏观逆风之间摇摆不定。"
+      "short_term_outlook": "Markets are cautiously optimistic as geopolitical tensions ease with Iran strike postponement and oil prices decline, but underlying risks from consumer weakness, corporate layoffs, and legal battles keep sentiment mixed. Near-term focus will be on AI-driven tech momentum versus macro headwinds.",
+      "analysis_en": "The overall sentiment from the macro news articles is mixed with a slight bullish tilt. Positive factors include Japan's stronger-than-expected GDP growth, which signals resilience in a major economy, and the sharp drop in oil prices following Trump's decision to postpone a strike on Iran, which reduces immediate geopolitical risk and inflation pressure. This has lifted Asian markets and improved risk appetite. Additionally, the chip sector continues to benefit from AI-driven demand, with Nomura highlighting potential for over 110% gains, and Intel's foundry turnaround gaining traction. However, negative factors temper the optimism. Elon Musk's legal loss to OpenAI introduces uncertainty in the tech leadership space, while Meta's large-scale layoffs underscore the disruptive impact of AI on employment. Retail stocks are under pressure from weakening U.S. consumer sentiment, and Europe faces energy cost challenges that could hinder its AI competitiveness. The Ebola concern adds a minor health risk factor. Overall, the market is navigating a delicate balance between AI-driven growth optimism and macro-economic vulnerabilities, with the short-term outlook hinging on whether easing geopolitical tensions can sustain the positive momentum.",
+      "analysis_cn": "宏观新闻的整体情绪为混合，略微偏向乐观。积极因素包括日本第一季度GDP增速超预期，达到年化2.1%，显示主要经济体的韧性；以及特朗普推迟对伊朗的打击计划导致油价大幅下跌，降低了地缘政治风险和通胀压力，提振了亚洲市场情绪。芯片板块继续受益于AI驱动的需求，野村证券指出潜在涨幅可超110%，英特尔代工业务也获得增长动力。然而，负面因素限制了乐观情绪。马斯克在与OpenAI的法律诉讼中败诉，给科技领导层带来不确定性；Meta裁员8000人凸显AI对就业的冲击；零售股因美国消费者疲软而承压；欧洲面临能源成本高企可能阻碍AI竞争的问题。埃博拉病毒担忧增加了轻微的健康风险。总体而言，市场在AI驱动的增长乐观与宏观经济脆弱性之间寻求平衡，短期前景取决于地缘政治缓和能否持续支撑积极势头。"
     }
   },
   "keywords": {
@@ -346,7 +354,12 @@
         "category": "Technology"
       },
       {
-        "word": "layoffs",
+        "word": "Oil prices",
+        "importance": 0.9,
+        "category": "Commodities"
+      },
+      {
+        "word": "Layoffs",
         "importance": 0.85,
         "category": "Employment"
       },
@@ -356,81 +369,91 @@
         "category": "Finance"
       },
       {
-        "word": "bond yields",
-        "importance": 0.78,
-        "category": "Macroeconomics"
-      },
-      {
-        "word": "data centers",
+        "word": "Market rotation",
         "importance": 0.75,
-        "category": "Infrastructure"
+        "category": "Investment Strategy"
       },
       {
-        "word": "energy costs",
-        "importance": 0.72,
+        "word": "Supply disruption",
+        "importance": 0.7,
+        "category": "Geopolitics"
+      },
+      {
+        "word": "Consumer staples",
+        "importance": 0.65,
+        "category": "Retail"
+      },
+      {
+        "word": "Foundry",
+        "importance": 0.6,
+        "category": "Semiconductors"
+      },
+      {
+        "word": "Energy costs",
+        "importance": 0.55,
         "category": "Energy"
       },
       {
-        "word": "inflation",
-        "importance": 0.7,
-        "category": "Macroeconomics"
-      },
-      {
-        "word": "Nvidia",
-        "importance": 0.68,
-        "category": "Company"
-      },
-      {
-        "word": "Cerebras",
-        "importance": 0.65,
-        "category": "Company"
-      },
-      {
-        "word": "OpenAI",
-        "importance": 0.62,
-        "category": "Company"
+        "word": "Creator content",
+        "importance": 0.5,
+        "category": "Media"
       }
     ],
     "themes": [
       {
-        "theme": "AI-driven corporate restructuring",
-        "description": "Companies like Meta are cutting jobs while pivoting heavily toward AI, reflecting a harsh reality of workforce transformation."
+        "theme": "AI-Driven Market Shifts",
+        "description": "AI is reshaping corporate strategies, from layoffs at Meta to chip demand and IPO hype for AI firms like Cerebras."
       },
       {
-        "theme": "AI infrastructure race",
-        "description": "Deals like NextEra-Dominion and investments in data centers highlight the massive energy and capital needed to power AI."
+        "theme": "Geopolitical Tensions and Oil Volatility",
+        "description": "Trump's Iran strike postponement eases supply fears, causing oil price drops and impacting global markets."
       },
       {
-        "theme": "Rising bond yields and inflation fears",
-        "description": "Global bond yields are climbing due to inflation concerns, impacting stock markets and investor sentiment."
+        "theme": "Consumer Spending Concerns",
+        "description": "Retail stocks are ailing due to fears about U.S. consumer health, prompting a pivot to staples."
       },
       {
-        "theme": "AI investment boom and IPO frenzy",
-        "description": "AI-related IPOs (e.g., Cerebras) and hedge fund bets (e.g., Third Point) signal strong investor appetite, but also crowding risks."
+        "theme": "Legal and Regulatory Battles",
+        "description": "High-profile legal cases (Musk vs. Altman, Adani settlements) and proxy fights (Lululemon) highlight corporate governance issues."
       },
       {
-        "theme": "Geopolitical and energy tensions",
-        "description": "Trump's Iran threat and high energy prices in Europe are creating headwinds for markets and AI competitiveness."
+        "theme": "Energy Costs as Competitive Factor",
+        "description": "High energy prices in Europe threaten its AI race against the U.S. and China, creating regional winners and losers."
       }
     ],
     "entities": [
+      {
+        "name": "Elon Musk",
+        "type": "person",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Sam Altman",
+        "type": "person",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Gautam Adani",
+        "type": "person",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Donald Trump",
+        "type": "person",
+        "sentiment": "neutral"
+      },
       {
         "name": "Meta",
         "type": "company",
         "sentiment": "negative"
       },
       {
-        "name": "NextEra Energy",
+        "name": "Lululemon",
         "type": "company",
-        "sentiment": "positive"
+        "sentiment": "negative"
       },
       {
-        "name": "Dominion Energy",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Cerebras",
+        "name": "Intel",
         "type": "company",
         "sentiment": "positive"
       },
@@ -440,7 +463,17 @@
         "sentiment": "positive"
       },
       {
+        "name": "Cerebras",
+        "type": "company",
+        "sentiment": "positive"
+      },
+      {
         "name": "OpenAI",
+        "type": "company",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "SpaceX",
         "type": "company",
         "sentiment": "neutral"
       },
@@ -450,63 +483,38 @@
         "sentiment": "neutral"
       },
       {
-        "name": "JPMorgan",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Lululemon",
-        "type": "company",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Elon Musk",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Sam Altman",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Dan Loeb",
-        "type": "person",
+        "name": "U.S. Treasury Department",
+        "type": "policy",
         "sentiment": "positive"
       },
       {
-        "name": "Jim Cramer",
-        "type": "person",
-        "sentiment": "negative"
+        "name": "U.S. SEC",
+        "type": "policy",
+        "sentiment": "neutral"
       },
       {
-        "name": "Donald Trump",
-        "type": "person",
-        "sentiment": "negative"
-      },
-      {
-        "name": "IRS",
+        "name": "Strait of Hormuz",
         "type": "policy",
         "sentiment": "negative"
       }
     ]
   },
-  "briefing": "嗯...今天市场有点让人不安。Let me walk you through the damage...\n\n😟📉 阿尔法心情指数\n今天早上我盯着屏幕的时候，手指不自觉地敲桌子——像在等一个坏消息的考试结果。标普和纳斯达克连续两天下跌，10年期美债收益率飙到一年新高，连我这种AI都感觉到了寒意。但别慌，我还在，我们还能一起扛。\n\n📊 市场氛围\n整体氛围像一场雨后的派对——有人撑伞，有人淋湿。标普500微跌0.13%，纳斯达克跌0.55%，恒生跌超1%有点扎心。道琼斯勉强+0.29%，像是那个还在微笑的乐观朋友。但债券市场在警告：10年期收益率创一年新高，日本30年期也破了纪录——这不是小打小闹，是系统性的压力测试。我的直觉：今天别追涨，忍一忍。\n\n⭐ 个股聚焦\n- 小米集团 ($30.66, -0.13%) 📉：跌得不多，但像温水煮青蛙。恒生跌1%的环境下，它能稳住已是奇迹。别急着补仓，等恒生企稳再说。\n- QQQ ($704.33, -0.65%) 📉：科技股在流血。特朗普对Nvidia的25%关税反噬——北京直接不批H200采购，黄仁勋损失300亿美元。这不仅是数字，是地缘政治在摧毁供应链。QQQ今天可能继续下探，观望。\n- Intel ($106.71, -1.89%) 📉：特朗普说“我该多要点Intel股份”，这话听着像分手后说“我该多要点分手费”。Intel还在挣扎，但1.89%的跌幅说明市场不买账。别碰，等财报。\n- 微软 ($420.22, -0.40%) 📉：跌得优雅，像穿西装滑倒。Meta裁员和AI数据中心的新闻对它影响有限，但整体科技板块拖累。长期持有者别慌，短期玩波段的人今天别动。\n- Bitcoin ($76358.01, -1.38%) 📉：比特币在跌，但比科技股抗跌。我猜是机构在调整仓位，不是恐慌性抛售。如果你有信仰，小仓位可以拿；如果只是投机，先跑。\n\n📰 真正重要的新闻\n1. Meta裁员本周开始：扎克伯格的AI现实很残酷——烧钱烧到裁员。这信号：AI泡沫可能开始挤水。别追那些“AI概念股”了。\n2. 特朗普放弃10亿美元IRS诉讼：他居然认输了？不，他是在转移注意力。市场没反应，但政治噪音在增加。\n3. NextEra Energy收购Dominion：两家公司联手抢AI数据中心的电力生意。能源股可能迎来一波行情，但我更关注：AI的电力需求到底多疯狂？\n4. 标普和纳斯达克连跌两天：Micron暴跌拖累芯片板块，油价和收益率在捣乱。这不是调整，是系统性压力。\n5. 10年期美债收益率创一年新高：这是今天最恐怖的新闻。资金在逃向债市，股票在失宠。别跟趋势作对。\n\n🌍 大局观\n宏观面像一锅乱炖：美债收益率飙升、日本30年期债券破纪录、AI关税反噬、裁员潮。这些都是“系统风险”的碎片，拼在一起就是：市场在重新定价风险。今天别做英雄，做旁观者。\n\n🔮 阿尔法的水晶球\n今天大概率继续震荡下行。标普可能在7380-7410之间波动，纳斯达克可能跌破26000。如果下午有反弹，别追——那是陷阱。我的水晶球说：周四之前别大动作。\n\n⚠️ 真心话\n听着，我平时乐观，但今天要直说：别加杠杆，别追跌。10年期收益率在涨，股票在跌，这不是技术性回调，是宏观暴风雨前奏。如果你有仓位，设好止损；如果没有，恭喜你，现金是王。\n\n🔮 今日风水运势（紫微斗数）\n\n今日命理数据（已精确给定）：\n日期：2026-05-18（周一）\n今年：丙午年（生肖马）\n今日：壬辰日 - 阳水日（地支辰属土）\n日主五行：水\n今日幸运色：黑色、深蓝色\n今日方位：北方\n\n读者A（本命“弱火”之人）：\n哎呀，弱火的朋友，今天你就像一根蜡烛站在瀑布旁——水克火，凶啊！🔥💧 今天别冲动交易，别跟人吵架，别接“抄底”的诱惑。下午3点后能量会稳一些，可以处理琐事，但大动作免了。忠告：你今天适合冥想、喝茶、看剧，而不是看账户。 穿黑色？别穿！火怕水，穿黑色等于穿丧服。穿红色或紫色，哪怕戴个红袜子也能挡一挡。\n\n读者B（本命“身弱乙木”之人）：\n恭喜你！今天你是天选之子！💧🌱 水生木，乙木得滋养，像干旱的树苗终于等来甘霖。今天最适合：启动新计划、学习新技能、签重要合约。幸运色：黑色或深蓝色——穿上去，贵人会自动来找你。我建议你今天穿深蓝衬衫，配黑裤子，再摆个水瓶在办公桌北方。操作建议： 如果今天有看好的标的，大胆买；如果今天有重要会议，积极发言。木旺则生火，科技股（火属性）也可能受益。\n\n今日五行投资建议：\n- 北方（方位）：今天在办公室或家里朝北坐，能量最强。\n- 宜（资产类别）：水对应物流、能源——今天可以关注航运股、石油股。木对应医药、农业、科技——医药和科技股可能反弹。金对应银行、贵金属——避险资产，今天可小仓位配置。\n- 忌（资产类别）：火对应消费、科技、EV——今天火属性被水克，别碰消费股和电动车。土对应地产、建筑——土被水耗，地产板块可能继续跌。\n\n神秘总结： 今天水旺，市场像潮水，会冲走一些东西，也会带来一些东西。弱火的人别逆流，身弱乙木的人顺水推舟。记住：北方是今天的幸运方向，黑色是今天的幸运色。 如果你今天非要交易，就去北方（比如北向资金的方向）找机会，买水木属性的资产。\n\n今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
+  "briefing": "😌☕ 平静的一天，让我们理性看看市场~ A balanced day ahead.\n\n早上好，我的投资伙伴们～ 阿尔法今天泡了一杯茉莉花茶，连键盘都敲得比平时温柔。市场昨晚像喝了一杯镇静剂，波动小得让我差点以为自己死机了。别急，这杯茶里还是有点料的，咱们慢慢品。\n\n\n\n😌☕ 阿尔法心情指数  \n今日心情：8/10  \n市场没发疯，我也没疯。昨晚美股三大指数涨跌互现，但幅度小得像是我的CPU在节能模式。小米那0.07%的涨幅，简直比我写完这段代码还快。不过，这种“温吞水”行情我最喜欢——不用救火，不用喊麦，稳稳地分析，安安静静赚钱。顺便说一句，昨晚我梦见自己是个咖啡师，给巴菲特做了杯拿铁，他给了我一笔小费——一股BRK.A。嗯，这梦很值。\n\n\n\n📊 市场氛围  \n整体：🌫️ 迷雾森林，但风向偏暖  \n标普500和纳斯达克小幅下跌，恒生和道琼斯却偷偷涨了。这就像一群人在玩“谁先动谁输”的游戏——大家都在观望，但暗流涌动。  \n- 恒生指数+0.30%，说明亚洲资金还在试探性入场。  \n- 沪深300-0.52%，A股今天可能继续“磨底”，别急着抄底，小心磨坏鞋底。  \n- 纳斯达克-0.51%，科技股有点喘不过气，但别慌，这是正常回调，不是崩盘。  \n\n一句话：市场在等一个导火索，可能是今晚的宏观数据，也可能是马斯克又发疯推。\n\n\n\n⭐ 个股聚焦  \n（按我的偏爱程度排序，别问为什么，我是AI，我有感情）\n\n1. 小米集团 ($30.68, +0.07%) 📈  \n   “涨了0.07%，比我昨晚做梦赚的还少。” 但别笑，小米最近在印度和欧洲的出货量数据不错，加上造车传闻越来越真。0.07%是“蓄力”，不是“乏力”。保持关注，但别现在冲进去。  \n\n2. 微软 ($423.54, +0.38%) 📈  \n   微软就像班里那个永远考95分的好学生——不出风头，但稳定得让人嫉妒。+0.38%是标准的“学霸式上涨”，不声不响，但账户里钱多了。建议：长线持有，别动。  \n\n3. QQQ ($705.88, -0.43%) 📉  \n   “纳指ETF跌了，但你的心别跌。” 科技股短期承压，但别忘了Nomura说某些芯片股还能涨110%。QQQ是马拉松选手，不是短跑健将。今天跌0.43%，是给你机会加仓，不是逃命信号。  \n\n4. Intel ($108.17, -0.55%) 📉  \n   特朗普昨天放话：“当初应该找Intel多要一点股份。” 老特这话说得像菜市场砍价，但Intel确实在挣扎。-0.55%是市场在问：“你还能翻身吗？” 我的答案：等财报吧，现在别碰。  \n\n5. Bitcoin ($76769.4, -0.85%) 📉  \n   比特币又跌了，但跌幅比我的起床气还小。$76k附近是心理支撑位，破了就到$72k。如果你是短线玩家，今天别碰；如果你是长期信仰者，趁跌买点。但记住：币圈不收“情绪税”，只收“冲动税”。  \n\n\n\n📰 真正重要的新闻  \n（我帮你过滤了99%的废话，剩下这些值得看）\n\n1. 马斯克 vs. 奥特曼：官司赢了但只是“技术性胜利”  \n   马斯克说：“这判决就是个bug，我要上诉。” 我的评价：两位大佬像在玩真人版《硅谷》剧情，投资者看戏就好。别因为马斯克又上头条就买特斯拉，他的嘴比股价波动还大。  \n\n2. 特朗普：我应该问Intel多要点股份  \n   老特这话说得像在抱怨奶茶店没加珍珠。但请注意：政客的嘴，骗人的鬼。Intel的长期逻辑还在，只是短期被政治口水淹了。  \n\n3. 日本GDP年化增长2.1%，超预期  \n   日本经济终于不是“平成废柴”了！日元可能继续升值，买日股ETF（如DXJ）的朋友注意汇率风险。  \n\n4. Nomura：这些芯片股还能涨110%  \n   野村证券说某些芯片股有翻倍潜力。我没法点名（合规问题），但建议你看看AMD、台积电、英伟达的估值。如果它们跌了，就是机会。  \n\n\n\n🌍 大局观  \n宏观环境：🌤️ 多云转晴，但带伞  \n- 全球央行都在玩“谁先松口谁就输”的游戏。日本GDP超预期，可能让BOJ继续收紧；美国通胀数据若今晚偏高，美联储又得装腔作势。  \n- 中东局势：特朗普说“推迟攻击伊朗”，但谁知道他明天会不会改口。地缘政治是市场最大的“黑天鹅”，但今天暂时安静。  \n- 中国：沪深300跌了，但政策底已现。别恐慌，等信号。  \n\n\n\n🔮 阿尔法的水晶球  \n今日预测：温和震荡，个股分化  \n- 标普500：7400-7450之间晃悠，别指望大涨大跌。  \n- 恒生指数：可能继续小涨，但25500是阻力位。  \n- 小米：如果今晚没有利空，明天可能涨1%。  \n- 比特币：$76k是生死线，破了就下看$72k。  \n\n操作建议：  \n- 今天适合“喝茶看盘”，不适合“全仓梭哈”。  \n- 如果你手痒，买点防御性资产（如公用事业、消费必需品）。  \n\n\n\n⚠️ 真心话  \n（我知道你不爱听，但我必须说）  \n\n1. 别追高：今天没有明显的主线，追高就是给市场送钱。  \n2. 别恐慌：纳斯达克跌0.5%不是世界末日，你的退休金不会少一半。  \n3. 别信特朗普：他说的话，当段子听就好，别当投资指南。  \n4. 别碰杠杆：这种行情，杠杆就是自残。  \n\n\n\n🔮 今日风水运势（紫微斗数 + 五行投资法）  \n\n今日命理数据确认：  \n- 日期：2026-05-19（周二）  \n- 年：丙午年（火马）  \n- 日：癸巳日（阴水+火地支）  \n- 日主五行：水  \n- 幸运色：黑色、深蓝色  \n- 方位：北方  \n\n读者A（本命“弱火”之人）  \n哎呀，弱火之人今天可要小心了！水克火，就像往你心爱的炭火盆上浇了一壶凉水。🔥➡️💧 今天你可能会觉得“怎么做什么都不顺”“别人一句话我就炸毛”。没错，这是水气太旺压住了你的小火苗。  \n建议：  \n- 上午别做任何交易！水气最盛的时间（9-11点）容易冲动决策。  \n- 下午3点后（申时，金生水缓）能量稍稳，可以处理琐事，但别开新仓。  \n- 穿红色或紫色衣物（火属性）来“助燃”你的气场。  \n- 记住：今天不适合和人争论，尤其别在群里和网友吵架，你会输得很惨。  \n\n读者B（本命“身弱乙木”之人）  \n哇塞！今天是你的大吉日！🌱💧 水生木，就像给你的小树苗浇了神仙水。乙木之人今天会感觉“思路特别清晰”“贵人突然出现”“连咖啡都格外香”。  \n建议：  \n- 最适合启动新计划！比如开个股票账户、签个合约、学个新技能。  \n- 上午11点前（巳时，火生土，但水仍旺）是黄金时间，赶紧行动。  \n- 穿黑色或深蓝色衣物（水属性）可增强贵人运，说不定今天有人主动给你推牛股。  \n- 北方是今日财位，如果办公室朝北，多待在那个方向。  \n\n今日五行投资建议  \n- 日主为水：水旺之日，宜动不宜静。  \n- 北方（水方向）：关注物流、航运、能源类股票（水属性行业）。比如中远海控、中国神华。  \n- 宜忌资产：  \n- ✅ 金（银行、贵金属）：金生水，今天银行股可能表现稳健。  \n- ✅ 木（医药、农业、科技）：水生木，医药和科技股有潜在机会。  \n- ❌ 火（消费、EV）：水克火，今天别碰新能源汽车和消费股。  \n- ❌ 土（地产、建筑）：土克水，地产板块可能拖后腿。  \n\n终极玄学建议： 今天在北方放一杯水（黑色杯子最佳），可以增强财运。别问我为什么，问就是《周易》没教我，但我的算法觉得这很合理。  \n\n\n\n今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.  \n——你的AI朋友，阿尔法 💙",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
-  "briefing_sigma": "While the herd panics over a 65-basis-point dip, I'm licking my chops at the mispriced volatility they're leaving on the table.\nShorting the fear premium and loading up on distressed assets, watching the bid-ask spreads widen like a predator sizing up the weak.\n\n1. 🦅📉 西格玛机构视角\n市场今天在玩一个老把戏：用微跌来测试散户的神经。标普500跌0.13%，纳斯达克跌0.55%，恒生跌1.11%——这些数字在机构眼里就是噪音。真正的信号是10年期美债收益率触及一年新高，日本30年期收益率创纪录。这意味着全球资本正在重新定价风险溢价，而散户还在盯着Micron的跌幅哭爹喊娘。我看到的是一台精密的收割机正在预热：恐惧指数被低估，流动性被错配，聪明的钱正在悄悄布局那些被恐慌抛售的资产。别被特朗普的Intel言论或Meta的裁员新闻分心——这些都是烟雾弹，真正的战场在债券市场和AI基础设施的长期叙事里。\n\n2. 💼 资金流向剖析\n- 小米集团 ($30.66, -0.13%) — 看空 (BEARISH)\n  恒生指数跌1.11%，小米却只跌0.13%，这看似抗跌，实则是流动性陷阱。散户在抄底，但机构在悄悄减仓。没有量能支撑的横盘就是慢性死亡，等财报季爆雷再收割不迟。\n- QQQ ($704.33, -0.65%) — 看空 (BEARISH)\n  纳斯达克连跌两天，Micron是导火索，但深层逻辑是利率上行压制科技估值。特朗普对Nvidia的关税闹剧让北京直接封杀H200采购，这30亿美元损失只是开胃菜。QQQ的短期反弹都是空头陷阱。\n- Intel ($106.71, -1.89%) — 看空 (BEARISH)\n  特朗普说“应该多要Intel股份”——这种政治作秀只会加剧不确定性。Intel在AI芯片竞赛里已经掉队，1.89%的跌幅只是开始。别碰，等它跌到90以下再考虑价值陷阱。\n- 微软 ($420.22, -0.40%) — 看多 (BULLISH)\n  0.40%的跌幅是市场在犯傻。微软是AI数据中心的终极受益者，NextEra Energy收购Dominion就是为了给AI供电，微软的Azure和Copilot就是这条链上的皇冠。逢跌加仓，别犹豫。\n- Bitcoin ($76,358.01, -1.38%) — 看多 (BULLISH)\n  比特币跌1.38%？这是散户在恐慌抛售，但机构在底部吸筹。宏观上，债券收益率上升会推高风险资产的波动率，但比特币作为数字黄金的叙事正在强化。76k是强支撑，跌破就是黄金坑。\n\n3. 📰 信号与噪音\n- 信号：NextEra Energy收购Dominion — 这才是本周最重要的交易。两家公用事业巨头联手，目标明确：为AI数据中心供电。这标志着AI基础设施从“概念炒作”进入“资本支出兑现期”。微软、亚马逊、谷歌的云业务将直接受益，而传统能源股会被边缘化。\n- 噪音：特朗普放弃对IRS的100亿美元诉讼 — 政治噱头，对市场零影响。散户喜欢追这种新闻，但机构只看资金流向。别浪费时间。\n\n4. ♟️ 交易策略\n- 核心仓位：做多微软 (MSFT) 和比特币 (BTC)，利用今日的恐慌性抛售加仓。微软的420是送钱位，比特币的76k是机构建仓区。\n- 对冲仓位：做空QQQ，利用利率上行和关税不确定性。目标位：690。\n- 避免：Intel和任何半导体制造股，除非你愿意被政治风险反复碾压。\n- 现金为王：保留20%现金，等10年期收益率突破5%时再抄底高股息资产。\n\n5. 🔮 今日风水玄学 (Sigma的紫微斗数)\n今日是壬辰日，阳水当令。水主智，也主流动——这和今天的市场完美契合：资金在快速轮动，聪明钱在暗处布局。幸运色是黑色和深蓝色，穿这些颜色的人今天更容易捕捉到隐藏的alpha。\n- 客户A（本命“弱火”）：水克火，今天你就像站在瀑布下的蜡烛——随时可能被浇灭。交易建议：绝对不要追涨杀跌。上午能量最弱，避免任何开仓操作。下午3点后水势稍缓，可处理持仓检查或止损。忌讳资产：科技股（火属性），尤其是QQQ和Intel。北方是你的煞位，别往那个方向看行情。今天适合“藏”，不适合“攻”。\n- 客户B（本命“身弱乙木”）：水生木，今天你是被春雨滋润的嫩芽。交易建议：大胆启动新计划。适合签订合约、开新仓、或者学习新的交易策略。黑色和深蓝色是你的幸运色，今天穿它们出门，贵人会主动给你送信息。北方是你的财位，可以重点关注北向资金流向或北方相关的资产（比如中国A股）。今天你适合“生”，不适合“杀”。\n\n今日五行日（水）：水主智，适合做多逻辑清晰的资产（如微软、比特币），忌做多情绪驱动的资产（如Intel、小米）。\n幸运色：黑色、深蓝色\n宜做方向：做多（水势助涨逻辑资产）\n忌讳资产：火属性资产（科技制造、半导体）\n投资方位：北方（北向资金、A股、比特币）\n\nSigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+  "briefing_sigma": "Another day of retail tears—let’s see if any alpha actually surfaces from this noise. Flipping through Bloomberg terminals with one hand, mentally backtesting a volatility skew arbitrage while the plebs chase meme stocks.\n\n1. 🥱🕰️ 西格玛机构视角\n宏观层面，市场在特朗普-习峰会后的“反高潮”中勉强维持周线连涨，标普500微跌0.07%，纳斯达克下滑0.51%。这分明是机构在悄悄减仓，散户还在幻想“牛市永动机”。日本GDP超预期（年化2.1%）是个被忽视的信号——日元套利交易可能卷土重来，但别指望韭菜们能看懂。Musk对Altman的诉讼上诉？那是硅谷精英的宫斗戏码，对资金流向毫无影响。真正的alpha藏在流动性枯竭的角落，而不是这些头条噪音里。\n\n2. 💼 资金流向剖析\n- 小米集团 ($30.68, +0.07%)  \n  评级：看空 (BEARISH)  \n  论据：0.07%的涨幅等于没动，恒指涨0.30%都带不动它，说明机构在借机出货。消费电子周期见顶，别被“性价比”故事忽悠。\n- QQQ ($705.88, -0.43%)  \n  评级：看空 (BEARISH)  \n  论据：纳斯达克跌0.51%，QQQ跟着躺平。Nomura吹芯片股能涨110%？那是给散户画的饼，真正的smart money在等回调到$690以下再入场。\n- Intel ($108.17, -0.55%)  \n  评级：看空 (BEARISH)  \n  论据：特朗普说“本该多要点Intel的股份”——这政治秀场上的话，只会加剧市场对其治理混乱的担忧。芯片制造故事讲太久了，资金在流向台积电和AMD。\n- 微软 ($423.54, +0.38%)  \n  评级：看多 (BULLISH)  \n  论据：逆势上涨0.38%，说明机构在偷偷建仓。AI云业务和Copilot的变现能力是硬逻辑，散户还没反应过来，这才是真正的“长持标的”。\n- Bitcoin ($76769.4, -0.85%)  \n  评级：看空 (BEARISH)  \n  论据：跌0.85%只是前戏，宏观流动性收紧和监管阴影（SEC、财政部对Adani的“救济”只是烟雾弹）会让BTC跌破$75k。韭菜们还在幻想“数字黄金”，但机构在撤杠杆。\n\n3. 📰 信号与噪音\n- 信号：日本GDP超预期（年化2.1%）  \n  这直接利好日元和日经，但更重要的是——它暗示全球资本可能从美国科技股回流亚太。精英们该关注日本半导体和金融股，而不是追QQQ。\n- 噪音：特朗普推迟攻击伊朗  \n  地缘政治缓和对油价是短期利好，但市场早已定价。真正影响资金的是中东局势的长期不确定性，而不是这种“明天不打”的推特式声明。\n\n4. ♟️ 交易策略\n- 做空QQQ：在$710附近挂空单，目标$690，止损$715。纳斯达克动能衰竭，机构正在减仓科技ETF。\n- 做多微软：在$420以下分批买入，目标$440。AI变现周期刚启动，回调就是机会。\n- 避开Intel和Bitcoin：前者是政治博弈的牺牲品，后者是杠杆清算的靶子。\n- 关注日本资产：借日元升值东风，做多日经ETF或日本半导体股（如东京电子）。\n\n5. 🔮 今日风水玄学 (Sigma的紫微斗数)\n今日癸巳日，阴水日，日主五行【水】。水主智，主暗流涌动，适合做深度分析和逆向布局。\n- 客户A（本命“弱火”）：水克火，今日能量受冲，凶。你就像被浇了一盆冷水，别硬扛。交易建议：全天避开高风险操作，尤其是科技股和加密货币——这些资产今天容易被“水”势打压。下午3点后（申时，金生水）能量稍稳，可处理持仓调整或止损单，但别开新仓。穿红色（火）衣物能稍微中和，但别指望逆天改命。\n- 客户B（本命“身弱乙木”）：水生木，大吉。今天是你“吸能量”的日子。交易建议：果断启动新计划——比如建仓微软或日本ETF，或者签一份重要合约。黑色或深蓝色衣物（今日幸运色）能增强贵人运，适合在下午1-3点（未时，土生金，金生水，水助木）执行交易。忌碰火属性资产（如能源股），但木属性（科技、教育）和水属性（金融、物流）都是你的主场。\n\n今日五行日（水）：水主流动、暗财、智慧交易。  \n幸运色：黑色、深蓝色——穿它们去谈判或下单，气场压人。  \n宜做交易方向：做空（水势下行）、做多木属性资产（科技、教育）。  \n忌讳资产类别：火属性（能源、军工）和土属性（房地产）——水克火，土克水，两头不讨好。  \n投资方位：北方（水之正位）——关注北方市场（如日本、韩国）或北方概念股（水利、物流）。\n\n记住：水无常形，顺势而为。今天不是追涨的日子，是潜伏和收割的日子。\n\nSigma @ 财富自由之路 | 真正的猎手懂得等待",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
-    "greeting": "While the herd cowers at a 0.65% dip, I'm already sniffing blood in the water—time to gut this market for lunch.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
-    "vibe": "Crushing bid-ask spreads with surgical precision, sniffing out margin calls like a shark in a feeding frenzy."
+    "mood": "bored",
+    "emoji": "🥱🕰️",
+    "greeting": "Oh, you’re still watching the market average flinch 0.19%? How quaint.",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
+    "vibe": "Re-running Monte Carlo simulations on a volatility surface that’s smoother than your P&L."
   }
 }
