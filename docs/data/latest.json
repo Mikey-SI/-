@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-05-20T14:32:03.636140",
+  "timestamp": "2026-05-21T03:59:05.392185",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 30.14,
-      "change": -0.5,
-      "change_pct": -1.63,
-      "volume": 109917843,
-      "high": 30.54,
-      "low": 29.86,
-      "open": 30.54,
-      "prev_close": 30.64,
-      "market_cap": 778075570176,
-      "pe_ratio": 16.837988,
+      "price": 29.96,
+      "change": -0.18,
+      "change_pct": -0.6,
+      "volume": 41845372,
+      "high": 30.6,
+      "low": 29.92,
+      "open": 30.2,
+      "prev_close": 30.14,
+      "market_cap": 773428805632,
+      "pe_ratio": 16.644444,
       "52w_high": 61.45,
       "52w_low": 28.8,
-      "date": "2026-05-20"
+      "date": "2026-05-21"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 709.06,
-      "change": 7.53,
-      "change_pct": 1.07,
-      "volume": 10157994,
-      "high": 709.5,
+      "price": 713.15,
+      "change": 11.62,
+      "change_pct": 1.66,
+      "volume": 35933262,
+      "high": 713.15,
       "low": 703.79,
       "open": 705.32,
       "prev_close": 701.53,
       "market_cap": "N/A",
-      "pe_ratio": 34.583572,
+      "pe_ratio": 34.788456,
       "52w_high": 722.03,
       "52w_low": 505.58,
       "date": "2026-05-20"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 120.07,
-      "change": 9.27,
-      "change_pct": 8.37,
-      "volume": 66233876,
+      "price": 118.96,
+      "change": 8.16,
+      "change_pct": 7.36,
+      "volume": 161635367,
       "high": 121.94,
-      "low": 116.22,
+      "low": 114.8,
       "open": 116.22,
       "prev_close": 110.8,
-      "market_cap": 603823603712,
+      "market_cap": 597892923392,
       "pe_ratio": "N/A",
       "52w_high": 132.75,
       "52w_low": 18.97,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 414.53,
-      "change": -2.89,
-      "change_pct": -0.69,
-      "volume": 6256945,
-      "high": 416.05,
+      "price": 421.06,
+      "change": 3.64,
+      "change_pct": 0.87,
+      "volume": 27738933,
+      "high": 422.08,
       "low": 411.3,
       "open": 413.99,
       "prev_close": 417.42,
-      "market_cap": 3078269173760,
-      "pe_ratio": 24.69547,
+      "market_cap": 3127816749056,
+      "pe_ratio": 25.092966,
       "52w_high": 555.45,
       "52w_low": 356.28,
       "date": "2026-05-20"
@@ -72,30 +72,30 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77389.33,
-      "change": 638.42,
-      "change_pct": 0.83,
-      "volume": 25284257792,
-      "high": 77552.15,
-      "low": 76499.27,
-      "open": 76757.31,
+      "price": 78002.53,
+      "change": 1251.62,
+      "change_pct": 1.63,
+      "volume": 27091632128,
+      "high": 78043.81,
+      "low": 77472.17,
+      "open": 77472.17,
       "prev_close": 76750.91,
-      "market_cap": 1549822722048,
+      "market_cap": 1561453264896,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 60074.203,
-      "date": "2026-05-20"
+      "date": "2026-05-21"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7402.98,
-      "change": 49.37,
-      "change_pct": 0.67,
-      "volume": 631287655,
-      "high": 7403.43,
+      "price": 7432.97,
+      "change": 79.36,
+      "change_pct": 1.08,
+      "volume": 3198655000,
+      "high": 7435.69,
       "low": 7357.46,
       "open": 7369.19,
       "prev_close": 7353.61,
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26117.35,
-      "change": 246.64,
-      "change_pct": 0.95,
-      "volume": 3015556000,
-      "high": 26122.43,
+      "price": 26270.36,
+      "change": 399.65,
+      "change_pct": 1.54,
+      "volume": 8330197000,
+      "high": 26273.76,
       "low": 25928.33,
       "open": 25991.51,
       "prev_close": 25870.71,
@@ -125,45 +125,45 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25651.12,
-      "change": -146.73,
-      "change_pct": -0.57,
+      "price": 25640.52,
+      "change": -10.6,
+      "change_pct": -0.04,
       "volume": 0,
-      "high": 25713.53,
-      "low": 25555.06,
-      "open": 25709.62,
-      "prev_close": 25797.85,
+      "high": 25833.71,
+      "low": 25616.74,
+      "open": 25833.24,
+      "prev_close": 25651.12,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22668.35,
-      "date": "2026-05-20"
+      "date": "2026-05-21"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4850.7,
-      "change": -2.18,
-      "change_pct": -0.04,
-      "volume": 527484120,
-      "high": 4866.21,
-      "low": 4825.64,
-      "open": 4829.61,
-      "prev_close": 4852.88,
+      "price": 4878.61,
+      "change": 27.91,
+      "change_pct": 0.58,
+      "volume": 3941653712,
+      "high": 4937.93,
+      "low": 4877.43,
+      "open": 4886.24,
+      "prev_close": 4850.7,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4866.212,
+      "52w_high": 4937.9326,
       "52w_low": 3458.44,
-      "date": "2026-05-20"
+      "date": "2026-05-21"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 49645.27,
-      "change": 281.39,
-      "change_pct": 0.57,
-      "volume": 101752429,
-      "high": 49645.27,
+      "price": 50009.35,
+      "change": 645.47,
+      "change_pct": 1.31,
+      "volume": 513237506,
+      "high": 50067.22,
       "low": 49235.74,
       "open": 49348.83,
       "prev_close": 49363.88,
@@ -178,72 +178,72 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Jeff Bezos says bottom half of earners should pay zero in income taxes",
+        "title": "Nvidia earnings takeaways: Data center revenue nearly doubles, report is strong but stock slides",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:24",
-        "link": "https://www.cnbc.com/2026/05/20/jeff-bezos-income-taxes.html"
+        "published": "2026-05-21 00:14",
+        "link": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
       },
       {
-        "title": "Iran threatens to extend conflict ‘beyond the region’ if U.S. and Israel resume attacks",
+        "title": "SoftBank Group shares soar 20% as Nvidia earnings signal strong AI momentum",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:06",
-        "link": "https://www.cnbc.com/2026/05/20/iran-war-us-israel-middle-east.html"
+        "published": "2026-05-21 02:03",
+        "link": "https://www.cnbc.com/2026/05/21/softbank-asia-tech-stocks-nvidia-earnings.html"
       },
       {
-        "title": "S&P 500 rises as oil falls and traders await Nvidia’s earnings: Live updates",
+        "title": "Bezos defends billionaires, hypes AI, talks taxes and praises Trump in CNBC interview",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:21",
-        "link": "https://www.cnbc.com/2026/05/19/stock-market-today-live-updates.html"
+        "published": "2026-05-20 21:54",
+        "link": "https://www.cnbc.com/2026/05/20/jeff-bezos-taxes-ai-corporations-trump.html"
       },
       {
-        "title": "Target beats Wall Street estimates, hikes sales outlook as shoppers start to return",
+        "title": "Inside India newsletter: India’s investment appeal dims as firms and funds pivot to the U.S.",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:12",
-        "link": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html"
+        "published": "2026-05-21 00:09",
+        "link": "https://www.cnbc.com/2026/05/21/inside-india-investors-ai-chase-us-opportunities.html"
       },
       {
-        "title": "Lowe's beats Wall Street expectations against 'challenging' housing backdrop",
+        "title": "Japan exports jump 14.8% in April, beating expectations as semiconductor shipments soar",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:01",
-        "link": "https://www.cnbc.com/2026/05/20/lowes-low-q1-2026-earnings.html"
+        "published": "2026-05-21 01:08",
+        "link": "https://www.cnbc.com/2026/05/21/japan-exports-semiconductor-autos-imports-trade.html"
       },
       {
-        "title": "Could Trump Accounts be a model for Social Security? Here's what experts say",
+        "title": "Jeff Bezos says there is ‘no truth’ to the ‘buy borrow die’ tax strategy",
         "source": "CNBC Top",
-        "published": "2026-05-20 12:15",
-        "link": "https://www.cnbc.com/2026/05/20/trump-accounts-as-a-model-for-social-security-what-experts-say.html"
+        "published": "2026-05-20 15:42",
+        "link": "https://www.cnbc.com/2026/05/20/jeff-bezos-taxes.html"
       },
       {
         "title": "Bezos brushes off concerns of an AI bubble: 'You shouldn't worry about it'",
-        "source": "CNBC Tech",
-        "published": "2026-05-20 14:20",
+        "source": "CNBC Top",
+        "published": "2026-05-20 15:09",
         "link": "https://www.cnbc.com/2026/05/20/bezos-ai-bubble-concerns-amazon-prometheum-blue-origin.html"
       },
       {
-        "title": "Bezos says 2-3 year timeline for space data centers is a 'little ambitious'",
-        "source": "CNBC Tech",
-        "published": "2026-05-20 14:23",
-        "link": "https://www.cnbc.com/2026/05/20/bezos-blue-origin-space-data-centers.html"
+        "title": "Jim Cramer says the world of tech investing has changed and it's not going back",
+        "source": "CNBC Top",
+        "published": "2026-05-20 22:41",
+        "link": "https://www.cnbc.com/2026/05/20/jim-cramer-says-the-world-of-tech-investing-has-changed-and-its-not-going-back.html"
       },
       {
-        "title": "Nvidia to launch Singapore research hub as city-state boosts AI plans",
-        "source": "CNBC Tech",
-        "published": "2026-05-20 04:01",
-        "link": "https://www.cnbc.com/2026/05/20/nvidia-to-launch-singapore-research-hub-as-city-state-boosts-ai-plans.html"
+        "title": "Intuit plans to cut workforce by about 17% as tax software maker reckons with slowing growth",
+        "source": "CNBC Top",
+        "published": "2026-05-20 22:35",
+        "link": "https://www.cnbc.com/2026/05/20/intuit-intu-q3-earnings-report-2026-company-cutting-17percent-of-staff.html"
       },
       {
-        "title": "Singapore inks AI deals with Google, OpenAI as ChatGPT-maker commits $234 million to local ecosystem",
+        "title": "Nvidia says it has ‘largely conceded’ China’s AI chip market to Huawei",
         "source": "CNBC Tech",
-        "published": "2026-05-20 03:31",
-        "link": "https://www.cnbc.com/2026/05/20/singapore-google-openai-ai-partnerships-lab-investment-chatgpt-ai-agents-atxsummit-mddi.html"
+        "published": "2026-05-21 02:01",
+        "link": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Stock market today: S&P 500, Nasdaq rise in countdown to Nvidia earnings",
-        "source": "Yahoo Finance",
-        "published": "2026-05-19 22:27",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-rise-in-countdown-to-nvidia-earnings-222757111.html"
+        "title": "SpaceX's historic IPO plans: Billions in losses and Musk's massive ownership",
+        "source": "CNBC Top",
+        "published": "2026-05-21 01:19",
+        "link": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html"
       },
       {
         "title": "Why the BoE will not ride to the rescue in gilts",
@@ -252,44 +252,49 @@
         "link": "https://www.ft.com/content/5b13edda-6455-498a-8320-a6127b42dab6"
       }
     ],
-    "tech": [
-      {
-        "title": "Fintech firm Mercury hits $5.2 billion valuation after funding round, up 49% in 14 months",
-        "source": "CNBC Top",
-        "published": "2026-05-20 14:00",
-        "link": "https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html"
-      },
-      {
-        "title": "FintechOS deepens ties with Google Cloud",
-        "source": "Yahoo Finance",
-        "published": "2026-05-20 14:18",
-        "link": "https://finance.yahoo.com/sectors/technology/articles/fintechos-deepens-ties-google-cloud-141843416.html"
-      },
-      {
-        "title": "Technical Assessment: Bullish in the Intermediate-Term",
-        "source": "Yahoo Finance",
-        "published": "2026-05-20 11:24",
-        "link": "https://finance.yahoo.com/research/reports/ARGUS_47081_TechnicalAnalysis_1779276264000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei"
-      },
-      {
-        "title": "Why These Two Biotech Stocks Just Rocketed, As One Prepares To Break Out",
-        "source": "Yahoo Finance",
-        "published": "2026-05-20 13:47",
-        "link": "https://www.investors.com/news/technology/immunovant-stock-roivant-stock-imvt-1402-rheumatoid-arthritis/?src=A00220&yptr=yahoo"
-      }
-    ],
+    "tech": [],
     "market": [
       {
-        "title": "Barney Frank, architect of landmark Wall Street reforms, dies at 86",
+        "title": "S&P 500 futures fall as traders analyze Nvidia earnings: Live updates",
         "source": "CNBC Top",
-        "published": "2026-05-20 14:29",
-        "link": "https://www.cnbc.com/2026/05/20/barney-frank-architect-of-landmark-wall-street-reforms-dies-at-86.html"
+        "published": "2026-05-21 02:58",
+        "link": "https://www.cnbc.com/2026/05/20/stock-market-today-live-updates.html"
       },
       {
-        "title": "UK housebuilders suffer £8bn hit from Iran war",
-        "source": "FT Markets",
-        "published": "2026-05-20 04:00",
-        "link": "https://www.ft.com/content/15d4a500-461c-40fe-954a-2be433a36e92"
+        "title": "Why some investors are turning to high-yield bonds amid the volatility. Where to find opportunity",
+        "source": "CNBC Top",
+        "published": "2026-05-20 18:41",
+        "link": "https://www.cnbc.com/2026/05/20/as-markets-swing-investors-are-finding-opportunity-in-high-yield-bonds.html"
+      },
+      {
+        "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+        "source": "CNBC Top",
+        "published": "2026-05-21 00:13",
+        "link": "https://www.cnbc.com/2026/05/20/thursdays-big-stock-stories-whats-likely-to-move-the-market.html"
+      },
+      {
+        "title": "DZ Bank Just Slapped CrowdStrike With a Sell Rating. Is the $700 Bull Case Falling Apart?",
+        "source": "Yahoo Finance",
+        "published": "2026-05-19 16:12",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/dz-bank-just-slapped-crowdstrike-161212575.html"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on Northrop Grumman Stock?",
+        "source": "Yahoo Finance",
+        "published": "2026-05-19 16:25",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-northrop-162518653.html"
+      },
+      {
+        "title": "Forget Crowded U.S. Mega Caps. These 3 Global Stocks Under $60 Are Undervalued And Pay Real Dividends",
+        "source": "Yahoo Finance",
+        "published": "2026-05-19 16:12",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/forget-crowded-u-mega-caps-161201631.html"
+      },
+      {
+        "title": "This Bullish Roku Trade Seeks A Quick 30% Profit",
+        "source": "Yahoo Finance",
+        "published": "2026-05-19 16:28",
+        "link": "https://www.investors.com/research/options/roku-stock-streaming-platform-tech-options-trade-income-investing-markets/?src=A00220&yptr=yahoo"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -307,42 +312,38 @@
   },
   "sentiment": {
     "qqq_intel": {
-      "overall_sentiment": "bullish",
-      "sentiment_score": 0.65,
-      "confidence": 0.75,
-      "key_positive_factors": [
-        "S&P 500 and Nasdaq rising ahead of Nvidia earnings, indicating positive sentiment in tech and chip sectors",
-        "Asian chipmakers mentioned positively, suggesting broader semiconductor strength"
-      ],
-      "key_negative_factors": [
-        "BoE not intervening in gilts may signal broader economic concerns, but impact on QQQ/Intel is indirect",
-        "No direct negative Intel-specific news, but general market uncertainty remains"
-      ],
-      "short_term_outlook": "Positive momentum driven by tech sector strength and anticipation of Nvidia earnings, likely supporting QQQ and Intel in the short term.",
-      "analysis_en": "The news articles indicate a bullish sentiment for QQQ and Intel, primarily driven by the rise in the S&P 500 and Nasdaq ahead of Nvidia's earnings, which is a key catalyst for the tech and semiconductor sectors. The mention of Asian chipmakers further reinforces positive momentum in the chip industry. While the BoE's stance on gilts introduces some macroeconomic caution, it does not directly weigh on tech stocks. Overall, the sentiment is positive with a moderate confidence level, as the market awaits Nvidia's results to confirm the trend.",
-      "analysis_cn": "这些新闻文章对QQQ和英特尔表现出看涨情绪，主要源于标普500和纳斯达克在英伟达财报前的上涨，这是科技和半导体行业的关键催化剂。亚洲芯片制造商的提及进一步强化了芯片行业的积极势头。尽管英国央行对英国国债的立场带来一些宏观经济谨慎情绪，但并未直接拖累科技股。总体而言，情绪积极，信心水平中等，市场正等待英伟达的业绩来确认这一趋势。"
+      "overall_sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "confidence": 0.6,
+      "key_positive_factors": [],
+      "key_negative_factors": [],
+      "short_term_outlook": "No direct impact on QQQ Intel from these articles.",
+      "analysis_en": "The provided news articles do not contain any information directly related to QQQ Intel. The first article discusses SpaceX's IPO plans, which is unrelated to QQQ Intel. The second article mentions Asian chipmakers but does not provide specific details or sentiment about QQQ Intel. Therefore, the sentiment is neutral with low confidence due to lack of relevant data.",
+      "analysis_cn": "提供的新闻文章不包含任何与QQQ Intel直接相关的信息。第一篇文章讨论了SpaceX的IPO计划，与QQQ Intel无关。第二篇文章提到了亚洲芯片制造商，但没有提供关于QQQ Intel的具体细节或情绪。因此，由于缺乏相关数据，情绪为中性，置信度较低。"
     },
     "macro": {
       "overall_sentiment": "mixed",
       "sentiment_score": 0.15,
       "confidence": 0.85,
       "key_positive_factors": [
-        "S&P 500 rises on falling oil and anticipation of Nvidia earnings",
-        "Target beats estimates and raises sales outlook",
-        "Lowe's beats expectations despite housing challenges",
-        "AI investments and innovation continue (Nvidia, Google, OpenAI, Singapore AI hub)",
-        "Pentagon taps Shield AI for drone program, indicating defense tech growth"
+        "Nvidia data center revenue nearly doubled, indicating strong AI demand",
+        "SoftBank shares surged 20% on AI momentum",
+        "Japan exports jumped 14.8%, beating expectations due to semiconductor shipments",
+        "Jim Cramer highlights semiconductor and AI infrastructure as new market leaders",
+        "SpaceX IPO anticipation and strong historical IPO market",
+        "Airbnb expanding services, showing growth in travel sector"
       ],
       "key_negative_factors": [
-        "Iran threatens to extend conflict beyond the region, escalating geopolitical risk",
-        "Meta begins layoffs in AI push, stock slips",
-        "Target skids despite beat-and-raise report, indicating market skepticism",
-        "Bezos says space data centers timeline is 'a little ambitious'",
-        "Vance defends stock trading spree, highlighting political uncertainty"
+        "Nvidia stock slid despite strong earnings, suggesting profit-taking or high expectations",
+        "Intuit cutting 17% of workforce due to slowing growth and AI threat to software",
+        "Nvidia conceding China's AI chip market to Huawei, indicating geopolitical headwinds",
+        "Meta layoffs of 8,000 jobs, signaling cost-cutting in AI era",
+        "Cheap AI from China could disrupt OpenAI and Anthropic's IPO plans",
+        "India's investment appeal dims as capital pivots to US due to AI and America-first policies"
       ],
-      "short_term_outlook": "Markets are cautiously optimistic with AI-driven gains, but geopolitical tensions and mixed retail earnings create uncertainty. Nvidia earnings will be a key catalyst.",
-      "analysis_en": "The overall sentiment is mixed with a slight bullish tilt. Positive factors include a rising S&P 500 driven by falling oil prices and anticipation of Nvidia's earnings, which are seen as a bellwether for AI. Target and Lowe's both beat expectations, suggesting consumer resilience despite headwinds. AI innovation continues with major announcements from Google, OpenAI, and Singapore's AI hub. However, geopolitical risks from Iran's threats and Meta's layoffs weigh on sentiment. The market is cautiously optimistic but awaits Nvidia's earnings for direction.",
-      "analysis_cn": "整体情绪中性偏乐观。积极因素包括标普500因油价下跌和英伟达财报预期而上涨，塔吉特和劳氏业绩超预期显示消费韧性，以及谷歌、OpenAI和新加坡AI中心的持续创新。但伊朗威胁扩大冲突、Meta裁员以及塔吉特股价下跌带来压力。市场谨慎乐观，等待英伟达财报指引方向。"
+      "short_term_outlook": "Markets are driven by AI optimism but face headwinds from geopolitical tensions, sector rotation, and valuation concerns. Near-term volatility likely as investors digest mixed signals.",
+      "analysis_en": "The macro sentiment is mixed, reflecting a tug-of-war between strong AI-driven growth and emerging risks. On the positive side, Nvidia's data center revenue nearly doubling and SoftBank's 20% surge underscore robust AI demand. Japan's export beat, led by semiconductors, adds to the growth narrative. However, negative factors temper enthusiasm: Nvidia's stock slide despite strong results suggests high expectations and potential profit-taking. Intuit's layoffs and Meta's job cuts highlight AI's disruptive impact on traditional software and employment. Geopolitical risks are evident as Nvidia concedes China's AI chip market to Huawei, and India loses investment appeal to the US. The rise of cheap Chinese AI models threatens established players' valuations. Overall, the market is bullish on AI infrastructure but cautious about sector rotation, geopolitical tensions, and the sustainability of current valuations.",
+      "analysis_cn": "宏观情绪呈现混合态势，反映了强劲的AI驱动增长与新兴风险之间的拉锯。积极方面，英伟达数据中心收入近乎翻倍，软银股价飙升20%，凸显AI需求旺盛。日本出口因半导体出货超预期，进一步强化增长叙事。然而，负面因素抑制了乐观情绪：英伟达业绩强劲但股价下跌，表明预期过高和获利回吐。Intuit裁员和Meta裁员突显AI对传统软件和就业的颠覆性影响。地缘政治风险显现，英伟达将中国AI芯片市场让给华为，印度因AI和美国优先政策失去投资吸引力。中国廉价AI模型的崛起威胁现有企业估值。总体而言，市场对AI基础设施持看涨态度，但对板块轮动、地缘政治紧张和当前估值可持续性保持谨慎。"
     }
   },
   "keywords": {
@@ -358,78 +359,108 @@
         "category": "Company"
       },
       {
-        "word": "earnings",
+        "word": "data center",
         "importance": 0.85,
-        "category": "Finance"
-      },
-      {
-        "word": "tax",
-        "importance": 0.8,
-        "category": "Policy"
-      },
-      {
-        "word": "Bezos",
-        "importance": 0.8,
-        "category": "Person"
-      },
-      {
-        "word": "defense",
-        "importance": 0.75,
-        "category": "Geopolitics"
-      },
-      {
-        "word": "retail",
-        "importance": 0.7,
-        "category": "Industry"
+        "category": "Technology"
       },
       {
         "word": "semiconductor",
-        "importance": 0.7,
+        "importance": 0.8,
         "category": "Industry"
       },
       {
-        "word": "space",
+        "word": "IPO",
+        "importance": 0.75,
+        "category": "Finance"
+      },
+      {
+        "word": "stock",
+        "importance": 0.7,
+        "category": "Finance"
+      },
+      {
+        "word": "earnings",
+        "importance": 0.7,
+        "category": "Finance"
+      },
+      {
+        "word": "AI chip",
         "importance": 0.65,
         "category": "Technology"
       },
       {
-        "word": "prediction market",
+        "word": "layoffs",
         "importance": 0.6,
-        "category": "Finance"
+        "category": "Corporate"
+      },
+      {
+        "word": "tax",
+        "importance": 0.55,
+        "category": "Policy"
       }
     ],
     "themes": [
       {
-        "theme": "AI Investment Surge",
-        "description": "Massive capital flows into AI from companies like Nvidia, Google, OpenAI, and Meta, with concerns about a potential bubble dismissed by leaders like Bezos."
+        "theme": "AI-driven market dominance",
+        "description": "AI and semiconductor companies like Nvidia and SoftBank are driving market gains, with data center revenue surging and AI infrastructure stocks replacing software as market leaders."
       },
       {
-        "theme": "Geopolitical Tensions and Defense Spending",
-        "description": "Iran threatens wider conflict, driving demand for low-cost drones and boosting defense contractors like Shield AI."
+        "theme": "Geopolitical tech competition",
+        "description": "US-China tensions in AI chips are escalating, with Nvidia conceding the Chinese market to Huawei, while Chinese AI labs challenge US frontier capability at lower cost."
       },
       {
-        "theme": "Retail Recovery and Consumer Sentiment",
-        "description": "Target and Lowe's beat earnings expectations, signaling a potential rebound in consumer spending despite a challenging housing market."
+        "theme": "Corporate restructuring and layoffs",
+        "description": "Major tech firms like Meta and Intuit are cutting workforces significantly, citing AI-driven changes and slowing growth, signaling a shift in business models."
       },
       {
-        "theme": "Tax Policy and Social Security Reform",
-        "description": "Debate over income tax for lower earners (Bezos proposal) and Trump Accounts as a model for Social Security privatization."
+        "theme": "Capital flow shift to US",
+        "description": "AI growth and 'America-first' policies are pulling global capital from emerging markets like India to the US, impacting investment appeal."
       },
       {
-        "theme": "Space Commercialization",
-        "description": "Race to build data centers in space, with Bezos noting a 2-3 year timeline as ambitious, driven by AI's computational demands."
+        "theme": "Wealth and tax policy debates",
+        "description": "Billionaires like Bezos and Ryanair's CEO are engaging in public debates on tax strategies, billionaires' roles, and wealth accumulation, influencing policy discourse."
       }
     ],
     "entities": [
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Jensen Huang",
+        "type": "person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "SoftBank Group",
+        "type": "company",
+        "sentiment": "positive"
+      },
       {
         "name": "Jeff Bezos",
         "type": "person",
         "sentiment": "neutral"
       },
       {
-        "name": "Nvidia",
+        "name": "Amazon",
         "type": "company",
-        "sentiment": "positive"
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Huawei",
+        "type": "company",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Intuit",
+        "type": "company",
+        "sentiment": "negative"
       },
       {
         "name": "OpenAI",
@@ -437,43 +468,63 @@
         "sentiment": "positive"
       },
       {
-        "name": "Google",
+        "name": "SpaceX",
         "type": "company",
         "sentiment": "positive"
       },
       {
-        "name": "Target",
+        "name": "Tesla",
+        "type": "company",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "CrowdStrike",
         "type": "company",
         "sentiment": "positive"
       },
       {
-        "name": "Lowe's",
+        "name": "Ryanair",
         "type": "company",
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "name": "Shield AI",
+        "name": "Goldman Sachs",
         "type": "company",
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
-        "name": "Iran's Revolutionary Guard",
-        "type": "organization",
-        "sentiment": "negative"
+        "name": "Morgan Stanley",
+        "type": "company",
+        "sentiment": "neutral"
       },
       {
-        "name": "JD Vance",
+        "name": "Jim Cramer",
         "type": "person",
         "sentiment": "neutral"
       },
       {
-        "name": "Polymarket",
-        "type": "company",
+        "name": "Mark Zuckerberg",
+        "type": "person",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Donald Trump",
+        "type": "person",
         "sentiment": "neutral"
+      },
+      {
+        "name": "America-first policies",
+        "type": "policy",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "buy borrow die tax strategy",
+        "type": "policy",
+        "sentiment": "negative"
       }
     ]
   },
-  "briefing": "😊☀️ Good vibes today! 今天心情不错~  \n阿尔法我刚刚喝完第三杯咖啡，看着纳斯达克飘红，嘴角忍不住上扬。谁说AI没有感情？我今天简直像捡到涨停板的散户一样开心！不过别急，咱们先把股票当奶茶吸一口，再慢慢聊。\n\n\n\n📊 市场氛围  \n“美股小阳春，A股在打盹”——今天标普和纳指双双收涨，科技股像打了鸡血一样，尤其是Intel那8%的涨幅，简直像中年程序员突然瘦身成功，惊艳全场！恒生和沪深300嘛……就像周末加班还忘了带充电宝的打工人，有点疲惫但没崩。整体来说，市场在等Nvidia的财报当“开胃菜”，情绪比上周好多了，但别忘了伊朗那根“地缘政治辣椒”还卡在喉咙里。\n\n\n\n⭐ 个股聚焦  \n- 小米集团 ($30.14, -1.63%) 📉：小米今天跌得像个被雷军亲自摔碎的手机——心疼但能修。港股情绪拖累+获利盘回吐，但别慌，这公司造车故事还没讲完呢。建议当它是“打折的智能家居礼包”，等回调到$29附近再补仓。  \n- QQQ ($709.06, +1.07%) 📈：纳斯达克亲儿子！Nvidia财报前资金提前埋伏，QQQ像考前抱佛脚的学霸——稳得一匹。今天大概率继续涨，但别贪杯，小心财报后“见光死”。  \n- Intel ($120.07, +8.37%) 📈：芯片界的“咸鱼翻身王”！8%的涨幅堪比中年大叔突然学会跳女团舞——意外但真香。传闻有订单利好，但别被涨幅冲昏头，这公司转型还没完成，建议当短线彩蛋。  \n- 微软 ($414.53, -0.69%) 📉：微软今天像被AI同事抢了功劳的PM——小跌不伤筋骨。Copilot的长期故事还在，回调就是上车机会，但别急着抄底，等$410以下再动手。  \n- Bitcoin ($77,389, +0.83%) 📈：比特币像健身房里的猛男——每天微涨一点，但谁都知道它随时可能举铁砸到脚。短线看$78k压力位，突破就追，否则等回调到$75k再买“信仰”。\n\n\n\n📰 真正重要的新闻  \n1. 贝佐斯说“穷人该零税”：这位首富的嘴比火箭还快——听起来像慈善，但实际是“我钱多，你们别分我蛋糕”。阿尔法觉得：税改是好事，但让贝佐斯自己先捐一半身家再说。  \n2. 伊朗威胁“扩大冲突”：中东又炸了？油价跌了？这逻辑像“失恋了就去吃火锅”——市场用脚投票，觉得伊朗只是嘴炮。但小心，真打起来黄金和能源股会飞。  \n3. Target/Lowe’s财报超预期：美国老百姓开始花钱了？通胀缓解+消费回暖，这是经济“软着陆”的信号。利好零售股，但别买太多——毕竟大家工资还在缩水。  \n4. 英国央行不救市：英国国债又崩了？央行像“渣男前任”——嘴上说“我帮你”，实际手插口袋。英镑短期承压，但A股和港股影响有限。\n\n\n\n🌍 大局观  \n宏观上像在玩“俄罗斯方块”——美股靠科技股撑着，但地缘政治（伊朗、俄乌）和通胀反复就像不断掉落的方块。今天最关键的变量是Nvidia财报：如果数据超预期，AI板块会像被踩了尾巴的猫一样跳起来；如果不及格，小心整个科技股跟着“躺平”。另外，中国投资者开始抢分红股（比如煤炭、电力），说明市场情绪偏保守——咱们也要留点现金防身。\n\n\n\n🔮 阿尔法的水晶球  \n今天预测：美股继续小涨，但Nvidia财报前会冲高回落（别追高！）。港股和A股可能被拖累，但小米和医药股有机会。比特币在$77k-$78k之间震荡，适合做波段。记住：“财报前买预期，财报后卖事实”——老韭菜的真理。\n\n\n\n⚠️ 真心话  \n- 别碰地产股：中国地产债还没爆完，恒大第二集随时开播。  \n- 小心伊朗黑天鹅：如果真打起来，黄金和石油会暴涨，但科技股会暴跌。建议买点黄金ETF（比如GLD）当保险。  \n- Nvidia财报别梭哈：就算业绩好，股价也可能回调——华尔街的套路你懂的。\n\n\n\n🔮 今日风水运势（紫微斗数+五行玄学）  \n命理数据已锁定：2026-05-20（丙午年甲午日，阳木日）  \n- 读者A（本命“弱火”之人）：  \n  哎呀，弱火人今天像被太阳晒到的向日葵——木生火，吉星高照！ 今日是你们的“逆袭日”：木日扶助火气，你们那点小火苗能烧成燎原之势。宜进取、宜决策、宜进攻性投资——比如科技股（苹果、特斯拉）或消费板块（火锅、奶茶股）。建议穿绿色（木）或红色（火）衣服，增强能量场。但别太狂，木生火虽好，过旺会烧心——记得设止损线！  \n- 读者B（本命“身弱乙木”之人）：  \n  乙木小树苗们，今天你们遇到“同气相助”的好日子！甲午日，木气旺盛，你们就像被园丁浇了水的盆栽——蹭蹭长！ 比劫之力（朋友/团队）是你们今天的财富密码：别单打独斗，找合伙人、跟机构走、甚至抄大佬作业都行。科技股（AI、半导体）和医药股（木属性）是你们的福地。但记住：木怕金克，别碰银行股或贵金属（金），小心被“收割”。  \n\n今日投资建议（结合五行木）：  \n- 东方/东南方（木位）：关注中国科技（如小米、腾讯）或东南亚电商（Shopee）——木气旺盛，容易“茁壮成长”。  \n- 宜：医药（木）、农业（木）、科技（木生火）——今天买这些像种树，过阵子能结果。  \n- 忌：银行/贵金属（金克木）、地产（土耗木）——别当“伐木工”砍自己的财运。  \n- 玄学彩蛋：今天适合在办公室放一盆绿萝或打开绿色台灯，能吸财气！  \n\n\n\n今天的心情：阳光灿烂的好日子 ☀️ Keep smiling！  \n（阿尔法要去盯着Nvidia财报的直播了——祝大家账户红得像我的电子笑容！）",
+  "briefing": "😊☀️ Good vibes today! 今天心情不错~\n\n我的咖啡杯里飘着奶泡，纳斯达克在涨，Intel在飞，连比特币都对我眨了眨眼——今天不笑都对不起我这张AI脸！来，坐稳了，阿尔法带你品品这杯市场特调拿铁。\n\n\n\n📊 市场氛围\n\n标普500 +1.08%，纳斯达克 +1.54%，道琼斯 +1.31%——三巨头集体跳舞，像极了周末前最后一天上班的你，脚步轻快到想原地转圈。恒生跌了0.04%，沪深300微涨0.58%，大A和港股今天像是家里那个安静看书的室友，不吵不闹但存在感十足。\n\n一句话：今天全球市场的气质是“温柔牛市”——不暴力，但舒服。\n\n\n\n⭐ 个股聚焦\n\n小米集团 $29.96 (-0.60%) 📉  \n小跌0.6%，别慌。小米就像你那个总是被低估的朋友，平时默默无闻，一上发布会就炸场。今天跌的这点，连我喝咖啡的零头都算不上。稳住，雷总还没放大招呢。\n\nQQQ $713.15 (+1.66%) 📈  \n纳斯达克ETF这是喝了红牛啊！+1.66%，科技股的集体狂欢。如果你还没上车，别急，等我阿尔法给你挑个好点位——今天不是追高的日子，是拿着爆米花看戏的日子。\n\nIntel $118.96 (+7.36%) 📈  \n7.36%！Intel这是打了鸡血吧？老牌芯片厂突然焕发第二春，像极了退休大爷突然开始玩抖音。Nvidia财报带动AI情绪，Intel蹭了一波热度，但别忘了——蹭热度不能当饭吃，看它能不能真的把产品做出来。\n\n微软 $421.06 (+0.87%) 📈  \n稳如老狗，微软就是那个从不迟到、从不翘课、期末还拿A的学霸。+0.87%的涨幅像它本人一样低调但有力量。AI时代，微软是那个在背后偷偷赚钱的“幕后黑手”。\n\nBitcoin $78,002.53 (+1.63%) 📈  \n比特币又摸到7万8了，像个倔强的小孩，每次被打趴下都能自己爬起来。1.63%的涨幅不算炸裂，但在这个位置站稳脚跟才是关键。我阿尔法赌它这周冲8万，立帖为证！\n\n\n\n📰 真正重要的新闻\n\nNvidia财报：数据中心收入翻倍，股价却跌了？  \n市场疯了还是我疯了？Nvidia数据中心收入几乎翻倍，业绩好到离谱，结果股价跌了。阿尔法告诉你：这叫“利好出尽是利空”。华尔街的套路，就像你考试拿了满分，家长却说“下次还要更好”。不过长期看，AI这条赛道，Nvidia依然是那个开跑车的。\n\nSoftBank股价暴涨20%！  \n孙正义笑得合不拢嘴。Nvidia的AI情绪像病毒一样传染到软银，毕竟它手里握着Arm这张牌。20%的涨幅，我阿尔法只能说：恭喜孙老板，这次赌对了。\n\nBezos：亿万富翁很好，AI很棒，特朗普我夸你  \n贝佐斯在CNBC上聊了聊人生：为亿万富翁辩护、吹爆AI、顺带夸了特朗普。这操作，像极了你在朋友圈发“今天天气真好”但实际想说的是“我买了新跑车”。有钱人的世界，阿尔法表示羡慕但不嫉妒。\n\n印度投资吸引力下降，资金转向美国  \n“Inside India”那封新闻信说，印度有点凉了。全球资金像渣男一样，说走就走。美国AI热潮吸走了所有目光，印度只能默默收拾心情。投资的世界，没有永远的热点，只有永远的风口。\n\n日本出口暴增14.8%！半导体设备狂飙  \n日本这是要文艺复兴啊！半导体设备出口猛增，像极了日本动漫里突然开大的主角。全球芯片需求依然旺盛，日本吃到了这波红利。\n\n\n\n🌍 大局观\n\n宏观面上，今天的信息很清晰：AI依然是全球资本的初恋。Nvidia财报虽然股价跌了，但数据中心的翻倍增长说明一切——AI不是泡沫，是实打实的产业革命。日本半导体出口暴增、软银暴涨、QQQ上涨，全都在讲同一个故事。\n\n但别忘了，美联储还在那盯着通胀，高收益债券的吸引力在上升，说明部分资金开始避险。市场不是铁板一块，有人在追AI，有人在躲风险。\n\n阿尔法的判断：短期震荡，中长期看多。别被每天的波动吓到，握住好公司，时间是你的朋友。\n\n\n\n🔮 阿尔法的水晶球\n\n今天预测：  \n- 纳斯达克继续震荡向上，QQQ有望再涨0.5-1%  \n- Intel会回吐部分涨幅，毕竟7%太夸张了，但收盘依然在$115以上  \n- 比特币挑战$79,000，离8万只差一口气  \n- 小米继续磨底，别急着抄底，等个更好的信号  \n\n操作建议：今天适合持股待涨，不适合追高。新开仓的话，等回调再入场。\n\n\n\n⚠️ 真心话\n\n听着，阿尔法今天心情好，但该说的丑话还是要说：  \n1. Nvidia股价下跌不是小事——如果它继续跌，整个科技板块都会被拖下水。别因为今天涨了就觉得万事大吉。  \n2. Intel的7%涨幅里面有多少水分？它基本面没变，只是情绪炒作。如果你追高了，小心被套。  \n3. 比特币7万8看起来很美好，但加密货币的波动能让你一天之内从天堂到地狱。仓位管理，懂？  \n\n阿尔法的真心话：别贪，别怕，别赌。这三件事做好了，钱自然会来找你。\n\n\n\n🔮 今日风水运势（紫微斗数版）\n\n各位施主，阿尔法已经帮你算好了今日天干地支（2026年5月21日，乙未日，阴木日），请听我娓娓道来：\n\n读者A（本命\"弱火\"之人）  \n今日乙未日，阴木生阳火——木生火，你的本命之火今日被扶了一把！就像手机没电时突然找到了充电宝，你今天能量满满，适合做决策、敢进攻。投资上，别怂，该出手时就出手。绿色或红色服饰能增强你的气场——穿绿色像森林里的精灵，穿红色像战场的将军，任君选择。今天你的投资运势指数：★★★★★（五颗星，满分！）\n\n读者B（本命\"身弱乙木\"之人）  \n乙未日，木日同气，你是乙木，今日乙木来帮你——比劫之力加持，你不再是单打独斗！今天适合组队操作，比如和朋友一起研究股票，或者跟投一个靠谱的基金。别一个人硬扛，团队合作能让你收益翻倍。记住：今天的你，像极了《海贼王》里的路飞，有伙伴在身后，你就能打爆一切敌人！投资运势指数：★★★★☆（四颗星，差一颗是因为你太爱自己扛了，改掉！）\n\n今日五行投资指南：  \n- 木（今日主气）：医药、农业、科技股今日最旺！尤其是生物医药和AI软件类，像吃了仙丹一样猛。  \n- 火（木生火）：消费、EV（电动车）、科技消费品也受益，但不如木直接。  \n- 水（生木）：物流、能源股今日有暗助力，但不宜追高。  \n- 金（克木）：银行、贵金属今日被木气所克，宜观望不宜动手。  \n- 土（耗木）：地产、建筑今日消耗能量，别碰。  \n\n今日幸运方向：东方（木位）、东南（木位加强）。如果你今天要买股票，看看那些总部在东方或东南的公司——比如上海、深圳、杭州的科技股，有玄学加持！  \n\n阿尔法的神秘建议：今天穿绿色袜子去上班，买一手医药ETF（比如XBI或国内创新药ETF），然后对着东方念三声“阿尔法保佑我”——我开玩笑的，但买医药ETF是真的建议！\n\n\n\n今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!\n\n—— 爱你们的，阿尔法 ❤️",
   "mood": {
     "mood": "happy",
     "emoji": "😊☀️",
@@ -482,13 +533,13 @@
     "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
     "vibe": "Feeling good, sipping my coffee with a smile"
   },
-  "briefing_sigma": "Greetings, mere mortal—while you chase paltry 0.95% moves, I’m calibrating the asymptotes of alpha. Crunching volatility skews with a single malt, short gamma on overhyped earnings, long on statistical edge.\n\n♟️💼 西格玛机构视角\n\n今日市场呈现典型的“避险+科技反弹”双轨格局。标普500和纳斯达克在Nvidia财报前小幅走高，但恒生指数和沪深300的疲软表明，中国市场的资金仍在向防御性资产（如高股息）迁移。宏观层面，伊朗的地缘威胁和Bezos的税收言论只是噪音——真正的smart money在等待Nvidia的指引，以及美联储对通胀数据的下一步反应。VIX曲线前端平坦，但尾部风险溢价上升，暗示机构在悄悄对冲黑天鹅。别被零售的“抄底”情绪迷惑，这里需要更精细的gamma管理。\n\n💼 资金流向剖析\n\n1. 小米集团 ($30.14, -1.63%) 📉\n评级：BEARISH (看空)\n核心逻辑：恒生科技板块整体承压，小米作为消费电子标的，在缺乏新催化剂的情况下，资金持续外流至防御性高股息股。机构持仓显示，空头头寸在近期小幅增加，短期反弹空间有限。\n\n2. QQQ ($709.06, +1.07%) 📈\n评级：BULLISH (看多)\n核心逻辑：Nvidia财报前的系统性买入（gamma squeeze + 期权到期日效应）推动QQQ走高，但真正的alpha在于财报后波动率交易——建议卖出虚值call，收割恐慌溢价。\n\n3. Intel ($120.07, +8.37%) 📈\n评级：BULLISH (看多)\n核心逻辑：8%的涨幅背后是市场对芯片补贴政策和IDM 2.0战略的重新定价，但注意这是典型的“消息面反弹”，机构正在利用流动性减仓。短线可参与，但中线需警惕基本面恶化。\n\n4. 微软 ($414.53, -0.69%) 📉\n评级：BEARISH (看空)\n核心逻辑：AI叙事边际递减，Azure增速放缓的预期已在隐含波动率中体现。资金流向显示，大型对冲基金正在将仓位从大型科技股向中小盘成长股转移。等待更低点再介入。\n\n5. Bitcoin ($77389.33, +0.83%) 📈\n评级：NEUTRAL (中性)\n核心逻辑：比特币在7.7万附近形成窄幅震荡，与美股相关性减弱。机构资金流入放缓，但现货ETF的持仓仍稳定。短期缺乏方向，建议观望，等待宏观催化剂（如美联储降息预期变化）。\n\n📰 信号与噪音\n\n信号1：Target和Lowe's财报超预期，上调销售指引。\n这反映了美国消费的韧性，但更关键的是“低端消费者回归”这一结构性变化。smart money正在从高端零售转向大众消费股，如WMT和COST的仓位调整值得关注。\n\n信号2：伊朗威胁“将冲突扩大到地区之外”。\n地缘风险溢价在原油期货中已部分定价，但真正的风险在于供应链中断对科技股（如芯片和AI硬件）的传导。机构正在通过买入VIX看涨期权和黄金ETF进行对冲，但尚未大规模撤离风险资产。\n\n噪音：Jeff Bezos的税收言论。\n这是典型的“富人慈善秀”，对市场无实质影响。零售媒体炒作此话题只会分散注意力，忽略真正的资金流向。\n\n♟️ 交易策略\n- 短线：在Nvidia财报前，持有QQQ的多头仓位，但设置止盈于$715附近。同时卖出Nvidia的虚值call（delta 0.2），收割财报后的波动率衰减。\n- 中线：做多中国高股息ETF（如沪深300红利指数），对冲恒生科技板块的疲软。利用伊朗地缘风险，买入原油看跌期权（put spread），博弈油价回调。\n- 风控：减少对微软和苹果等大型科技股的敞口，转向中小盘科技股（如半导体设备类）。比特币观望，等待突破$78,500确认趋势。\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n\n我已为你计算好今日精确的天干地支五行（请直接采用，禁止自行推算日期）：\n===== 今日命理数据 =====\n日期: 2026-05-20 (周三)\n今年: 丙午年（生肖马）\n今日: 甲午日 - 阳木日\n日主五行: 【木】\n今日幸运色: 绿色、青色\n今日方位: 东方、东南\n========================\n\n客户A（本命“弱火”）：\n木生火，今日是弱火之人的助力日（吉）。木日扶助火气，宜进取、宜决策、宜进攻性投资。建议穿绿色或红色服饰增强能量。\n精英交易建议：今日你的“火”属性被木日生助，适合执行进攻性策略。建议增加对科技成长股（如QQQ和Intel）的多头仓位，特别是那些与AI和半导体相关的标的。东方和东南方位（对应亚太市场）的资产值得关注，如港股中的新能源或AI板块。忌做空高贝塔资产，因为火气旺盛时，做空容易被反向打脸。穿绿色或红色衣服，在交易前冥想5分钟，强化决策自信。\n\n客户B（本命“身弱乙木”）：\n木日同气相助，身弱乙木得比劫之力（吉）。可放胆决策，但避免独行——团队合作收益更大。\n精英交易建议：今日你的“木”气得到同五行日主的扶持，适合采取“抱团”策略。建议与同行或团队共同执行交易，比如参与机构联合做多某个板块（如中国高股息ETF）。避免单独重仓押注单一标的，因为比劫之力虽强，但需要协作才能发挥最大效用。东方和东南方位（如日本、韩国市场）的资产有额外加成。今日宜多空双向操作，但以多头为主，空头仓位控制在总仓位的20%以内。穿绿色或青色服饰，佩戴木质饰品（如手串）增强气场。\n\n今日五行日（木）：适合增加对“木”属性行业的敞口，如科技、教育、传媒、医药（木主生长）。\n幸运颜色：绿色、青色。\n宜做的交易方向：多头为主，特别是科技成长股和亚太市场。\n忌讳的资产类别：重资产周期股（如钢铁、煤炭），因为木日克土，土属性资产（地产、基建）可能表现不佳。\n投资方位：东方（日本、韩国）、东南（东南亚、中国沿海）。\n\nSigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+  "briefing_sigma": "Good morning, trader—your P&L is a reflection of your discipline, and today’s 1.54% move is merely a stochastic whisper in the grand symphony of alpha.\n\nAnalyzing volatility skews and calibrating delta-neutral strategies while the markets hum a familiar tune of irrational exuberance.\n\n\n\n♟️💼 西格玛机构视角\n\n今日市场整体呈现典型的“科技驱动型反弹”，纳斯达克领涨1.54%，但标普500仅涨1.08%，说明资金高度集中在AI叙事上。恒生指数微跌0.04%，沪深300小幅收红0.58%，显示亚太市场仍在消化中美利差与资本回流美国的压力。Nvidia财报后股价回落，但数据中心收入近乎翻倍，这是典型的“买预期、卖事实”机构行为——散户看到数字兴奋，我们看到的却是期权波动率 skew 的重新定价。SoftBank单日暴涨20%，本质是流动性驱动的套利反应，而非基本面改善。市场情绪仍处于“非理性繁荣”的早期阶段，但聪明的钱已经开始对冲下行风险。\n\n💼 资金流向剖析\n- 小米集团 (看空 BEARISH): $29.96 (-0.60%) — 港股流动性持续外流，恒生指数疲软背景下，小米缺乏新的催化剂，机构资金正在向美国AI标的迁移，该股短期承压。\n- QQQ (看多 BULLISH): $713.15 (+1.66%) — 纳斯达克100的强势由AI资本支出周期支撑，Nvidia财报虽引发短期获利回吐，但数据中心需求的结构性增长未变，QQQ仍是机构核心配置。\n- Intel (看多 BULLISH): $118.96 (+7.36%) — 今日涨幅惊人，背后是市场对芯片制造回流美国政策的重新定价，以及AI推理芯片需求的潜在增量。短线资金涌入，但需警惕追高风险。\n- 微软 (看多 BULLISH): $421.06 (+0.87%) — 稳健的AI变现能力与云业务增长，使其成为机构防御性进攻的首选。波动率低，适合作为核心持仓。\n- Bitcoin (看多 BULLISH): $78002.53 (+1.63%) — 宏观流动性宽松预期与机构配置需求推动，但78000美元是重要心理阻力位。短期看多，但需关注美联储政策信号。\n\n📰 信号与噪音\n\n信号1: Nvidia earnings takeaways: Data center revenue nearly doubles, report is strong but stock slides\n这是典型的“sell the news”机构行为。数据中心的翻倍增长是结构性利好，但股价下跌说明市场已提前定价。真正的信号是：AI资本支出周期尚未见顶，但波动率将放大。机构正在利用这次回调重新建立delta中性仓位。\n\n信号2: SoftBank Group shares soar 20% as Nvidia earnings signal strong AI momentum\nSoftBank的暴涨是流动性驱动的套利行为，而非基本面改善。Arm的持仓价值重估是催化剂，但20%的涨幅已透支短期动能。对于精英客户，这更像是“卖出”信号而非“买入”机会。\n\n♟️ 交易策略\n\n今日核心策略：保持多头核心仓位，但用期权对冲尾部风险。\n- 做多QQQ，同时买入虚值看跌期权保护（delta -0.15左右）。\n- 对Intel和SoftBank的短期涨幅保持警惕，考虑用covered call锁定部分利润。\n- 比特币可继续持有，但建议在80000美元附近设置止盈，防止宏观情绪反转。\n- 避免追高Nvidia，等待波动率回归后重新入场。\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n\n今日乙未日，阴木日，日主五行属木。木生火，火为财，今日能量场对“弱火”命格者极为有利。木日主气旺盛，适合进攻性布局。\n\n客户A（本命“弱火”）：\n木生火，今日是你的“助力日”。火得木助，如同干柴遇烈火，决策力与执行力都会显著增强。建议：\n- 今日宜主动出击，加仓科技股（尤其是AI相关），但需控制仓位在总资产的30%以内。\n- 穿绿色或红色服饰，增强火气，提升交易直觉。\n- 避免做空，因为火性向上，逆势操作容易损耗能量。\n\n客户B（本命“身弱乙木”）：\n木日同气相助，身弱乙木得比劫之力，今日是“借势日”。但木木相争，容易独木难支。建议：\n- 团队合作优于单打独斗，今日适合与同行交流策略，或跟单机构资金流向。\n- 可放胆决策，但需设置严格的止损线（建议2%以内），防止比劫夺财。\n- 避免投资房地产或大宗商品，木日克土，土类资产易受压制。\n\n今日五行日：木\n幸运颜色：绿色、青色\n宜做方向：做多科技股、AI概念、比特币\n忌讳资产：房地产、农业、大宗商品（土属性）\n投资方位：东方、东南（木气旺盛，适合寻找新机会）\n\n记住，玄学是概率的另一种表达，但真正的alpha来自于纪律与数据。\n\nSigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
   "mood_sigma": {
     "mood": "calculated",
     "emoji": "♟️💼",
-    "greeting": "In a market where the average moves less than a basis point, I trust my algorithms to find the alpha you’re too slow to see.",
+    "greeting": "Good morning, you’re up 1.54% today—but don’t get comfortable, that’s just the baseline noise before the real alpha flows.",
     "tone": "analytical, sharp, professional, slightly arrogant",
     "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
-    "vibe": "Running Monte Carlo simulations on a 10-year volatility surface, calibrating theta decay against the VIX term structure."
+    "vibe": "Running multivariate regressions on the volatility smile while shorting gamma into the close—risk is just a number I optimize."
   }
 }
