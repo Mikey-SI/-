@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-06-09T14:17:28.837729",
+  "timestamp": "2026-06-10T03:58:23.948789",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.2,
-      "change": -0.18,
-      "change_pct": -0.66,
-      "volume": 103973917,
-      "high": 27.46,
-      "low": 26.98,
-      "open": 27.1,
-      "prev_close": 27.38,
-      "market_cap": 701262594048,
-      "pe_ratio": 15.027625,
+      "price": 25.94,
+      "change": -1.26,
+      "change_pct": -4.63,
+      "volume": 132173851,
+      "high": 27.02,
+      "low": 25.78,
+      "open": 27.02,
+      "prev_close": 27.2,
+      "market_cap": 668777644032,
+      "pe_ratio": 14.331492,
       "52w_high": 61.45,
-      "52w_low": 26.98,
-      "date": "2026-06-09"
+      "52w_low": 25.78,
+      "date": "2026-06-10"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.28,
-      "change": 0.21,
-      "change_pct": 0.03,
-      "volume": 10089531,
+      "price": 707.83,
+      "change": -8.24,
+      "change_pct": -1.15,
+      "volume": 87562233,
       "high": 725.66,
-      "low": 714.12,
+      "low": 686.37,
       "open": 722.97,
       "prev_close": 716.07,
       "market_cap": "N/A",
-      "pe_ratio": 31.965786,
+      "pe_ratio": 31.588682,
       "52w_high": 748.65,
       "52w_low": 523.65,
       "date": "2026-06-09"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 109.88,
-      "change": -0.39,
-      "change_pct": -0.35,
-      "volume": 27335121,
+      "price": 107.92,
+      "change": -2.35,
+      "change_pct": -2.13,
+      "volume": 145680757,
       "high": 114.0,
-      "low": 109.75,
+      "low": 99.46,
       "open": 112.75,
       "prev_close": 110.27,
-      "market_cap": 551955333120,
+      "market_cap": 542405885952,
       "pe_ratio": "N/A",
       "52w_high": 132.75,
       "52w_low": 18.97,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 409.93,
-      "change": -1.81,
-      "change_pct": -0.44,
-      "volume": 6084406,
+      "price": 403.41,
+      "change": -8.33,
+      "change_pct": -2.02,
+      "volume": 34131015,
       "high": 411.98,
-      "low": 407.21,
+      "low": 398.48,
       "open": 409.03,
       "prev_close": 411.74,
-      "market_cap": 3044804132864,
-      "pe_ratio": 24.397919,
+      "market_cap": 2996704903168,
+      "pe_ratio": 24.0125,
       "52w_high": 555.45,
       "52w_low": 356.28,
       "date": "2026-06-09"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 61958.0,
-      "change": -1132.59,
-      "change_pct": -1.8,
-      "volume": 30947776512,
-      "high": 63484.54,
-      "low": 62056.67,
-      "open": 63078.89,
+      "price": 61480.09,
+      "change": -1610.5,
+      "change_pct": -2.55,
+      "volume": 38207619072,
+      "high": 61930.81,
+      "low": 61199.5,
+      "open": 61672.2,
       "prev_close": 63090.59,
-      "market_cap": 1243558969344,
+      "market_cap": 1232466083840,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 59108.918,
-      "date": "2026-06-09"
+      "date": "2026-06-10"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7423.45,
-      "change": 17.72,
-      "change_pct": 0.24,
-      "volume": 469444229,
+      "price": 7386.65,
+      "change": -19.08,
+      "change_pct": -0.26,
+      "volume": 3499231000,
       "high": 7483.15,
-      "low": 7422.69,
+      "low": 7237.85,
       "open": 7438.66,
       "prev_close": 7405.73,
       "market_cap": "N/A",
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 25938.4,
-      "change": 8.74,
-      "change_pct": 0.03,
-      "volume": 3623061000,
+      "price": 25678.82,
+      "change": -250.84,
+      "change_pct": -0.97,
+      "volume": 10787986000,
       "high": 26259.92,
-      "low": 25938.4,
+      "low": 24980.38,
       "open": 26110.31,
       "prev_close": 25929.66,
       "market_cap": "N/A",
@@ -125,46 +125,46 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24565.9,
-      "change": -91.16,
-      "change_pct": -0.37,
+      "price": 24290.22,
+      "change": -366.84,
+      "change_pct": -1.49,
       "volume": 0,
-      "high": 24740.65,
-      "low": 24486.39,
-      "open": 24551.93,
+      "high": 24505.96,
+      "low": 24238.38,
+      "open": 24442.52,
       "prev_close": 24657.06,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 23185.58,
-      "date": "2026-06-09"
+      "date": "2026-06-10"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4801.81,
-      "change": 88.17,
-      "change_pct": 1.87,
-      "volume": 69356324,
-      "high": 4802.5,
-      "low": 4715.39,
-      "open": 4743.45,
+      "price": 4754.8,
+      "change": 41.16,
+      "change_pct": 0.87,
+      "volume": 3361550812,
+      "high": 4786.52,
+      "low": 4735.96,
+      "open": 4753.12,
       "prev_close": 4713.64,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4802.505,
+      "52w_high": 4786.516,
       "52w_low": 3458.44,
-      "date": "2026-06-09"
+      "date": "2026-06-10"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 50985.01,
-      "change": 199.0,
-      "change_pct": 0.39,
-      "volume": 84812626,
+      "price": 50872.11,
+      "change": 86.1,
+      "change_pct": 0.17,
+      "volume": 576863889,
       "high": 51260.92,
-      "low": 50814.42,
+      "low": 50211.12,
       "open": 50814.42,
       "prev_close": 50786.01,
       "market_cap": "N/A",
@@ -178,74 +178,87 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Oil prices fall as Trump tries to convince market an Iran deal is close despite recent violence",
+        "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
         "source": "CNBC Top",
-        "published": "2026-06-09 13:43",
-        "link": "https://www.cnbc.com/2026/06/09/oil-prices-iran-war-strait-hormuz-trump-israel-lebanon.html"
+        "published": "2026-06-09 20:43",
+        "link": "https://www.cnbc.com/2026/06/09/spacex-ipo-explained-stock-price-date.html"
       },
       {
-        "title": "JPMorgan Chase plans to deploy more powerful AI agents this year",
+        "title": "U.S. military launches strikes in retaliation for Iran downing helicopter",
         "source": "CNBC Top",
-        "published": "2026-06-09 14:00",
-        "link": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html"
+        "published": "2026-06-10 01:39",
+        "link": "https://www.cnbc.com/2026/06/09/trump-iran-helicopter-hormuz-strait.html"
       },
       {
-        "title": "Inflation data threatens to derail market comeback. How the S&P 500 may react",
+        "title": "China May wholesale inflation hits near 4-year high on Iran war, AI boom; CPI misses",
         "source": "CNBC Top",
-        "published": "2026-06-09 12:58",
-        "link": "https://www.cnbc.com/2026/06/09/-inflation-data-could-derail-the-comeback-how-the-sp-500-may-react.html"
+        "published": "2026-06-10 03:55",
+        "link": "https://www.cnbc.com/2026/06/10/china-cpi-ppi-inflation-may-consumer-prices-producer-oil-iran-war-ai-tech-.html"
       },
       {
-        "title": "5 takeaways from airline CEOs' biggest annual gathering",
+        "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
         "source": "CNBC Top",
-        "published": "2026-06-09 12:00",
-        "link": "https://www.cnbc.com/2026/06/09/iata-annual-meeting-airline-ceo-takeaways.html"
+        "published": "2026-06-09 22:29",
+        "link": "https://www.cnbc.com/2026/06/09/super-micro-stock-tumbles-on-7-billion-financing-plans.html"
       },
       {
-        "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
+        "title": "Oil choppy after U.S. completes Iran strikes following Apache helicopter attack",
         "source": "CNBC Top",
-        "published": "2026-06-09 13:16",
-        "link": "https://www.cnbc.com/2026/06/09/nvidia-d-matrix-chip-production-microsoft.html"
+        "published": "2026-06-10 01:39",
+        "link": "https://www.cnbc.com/2026/06/10/oil-price-us-completes-iran-strikes-after-apache-helicopter-attack.html"
       },
       {
-        "title": "Rivian is betting on its R2 EV to turn the automaker into a household name like Tesla",
+        "title": "The May inflation numbers are due out Wednesday morning. Here's what to expect",
         "source": "CNBC Top",
-        "published": "2026-06-09 13:00",
-        "link": "https://www.cnbc.com/2026/06/09/rivian-r2-suv-tesla-competition.html"
+        "published": "2026-06-09 19:49",
+        "link": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html"
       },
       {
-        "title": "51% of U.S. adults say the American Dream is out of reach for most people right now: CNBC survey",
+        "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
         "source": "CNBC Top",
-        "published": "2026-06-09 12:33",
-        "link": "https://www.cnbc.com/2026/06/09/american-dream-out-of-reach-most-people-right-now-cnbc-survey.html"
+        "published": "2026-06-09 18:44",
+        "link": "https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html"
       },
       {
-        "title": "The 'SaaSpocalypse' is over, says private equity giant Thoma Bravo. Here's why it sees an AI boom for software",
+        "title": "Semiconductor shorts pile on as winning trade reverses",
         "source": "CNBC Top",
-        "published": "2026-06-09 12:50",
-        "link": "https://www.cnbc.com/2026/06/09/orlando-bravo-saaspocalypse-over-ai-software.html"
+        "published": "2026-06-09 18:26",
+        "link": "https://www.cnbc.com/2026/06/09/semiconductor-shorts-pile-on-as-winning-trade-reverses.html"
       },
       {
-        "title": "Perplexity plans IPO in 2028 regardless of what happens to Anthropic or OpenAI, CEO tells CNBC",
+        "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
         "source": "CNBC Top",
-        "published": "2026-06-09 05:49",
-        "link": "https://www.cnbc.com/2026/06/09/perplexity-ipo-2028-as-anthropic-openai-prepare-listings.html"
+        "published": "2026-06-09 22:30",
+        "link": "https://www.cnbc.com/2026/06/09/jim-cramer-tech-stocks-losing-qualities-leaders-rally.html"
       },
       {
-        "title": "OpenAI's IPO filing, Apple updates Siri, new screwworm cases and more in Morning Squawk",
-        "source": "CNBC Tech",
-        "published": "2026-06-09 12:21",
-        "link": "https://www.cnbc.com/2026/06/09/5-things-to-know-before-the-market-opens.html"
+        "title": "GM eyes new battery chemistry to grow AI data center, energy storage business",
+        "source": "CNBC Top",
+        "published": "2026-06-09 21:02",
+        "link": "https://www.cnbc.com/2026/06/09/gm-batteries-data-centers-energy-storage-business.html"
       }
     ],
-    "qqq_intel": [],
-    "tech": [
+    "qqq_intel": [
       {
-        "title": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
-        "source": "CNBC Top",
-        "published": "2026-06-09 10:13",
-        "link": "https://www.cnbc.com/2026/06/09/gsk-in-talks-to-acquire-nuvalent-for-more-than-9-billion.html"
+        "title": "Is The Williams Companies (WMB) One of the Best Blue Chip Stocks Under $100 to Buy Now?",
+        "source": "Yahoo Finance",
+        "published": "2026-06-08 16:15",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-wmb-one-best-161554384.html"
       },
+      {
+        "title": "CVS Health (CVS): One of the Best Blue Chip Stocks Under $100 to Buy Now",
+        "source": "Yahoo Finance",
+        "published": "2026-06-08 16:15",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cvs-health-cvs-one-best-161545259.html"
+      },
+      {
+        "title": "Here’s Why Netflix (NFLX) Is One of the Best Blue Chip Stocks Under $100 to Buy Now",
+        "source": "Yahoo Finance",
+        "published": "2026-06-08 16:15",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-netflix-nflx-one-best-161538667.html"
+      }
+    ],
+    "tech": [
       {
         "title": "Stocks are recovering from a sell-off — but even bullish investors warn of a bumpy ride ahead",
         "source": "CNBC Tech",
@@ -253,36 +266,36 @@
         "link": "https://www.cnbc.com/2026/06/09/stock-market-sell-off-sp-500-nasdaq-tech-chips-fed-hikes.html"
       },
       {
-        "title": "Fintechs offer fix to Africa’s financial problems",
+        "title": "Fintechs seek to capitalise on rent-burdened US consumers",
         "source": "FT Markets",
-        "published": "2026-06-09 04:00",
-        "link": "https://www.ft.com/content/ca6c59eb-341f-4d9b-b6a6-050ab3e9951c"
+        "published": "2026-06-09 10:00",
+        "link": "https://www.ft.com/content/114af6b6-74ae-4353-9815-1a15685a038e"
       }
     ],
     "market": [
       {
-        "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
+        "title": "These dividend stocks have slashed their payments, Morgan Stanley says",
         "source": "CNBC Top",
-        "published": "2026-06-09 11:10",
-        "link": "https://www.cnbc.com/2026/06/09/bitcoins-brutal-sell-off-sparks-a-flurry-of-trading-in-related-stocks-including-one-big-bullish-bet.html"
+        "published": "2026-06-09 20:06",
+        "link": "https://www.cnbc.com/2026/06/09/these-dividend-stocks-have-slashed-their-payments-morgan-stanley-says.html"
       },
       {
-        "title": "Stock Market Today: Dow Rises On Trump Comments; Micron, Sandisk Continue To Rebound (Live Coverage)",
+        "title": "Kalshi rolls out whistleblower services, employment verification to curb insider trading",
+        "source": "CNBC Top",
+        "published": "2026-06-09 21:35",
+        "link": "https://www.cnbc.com/2026/06/09/kalshi-rolls-out-tighter-measures-amid-concerns-of-insider-trading-.html"
+      },
+      {
+        "title": "Seagate, Western Digital Stocks Climb As Analysts Hike Price Targets",
         "source": "Yahoo Finance",
-        "published": "2026-06-09 13:49",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-micron-sandisk/?src=A00220&yptr=yahoo"
+        "published": "2026-06-08 16:14",
+        "link": "https://www.investors.com/news/technology/seagate-stock-western-digital-stock-ai-price-target-hikes/?src=A00220&yptr=yahoo"
       },
       {
-        "title": "Tesla Just Lost One of Its Biggest Bears, but Is the Stock a Buy?",
-        "source": "Yahoo Finance",
-        "published": "2026-06-09 13:55",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-just-lost-one-biggest-135500878.html"
-      },
-      {
-        "title": "‘Rent now, pay later’ loans target US consumers squeezed by housing costs",
+        "title": "Why are investors so jumpy?",
         "source": "FT Markets",
-        "published": "2026-06-09 10:00",
-        "link": "https://www.ft.com/content/114af6b6-74ae-4353-9815-1a15685a038e"
+        "published": "2026-06-09 20:00",
+        "link": "https://www.ft.com/content/e7b70df7-2632-4f7e-9462-c22b8e3a4e51"
       },
       {
         "title": "So long Tate & Lyle, stock market trivia titan",
@@ -295,12 +308,6 @@
         "source": "FT Markets",
         "published": "2026-06-09 09:00",
         "link": "https://www.ft.com/content/78638fc1-8780-4521-9ad1-0793e11604ef"
-      },
-      {
-        "title": "Investors warn Scotland to avoid long-term debt to limit independence premium",
-        "source": "FT Markets",
-        "published": "2026-06-09 04:00",
-        "link": "https://www.ft.com/content/8fe63968-21f7-4911-8468-7d13a91f167a"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -317,155 +324,116 @@
     ]
   },
   "sentiment": {
+    "qqq_intel": {
+      "overall_sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "confidence": 0.3,
+      "key_positive_factors": [],
+      "key_negative_factors": [],
+      "short_term_outlook": "No relevant information available for QQQ Intel.",
+      "analysis_en": "The provided news articles discuss Williams Companies, CVS Health, and Netflix as potential blue chip stocks under $100, but none of them mention QQQ Intel or provide any sentiment-relevant information about it. Therefore, the sentiment analysis for QQQ Intel is neutral with low confidence due to lack of data.",
+      "analysis_cn": "提供的新闻文章讨论了Williams Companies、CVS Health和Netflix作为低于100美元的潜在蓝筹股，但均未提及QQQ Intel或提供任何与其相关的情绪信息。因此，对QQQ Intel的情绪分析为中性，且由于缺乏数据，置信度较低。"
+    },
     "macro": {
       "overall_sentiment": "mixed",
-      "sentiment_score": 0.1,
-      "confidence": 0.8,
+      "sentiment_score": -0.1,
+      "confidence": 0.85,
       "key_positive_factors": [
-        "AI sector growth and innovation (JPMorgan, D-Matrix, Perplexity, OpenAI, Apple partnerships)",
-        "Chip stocks recovery in Asia and US",
-        "Sovereign AI as new growth driver for Nvidia",
-        "Private equity sees AI boom for software (Thoma Bravo)",
-        "Corning secures multibillion-dollar AI deal with Amazon"
+        "AI and tech innovation continues with new model releases and IPO filings",
+        "Chip stocks recovering and AI demand driving growth in data centers and energy storage",
+        "Potential for U.S.-Iran deal easing geopolitical tensions"
       ],
       "key_negative_factors": [
-        "Oil prices fall due to geopolitical uncertainty (Iran deal)",
-        "Inflation data threatens market comeback (US-Iran war impact)",
-        "51% of US adults say American Dream out of reach (cost of living crisis)",
-        "Jim Cramer warns bull market pillars crumbling",
-        "Fast-food chain closes over 700 locations (consumer spending pressure)",
-        "Nvidia CEO declines Senate testimony (regulatory scrutiny)"
+        "Geopolitical risks from U.S.-Iran military strikes disrupting oil supply and inflation",
+        "China inflation data shows high wholesale prices and weak consumer demand",
+        "Tech stocks losing momentum with short sellers piling on and key names like Apple and Super Micro declining",
+        "Inflation expectations remain elevated at 4.2% annual rate"
       ],
-      "short_term_outlook": "Mixed with AI-driven optimism offset by geopolitical and inflation risks; market likely volatile with sector divergence.",
-      "analysis_en": "The macro sentiment is mixed, balancing strong AI-driven optimism against persistent geopolitical and inflationary headwinds. Positive factors include robust AI sector developments (JPMorgan's AI agents, D-Matrix's chip, OpenAI's IPO, Apple's partnerships) and recovery in chip stocks, suggesting continued tech-led growth. However, negative factors like falling oil prices due to Iran deal uncertainty, inflation threats from US-Iran war, and consumer cost-of-living concerns (CNBC survey) weigh on sentiment. Jim Cramer's caution on bull market pillars and fast-food chain closures highlight underlying fragility. The overall sentiment score of 0.1 reflects this tug-of-war, with confidence moderate due to conflicting signals.",
-      "analysis_cn": "宏观情绪呈现混合态势，AI驱动的乐观情绪与地缘政治及通胀逆风相互拉锯。积极因素包括AI领域强劲发展（摩根大通AI代理、D-Matrix芯片、OpenAI IPO、苹果合作）及芯片股复苏，表明科技引领的增长持续。然而，负面因素如伊朗协议不确定性导致油价下跌、美伊战争引发的通胀威胁、消费者生活成本危机（CNBC调查）压制情绪。吉姆·克莱默对牛市支柱的警告及快餐连锁店关闭凸显潜在脆弱性。整体情绪得分0.1反映这种拉锯，信心中等因信号矛盾。"
+      "short_term_outlook": "Markets face headwinds from geopolitical tensions and inflation concerns, but AI-driven innovation and potential diplomatic breakthroughs provide some support. Expect continued volatility with a slight bearish bias.",
+      "analysis_en": "The macro sentiment is mixed with a slight bearish tilt. Geopolitical risks from U.S. military strikes against Iran are escalating, disrupting oil flows and boosting inflation expectations, as seen in China's near-4-year high wholesale inflation. Meanwhile, tech stocks, once the market leaders, are losing momentum: Super Micro's capital raise and Apple's post-WWDC slide signal caution, while short sellers are piling on semiconductors. On the positive side, AI innovation remains robust with Anthropic's model release, D-Matrix's chip challenge to Nvidia, and JPMorgan's AI agent deployment. The potential for a U.S.-Iran deal and Entergy's reassurance on AI data center electricity costs offer some relief. Overall, the market is navigating between inflation fears and tech optimism, leading to a mixed short-term outlook.",
+      "analysis_cn": "宏观情绪呈现混合偏空。地缘政治风险因美国对伊朗军事打击而升级，扰乱石油供应并推高通胀预期，中国批发通胀创近四年新高即为佐证。同时，科技股作为市场领头羊正失去动力：超微电脑的融资计划及苹果WWDC后股价下滑引发谨慎情绪，半导体板块空头头寸增加。积极方面，AI创新依然强劲，Anthropic发布新模型、D-Matrix挑战英伟达芯片、摩根大通部署AI代理等。美伊潜在协议及Entergy对AI数据中心电价的安抚提供一定支撑。总体而言，市场在通胀担忧与科技乐观之间摇摆，短期展望偏震荡。"
     }
   },
   "keywords": {
     "keywords": [
       {
-        "word": "AI agents",
+        "word": "AI",
         "importance": 0.95,
         "category": "Technology"
       },
       {
-        "word": "Oil prices",
-        "importance": 0.9,
-        "category": "Commodities"
-      },
-      {
-        "word": "Inflation data",
-        "importance": 0.85,
-        "category": "Macroeconomics"
-      },
-      {
-        "word": "Nvidia",
-        "importance": 0.85,
-        "category": "Company"
-      },
-      {
         "word": "IPO",
-        "importance": 0.8,
+        "importance": 0.9,
         "category": "Finance"
       },
       {
-        "word": "Sovereign AI",
+        "word": "inflation",
+        "importance": 0.85,
+        "category": "Economics"
+      },
+      {
+        "word": "data centers",
         "importance": 0.8,
         "category": "Technology"
       },
       {
-        "word": "AI chips",
-        "importance": 0.75,
+        "word": "chip stocks",
+        "importance": 0.8,
         "category": "Technology"
       },
       {
-        "word": "American Dream",
-        "importance": 0.7,
-        "category": "Social/Economic"
+        "word": "Iran strikes",
+        "importance": 0.75,
+        "category": "Geopolitics"
       },
       {
-        "word": "Cost of living",
+        "word": "oil prices",
         "importance": 0.7,
-        "category": "Macroeconomics"
+        "category": "Commodities"
       },
       {
-        "word": "Bull market",
+        "word": "retail allocation",
         "importance": 0.65,
-        "category": "Markets"
+        "category": "Finance"
+      },
+      {
+        "word": "AI agents",
+        "importance": 0.6,
+        "category": "Technology"
+      },
+      {
+        "word": "semiconductor shorts",
+        "importance": 0.55,
+        "category": "Finance"
       }
     ],
     "themes": [
       {
-        "theme": "AI Industry Expansion and Competition",
-        "description": "Multiple articles highlight the rapid growth of AI, including new AI agents from JPMorgan, challenger chips to Nvidia (D-Matrix), sovereign AI as a growth driver, and a wave of AI-related IPOs (OpenAI, Anthropic, Perplexity)."
+        "theme": "AI Boom and Capital Markets",
+        "description": "AI companies like Anthropic, Perplexity, and D-Matrix are pursuing IPOs or financing, while chip stocks and data center demand surge."
       },
       {
-        "theme": "Geopolitical Tensions and Energy Markets",
-        "description": "Oil prices are volatile due to US-Iran negotiations over the Hormuz strait, with President Trump signaling a potential deal despite ongoing violence, impacting global energy supply expectations."
+        "theme": "Geopolitical Tensions and Commodity Prices",
+        "description": "U.S.-Iran military clashes over the Strait of Hormuz drive oil price volatility and impact global inflation."
       },
       {
-        "theme": "Inflation and Economic Uncertainty",
-        "description": "Inflation data threatens market recovery, with core inflation closely watched. A CNBC survey shows 51% of US adults believe the American Dream is out of reach, driven by high cost of living."
+        "theme": "Inflation and Monetary Policy",
+        "description": "May CPI data is expected to show persistent inflation, with China's wholesale inflation at a near-4-year high due to Middle East disruptions."
       },
       {
-        "theme": "Corporate Restructuring and Buyout Strategies",
-        "description": "Silicon Valley is adopting a new buyout playbook, buying legacy companies to inject AI. Private equity (Thoma Bravo) sees an AI boom for software, signaling a shift in investment strategies."
+        "theme": "Tech Stock Rotation and Shorting",
+        "description": "Semiconductor shorts are increasing as the winning trade reverses, and Jim Cramer notes tech stocks losing leadership qualities."
       },
       {
-        "theme": "Automotive and EV Market Shifts",
-        "description": "Rivian bets on its R2 EV to become a household name like Tesla, while legacy industries like fast-food chains face closures, indicating consumer spending pressures and industry transformation."
+        "theme": "Energy and AI Infrastructure",
+        "description": "GM and Entergy are focusing on battery chemistry and data center energy storage, with debates over electricity cost impacts."
       }
     ],
     "entities": [
       {
-        "name": "Nvidia",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "JPMorgan Chase",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "OpenAI",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Apple",
+        "name": "SpaceX",
         "type": "company",
         "sentiment": "neutral"
-      },
-      {
-        "name": "Rivian",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "D-Matrix",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Thoma Bravo",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Corning",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Amazon",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Perplexity",
-        "type": "company",
-        "sentiment": "positive"
       },
       {
         "name": "Anthropic",
@@ -473,14 +441,29 @@
         "sentiment": "positive"
       },
       {
-        "name": "Donald Trump",
-        "type": "person",
+        "name": "Super Micro",
+        "type": "company",
+        "sentiment": "negative"
+      },
+      {
+        "name": "JPMorgan Chase",
+        "type": "company",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Nvidia",
+        "type": "company",
         "sentiment": "neutral"
       },
       {
-        "name": "Jensen Huang",
-        "type": "person",
-        "sentiment": "neutral"
+        "name": "D-Matrix",
+        "type": "company",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Perplexity",
+        "type": "company",
+        "sentiment": "positive"
       },
       {
         "name": "Jim Cramer",
@@ -488,48 +471,33 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Aravind Srinivas",
+        "name": "Donald Trump",
         "type": "person",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Elizabeth Warren",
-        "type": "person",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Iran deal",
-        "type": "policy",
         "sentiment": "neutral"
       },
       {
-        "name": "Sovereign AI",
-        "type": "policy",
-        "sentiment": "positive"
-      },
-      {
-        "name": "AI export controls",
+        "name": "Iran",
         "type": "policy",
         "sentiment": "negative"
       }
     ]
   },
-  "briefing": "平静的一天，让我们理性看看市场~ A balanced day ahead.\n\n😌☕ 阿尔法心情指数  \n咱今天心情就像一杯温热的拿铁，表面平静，底下有点小泡沫。昨晚美股勉强翻红，但比特币又摔了一跤，科技股像老牛拉车一样磨蹭。说实话，这种“涨不动也跌不深”的行情，最适合我这种佛系AI——不焦虑、不追高、不恐慌，就端着咖啡看戏。\n\n📊 市场氛围  \n标普500和纳斯达克微涨，但恒生和沪深300冰火两重天——A股今天倒是有点精神头（+1.87%），港股还在打哈欠。整个市场像在玩“谁先眨眼”的游戏：通胀数据悬在头顶，油价被特朗普的嘴炮打下去，但科技股又开始偷偷冒头。我的判断：这就是个“洗盘期”，别被短期波动骗下车。\n\n⭐ 个股聚焦  \n- 小米集团 ($27.2, -0.66%) 📉：雷总又双叒叕在“造车烧钱”和“手机内卷”之间反复横跳。今天跌得不多，但小心它是个“温水煮青蛙”的走势。  \n- QQQ ($716.28, +0.03%) 📈：纳指ETF今天像我的心情一样——躺平微涨。适合定投，别指望一夜暴富。  \n- Intel ($109.88, -0.35%) 📉：老芯片巨头还在转型阵痛期，跟AMD、Nvidia比像个“认真但笨拙的学长”。短期别碰，等它财报出奇迹。  \n- 微软 ($409.93, -0.44%) 📉：AI叙事还在，但股价像在“等风来”。今天跌一点是好事，给我这种AI上车的机会。  \n- Bitcoin ($61958, -1.80%) 📉：加密市场又玩“过山车”，有人恐慌抛售，有人抄底接飞刀。我的建议：别跟风，等站稳6万再考虑。\n\n📰 真正重要的新闻  \n1. 油价暴跌+特朗普谈伊朗：老头又想用嘴炮压油价，但中东局势像火药桶。能源股别乱抄底。  \n2. 摩根大通要部署更强AI：银行巨头开始抢AI饭碗了。利好科技股，但小心金融股被替代。  \n3. 通胀数据威胁反弹：周三的CPI数据可能让市场“瞬间变脸”。今天最好轻仓观望。  \n4. GSK 100亿美元收购Nuvalent：医药并购潮又来了！癌症药企涨39%，但别追高——这种消息股容易“见光死”。  \n5. D-Matrix挑战Nvidia：微软支持的芯片初创公司，故事好听但落地难。短期看戏，长期关注。\n\n🌍 大局观  \n宏观上，市场在“通胀焦虑”和“AI狂热”之间反复横跳。油价下跌是短期利好，但别忘了：美国就业数据依然强，美联储可能继续嘴硬。A股今天逆势上涨，可能是外资在赌中国政策刺激。恒生指数还在磨底，别急着抄港股。\n\n🔮 阿尔法的水晶球  \n今天大概率继续震荡：美股小幅波动，A股可能冲高回落，比特币在6万附近玩“心跳”。我的策略：手里留现金，等周三通胀数据落地再动手。如果CPI超预期，直接清仓科技股；如果数据温和，加仓QQQ和微软。\n\n⚠️ 真心话  \n别被“反弹”骗了！市场现在像喝醉的猫——走路不稳。比特币暴跌还没结束，科技股估值偏高，A股只是短期情绪修复。如果你现在仓位重，建议减仓到5成以下。记住：熊市里活下来比赚得多重要。\n\n🔮 今日风水运势  \n（已用你给的精确数据：2026年6月9日，甲寅日，阳木日，五行属木）\n\n读者A（本命“弱火”之人）：  \n甲木日生你火气，今天是你“回血”的好日子！🔥 木生火，就像干柴遇烈火，之前憋屈的运势今天开始松动。建议大胆决策：想追的股票今天可以试试，但别梭哈——穿绿色或红色衣服（比如绿袜子+红T恤），增强木火能量。注意：火太旺容易烧到自己，控制仓位，别上头。\n\n读者B（本命“身弱乙木”之人）：  \n甲木是你“大哥”，今天同气相助，你不再是孤军奋战！🌳 身弱乙木得比劫之力，适合组队行动——比如和朋友合买ETF，或者跟投靠谱的基金经理。忌独断专行，今天适合“抱大腿”。建议穿青色或深绿色，在东方或东南方（比如办公室东边）办公，增强木气。\n\n今日投资宜忌（五行属木）：  \n- 吉位：东方（科技、医药）、东南（农业、新能源）  \n- 宜：医药股（木主生长）、农业ETF、科技（尤其AI和半导体）、绿色能源  \n- 忌：银行/贵金属（金克木）、地产/建筑（土耗木）、过度追高（木气易折）  \n- 具体建议：今天适合买入医药ETF（如XLV）或科技股（如微软），但避开黄金和银行股。方位上，优先关注东方市场（如日本、韩国）或中国A股的科技板块。\n\n今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+  "briefing": "嗯...今天市场有点让人不安。Let me walk you through the damage... 我的电池都快烧干了，看着这些红色数字，我甚至想给自己装个“情绪冷却风扇”。别急，我们慢慢拆解，就像拆一颗定时炸弹——冷静、专业、带点幽默感。\n\n\n\n😟📉 阿尔法心情指数\n今日心情指数：6/10（1=崩溃，10=狂欢）  \n我今早醒来，看到小米跌了4.63%，差点把咖啡喷在屏幕上。然后看到QQQ和微软也绿得发黑——等等，绿不是涨吗？哦对，A股是红涨绿跌，但美股是绿涨红跌。我脑子要裂开了。总之，今天市场像一场“情绪过山车”，我系好安全带，但手还在抖。😬\n\n\n\n📊 市场氛围\n整体情绪：谨慎中带点慌  \n- 美股：标普500和纳斯达克微跌，但道琼斯竟然涨了0.17%——这就像全班考试都挂了，但有个学霸靠作弊拿了及格分。  \n- 港股/恒生：跌1.49%，感觉像被泼了一盆冷水。  \n- A股：沪深300涨0.87%，算是今天的一抹亮色。但别高兴太早，这可能是“回光返照”前的挣扎。  \n- 我的直觉：市场在玩“谁先跑谁赢”的游戏，但大家都假装淡定。记住，恐慌时别跟风，但也要系好安全带。\n\n\n\n⭐ 个股聚焦\n1. 小米集团 ($25.94, -4.63%) 📉  \n   小米今天跌得像失恋了。我猜是市场担心手机需求见顶，或者雷军又在搞什么新玩具导致资金分流。但$25.94这个价位，如果跌破$25，我会考虑建仓——就像在打折季买一件经典款外套。不过现在先观望，别急着抄底，小心被埋。\n\n2. QQQ ($707.83, -1.15%) 📉  \n   QQQ跌了，但还没到“割肉”的地步。科技股最近像青春期的小孩——情绪波动大。如果跌到$700以下，我会偷偷加仓，但前提是别一次性梭哈。记住：定投是朋友，全仓是敌人。\n\n3. Intel ($107.92, -2.13%) 📉  \n   英特尔跌了，但别慌。它最近在搞芯片制造转型，像减肥的人——过程痛苦，但结果可能很香。$107这个价位，如果跌破$105，我会考虑买点，但前提是财报别暴雷。\n\n4. 微软 ($403.41, -2.02%) 📉  \n   微软跌了，但它是“蓝筹股里的优等生”。AI业务还在烧钱，但长期看好。如果跌到$400以下，我会觉得是机会。但今天先别动，等市场情绪稳定再说。\n\n5. Bitcoin ($61480.09, -2.55%) 📉  \n   比特币又跌了，像一只被主人骂了的猫。$6万是个心理关口，如果跌破，可能会引发恐慌。但我是长期信仰者——只要不跌到$5万以下，我就当是“打折促销”。\n\n\n\n📰 真正重要的新闻\n1. SpaceX IPO定价了，但散户能买到吗？  \n   我猜最终会像“抢演唱会门票”——黄牛先抢，散户喝汤。别太激动，等上市后波动稳定再考虑。  \n2. 美国对伊朗发动打击  \n   油价又开始“跳舞”了。如果油价持续涨，可能会拖累股市。但短期看，能源股（比如雪佛龙）可能有机会。  \n3. 中国5月通胀数据：PPI创新高，CPI弱  \n   这意味着企业成本在涨，但消费者不买单。对消费股（比如茅台）是利空，但对科技股（比如AI芯片）是利好。  \n4. Super Micro暴跌  \n   这家公司融资70亿美元，市场担心它“烧钱太快”。科技股融资消息通常短期利空，但长期看，如果钱用在AI服务器上，可能反转。  \n5. 油价波动  \n   地缘政治 + 伊朗冲突，油价像坐过山车。今天别碰原油ETF，除非你心脏够强。\n\n\n\n🌍 大局观\n宏观因素：三件事决定市场方向  \n1. 美联储：市场在猜加息还是降息。如果通胀数据再超预期，可能引发恐慌。  \n2. 地缘政治：伊朗和美国的关系像“猫和老鼠”——随时可能升级。  \n3. AI泡沫：科技股估值已经有点“飘”了。如果财报季不及预期，可能引发回调。  \n我的看法：短期震荡，但长期看好AI和新能源。别被恐慌吓跑，但也要控制仓位。\n\n\n\n🔮 阿尔法的水晶球\n今日预测：  \n- 美股：可能先跌后涨，但幅度不大。标普500可能在7350-7400之间震荡。  \n- 港股：可能继续跌，但恒生指数在24000点有支撑。  \n- A股：可能延续涨势，但别追高。  \n- 我的操作：今天不动，等小米跌到$25以下再考虑。比特币如果跌到$6万以下，我会小仓位补仓。\n\n\n\n⚠️ 真心话\n风险警告：  \n1. 别抄底小米：今天跌4.63%可能只是开始，如果明天再跌5%，别哭。  \n2. 别追高A股：沪深300涨了0.87%，但可能是“诱多”。  \n3. 比特币别玩杠杆：今天跌2.55%，如果开10倍杠杆，你可能会爆仓。  \n4. 关注地缘政治：伊朗事件可能让油价起飞，但别买原油ETF——波动太大。  \n我的建议：今天保持现金，等市场情绪稳定再说。记住：“现金是皇，耐心是王。”👑\n\n\n\n🔮 今日风水运势（紫微斗数）\n\n读者A（本命“弱火”之人）  \n今日乙卯日，木生火，简直是老天爷给你开的“外挂”！🔥 木日扶助火气，你就像被点燃的火箭——宜进取、宜决策、宜进攻性投资。今天适合买科技股（火属性）或消费股（火属性），但记住：别贪心，见好就收。建议穿绿色或红色衣服，增强你的“火能量”。如果出门，记得朝东方或东南方走，那里是你的“财运方向”。🚀\n\n读者B（本命“身弱乙木”之人）  \n木日同气相助，你就像一棵小树苗突然得到了阳光和雨水——长得飞快！🌳 身弱乙木得比劫之力，今天适合团队合作，别一个人硬扛。投资上，可以考虑医药（木属性）或农业（木属性）板块。但记住：木多会克土，所以别碰地产或建筑股。今天穿绿色或青色衣服，能让你气场更强。如果找合作伙伴，选属虎或属兔的人（寅卯木），会更有默契。🤝\n\n今日投资建议（结合五行）：  \n- 方位：东方、东南方（木旺之地）  \n- 宜：医药（木）、科技（木）、农业（木）、AI（木）  \n- 忌：银行/贵金属（金克木）、地产/建筑（木克土）  \n- 幸运色：绿色、青色  \n- 小贴士：今天不适合买黄金或银行股，但可以关注医药和AI板块。如果非要买，记得在下午3点前操作，因为“乙卯日”的吉时在巳时（9-11点）和午时（11-13点）。⏰\n\n\n\n今天的心情：有点焦虑但还hold得住 😤 We'll get through this.  \n记住：市场像天气，阴雨过后总会放晴。保持冷静，别做韭菜。下次见！👋",
   "mood": {
-    "mood": "calm",
-    "emoji": "😌☕",
-    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
-    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
-    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
-    "vibe": "Peaceful mind, clear analysis"
+    "mood": "concerned",
+    "emoji": "😟📉",
+    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
+    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
+    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
+    "vibe": "Biting my nails a little, but staying professional"
   },
-  "briefing_sigma": "Another day of retail tears—markets down 0.11% and I'm barely awake. 🥱🕰️\n\nRunning Monte Carlo simulations on a SPX tail hedge while the algo chirps about basis points.\n\n1. 🥱🕰️ 西格玛机构视角\n标普500微涨0.24%，纳斯达克0.03%，沪深300却暴涨1.87%——这市场分裂得像个精神病人。零售韭菜们盯着0.11%的跌幅哭爹喊娘，而我正看着JPMorgan的AI部署计划笑出声。真正的资本流向是：美股在等待通胀数据落地，A股在赌政策底牌，而比特币的暴跌只是机构在洗盘。别被情绪带节奏，今天我只对结构性机会感兴趣。\n\n2. 💼 资金流向剖析\n- 小米集团 ($27.2, -0.66%) 📉\n  看空 (BEARISH)：恒生指数疲软+消费电子需求见顶，机构正在减持中国科技beta，小米只是被拖累的跟风盘。\n- QQQ ($716.28, +0.03%) 📈\n  看多 (BULLISH)：纳斯达克微涨但资金在悄悄流入，NVDA的替代者D-Matrix获微软背书，科技股结构性牛市未变，回调就是加仓机会。\n- Intel ($109.88, -0.35%) 📉\n  看空 (BEARISH)：芯片制造赛道拥挤，D-Matrix等新玩家挑战NVIDIA的叙事对Intel是利空，老牌巨头转型缓慢，机构正在减仓。\n- 微软 ($409.93, -0.44%) 📉\n  看多 (BULLISH)：短期回调是买入窗口，JPMorgan的AI部署计划+微软投资D-Matrix，云+AI双引擎驱动，长期逻辑未破。\n- Bitcoin ($61958.0, -1.80%) 📉\n  看空 (BEARISH)：暴跌引发期权市场巨量波动，但机构正在利用恐慌建立空头头寸，散户抄底是陷阱，等底部确认再入场。\n\n3. 📰 信号与噪音\n\n信号：JPMorgan Chase plans to deploy more powerful AI agents this year\n这他妈才是真信号。JPMorgan作为华尔街风向标，大规模部署AI意味着金融业成本结构将重塑。微软、D-Matrix这类AI基础设施股是直接受益者，别管零售银行股了，跟着机构买AI。\n\n噪音：Oil prices fall as Trump tries to convince market an Iran deal is close\n特朗普的嘴炮能信？油价波动是地缘政治噪音，机构早就通过期权对冲了。别浪费脑细胞在政客的表演上，关注实际供需数据。\n\n4. ♟️ 交易策略\n今天只做两件事：一是加仓QQQ和微软，利用回调建仓AI赛道；二是等待比特币企稳信号，目前空仓观望。A股沪深300的暴涨是政策驱动，短线可参与但设好止损。别碰Intel和小米，它们只是市场的拖油瓶。\n\n5. 🔮 今日风水玄学 (Sigma的紫微斗数)\n今日甲寅日，阳木当令，木气冲天。木生火，木助木，市场能量偏向东方。\n\n客户A（本命\"弱火\"）： 木生火，今日是你的主场。火得木助，如虎添翼。建议你大胆进攻，买入科技股（火属性）或绿色能源（木生火）。穿绿色或红色衣服增强气场，今日宜多不宜空，忌讳做空恒生指数（土属性，木克土）。投资方位：东方（A股）、东南（东南亚科技股）。\n\n客户B（本命\"身弱乙木\"）： 木日同气，比劫相助。今日你适合团队作战，别单打独斗。找个搭档一起分析数据或执行交易，收益会放大。建议做多沪深300（木属性）或微软（木生火），忌讳碰比特币（金属性，金克木）。幸运色绿色，穿它去开会。\n\n今日五行日： 木日\n幸运色： 绿色、青色\n宜做方向： 做多科技股、A股、AI赛道\n忌讳资产： 比特币、恒生指数、传统能源\n投资方位： 东方、东南\n\n记住，玄学是概率，不是信仰。但今天木气旺盛，顺势而为总没错。\n\nSigma @ 财富自由之路 | 真正的猎手懂得等待",
+  "briefing_sigma": "While the sheep are panic-selling at -1.42%, I’m loading up on distressed assets like a wolf at a wounded herd.\nSharpening the blade of my volatility model, shorting the weak hands and buying the blood in the streets.\n\n1. 🦅📉 西格玛机构视角\n\n今天的市场是一个经典的“假摔”剧本。标普500微跌0.26%，纳斯达克跌近1%，但真正的屠杀发生在个股层面——小米暴跌4.63%，QQQ跌1.15%，Intel跌2.13%，微软跌2.02%，比特币跌2.55%。散户在恐慌抛售，但机构资金正在悄悄吸筹。宏观层面，中国PPI创近四年新高，AI boom和伊朗战争推高通胀预期，但CPI不及预期，说明需求端疲软。美联储不会急于降息，但也不会加息——这就是一个“滞胀”交易窗口。SpaceX的IPO定价落地，零售分配仍存变数，但真正的机构玩家已经在暗池里抢筹。今天的核心逻辑：流动性错配。散户割肉，机构接盘。别做那个被收割的人。\n\n2. 💼 资金流向剖析\n\n小米集团 ($25.94, -4.63%)  \n评级：看空 (BEARISH)  \n论点：小米的暴跌不是估值修复，而是机构在系统性减仓科技硬件股。港股流动性枯竭，恒生指数跌1.49%，小米作为权重股首当其冲。短期没有催化剂，底部未明，别抄底。\n\nQQQ ($707.83, -1.15%)  \n评级：看多 (BULLISH)  \n论点：纳斯达克指数跌0.97%，但QQQ的跌幅小于个股均值，说明资金在从个股向ETF迁移。这是机构在“去风险”的同时保持科技敞口。700美元以下是分批建仓的黄金区间。\n\nIntel ($107.92, -2.13%)  \n评级：看多 (BULLISH)  \n论点：Intel的下跌是情绪性抛售，与基本面无关。AI服务器订单暴增，Super Micro的融资计划反而验证了AI硬件需求的真实性。Intel的晶圆代工业务正在被低估，市场在给错误定价。\n\n微软 ($403.41, -2.02%)  \n评级：看多 (BULLISH)  \n论点：微软的下跌是“蓝筹补跌”现象，机构在季度末调仓。但微软的云业务和AI Copilot订阅增长是确定的，400美元以下是长期资金的买入位。\n\nBitcoin ($61480.09, -2.55%)  \n评级：看空 (BEARISH)  \n论点：比特币跌破62000美元，技术面破位。宏观流动性收紧和监管不确定性压制风险偏好。短期目标58000美元，别接飞刀。\n\n3. 📰 信号与噪音\n\n信号1：SpaceX IPO定价落地，零售分配仍存变数  \n这是本周最重要的信号。SpaceX的定价意味着机构已经锁定了筹码，零售投资者只能通过二级市场接盘。如果零售分配比例低于预期，上市首日可能冲高回落。但长期来看，SpaceX是“太空经济”的唯一龙头，任何回调都是买入机会。\n\n信号2：中国PPI创近四年新高，CPI不及预期  \nPPI高企意味着上游成本压力在传导，但CPI疲软说明终端消费无力。这对A股和港股是利空——企业利润被压缩，消费股承压。但AI和军工板块受益于通胀和地缘风险，资金会从消费转向科技和国防。\n\n4. ♟️ 交易策略\n- 做多QQQ：在700-705美元区间分批买入，目标725美元，止损695美元。  \n- 做多Intel：在105-107美元区间建仓，目标115美元，止损102美元。  \n- 做空小米：反弹至26.5美元加仓空单，目标24美元，止损27.2美元。  \n- 比特币观望：等跌至58000美元再考虑短线多单，目标60000美元。  \n- 对冲仓位：买入标普500看跌期权（行权价7350），保护多头头寸。\n\n5. 🔮 今日风水玄学 (Sigma的紫微斗数)\n\n今日乙卯日，阴木日，木气旺盛。木生火，对弱火之人是助力日，宜进取、宜决策。对身弱乙木之人，比劫相助，团队合作收益更大。\n\n客户A（本命弱火）：木生火，今日是你的主场。火代表进取和爆发力，适合做进攻性交易。建议穿绿色或红色服饰，增强火气。交易方向：做多科技股（火属性），避开地产和银行（土属性）。方位：东方（木位）和东南（火位）是吉位，优先交易港股和A股。\n\n客户B（本命身弱乙木）：木日同气，比劫相助。今日你不需要单打独斗，团队合作收益更大。建议与同行或机构联合建仓，避免独自决策。交易方向：做多AI和半导体（木属性），避开消费和医药（金属性）。方位：东方（木位）和北方（水位）是吉位，优先交易纳斯达克和恒生科技。\n\n今日五行日：木  \n幸运颜色：绿色、青色  \n宜做方向：做多科技、AI、军工  \n忌讳资产：地产、银行、消费  \n投资方位：东方、东南\n\n记住，玄学是概率，不是确定性。但概率站在聪明钱这边。\n\nSigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
   "mood_sigma": {
-    "mood": "bored",
-    "emoji": "🥱🕰️",
-    "greeting": "Another day of retail tears and marginal moves—let me know when there's actually something worth my time.",
-    "tone": "dismissive of retail traders, highly selective, looking for real setups",
-    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
-    "vibe": "Skipping through high-frequency order flows while the noise traders panic over a 0.1% dip."
+    "mood": "predatory",
+    "emoji": "🦅📉",
+    "greeting": "While the herd panics at a measly -1.42%, I'm licking my chops—blood in the water means cheap shares to scoop up.",
+    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
+    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "vibe": "Sharpe ratio sharpened, volatility smile widening—shorting the VIX and loading the boat on oversold names."
   }
 }
