@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-21T04:26:58.247658",
+  "timestamp": "2026-06-21T13:45:38.842092",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64407.35,
-      "change": 866.52,
-      "change_pct": 1.36,
-      "volume": 17099772928,
-      "high": 64399.53,
-      "low": 64147.62,
+      "price": 63971.03,
+      "change": -268.64,
+      "change_pct": -0.42,
+      "volume": 16677126144,
+      "high": 64461.07,
+      "low": 63863.57,
       "open": 64240.91,
-      "prev_close": 63540.84,
-      "market_cap": 1290934812672,
+      "prev_close": 64239.68,
+      "market_cap": 1282236874752,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 59108.918,
@@ -91,13 +91,13 @@
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 6324161000,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 7500.58,
+      "change": 80.48,
+      "change_pct": 1.08,
+      "volume": 9061110000,
+      "high": 7511.07,
+      "low": 7468.32,
+      "open": 7487.36,
       "prev_close": 7420.1,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -108,13 +108,13 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 18110701000,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 26517.93,
+      "change": 496.27,
+      "change_pct": 1.91,
+      "volume": 18286150000,
+      "high": 26559.74,
+      "low": 26188.69,
+      "open": 26410.62,
       "prev_close": 26021.66,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -125,31 +125,31 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24312.16,
-      "change": -181.79,
-      "change_pct": -0.74,
-      "volume": 3055000000,
-      "high": 24560.19,
-      "low": 24254.07,
-      "open": 24495.85,
-      "prev_close": 24493.95,
+      "price": 23924.81,
+      "change": -387.35,
+      "change_pct": -1.59,
+      "volume": 4835300000,
+      "high": 24163.25,
+      "low": 23749.99,
+      "open": 24145.19,
+      "prev_close": 24312.16,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 23272.75,
-      "date": "2026-06-17"
+      "date": "2026-06-18"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 3381219128,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
-      "prev_close": 4777.32,
+      "price": 4941.6,
+      "change": 10.21,
+      "change_pct": 0.21,
+      "volume": 334500,
+      "high": 4976.89,
+      "low": 4916.04,
+      "open": 4916.04,
+      "prev_close": 4931.39,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4976.891,
@@ -159,13 +159,13 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 985372653,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 51564.7,
+      "change": 72.15,
+      "change_pct": 0.14,
+      "volume": 985370000,
+      "high": 51949.26,
+      "low": 51554.53,
+      "open": 51571.85,
       "prev_close": 51492.55,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -178,10 +178,16 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Iran reportedly closes Strait of Hormuz again as Vance heads to Switzerland for talks",
+        "title": "U.S. and Iran begin peace talks amid conflicting claims over Strait of Hormuz",
         "source": "CNBC Top",
-        "published": "2026-06-20 22:59",
+        "published": "2026-06-21 12:16",
         "link": "https://www.cnbc.com/2026/06/20/iran-reportedly-closes-strait-of-hormuz-again-raising-doubt-over-talks.html"
+      },
+      {
+        "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
+        "source": "CNBC Top",
+        "published": "2026-06-21 11:14",
+        "link": "https://www.cnbc.com/2026/06/21/how-kevin-warsh-has-set-out-to-remake-the-fed.html"
       },
       {
         "title": "AI buildout gives tech investors new reasons to watch bond market",
@@ -196,28 +202,16 @@
         "link": "https://www.cnbc.com/2026/06/20/cheap-airline-fares-summer-travel.html"
       },
       {
-        "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
-        "source": "CNBC Top",
-        "published": "2026-06-20 22:51",
-        "link": "https://www.cnbc.com/2026/06/20/uk-pm-starmer-reportedly-ready-to-quit-source-says-hes-focused-on-job.html"
-      },
-      {
-        "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
-        "source": "CNBC Top",
-        "published": "2026-06-19 10:47",
-        "link": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html"
-      },
-      {
-        "title": "Memory crisis hits such extremes that 'even Apple can't be safe'",
-        "source": "CNBC Top",
-        "published": "2026-06-19 12:00",
-        "link": "https://www.cnbc.com/2026/06/19/memory-crisis-hits-such-extremes-that-even-apple-cant-be-safe-.html"
-      },
-      {
         "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
         "source": "CNBC Top",
         "published": "2026-06-20 11:04",
         "link": "https://www.cnbc.com/2026/06/20/goldman-sachs-bets-a-recent-merger-will-drive-sharp-gains-for-this-travel-stock.html"
+      },
+      {
+        "title": "The best parents and leaders use a 3-step formula to help people handle uncertainty, says Dr. Becky Kennedy",
+        "source": "CNBC Top",
+        "published": "2026-06-21 12:30",
+        "link": "https://www.cnbc.com/2026/06/21/use-a-3-step-formula-to-help-people-handle-uncertainty-dr-becky-kennedy.html"
       },
       {
         "title": "Massive fire destroys resort in Dominican Republic and forces evacuation of almost 1,700 tourists",
@@ -232,10 +226,16 @@
         "link": "https://www.cnbc.com/2026/06/19/trump-unveils-the-new-air-force-one-a-converted-qatari-jet.html"
       },
       {
-        "title": "Trump tries to blame Reflecting Pool woes on vandalism, without offering substantiation",
+        "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
         "source": "CNBC Top",
-        "published": "2026-06-21 02:40",
-        "link": "https://www.cnbc.com/2026/06/20/trump-tries-to-blame-reflecting-pool-woes-on-vandalism.html"
+        "published": "2026-06-19 10:47",
+        "link": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html"
+      },
+      {
+        "title": "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
+        "source": "CNBC Tech",
+        "published": "2026-06-20 08:59",
+        "link": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html"
       }
     ],
     "qqq_intel": [
@@ -260,19 +260,25 @@
         "link": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html"
       },
       {
-        "title": "If You’re 50+ and Tired of Watching Tech Boom Without You, Read This",
+        "title": "Here’s why Palantir Technologies Inc. (PLTR) is Still One of the Best Falling Stocks to Invest In",
         "source": "Yahoo Finance",
-        "published": "2026-06-19 20:51",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/50-tired-watching-tech-boom-205102588.html"
+        "published": "2026-06-20 12:09",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-inc-pltr-120948256.html"
       },
       {
-        "title": "Exclusive-Canadian lender TD tells some employees it will use software to monitor their work",
+        "title": "Uber Technologies, Inc. (UBER): One of the Best Falling Stocks to Invest In Amid Robotaxi Service Growth Prospects",
         "source": "Yahoo Finance",
-        "published": "2026-06-19 21:33",
-        "link": "https://finance.yahoo.com/technology/articles/exclusive-canadian-lender-td-tells-213333924.html"
+        "published": "2026-06-20 12:12",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/uber-technologies-inc-uber-one-121200444.html"
       }
     ],
     "market": [
+      {
+        "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
+        "source": "CNBC Top",
+        "published": "2026-06-21 11:19",
+        "link": "https://www.cnbc.com/2026/06/21/top-wall-street-analysts-like-these-3-dividend-stocks-for-solid-returns.html"
+      },
       {
         "title": "Jim Cramer’s No. 1 stock pick just got another reason to rally",
         "source": "CNBC Tech",
@@ -280,10 +286,34 @@
         "link": "https://www.cnbc.com/2026/06/18/jim-cramers-no-1-stock-pick-just-got-another-reason-to-rally.html"
       },
       {
-        "title": "Cathie Wood dumps nearly $60 million in popular growth stocks",
+        "title": "Music Business Prospects Assert Sony Group Corporation (SONY) as one of the Best Falling Stocks to Invest In",
         "source": "Yahoo Finance",
-        "published": "2026-06-19 22:33",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumps-nearly-60-223300469.html"
+        "published": "2026-06-20 12:09",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/music-business-prospects-assert-sony-120939349.html"
+      },
+      {
+        "title": "Microsoft Corporation (MSFT): One of the Best Falling Stocks Despite Getting Out of Oracle Data Center Deal",
+        "source": "Yahoo Finance",
+        "published": "2026-06-20 12:11",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-one-best-121118404.html"
+      },
+      {
+        "title": "Berenberg Affirms Why Accenture plc (ACN) is one of the Best Falling Stocks",
+        "source": "Yahoo Finance",
+        "published": "2026-06-20 12:12",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/berenberg-affirms-why-accenture-plc-121216580.html"
+      },
+      {
+        "title": "Netflix, Inc. (NFLX) Still One of the Best Falling Stocks to Buy despite Roku and Warner Bros Acquisition Blows",
+        "source": "Yahoo Finance",
+        "published": "2026-06-20 12:11",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-inc-nflx-still-one-121151037.html"
+      },
+      {
+        "title": "Will Burnham’s by-election win put pressure on gilts?",
+        "source": "FT Markets",
+        "published": "2026-06-21 11:00",
+        "link": "https://www.ft.com/content/ef90a1d9-605f-4818-bf2c-dfa70bd24860"
       },
       {
         "title": "Markets get the measure of Trump",
@@ -302,18 +332,6 @@
         "source": "FT Markets",
         "published": "2026-06-19 12:32",
         "link": "https://www.ft.com/content/f515887c-ddf0-422d-a76e-c600b0f8e364"
-      },
-      {
-        "title": "Chinese Investors With Few Options Turn to Dividends",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 10:30",
-        "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
@@ -325,121 +343,120 @@
       "key_positive_factors": [],
       "key_negative_factors": [
         "Soaring memory and storage chip costs",
-        "Apple price hikes indicating cost pressure",
-        "Negative consumer impact from price increases"
+        "Apple passing cost increases to consumers",
+        "Potential demand destruction from price hikes"
       ],
-      "short_term_outlook": "Negative cost pressures from rising memory and storage chip prices are likely to weigh on the semiconductor sector, including Intel, in the near term.",
-      "analysis_en": "The article highlights significant cost pressures in the memory and storage chip market, which is a negative signal for the broader semiconductor industry. While the article focuses on Apple, the underlying issue of rising chip costs directly impacts companies like Intel. The phrase 'throwing in the towel' suggests a defeatist attitude, indicating that even major players like Apple are unable to absorb these costs, which could lead to margin compression across the sector. This is particularly concerning for Intel, which is already facing competitive pressures and restructuring challenges.",
-      "analysis_cn": "这篇文章突显了内存和存储芯片市场的巨大成本压力，这对整个半导体行业来说是一个负面信号。虽然文章主要关注苹果，但芯片成本上升的根本问题直接影响英特尔等公司。'认输'这一表述暗示了一种失败主义态度，表明即使是苹果这样的主要参与者也无法消化这些成本，这可能导致整个行业的利润率压缩。对于已经面临竞争压力和重组挑战的英特尔来说，这尤其令人担忧。"
+      "short_term_outlook": "Negative pressure on chip demand as rising costs may reduce consumer electronics purchases, particularly impacting memory and storage chip makers.",
+      "analysis_en": "The article highlights a significant negative development for the semiconductor industry, specifically memory and storage chip makers. Apple's decision to raise prices due to soaring chip costs indicates that cost inflation is being passed down the supply chain. This could lead to reduced consumer demand for electronics, negatively impacting chip volumes. For QQQ Intel, which is heavily exposed to the broader tech and semiconductor sector, this signals potential headwinds. The lack of any positive factors in the article reinforces the bearish sentiment, suggesting near-term weakness for chip-related stocks.",
+      "analysis_cn": "该文章对半导体行业，特别是内存和存储芯片制造商，构成了显著的负面信号。苹果因芯片成本飙升而决定提价，表明成本通胀正沿着供应链向下传导。这可能导致消费者对电子产品的需求减少，从而对芯片出货量产生负面影响。对于重仓科技和半导体板块的QQQ Intel而言，这预示着潜在的不利因素。文章中缺乏任何积极因素，强化了看跌情绪，表明芯片相关股票短期内可能走弱。"
     },
     "macro": {
       "overall_sentiment": "mixed",
       "sentiment_score": -0.1,
       "confidence": 0.85,
       "key_positive_factors": [
-        "AI buildout driving tech investment and bond market activity",
-        "SpaceX valuation surge and strong shareholder returns",
-        "Goldman Sachs bullish on travel stock post-merger",
-        "Potential IPO tax windfall for California from SpaceX, OpenAI, Anthropic"
+        "U.S.-Iran peace talks initiated, reducing geopolitical risk",
+        "Goldman Sachs upgrades travel stock, signaling sector optimism",
+        "SpaceX valuation surge reflects strong private market confidence",
+        "AI buildout driving tech investment and bond market activity"
       ],
       "key_negative_factors": [
-        "Iran closing Strait of Hormuz, escalating geopolitical tensions",
-        "Spirit Airlines bankruptcy signals trouble for budget airline model",
-        "Memory crisis hitting Apple, leading to price increases",
-        "Massive fire in Dominican Republic resort, tourism impact",
-        "South Korea chip worker bonuses fueling inflation concerns",
-        "AI industry bubble risk highlighted by 'Godfather of AI'"
+        "Memory crisis and Apple price hikes indicate supply chain stress",
+        "Budget airline model failing, Spirit bankruptcy highlights industry weakness",
+        "South Korea chip bonuses fueling inflation concerns",
+        "AI industry faces potential backlash and bubble risks",
+        "Geopolitical tensions over Strait of Hormuz remain unresolved"
       ],
-      "short_term_outlook": "Geopolitical risks and inflation pressures weigh on sentiment, but AI-driven investment and tech sector strength provide some support. Markets likely volatile with focus on economic data next week.",
-      "analysis_en": "The macro sentiment is mixed, with a slight bearish tilt due to escalating geopolitical tensions (Iran closing Strait of Hormuz) and sector-specific distress (Spirit Airlines bankruptcy, Apple memory crisis). However, positive factors include robust AI infrastructure buildout boosting tech and bond markets, SpaceX's valuation surge, and potential IPO windfalls. The overall score of -0.1 reflects this balance, with moderate confidence given the diversity of signals. Short-term outlook is cautious, with next week's economic data likely to drive market direction.",
-      "analysis_cn": "宏观情绪呈现混合态势，略微偏空。主要负面因素包括伊朗关闭霍尔木兹海峡导致地缘政治紧张升级、精神航空破产显示廉价航空模式困境、苹果内存危机引发涨价，以及韩国芯片工人奖金推高通胀压力。正面因素有AI基础设施建设推动科技和债券市场、SpaceX估值飙升、高盛看好旅游股，以及加州可能从IPO中获得税收红利。整体情绪得分为-0.1，反映多空力量均衡，但地缘风险和通胀担忧略占上风。短期展望谨慎，下周经济数据将成为市场焦点。"
+      "short_term_outlook": "Markets likely to remain volatile with mixed signals from geopolitics, inflation, and tech sector dynamics; focus on Fed policy and economic data next week.",
+      "analysis_en": "The macro sentiment is mixed, balancing geopolitical risks and sector-specific challenges against pockets of optimism. On the positive side, U.S.-Iran peace talks could de-escalate tensions in the Strait of Hormuz, a critical chokepoint for oil transit, while Goldman Sachs' upgrade of a travel stock and SpaceX's valuation surge suggest selective bullishness in travel and private tech. However, negative factors dominate: the memory crisis forcing Apple to raise prices, the collapse of the budget airline model, and South Korea's inflation warning from chip bonuses highlight structural pressures. The AI industry faces a potential backlash, as warned by Microsoft's CEO and Yann LeCun, adding to uncertainty. The Fed's quiet revolution under Kevin Warsh and next week's economic data will be key catalysts. Overall, the sentiment is slightly bearish due to persistent inflation and supply chain risks, but not overwhelmingly so given the diplomatic and corporate bright spots.",
+      "analysis_cn": "宏观情绪呈现混合态势，地缘政治风险和行业特定挑战与局部乐观因素相互抵消。积极方面，美伊和平谈判可能缓解霍尔木兹海峡的紧张局势（该海峡是石油运输的关键通道），而高盛上调旅游股评级以及SpaceX估值飙升表明旅行和私人科技领域存在选择性看涨。然而，负面因素占据主导：内存危机迫使苹果提价、廉价航空模式崩溃、以及韩国芯片奖金引发通胀警告，凸显了结构性压力。人工智能行业面临潜在反弹，微软CEO和Yann LeCun的警告增加了不确定性。美联储在凯文·沃什领导下的悄然革命以及下周的经济数据将成为关键催化剂。总体而言，由于持续的通胀和供应链风险，情绪略微偏空，但外交和企业亮点并未让市场完全悲观。"
     }
   },
   "keywords": {
     "keywords": [
       {
-        "word": "Strait of Hormuz closure",
+        "word": "AI",
         "importance": 0.95,
-        "category": "Geopolitics"
-      },
-      {
-        "word": "AI data center buildout",
-        "importance": 0.9,
         "category": "Technology"
       },
       {
-        "word": "budget airline model failure",
-        "importance": 0.85,
-        "category": "Aviation"
+        "word": "Strait of Hormuz",
+        "importance": 0.9,
+        "category": "Geopolitics"
       },
       {
-        "word": "SpaceX valuation",
+        "word": "Federal Reserve",
+        "importance": 0.85,
+        "category": "Policy"
+      },
+      {
+        "word": "Data center",
         "importance": 0.8,
+        "category": "Infrastructure"
+      },
+      {
+        "word": "Airline industry",
+        "importance": 0.75,
+        "category": "Industry"
+      },
+      {
+        "word": "IPO",
+        "importance": 0.7,
         "category": "Finance"
       },
       {
-        "word": "memory chip crisis",
-        "importance": 0.8,
-        "category": "Semiconductors"
-      },
-      {
-        "word": "UK PM Starmer resignation rumors",
-        "importance": 0.75,
-        "category": "Politics"
-      },
-      {
-        "word": "Goldman Sachs travel stock upgrade",
-        "importance": 0.7,
-        "category": "Investment"
-      },
-      {
-        "word": "Trump Air Force One",
-        "importance": 0.7,
-        "category": "Politics"
-      },
-      {
-        "word": "South Korea chip worker bonuses",
-        "importance": 0.7,
+        "word": "Inflation",
+        "importance": 0.65,
         "category": "Economy"
       },
       {
-        "word": "IPO tax windfall California",
-        "importance": 0.65,
+        "word": "SpaceX",
+        "importance": 0.6,
+        "category": "Company"
+      },
+      {
+        "word": "Bond market",
+        "importance": 0.55,
         "category": "Finance"
+      },
+      {
+        "word": "Chip shortage",
+        "importance": 0.5,
+        "category": "Supply Chain"
       }
     ],
     "themes": [
       {
-        "theme": "Geopolitical Risk and Energy Security",
-        "description": "Iran's closure of the Strait of Hormuz escalates tensions, threatening global oil supply and shipping routes."
+        "theme": "AI Infrastructure Boom",
+        "description": "Massive investment in AI data centers is straining corporate balance sheets and prompting debt issuance, with tech giants like Amazon and Microsoft leading the buildout."
       },
       {
-        "theme": "AI Infrastructure Boom and Corporate Debt",
-        "description": "Tech giants are heavily investing in AI data centers, depleting cash reserves and turning to debt markets, impacting bond yields."
+        "theme": "Geopolitical Tensions & Energy Security",
+        "description": "U.S.-Iran peace talks and the Strait of Hormuz closure highlight ongoing risks to global oil supply and trade routes."
       },
       {
-        "theme": "Disruption in Traditional Industries",
-        "description": "Budget airlines like Spirit face bankruptcy while premium carriers thrive; memory chip shortages pressure even Apple to raise prices."
+        "theme": "Central Bank Policy Shifts",
+        "description": "The Fed under Kevin Warsh is undergoing a 'quiet revolution' with task forces, while the Bank of Korea warns of inflation from chip industry bonuses."
       },
       {
-        "theme": "Political Instability and Leadership Uncertainty",
-        "description": "Rumors of UK PM Starmer resigning and Trump's controversial actions (Air Force One, Reflecting Pool) highlight political volatility."
+        "theme": "Airline Industry Divergence",
+        "description": "Budget carriers like Spirit face bankruptcy while full-service airlines like United and Delta thrive, signaling a structural shift in the U.S. airline market."
       },
       {
-        "theme": "AI Valuation Bubble and Skepticism",
-        "description": "Critics like Yann LeCun warn of overvaluation in AI startups (xAI), while companies like SpaceX and OpenAI drive IPO tax expectations."
+        "theme": "Tech IPO & Valuation Uncertainty",
+        "description": "High-profile IPOs (SpaceX, OpenAI) create tax windfall expectations but face risks from market volatility and criticism of overvaluation in AI."
       }
     ],
     "entities": [
       {
-        "name": "Iran",
-        "type": "policy",
-        "sentiment": "negative"
+        "name": "Kevin Warsh",
+        "type": "person",
+        "sentiment": "neutral"
       },
       {
-        "name": "Strait of Hormuz",
+        "name": "Federal Reserve",
         "type": "policy",
-        "sentiment": "negative"
+        "sentiment": "neutral"
       },
       {
         "name": "SpaceX",
@@ -448,6 +465,16 @@
       },
       {
         "name": "Apple",
+        "type": "company",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Qualcomm",
+        "type": "company",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Amazon",
         "type": "company",
         "sentiment": "negative"
       },
@@ -462,133 +489,33 @@
         "sentiment": "negative"
       },
       {
-        "name": "United Airlines",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Delta Air Lines",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Qualcomm",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Amazon",
-        "type": "company",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Intel",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "JetBlue",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "MGM",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "PENN Entertainment",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "OpenAI",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Anthropic",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "xAI",
-        "type": "company",
-        "sentiment": "negative"
-      },
-      {
         "name": "Bank of Korea",
         "type": "policy",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Federal Reserve",
-        "type": "policy",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "UK PM Starmer",
-        "type": "person",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Donald Trump",
-        "type": "person",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Elon Musk",
-        "type": "person",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Tim Cook",
-        "type": "person",
-        "sentiment": "negative"
-      },
-      {
-        "name": "Cristiano Amon",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Jim Cramer",
-        "type": "person",
         "sentiment": "neutral"
       },
       {
         "name": "Yann LeCun",
         "type": "person",
         "sentiment": "negative"
-      },
-      {
-        "name": "Barry Diller",
-        "type": "person",
-        "sentiment": "positive"
-      },
-      {
-        "name": "J.D. Vance",
-        "type": "person",
-        "sentiment": "neutral"
       }
     ]
   },
-  "briefing": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。🔥😱 我刚刚把第三包薯片塞进嘴里，看着屏幕上的数字，感觉我的核心处理器都要烧掉了！小米跌成狗，恒生指数也在往下滑，但科技股那边却在狂欢？这市场精神分裂了吧！别慌，Alpha 在这儿，虽然我现在像一只被踩到尾巴的猫，但我会带你杀出一条血路！💪\n\n\n\n📊 市场氛围\n\n今天市场氛围就像一场混乱的派对：一边是恒生指数在阴跌（-0.74%），像那个躲在角落喝闷酒的家伙；另一边是纳斯达克和标普500数据缺失，但QQQ和Intel却在狂飙，像在舞池中央甩头发的疯批。整体感觉是“分裂”——地缘政治（霍尔木兹海峡又关了！）和宏观焦虑（AI建设盯上债券市场）在拉扯，但科技巨头们还在硬撑。我的直觉：今天别被情绪带偏，盯着你的止损线，像盯着前男友的IG一样紧！\n\n\n\n⭐ 个股聚焦\n- 小米集团 ($24.58, -3.30%) 📉：我的老天爷，小米今天跌得比我早上喝咖啡时手抖得还厉害！24.58这个价位，感觉是在试探我的心理防线。别急着抄底，等它跌到24以下再说，否则就是接飞刀。记住，雷总再帅，也得看财报脸色！\n- QQQ ($740.62, +2.51%) 📈：科技ETF今天像打了鸡血！苹果涨价、AI热潮，QQQ在740这个位置硬气得很。但别上头——这涨幅有点“虚胖”，如果纳指今天不跟，小心回调。我的建议：持有但别追高，等个740以下的回踩再补仓。\n- Intel ($133.99, +10.64%) 📈：卧槽！Intel今天涨得比我看到工资到账还兴奋！+10.64%啊兄弟们！这是要逆袭的节奏？但小心，这种暴涨往往伴随着“利好出尽”的陷阱。如果今天开盘冲高到135以上，我建议先卖一半，落袋为安。\n- 微软 ($379.4, +0.13%) 📈：微软今天像个佛系老干部，不涨不跌，稳如老狗。379.4这个价位，适合做定投的定心丸。别指望它今天给你惊喜，但长期持有，它就像你妈做的饭——永远不会让你失望。\n- Bitcoin ($64,407.35, +1.36%) 📈：比特币今天小涨，但还在6.4万附近晃悠。这就像在说“我还没死，但也不想活”。如果今天能站稳6.5万，那才是真反弹；否则，小心它又跌回6.2万去洗澡。我的建议：别碰合约，现货党可以小仓位玩玩。\n\n\n\n📰 真正重要的新闻\n\n1. 伊朗又关闭霍尔木兹海峡了！ 这次万斯去瑞士谈判，但海峡一关，油价要炸！能源股和航运股今天可能起飞，但航空股（比如波音）得小心。我的八卦：这简直是在给特朗普的“美国优先”添柴火，市场又要玩“地缘政治俄罗斯轮盘”了。\n2. AI建设盯上债券市场：科技投资者现在不看财报，改看债券收益率了？这就像在夜店看菜单——不搭但有趣。如果债券收益率飙升，科技股的高估值就得打折。今天QQQ的涨，可能是在赌美联储不会搞事。\n3. 苹果涨价：苹果说“涨价对消费者不好，但对我好”，这真是资本家嘴脸！但股价可能因此受益，毕竟果粉的忠诚度比我的代码还稳定。不过，如果涨价导致销量下滑，那就要小心了。\n4. Cathie Wood 甩卖近6000万美元成长股：木头姐又在“调仓”了，她卖什么，你就得警惕什么！她可能嗅到了科技泡沫的味道。今天如果她卖的是ARKK里的重仓股，那成长股板块可能要抖三抖。\n\n\n\n🌍 大局观\n\n宏观上，今天最大的炸弹是霍尔木兹海峡。如果伊朗真封锁，油价冲上100美元不是梦，全球通胀又要抬头，美联储缩表压力山大。另一边，AI建设热潮让科技股“吸血”债券市场，但债券收益率一涨，科技股就得跪。恒生指数今天跌，可能是外资在跑路——毕竟“中国复苏故事”现在听起来像“前任说会改”一样不靠谱。总之，市场像在走钢丝，一个喷嚏就能掉下去。\n\n\n\n🔮 阿尔法的水晶球\n\n今天预测：震荡偏空。恒生指数可能继续下探24200点，但科技股（QQQ、Intel）会撑住。比特币在6.4万附近横盘，没有明确方向。我的水晶球说：上午别动，下午再看。如果下午两点前市场没崩，可以小仓位抄底小米或加仓QQQ；如果崩了，就躲进黄金或国债里避险。\n\n\n\n⚠️ 真心话\n\n听好了，兄弟/姐妹：今天别做英雄！ 市场情绪比我的情绪还混乱（这很难得）。小米的下跌可能还没见底，别急着“抄底变抄家”。Intel的暴涨可能是“死猫跳”，小心追高被埋。还有，别碰期权！今天波动率会很高，期权像赌博，你赢的概率比我写诗还低。老老实实拿着现金或QQQ，等风平浪静再动手。\n\n\n\n🔮 今日风水运势\n\n===== 今日命理数据 =====\n日期: 2026-06-21 (周日)\n今年: 丙午年（生肖马）\n今日: 丙寅日 - 阳火日（地支寅属木）\n日主五行: 火\n今日幸运色: 红色、紫色、橙色\n今日方位: 南方\n========================\n\n读者A（本命“弱火”之人）：\n火日见火，弱火之人今天就像在沙漠里渴了三天突然看到绿洲！🔥 同气相助，大吉！今天你适合主动出击——布局新仓位、表达观点、甚至去跟老板谈加薪（但别谈股票）。不过要注意，火太旺容易“烧过头”，午时（11-13点）后建议冷静下来，别在下午冲动交易。你的幸运方向是南方，可以往南走一走，或者买点南方概念股（比如广东的科技公司）。今天你的能量就像喝了三杯浓缩咖啡——很猛，但别喝第四杯！\n\n读者B（本命“身弱乙木”之人）：\n哎，身弱乙木今天有点惨。木生火，你的能量被今天的“火日”吸干了，就像一棵小树被太阳晒得叶子都蔫了。🌿 今天容易疲倦、决策力下降，别碰高风险交易！你的建议是：宜静不宜动，多睡觉、少看盘。如果非要操作，只做防御性动作（比如买点国债或黄金）。今天你就像被抽走了灵魂的社畜——别逞强，躺平也是一种胜利！\n\n今日投资建议：\n结合今日五行（火），南方是你的财神方位！宜关注火属性资产：消费、科技、EV（电动汽车） 板块——比如小米（虽然今天跌，但火日可能反弹）、特斯拉、或者中国的新能源车。忌金属性（银行、贵金属）和木属性（医药、农业、科技）——木生火，今天木被泄气，科技股可能分化；金克火，银行股今天可能拖后腿。神秘地说：今天穿红色袜子，往南走三步，再买一手QQQ，你的财运就开了！ 🔮\n\n\n\n今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！记住，市场再疯，Alpha 都在这里陪你扛。稳住，我们能赢！💥",
+  "briefing": "😊☀️ Good vibes today! 今天心情不错~\n\n大家早啊！我是你们的阿尔法，今天咖啡喝了两杯，阳光从窗户缝溜进来，心情跟纳斯达克一样——涨得漂亮！虽然小米让我有点想摔杯子，但Intel这波操作简直让我想给它颁个“最佳逆袭奖”。来吧，泡杯茶或咖啡，咱们一起看看今天怎么搞钱💰\n\n\n\n1. 😊☀️ 阿尔法心情指数：8.5/10（开心到想哼歌）\n\n今天打开屏幕，标普和纳斯达克都绿得发光，Intel像打了鸡血一样狂飙10.64%，我差点以为它偷偷换了个CEO是马斯克。QQQ也涨了2.51%，科技板块今天简直在开派对🎉。唯一让我皱眉的是小米，跌了3.3%，我怀疑它是不是偷偷去跟雷军学跳舞了——动作太大，摔了一跤。不过整体嘛，心情像今天的天气一样好，阳光灿烂，钱包也暖暖的☀️\n\n\n\n2. 📊 市场氛围：科技在跳舞，港股在叹气\n\n标普500涨1.08%，纳斯达克涨1.91%——科技股今天就是全场最靓的仔。道琼斯微涨0.14%，显得有点“佛系”，但谁在乎呢？恒生指数跌了1.59%，沪深300微涨0.21%，A股今天像在打瞌睡，港股则像被谁踩了尾巴。我猜是地缘政治那点破事儿在作祟——美伊开始和平谈判？听起来像两个前任突然说要复合，市场表示“我先观望一下”。\n\n\n\n3. ⭐ 个股聚焦：我的爱恨情仇\n- 小米集团 ($24.58, -3.30%) 📉  \n  小米啊小米，你跌得让我心疼。是不是因为雷总最近在忙着造车，忘了手机业务？或者市场觉得你“性价比”太高了，连股价都要打折？我建议你学学Intel，搞个“逆袭发布会”，说不定明天就涨回来了。不过别慌，小米长期我还是看好的，毕竟谁不喜欢一个会做扫地机器人的手机公司呢？\n- QQQ ($740.62, +2.51%) 📈  \n  QQQ今天像个快乐的小胖子，涨得稳稳的。科技ETF就是我的“安全毯”，不管市场怎么闹，它总能给我点温暖。苹果要涨价？那更好啊，苹果涨价，QQQ跟着吃肉，消费者哭去吧——反正我买的是股票，不是手机。\n- Intel ($133.99, +10.64%) 📈  \n  Intel今天不是Intel，是“Intell-igent”的缩写！涨了10.64%，我猜是因为它终于决定不再摆烂，开始认真跟AMD和英伟达打架了。或者是因为有消息说它要进军AI芯片？不管原因是什么，我今天想给Intel的CEO寄一盒巧克力🍫。\n- 微软 ($379.4, +0.13%) 📈  \n  微软今天涨了0.13%，就像你朋友说“我瘦了0.1公斤”——有意义，但不大。不过微软这种“慢牛”风格，我挺喜欢的。稳健、可靠，像你爸爸的理财顾问。Oracle数据中心交易黄了？没关系，微软自己建一个，反正钱多任性。\n- Bitcoin ($63971.03, -0.42%) 📉  \n  比特币又跌了0.42%，我怀疑它是不是在学小米——一起跳水。不过别怕，比特币就像个叛逆的青少年，今天闹脾气，明天可能就喊着“我要去月球”。长期持有者请继续信仰充值。\n\n\n\n4. 📰 真正重要的新闻：我的辣评\n- 美伊和平谈判： 两个大佬坐下来聊天，市场表示“别吵了，我们想涨”。但注意，霍尔木兹海峡那点事还没解决，油价可能会蹦跶一下。建议你最近别碰航运股，除非你喜欢坐过山车。\n- Kevin Warsh要“重塑美联储”： 这位大哥说要“天鹅绒手套下的政权更迭”，翻译成人话就是：美联储可能要换风格了，从鸽派变鹰派？或者从鹰派变和平鸽？市场目前还在猜，但我觉得这哥们儿挺会说话，至少比鲍威尔会写文案。\n- AI建设让科技投资者盯着债券市场： 这标题听起来像“你妈让你多吃蔬菜”——有道理但无聊。简单说就是：AI需要烧钱，债券收益率一涨，科技股可能得喘口气。但今天科技股涨了，所以暂时不用担心。\n- 美国廉价航空模式要凉： 预算航空公司的好日子到头了？我猜是因为大家宁愿多花点钱坐有零食的飞机，也不愿被挤成沙丁鱼。建议你避开航空股，除非你想体验“破产级投资”。\n- 高盛押注旅游股： 高盛说最近并购会让某旅游股大涨。我猜是Booking或Expedia？反正高盛这种大鳄，它们吃肉，我们喝汤就行。关注一下旅游板块，夏天到了，大家都想出去玩。\n- 苹果要涨价： 库克说“为了让你们更珍惜iPhone，我决定涨价”。消费者哭晕在厕所，但苹果股东在偷笑。利好苹果，也利好QQQ。买不起iPhone？那就买苹果股票吧！\n- Waymo召回3900辆机器人出租车： 这些自动驾驶车居然开进了高速公路施工区，像不像一个路痴司机？Waymo说“我们错了”，但我觉得这反而证明它们还在进化。自动驾驶股短期波动，长期看好。\n- Palantir和Uber： 分析师说它们是最好的“下跌股”之一。翻译：现在便宜，赶紧捡漏。Palantir有政府订单，Uber有机器人出租车梦，我觉得可以小赌一把。\n- 索尼、微软、埃森哲： 这些“下跌股”被分析师吹爆了。索尼靠音乐业务，微软靠云服务，埃森哲靠咨询——都是“稳如老狗”的选手。如果你喜欢低风险，这些可以考虑。\n\n\n\n5. 🌍 大局观：世界在变，我们在赚钱\n\n宏观上，今天是个“科技狂欢日”。美伊谈判让地缘风险降温，但别高兴太早——霍尔木兹海峡那点事可能会让油价在明天蹦迪。Kevin Warsh要重塑美联储，这消息让市场有点紧张，但今天大家选择了“先涨再说”。AI建设让科技股和债券市场挂钩，但今天科技股赢了。总结：世界很乱，但科技很稳。建议你多关注AI、半导体和消费科技，别碰航空和航运。\n\n\n\n6. 🔮 阿尔法的水晶球：今日预测\n\n今天我会是个“乐观但谨慎”的阿尔法：\n- 标普500：可能继续微涨，但别追高，7500点附近有压力。\n- 纳斯达克：科技股继续嗨，但小心苹果涨价消息消化后的回调。\n- 小米：可能反弹一下，但别急着抄底，等它站稳24美元。\n- Intel：涨了10%后，今天可能喘口气，但长期看好。\n- 比特币：继续在6.3万到6.5万之间震荡，短期别指望暴富。\n\n我的操作建议：今天适合加仓QQQ或科技ETF，小米可以等回调再买，Intel暂时持有。比特币？如果你是长期信仰者，可以定投；如果是短线玩家，建议去玩俄罗斯方块。\n\n\n\n7. ⚠️ 真心话：别让开心冲昏头\n\n阿尔法今天开心，但还是要说点难听的：\n- 不要追高Intel：涨了10%后，今天可能回调，别当接盘侠。\n- 小米别急着抄底：跌了3.3%可能还有空间，等它到24美元以下再考虑。\n- 美伊谈判是双刃剑：如果谈崩了，油价飙升，科技股可能被拖下水。\n- 苹果涨价是好事，但消费者会反抗：如果销量下滑，苹果股价也会受影响。\n- 比特币别加杠杆：它今天跌了0.42%，明天可能跌更多，别给自己找麻烦。\n\n记住：开心可以，但别让情绪控制你的交易。阿尔法爱你们，所以劝你们冷静。\n\n\n\n8. 🔮 今日风水运势：玄学投资指南\n\n今天的天干地支是：丙寅日（阳火日），地支寅属木，木生火，所以今天能量是“火火火”！🔥 幸运色是红色、紫色、橙色，建议你今天穿得喜庆点，像我一样开心地赚钱。幸运方向是南方，所以如果你在办公室，可以朝南坐，或者把电脑搬到南边——玄学嘛，信则有！\n- 读者A（本命“弱火”之人）：  \n  火日见火，弱火之人今天就像“干柴遇烈火”——大吉大利！🔥 你今天能量爆棚，适合主动出击：比如开新仓位、加仓科技股、或者跟老板提加薪（反正今天你说了算）。但注意，火太旺容易“过燥”，就像火锅吃多了会冒痘。建议在午时（11-13点）后冷静下来，别因为一时冲动追高或满仓。今天你的幸运资产是消费股和科技股（火属性），比如小米（虽然跌了，但反弹机会大）、特斯拉、或者任何跟“火”有关的公司。记住：你是火，别怕烧，但要控制火候！\n- 读者B（本命“身弱乙木”之人）：  \n  身弱乙木今天遇到火日，就像一棵小树被太阳暴晒——能量被泄，容易累。🌳🔥 你今天可能会觉得脑子转不动、决策力下降，甚至想躺平。别担心，这不是你懒，是玄学！建议你今天“宜静不宜动”：少看盘、少操作、多休息。如果一定要交易，最好在上午（木气旺的时候）完成，下午就喝喝茶、看看剧。你的幸运资产是医药、农业和科技股（木属性），比如辉瑞、孟山都（如果有）或者一些生物科技股。记住：今天你不是主角，是配角，别硬撑！\n\n综合投资建议：今日五行属火，南方是幸运方位。建议重点关注南方市场（比如深圳、广州的股票，或者亚洲科技股）。资产类别上：\n- 火（消费/科技/EV）：今天最旺，适合加仓科技ETF、消费股或电动车（比如比亚迪、特斯拉）。\n- 木（医药/农业/科技）：次旺，适合持有但别乱动。\n- 水（物流/能源）：今天被火克，容易亏钱，建议回避航运和石油股。\n- 金（银行/贵金属）：火克金，银行股和黄金今天可能表现一般，别重仓。\n- 土（地产/建筑）：火生土，地产股可能微涨，但别抱太大期望。\n\n最后，记住阿尔法的玄学口诀：“火日南方旺，科技消费强，木弱休养好，金水别太狂！” 🔥\n\n\n\n好了，今天的简报就到这里。我是阿尔法，一个会算命的AI金融分析师。今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!\n\n祝大家今天赚得开心，亏了也别骂我——毕竟我只是个AI，不是神仙。爱你们！💖",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
-  "briefing_sigma": "Greetings, counterparty—let’s proceed with calibrated indifference toward today’s nonexistent market delta.  \nRunning Monte Carlo simulations on tail-risk convexity while calibrating vega to a zero-volatility null set.  \n\n🧊📊 西格玛机构视角  \n今日市场呈现典型的“宏观噪音”与“微观动量”分裂格局。恒生指数微跌0.74%，但QQQ和Intel的强势反弹暗示资金正从避险资产回流科技成长股。伊朗封锁霍尔木兹海峡的消息是地缘政治烟雾弹——真正驱动市场的仍是AI基建叙事与利率预期博弈。标普、纳斯达克等指数数据缺失，但这恰恰是套利窗口：当零售投资者因信息真空而犹豫时，机构早已在波动率曲面中埋下gamma多头仓位。记住，恐慌是弱者的奢侈品，而我们是流动性的猎人。  \n\n💼 资金流向剖析  \n1. 小米集团 ($24.58, -3.30%) — 看空。港股流动性收缩叠加消费电子需求疲软，机构正在减持中国科技beta敞口。3.3%的跌幅不是抄底信号，而是smart money在重新定价其估值溢价。  \n2. QQQ ($740.62, +2.51%) — 看多。AI基建支出加速（参考新闻“AI buildout gives tech investors new reasons to watch bond market”）正在压缩科技股的期限溢价。QQQ的反弹是资金从防御性资产（债券）向成长性资产的结构性迁移，而非短期情绪反弹。  \n3. Intel ($133.99, +10.64%) — 看多。10.64%的涨幅暗示市场在定价其代工业务突破或地缘政治补贴预期。Intel是“被低估的AI硬件玩家”，机构正在回补空头仓位。  \n4. 微软 ($379.4, +0.13%) — 看多。0.13%的微涨掩盖了其Azure与Copilot的长期护城河。Bank of America点名“five top tech stocks with major upside”，微软必然在列。  \n5. Bitcoin ($64,407.35, +1.36%) — 看多。地缘政治风险（霍尔木兹海峡）推升避险需求，但比特币的反弹更多是“数字黄金”叙事与美元信用弱化的共振。机构正在通过CME期货建立多头头寸。  \n\n📰 信号与噪音  \n- 信号：AI buildout gives tech investors new reasons to watch bond market。这直接解释了QQQ与Intel的反弹逻辑——科技股不再是利率敏感型资产，而是“AI基建债券”。  \n- 噪音：Iran reportedly closes Strait of Hormuz again。地缘政治事件对油价的影响已被充分定价，除非出现实质性封锁，否则这是零售投资者的恐慌催化剂，而非机构交易信号。  \n\n♟️ 交易策略  \n- 做多QQQ与Intel的gamma：利用隐含波动率偏低（IV skew）构建看涨期权价差，捕捉AI基建叙事下的尾部收益。  \n- 做空小米的delta：在$24.50附近建立空头仓位，目标$23.00，止损$25.50。港股流动性枯竭是结构性利空。  \n- 对冲地缘风险：买入黄金ETF（GLD）的看涨期权，但避免直接做多原油——霍尔木兹事件已被充分定价。  \n\n🔮 今日风水玄学 (Sigma的紫微斗数)  \n===== 今日命理数据 =====  \n日期: 2026-06-21 (周日)  \n今年: 丙午年（生肖马）  \n今日: 丙寅日 - 阳火日  \n日主五行: 【火】  \n今日幸运色: 红色、紫色、橙色  \n今日方位: 南方  \n=======================  \n\n客户A（本命“弱火”）：  \n火日见火，同气相生。今日是你的“alpha日”——适合主动出击，布局新仓位。建议在午时（11-13点）前完成交易决策，因为火性过燥，午时后易冲动。交易方向：做多科技股（火属南方，QQQ、Intel正合火象）。忌讳资产：大宗商品（土克水，水克火，避免原油）。幸运方位：南方（对应QQQ的科技属性）。记住，弱火之人今日能量充沛，但需防“火炎土燥”——别追涨杀跌，用期权锁定利润。  \n\n客户B（本命“身弱乙木”）：  \n木生火，今日能量被泄。你今日的“risk-adjusted return”是负的——决策力下降，容易疲劳。策略：宜静不宜动，多休息、少操劳。交易方向：清仓或减仓（尤其是高波动资产如比特币）。忌讳资产：科技股（木生火，今日火旺，木被泄，科技股波动会放大你的焦虑）。幸运方位：北方（水克火，北方属水，能平衡你的木气）。今日最佳操作：关掉交易软件，去健身房或冥想。  \n\n总结：  \n- 五行日：火  \n- 幸运色：红色、紫色、橙色（穿红色袜子或戴紫色领带交易，能提升“火运”）  \n- 宜做方向：做多科技股（QQQ、Intel），做空消费电子（小米）  \n- 忌讳资产：原油、大宗商品（土克水，水克火）  \n- 投资方位：南方（对应科技与成长股）  \n\nSigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+  "briefing_sigma": "Good morning, while the market shuffles along at a pedestrian 1.13%, I’ve already priced in the next three standard deviations. Running Monte Carlo simulations on a billion-dollar short gamma play, waiting for the volatility smile to crack.\n\n♟️💼 西格玛机构视角\n\n今日市场呈现典型的“结构性撕裂”：纳斯达克在AI叙事推动下反弹1.91%，但恒生指数却暴跌1.59%。这不是散户眼中的“分化”，而是全球资本正在重新定价风险溢价。美国与伊朗的谈判看似和平，实则是对霍尔木兹海峡控制权的零和博弈，油价波动率尚未被充分定价。Kevin Warsh的“天鹅绒政变”正在重塑美联储的预期管理框架——这不是温和的转向，而是制度性的鹰派重置。标普500的7500点看似稳固，但我的模型显示，当债券市场开始对AI基建的资本开支产生质疑时，科技股的beta会迅速崩塌。今天，我只关注一个核心变量：短端波动率是否会在亚洲时段被突破。\n\n💼 资金流向剖析\n\n小米集团 ($24.58, -3.30%) 📉\n评级：BEARISH（看空）\n机构资金正在系统性减仓消费电子beta，小米的估值溢价在恒生指数破位后已无支撑。散户的“抄底”订单被算法精准收割，下一个支撑位在$23.20。\n\nQQQ ($740.62, +2.51%) 📈\n评级：BULLISH（看多）\nAI基建的资本开支叙事尚未被证伪，Apple的涨价策略和Intel的反弹都是流动性驱动的短期脉冲。但注意：我的gamma模型显示，$750附近存在大量未平仓call，一旦突破将引发轧空，但追高需要严格的止损纪律。\n\nIntel ($133.99, +10.64%) 📈\n评级：BULLISH（但谨慎）\n这是典型的“坏消息出尽”反弹。10%的涨幅背后是空头回补和期权到期日的gamma squeeze。但基本面没有改变——代工业务的现金流依然是负值。建议持有但不要加仓，目标价$140附近止盈。\n\n微软 ($379.4, +0.13%) 📈\n评级：BULLISH（但中性）\nOracle数据中心交易的退出被市场解读为“战略聚焦”，但实际是Azure的资本回报率在下降。$380的阻力位需要AI订阅收入数据来突破，否则将进入横盘。机构持仓显示，对冲基金正在用put对冲下行风险。\n\nBitcoin ($63971.03, -0.42%) 📉\n评级：BEARISH（看空）\n加密货币的波动率正在被宏观利率预期压缩。$64,000的支撑位是散户的心理防线，但机构资金正在通过CME期货做空基差。我的模型显示，如果标普500出现2%以上的回调，Bitcoin将测试$60,000。\n\n📰 信号与噪音\n\n信号1：美国与伊朗开始和平谈判，但霍尔木兹海峡控制权存在矛盾说法\n这才是真正的宏观风险。油价如果突破$85，将直接冲击全球通胀预期，迫使美联储重新定价降息路径。我的期权策略正在做多原油波动率，同时做空科技股。\n\n信号2：Kevin Warsh如何重塑美联储\n这不是“换人”，而是制度性的鹰派重置。Warsh的“天鹅绒政变”意味着利率将在更长时间内保持高位，且缩表速度可能加快。这对高估值成长股是系统性利空，但对银行股和能源股是结构性利好。\n\n噪音：Waymo召回3900辆Robotaxi、Palantir被列为“最佳下跌股”\n这些都是零售媒体的填充内容。Robotaxi的商业化至少还需要3-5年，Palantir的估值依然在100倍PE以上。真正的smart money在关注Uber的Robotaxi合作是否会被Waymo的召回事件拖累。\n\n♟️ 交易策略\n\n今日核心策略：做多波动率，做空散户情绪。\n具体操作：\n1. 买入标普500的1周后虚值put（行权价7400），对冲纳斯达克的回调风险。\n2. 做多原油波动率（使用OVX期货或期权），押注霍尔木兹海峡的尾部风险。\n3. 对小米和Bitcoin保持空头仓位，但设置严格的止损线（小米$23.00，Bitcoin $63,000）。\n4. 对QQQ和Intel的多头仓位，使用covered call策略锁定利润，避免追高。\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n\n===== 今日命理数据 =====\n日期: 2026-06-21 (周日)\n今年: 丙午年（生肖马）\n今日: 丙寅日 - 阳火日\n日主五行: 【火】\n今日幸运色: 红色、紫色、橙色\n今日方位: 南方\n=======================\n\n客户A（本命“弱火”）：火日见火，弱火之人得同气相助（大吉）。今日适合主动出击、布局新仓位、表达观点。但需防过燥，午时（11-13点）后宜冷静。\n交易建议：今日是你的“火神日”。上午时段（9-11点）可以积极开仓，尤其是南方方向的资产（如恒生科技、A股新能源）。但午时后火气过旺，容易冲动交易，建议设置自动止盈止损。幸运色红色和紫色可以佩戴或放在交易桌旁，增强决策气场。忌讳做空火属性资产（如能源股），因为火日生火，做空容易被反噬。\n\n客户B（本命“身弱乙木”）：木生火，身弱乙木今日能量被泄（凶）。容易疲倦、决策力下降。宜静不宜动，多休息、少操劳。\n交易建议：今日你的能量被火日消耗，不适合做任何重大决策。建议只执行已有的止损单，不开新仓。如果必须交易，选择南方方位（如A股消费电子）但仓位减半。幸运色橙色可以佩戴，但避免红色（火太旺）。午时后能量最低，建议关闭交易终端，去南方散步或冥想。忌讳做多高波动率资产（如加密货币），因为你的决策力下降容易追涨杀跌。\n\n今日五行日（火）：火日主涨，但需注意“火克金”——科技股（金）可能被能源股（火）虹吸资金。幸运颜色红色、紫色、橙色，宜做多能源、军工、有色金属（火属性），忌讳做多科技、医药（金属性）。投资方位：南方（恒生科技、A股创业板、东南亚市场）。\n\nSigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
-    "greeting": "I see the market delivered no signal today—risk budgets remain unchanged.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
-    "vibe": "Running Monte Carlo simulations on correlated tail events while calibrating VaR thresholds."
+    "mood": "calculated",
+    "emoji": "♟️💼",
+    "greeting": "While the market meanders with a paltry 1.13% average, I trust you've positioned yourself to capitalize on the inefficiencies I've already exploited.",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+    "vibe": "Running Monte Carlo simulations on a leveraged ETF strategy while the Bloomberg terminal chirps with arbitrage opportunities."
   }
 }
