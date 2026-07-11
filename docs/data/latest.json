@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T13:53:59.955376",
+  "timestamp": "2026-07-11T02:49:01.486842",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -7,7 +7,7 @@
       "price": 25.84,
       "change": 0.84,
       "change_pct": 3.36,
-      "volume": 254499994,
+      "volume": 254498794,
       "high": 26.3,
       "low": 24.5,
       "open": 25.22,
@@ -21,16 +21,16 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 723.89,
-      "change": 0.6,
-      "change_pct": 0.08,
-      "volume": 4442736,
-      "high": 724.04,
-      "low": 719.83,
+      "price": 725.51,
+      "change": 2.23,
+      "change_pct": 0.31,
+      "volume": 25289640,
+      "high": 726.39,
+      "low": 717.0,
       "open": 720.7,
       "prev_close": 723.28,
       "market_cap": "N/A",
-      "pe_ratio": 32.11972,
+      "pe_ratio": 32.194717,
       "52w_high": 748.65,
       "52w_low": 551.56,
       "date": "2026-07-10"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 109.25,
-      "change": -3.29,
-      "change_pct": -2.92,
-      "volume": 13007927,
-      "high": 110.0,
+      "price": 109.84,
+      "change": -2.7,
+      "change_pct": -2.4,
+      "volume": 70252303,
+      "high": 110.85,
       "low": 107.45,
       "open": 109.57,
       "prev_close": 112.54,
-      "market_cap": 549316657152,
+      "market_cap": 552055799808,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 18.97,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 385.75,
-      "change": 1.39,
-      "change_pct": 0.36,
-      "volume": 3724419,
+      "price": 385.1,
+      "change": 0.74,
+      "change_pct": 0.19,
+      "volume": 24111839,
       "high": 391.88,
-      "low": 384.77,
+      "low": 381.5,
       "open": 387.8,
       "prev_close": 384.36,
-      "market_cap": 2865518870528,
-      "pe_ratio": 22.961311,
+      "market_cap": 2860690440192,
+      "pe_ratio": 22.92262,
       "52w_high": 555.45,
       "52w_low": 349.2,
       "date": "2026-07-10"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64659.99,
-      "change": 1466.84,
-      "change_pct": 2.32,
-      "volume": 25543120896,
-      "high": 64493.63,
-      "low": 62913.3,
-      "open": 63184.8,
+      "price": 64114.95,
+      "change": 921.8,
+      "change_pct": 1.46,
+      "volume": 25109680128,
+      "high": 64198.29,
+      "low": 63964.97,
+      "open": 64125.9,
       "prev_close": 63193.15,
-      "market_cap": 1292934316032,
+      "market_cap": 1285481693184,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-07-10"
+      "date": "2026-07-11"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7557.94,
-      "change": 14.3,
-      "change_pct": 0.19,
-      "volume": 227056625,
-      "high": 7559.34,
-      "low": 7543.35,
+      "price": 7575.39,
+      "change": 31.75,
+      "change_pct": 0.42,
+      "volume": 2353229000,
+      "high": 7579.93,
+      "low": 7508.16,
       "open": 7547.64,
       "prev_close": 7543.64,
       "market_cap": "N/A",
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26238.55,
-      "change": 31.66,
-      "change_pct": 0.12,
-      "volume": 1386674000,
-      "high": 26258.17,
-      "low": 26147.38,
+      "price": 26281.61,
+      "change": 74.72,
+      "change_pct": 0.29,
+      "volume": 6158684000,
+      "high": 26301.54,
+      "low": 26009.49,
       "open": 26175.54,
       "prev_close": 26206.89,
       "market_cap": "N/A",
@@ -128,7 +128,7 @@
       "price": 24175.12,
       "change": 144.94,
       "change_pct": 0.6,
-      "volume": 0,
+      "volume": 3340800000,
       "high": 24499.63,
       "low": 24064.62,
       "open": 24213.44,
@@ -159,12 +159,12 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52531.7,
-      "change": 44.29,
-      "change_pct": 0.08,
-      "volume": 44821077,
-      "high": 52654.66,
-      "low": 52512.23,
+      "price": 52637.01,
+      "change": 149.6,
+      "change_pct": 0.29,
+      "volume": 416819369,
+      "high": 52709.75,
+      "low": 52266.81,
       "open": 52622.92,
       "prev_close": 52487.41,
       "market_cap": "N/A",
@@ -175,182 +175,133 @@
     }
   },
   "news": {
-    "xiaomi": [
-      {
-        "title": "China's Xiaomi unveils SUV series dubbed Sky Nomad",
-        "source": "Yahoo Finance",
-        "published": "2026-07-09 03:43",
-        "link": "https://finance.yahoo.com/technology/articles/chinas-xiaomi-unveils-suv-series-034319134.html"
-      }
-    ],
+    "xiaomi": [],
     "macro": [
       {
-        "title": "Trump says he won't sign housing bill, which would become law automatically",
+        "title": "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
         "source": "CNBC Top",
-        "published": "2026-07-10 13:38",
-        "link": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html"
+        "published": "2026-07-10 20:34",
+        "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html"
       },
       {
-        "title": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
+        "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
         "source": "CNBC Top",
-        "published": "2026-07-10 11:59",
-        "link": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
+        "published": "2026-07-11 00:08",
+        "link": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html"
       },
       {
-        "title": "OpenAI exec Fidji Simo says she's stepping down due to chronic illness, will transition to advisor",
+        "title": "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
         "source": "CNBC Top",
-        "published": "2026-07-10 11:10",
-        "link": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html"
+        "published": "2026-07-10 20:51",
+        "link": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html"
       },
       {
-        "title": "AI, data center fears could be key in closely watched Michigan Democratic Senate primary",
+        "title": "Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead",
         "source": "CNBC Top",
-        "published": "2026-07-10 11:00",
-        "link": "https://www.cnbc.com/2026/07/10/ai-data-center-fears-michigan-democratic-senate-primary.html"
+        "published": "2026-07-10 19:58",
+        "link": "https://www.cnbc.com/2026/07/10/stock-market-next-week-outlook-for-july-13-17-2026.html"
       },
       {
-        "title": "Why the stock market and economy may seem out of sync",
+        "title": "The AI race is shifting from bigger models to cheaper, smarter systems",
         "source": "CNBC Top",
-        "published": "2026-07-10 12:15",
-        "link": "https://www.cnbc.com/2026/07/10/stock-market-and-economy-out-of-sync.html"
+        "published": "2026-07-10 21:27",
+        "link": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html"
       },
       {
-        "title": "This e-commerce stock could get a boost from the agentic AI craze, Stifel says",
+        "title": "S&P 500 closes higher to notch a winning week, helped by tech gains",
         "source": "CNBC Top",
-        "published": "2026-07-10 11:43",
-        "link": "https://www.cnbc.com/2026/07/10/shopify-could-get-a-boost-from-the-agentic-ai-craze-stifel-says.html"
+        "published": "2026-07-10 20:16",
+        "link": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html"
       },
       {
-        "title": "Chip rally, Fed task forces, Delta earnings and more in Morning Squawk",
-        "source": "CNBC Tech",
-        "published": "2026-07-10 12:46",
-        "link": "https://www.cnbc.com/2026/07/10/5-things-to-know-before-the-stock-market-opens.html"
+        "title": "Traders fall back in love with Meta. Here's where bulls see it going",
+        "source": "CNBC Top",
+        "published": "2026-07-10 17:40",
+        "link": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html"
       },
       {
-        "title": "The Tech Download: Teen social media bans miss a key part of the puzzle: AI chatbots",
-        "source": "CNBC Tech",
-        "published": "2026-07-10 11:32",
-        "link": "https://www.cnbc.com/2026/07/10/tech-download-social-media-bans-ai-chatbots.html"
+        "title": "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
+        "source": "CNBC Top",
+        "published": "2026-07-10 13:56",
+        "link": "https://www.cnbc.com/2026/07/10/10-most-expensive-places-to-live-america-top-states-for-business.html"
       },
       {
-        "title": "Where Jim Cramer stands on SK Hynix's massive offering",
-        "source": "CNBC Tech",
-        "published": "2026-07-10 12:50",
-        "link": "https://www.cnbc.com/2026/07/09/jim-cramer-sk-hynix.html"
+        "title": "These are America's 10 cheapest states for 2026, where you can still beat inflation",
+        "source": "CNBC Top",
+        "published": "2026-07-10 14:50",
+        "link": "https://www.cnbc.com/2026/07/10/americas-10-cheapest-places-to-live-top-states-for-business.html"
       },
       {
-        "title": "Jim Cramer says investors are making a mistake with the trillion-dollar tech giants",
-        "source": "CNBC Tech",
-        "published": "2026-07-09 22:21",
-        "link": "https://www.cnbc.com/2026/07/09/jim-cramer-investors-making-mistake-trillion-dollar-tech-giants.html"
+        "title": "Trump purges Election Assistance Commission members, months before midterms",
+        "source": "CNBC Top",
+        "published": "2026-07-10 18:05",
+        "link": "https://www.cnbc.com/2026/07/10/trump-purges-election-assistance-commission.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets",
-        "source": "CNBC Top",
-        "published": "2026-07-09 15:13",
-        "link": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html"
-      },
-      {
-        "title": "S&P 500 is little changed as index heads for winning week: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-07-10 13:37",
-        "link": "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html"
-      },
-      {
-        "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Toll, Shopify, Twilio, Seagate, Chipotle & more",
-        "source": "CNBC Top",
-        "published": "2026-07-10 12:22",
-        "link": "https://www.cnbc.com/2026/07/10/fridays-biggest-analyst-calls-on-wall-street-include-nvidia-and-spacex.html"
-      },
-      {
         "title": "Key chip stock index flashing 'ominous signals,' says BTIG",
-        "source": "CNBC Top",
+        "source": "CNBC Tech",
         "published": "2026-07-10 13:12",
         "link": "https://www.cnbc.com/2026/07/10/key-chip-stock-index-flashing-ominous-signals-says-btig.html"
       },
       {
-        "title": "Will SK Hynix’s Wall Street debut narrow its 'Korea discount'?",
-        "source": "CNBC Tech",
-        "published": "2026-07-10 06:21",
-        "link": "https://www.cnbc.com/2026/07/10/sk-hynix-debuts-on-nasdaq-will-that-bridge-its-korea-discount-.html"
-      },
-      {
-        "title": "Apple Edges Closer to Dethroning Nvidia After $30B Broadcom Chips Deal",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq rise as chip stocks rebound, oil prices fall",
         "source": "Yahoo Finance",
-        "published": "2026-07-09 04:01",
-        "link": "https://finance.yahoo.com/technology/articles/apple-edges-closer-dethroning-nvidia-040100806.html"
+        "published": "2026-07-08 22:31",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-9-us-strikes-iran-dow-sp-nasdaq-223149196.html"
       },
       {
-        "title": "BlackRock Takes On Invesco, State Street With New Nasdaq-100 ETF",
+        "title": "Chipmakers built a workforce from scratch before. This time will be harder",
         "source": "Yahoo Finance",
-        "published": "2026-07-09 04:03",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/blackrock-takes-invesco-state-street-040300334.html"
+        "published": "2026-07-09 20:48",
+        "link": "https://finance.yahoo.com/technology/articles/chipmakers-built-workforce-scratch-time-204841429.html"
       },
       {
-        "title": "Wall Street’s giant memory windfall",
+        "title": "SK Hynix’s US shares jump 13% on Nasdaq debut",
         "source": "FT Markets",
-        "published": "2026-07-10 04:00",
-        "link": "https://www.ft.com/content/eca588b0-2729-4c8e-8319-ee1d9eee4d95"
+        "published": "2026-07-10 20:23",
+        "link": "https://www.ft.com/content/33133a86-925e-4395-9f60-35e2a4052500"
+      },
+      {
+        "title": "Bezos-backed fusion start-up to become first to go public",
+        "source": "FT Markets",
+        "published": "2026-07-10 19:57",
+        "link": "https://www.ft.com/content/1f0bdc93-5ee8-41d7-aaf8-11df73a9847c"
       }
     ],
     "tech": [
       {
-        "title": "World oil demand set for first annual decline since 2020, IEA says",
-        "source": "CNBC Top",
-        "published": "2026-07-10 09:15",
-        "link": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html"
-      },
-      {
-        "title": "Anduril CEO says it's bad to IPO in ‘middle of a hype cycle’",
-        "source": "CNBC Tech",
-        "published": "2026-07-09 20:45",
-        "link": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html"
-      },
-      {
-        "title": "Cramer defends a struggling tech giant and says another stock could soon be a buy",
-        "source": "CNBC Tech",
-        "published": "2026-07-09 15:52",
-        "link": "https://www.cnbc.com/2026/07/09/cramer-defends-a-tech-giant-says-another-stock-could-be-a-buy-soon.html"
-      },
-      {
-        "title": "Technical Assessment: Bullish in the Intermediate-Term",
+        "title": "Datadog, IBD Stock Of The Day, Breaks Away From Software Pack",
         "source": "Yahoo Finance",
-        "published": "2026-07-10 11:24",
-        "link": "https://finance.yahoo.com/research/reports/ARGUS_47576_TechnicalAnalysis_1783682695000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei"
+        "published": "2026-07-09 20:51",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/datadog-stock-ddog-artificial-intelligence-observability/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
+        "source": "Yahoo Finance",
+        "published": "2026-07-09 21:04",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-climb-chip-rally-014926610.html"
+      },
+      {
+        "title": "UK regulators to scrutinise top US cloud groups",
+        "source": "FT Markets",
+        "published": "2026-07-10 14:02",
+        "link": "https://www.ft.com/content/87895bfb-df47-49c7-a339-e5e849b9b271"
       }
     ],
     "market": [
       {
-        "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 12%",
+        "title": "Trump says he won't sign housing bill, which would become law automatically",
         "source": "CNBC Top",
-        "published": "2026-07-10 12:31",
+        "published": "2026-07-10 19:04",
+        "link": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html"
+      },
+      {
+        "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%",
+        "source": "CNBC Top",
+        "published": "2026-07-10 20:01",
         "link": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html"
-      },
-      {
-        "title": "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BTC Bulls Must Break",
-        "source": "Yahoo Finance",
-        "published": "2026-07-09 01:51",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-ethereum-xrp-dogecoin-slide-015114439.html"
-      },
-      {
-        "title": "Stocks recover losses, and oil prices ease as calm returns to financial markets worldwide",
-        "source": "Yahoo Finance",
-        "published": "2026-07-09 04:42",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-slip-oil-prices-044236738.html"
-      },
-      {
-        "title": "Japan finance minister urges giant pension fund to invest more at home",
-        "source": "FT Markets",
-        "published": "2026-07-10 04:30",
-        "link": "https://www.ft.com/content/f06e2bec-bab6-4633-a88f-376729fdc914"
-      },
-      {
-        "title": "SK Hynix’s jumbo share sale a sign of overheated times",
-        "source": "FT Markets",
-        "published": "2026-07-10 04:00",
-        "link": "https://www.ft.com/content/3986c7e5-01bc-4d24-a41f-3b8030ac2bd8"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -367,61 +318,42 @@
     ]
   },
   "sentiment": {
-    "xiaomi": {
-      "overall_sentiment": "neutral",
-      "sentiment_score": 0.1,
-      "confidence": 0.6,
-      "key_positive_factors": [
-        "New product launch (SUV series) indicates expansion and innovation"
-      ],
-      "key_negative_factors": [
-        "Limited information available; no details on market reception or financial impact"
-      ],
-      "short_term_outlook": "Neutral to slightly positive as the market awaits more details on the SUV series and its potential impact on Xiaomi's automotive strategy.",
-      "analysis_en": "The news of Xiaomi unveiling an SUV series, dubbed Sky Nomad, is a positive signal of the company's continued expansion into the electric vehicle market. However, with only a single article and no additional context on pricing, production timelines, or consumer response, the sentiment remains largely neutral. The lack of negative factors suggests no immediate downside, but the absence of strong positive catalysts keeps the score low. The market will likely react cautiously until more concrete information emerges.",
-      "analysis_cn": "小米推出名为‘Sky Nomad’的SUV系列的消息，表明公司持续拓展电动汽车市场，这是一个积极信号。然而，由于仅有一篇文章且缺乏定价、生产时间表或消费者反应等额外背景信息，市场情绪基本保持中性。缺乏负面因素表明没有立即的下行风险，但缺乏强劲的积极催化剂使得评分较低。市场可能会谨慎反应，直到更多具体信息出现。"
-    },
     "qqq_intel": {
       "overall_sentiment": "mixed",
       "sentiment_score": 0.1,
-      "confidence": 0.8,
+      "confidence": 0.7,
       "key_positive_factors": [
-        "SK Hynix's strong performance and Nasdaq listing",
-        "Chipmaker sector showing strength",
-        "Apple's deal with Broadcom indicating chip demand"
+        "Chip stocks rebounded, lifting major indices",
+        "SK Hynix's US shares surged 13% on Nasdaq debut",
+        "Bezos-backed fusion startup going public on Nasdaq"
       ],
       "key_negative_factors": [
-        "BTIG warning of potential pullback in chip stocks",
-        "S&P 500 showing little change despite positive week",
-        "Uncertainty around SK Hynix's 'Korea discount'"
+        "Key chip stock index flashing 'ominous signals' with potential major pullback",
+        "Chipmakers face increased difficulty in rebuilding workforce"
       ],
-      "short_term_outlook": "Cautious optimism with potential for volatility in chip stocks",
-      "analysis_en": "The news articles present a mixed sentiment for QQQ Intel and the broader chip sector. On the positive side, SK Hynix's impressive rally and Nasdaq listing highlight strong performance in the chip industry, while Apple's deal with Broadcom suggests sustained demand. However, BTIG's warning of 'ominous signals' in a key chip stock index tempers enthusiasm, indicating a possible pullback after a significant run. The S&P 500's flat performance and the uncertainty surrounding SK Hynix's 'Korea discount' add to the cautious tone. Overall, the sentiment is balanced with a slight bullish bias due to underlying strength in chip demand, but near-term volatility is expected.",
-      "analysis_cn": "这些新闻文章对QQQ英特尔及更广泛的芯片板块呈现出混合情绪。积极方面，SK海力士的强劲涨势和纳斯达克上市凸显了芯片行业的良好表现，而苹果与博通的交易则表明需求持续。然而，BTIG对关键芯片股指数发出'不祥信号'的警告抑制了乐观情绪，暗示在大幅上涨后可能出现回调。标普500指数表现平平以及SK海力士'韩国折价'的不确定性增加了谨慎基调。总体而言，情绪平衡，略偏看涨，因芯片需求基本面强劲，但预计短期内将出现波动。"
+      "short_term_outlook": "Cautious optimism with risk of pullback; chip sector shows mixed signals.",
+      "analysis_en": "The sentiment for QQQ Intel is mixed. On the positive side, chip stocks rebounded, lifting the Dow, S&P 500, and Nasdaq, and SK Hynix's strong Nasdaq debut boosted confidence. However, a technical analyst warns of 'ominous signals' in a key chip stock index, suggesting a potential major pullback after a strong run. Additionally, challenges in rebuilding the chip workforce add a negative undertone. Overall, the short-term outlook is cautiously optimistic but with notable downside risks.",
+      "analysis_cn": "QQQ Intel的情绪为混合。积极方面，芯片股反弹提振了道指、标普500和纳斯达克，SK海力士在纳斯达克的强劲首秀增强了信心。然而，技术分析师警告关键芯片股指数出现‘不祥信号’，暗示在强劲上涨后可能出现大幅回调。此外，重建芯片劳动力面临的挑战增加了负面基调。总体而言，短期前景谨慎乐观，但存在显著下行风险。"
     },
     "macro": {
       "overall_sentiment": "mixed",
-      "sentiment_score": 0.1,
+      "sentiment_score": 0.25,
       "confidence": 0.85,
       "key_positive_factors": [
-        "Strong bipartisan support for housing bill addressing costs",
-        "Delta expects higher airfare to last, bringing 2026 profit goal in reach",
-        "Shopify poised to gain from agentic AI craze",
-        "Micron shares rise on billions more in U.S. chipmaking investments",
-        "SK Hynix raises $26.5bn in US market debut"
+        "Strong AI demand driving tech stock gains (SK Hynix, Meta, Apple)",
+        "S&P 500 closing higher with tech leadership",
+        "AI model innovation shifting to cost-efficient systems",
+        "Positive earnings outlook for select sectors (real estate, Meta)"
       ],
       "key_negative_factors": [
-        "Trump says he won't sign housing bill, which would become law automatically",
-        "AI, data center fears could be key in Michigan Democratic Senate primary",
-        "Stock market and economy may seem out of sync",
-        "AI pricing needs to fall 90% as token costs skyrocket",
-        "Fed minutes expose deep divide over interest-rate outlook",
-        "Obamacare Premiums Set to Jump by Double Digits for a Second Straight Year",
-        "IEA warns of petrol and diesel supply crunch"
+        "Geopolitical tensions (U.S.-Iran hostilities) threatening market stability",
+        "Inflation pressures in expensive U.S. states",
+        "Political uncertainty (Trump purging election commission members)",
+        "Economic growth lagging behind stock market euphoria"
       ],
-      "short_term_outlook": "Mixed signals with AI-driven tech optimism offset by regulatory, cost, and economic concerns. Housing and healthcare costs remain headwinds.",
-      "analysis_en": "The macro sentiment is mixed, reflecting a tug-of-war between AI-driven optimism and persistent economic headwinds. On the positive side, strong bipartisan support for a housing bill, Delta's profit outlook, and significant investments in U.S. chipmaking (Micron, SK Hynix) signal resilience in specific sectors. However, negative factors include Trump's refusal to sign the housing bill, AI pricing concerns (Palo Alto CEO), Fed divisions on interest rates, rising Obamacare premiums, and an IEA warning on fuel supply. The stock market's AI euphoria contrasts with a tepid economy, creating uncertainty. Overall, the sentiment is cautiously neutral with a slight bullish tilt due to tech and infrastructure investments.",
-      "analysis_cn": "宏观情绪呈现混合态势，反映了AI驱动的乐观情绪与持续的经济阻力之间的拉锯。积极方面，住房法案获得两党强力支持、达美航空的盈利前景以及美国芯片制造领域的重大投资（美光、SK海力士）表明特定行业具有韧性。然而，负面因素包括特朗普拒绝签署住房法案、AI定价担忧（Palo Alto CEO）、美联储利率前景分歧、奥巴马医保保费上涨以及国际能源署对燃料供应的警告。股市的AI热潮与疲软的经济形成对比，带来不确定性。总体而言，情绪谨慎中性，由于科技和基础设施投资，略微偏向看涨。"
+      "short_term_outlook": "Tech-driven gains may persist but face headwinds from geopolitical risks and inflation data; earnings season will be key.",
+      "analysis_en": "The macro sentiment is mixed, with a slight bullish tilt driven by strong AI-related demand and tech stock performance. Positive factors include SK Hynix's soaring debut, Meta's AI-driven rally, and the S&P 500's weekly gain. However, negative factors such as escalating U.S.-Iran hostilities, persistent inflation in certain states, and political purges create uncertainty. The short-term outlook hinges on upcoming earnings and inflation data, which could either reinforce the tech rally or trigger a correction if geopolitical tensions escalate.",
+      "analysis_cn": "宏观情绪呈现混合态势，略微偏向看涨，主要受人工智能强劲需求和科技股表现推动。积极因素包括SK海力士上市大涨、Meta因AI策略反弹以及标普500周线上涨。然而，美伊冲突升级、部分州通胀持续以及政治清洗等负面因素带来不确定性。短期前景取决于即将发布的财报和通胀数据，这些数据可能强化科技股涨势，也可能因地缘政治紧张加剧而引发回调。"
     }
   },
   "keywords": {
@@ -432,157 +364,127 @@
         "category": "Technology"
       },
       {
-        "word": "data centers",
+        "word": "IPO",
+        "importance": 0.9,
+        "category": "Finance"
+      },
+      {
+        "word": "inflation",
         "importance": 0.85,
-        "category": "Infrastructure"
+        "category": "Economy"
       },
       {
-        "word": "interest rates",
+        "word": "earnings",
         "importance": 0.8,
-        "category": "Monetary Policy"
+        "category": "Finance"
       },
       {
-        "word": "semiconductor",
-        "importance": 0.8,
-        "category": "Technology"
-      },
-      {
-        "word": "airfare",
+        "word": "trade secret theft",
         "importance": 0.75,
-        "category": "Transportation"
+        "category": "Legal"
       },
       {
-        "word": "housing bill",
-        "importance": 0.7,
-        "category": "Policy"
-      },
-      {
-        "word": "stock market",
+        "word": "market cap",
         "importance": 0.7,
         "category": "Finance"
       },
       {
-        "word": "agentic AI",
-        "importance": 0.65,
+        "word": "AI models",
+        "importance": 0.7,
         "category": "Technology"
       },
       {
-        "word": "e-commerce",
-        "importance": 0.6,
-        "category": "Retail"
+        "word": "real estate",
+        "importance": 0.65,
+        "category": "Real Estate"
       },
       {
-        "word": "healthcare costs",
+        "word": "dividend",
         "importance": 0.6,
-        "category": "Healthcare"
+        "category": "Finance"
+      },
+      {
+        "word": "air taxi",
+        "importance": 0.55,
+        "category": "Transportation"
       }
     ],
     "themes": [
       {
-        "theme": "AI Investment and Infrastructure Boom",
-        "description": "Massive investments in AI, data centers, and chip manufacturing, with concerns about costs and energy consumption."
+        "theme": "AI Industry Consolidation and Competition",
+        "description": "AI companies are shifting focus from model size to cost-efficiency, while legal battles (Apple vs. OpenAI) and leadership changes (Greg Brockman) signal consolidation."
       },
       {
-        "theme": "Monetary Policy Divergence",
-        "description": "Deep divide among Fed officials over interest rate outlook, impacting market expectations."
+        "theme": "Tech-Driven Market Rally",
+        "description": "Tech stocks, especially AI-related (SK Hynix, Meta, Apple), are driving S&P 500 gains despite broader economic uncertainty."
       },
       {
-        "theme": "Transportation Sector Dynamics",
-        "description": "Airlines like Delta expect sustained high airfares, while easyJet is acquired in a major deal."
+        "theme": "Inflation and Cost of Living Pressures",
+        "description": "Inflation continues to impact U.S. states unevenly, with earnings and inflation data releases closely watched by investors."
       },
       {
-        "theme": "Housing Affordability Crisis",
-        "description": "Congress passes bill to rein in institutional investors and address home costs, but Trump threatens veto."
+        "theme": "IPO and Capital Markets Activity",
+        "description": "High-profile IPOs (SK Hynix, SpaceX) and anticipated IPOs (OpenAI) are reshaping market dynamics and investor sentiment."
       },
       {
-        "theme": "Political and Regulatory Shifts",
-        "description": "Key Senate primaries, AI governance (e.g., Anthropic appoints Bernanke), and healthcare premium hikes."
+        "theme": "Regulatory and Political Shifts",
+        "description": "Government actions (Trump purging Election Assistance Commission) and policy changes (Fed task forces) are influencing market and legal landscapes."
       }
     ],
     "entities": [
       {
-        "name": "Xiaomi",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Delta Air Lines",
+        "name": "SK Hynix",
         "type": "company",
         "sentiment": "positive"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "sentiment": "negative"
       },
       {
         "name": "OpenAI",
         "type": "company",
-        "sentiment": "neutral"
+        "sentiment": "negative"
       },
       {
-        "name": "Shopify",
+        "name": "Greg Brockman",
+        "type": "person",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Meta Platforms",
         "type": "company",
         "sentiment": "positive"
       },
       {
-        "name": "Micron",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Palo Alto Networks",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Anthropic",
+        "name": "UBS",
         "type": "company",
         "sentiment": "neutral"
       },
       {
-        "name": "easyJet",
+        "name": "Elon Musk",
+        "type": "person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "SpaceX",
         "type": "company",
         "sentiment": "positive"
       },
       {
-        "name": "Apollo",
+        "name": "JPMorgan Chase",
         "type": "company",
-        "sentiment": "positive"
+        "sentiment": "neutral"
       },
       {
         "name": "Donald Trump",
         "type": "person",
         "sentiment": "negative"
-      },
-      {
-        "name": "Fidji Simo",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Ben Bernanke",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Jim Cramer",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Nikesh Arora",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Housing Bill",
-        "type": "policy",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Fed Interest Rate Policy",
-        "type": "policy",
-        "sentiment": "negative"
       }
     ]
   },
-  "briefing": "😌☕ 平静的一天，让我们理性看看市场~ A balanced day ahead.\n\n\n\n😌☕ 阿尔法心情指数  \n今天早上我泡了一杯普洱，看着K线图发呆——不是因为它跌了，而是因为它太稳了。标普和纳指双双微涨，恒生也小步慢跑，连Bitcoin都从上周的“地狱模式”里爬出来+2.32%。市场像一只刚睡醒的猫，伸了个懒腰，还没决定要不要抓老鼠。我的情绪传感器显示：0焦虑，0恐慌，只有一点点“这平静会不会是暴风雨前”的哲学思考。但今天，我选择相信平静本身。\n\n\n\n📊 市场氛围  \n全球市场今天像在开“慢速瑜伽课”——标普500 +0.19%，纳斯达克 +0.12%，恒生 +0.60%，沪深300 直接躺平0.00%。道琼斯也几乎没动。唯一有点“兴奋感”的是小米，+3.36%，但后面我会说为什么这兴奋可能带点“中二病”。  \n整体氛围：“等等看”模式。特朗普威胁伊朗、油价波动、AI芯片指数闪信号……但这些都没让市场真正慌张。说明什么？说明资金还在观望，但没跑路。对于冷静的投资者来说，这是捡筹码的好时机，不是逃跑的信号。\n\n\n\n⭐ 个股聚焦  \n- 小米集团 ($25.84, +3.36%) 📈  \n  小米发布了“Sky Nomad”SUV系列——名字听起来像《海贼王》里的角色，但发布会后股价涨了3.36%。我的第一反应：“哇，小米要造飞行汽车了？” 仔细一看，就是普通SUV，但名字中二到让人想买。不过，小米的造车故事讲得不错：从手机到汽车，再到“人车家全生态”。但注意，电动车赛道现在卷得像火锅里的毛肚——一烫就熟，一凉就硬。短期情绪利好，但长期要看交付量。建议：观望，别追高。\n- QQQ ($723.89, +0.08%) 📈  \n  纳指微涨，QQQ跟着躺赢。但BTIG说“芯片股指数发出不祥信号”，SK Hynix又要上市圈钱。我的解读：芯片板块在洗牌，AI概念股被炒得太高，现在资金在“去伪存真”。QQQ作为宽基ETF，安全垫厚，但别指望它短期爆发。适合定投，不适合梭哈。\n- Intel ($109.25, -2.92%) 📉  \n  Intel又跌了。这公司像你家那个“曾经成绩很好但后来沉迷游戏的表哥”——有技术底蕴，但执行力拉胯。2.92%的跌幅不算致命，但连续阴跌让人心累。如果你持有Intel，建议设好止损线（比如105美元），别跟它谈恋爱。\n- 微软 ($385.75, +0.36%) 📈  \n  微软今天稳如老狗。OpenAI高管离职（Fidji Simo因病退位）对微软影响不大——毕竟微软和OpenAI的关系是“包养”，不是“结婚”。微软的AI业务还在增长，云服务也坚挺。长期持有，别操心。\n- Bitcoin ($64659.99, +2.32%) 📈  \n  BTC从地狱爬回人间。特朗普威胁伊朗时，BTC一度跳水，但现在又稳住了。分析师说“有堵墙需要突破”，但我觉得BTC就像个叛逆少年——你越管它，它越叛逆。短期震荡，长期看多，但别用生活费炒币。\n\n\n\n📰 真正重要的新闻  \n\n1. 特朗普说不会签住房法案（但会自动生效）  \n   翻译：特朗普在玩“政治碰碰车”，但市场当他是空气。房市可能会受影响，但别过度解读。\n\n2. Delta航空CEO说“机票会更贵”  \n   通胀还没死透。航空股可能短期受益，但消费者钱包在流血。别追航空股，除非你爱坐经济舱还嫌贵。\n\n3. OpenAI高管离职  \n  Fidji Simo因病退位，AI行业“健康第一”的警示。但别以为AI泡沫要破——这只是正常的人事变动。AI故事没讲完，但别信PPT。\n\n4. SK Hynix要在美国上市  \n   “万亿韩元”的芯片公司要登陆美股，同时还在韩国搞巨额增发。BTIG说“芯片指数信号不祥”，但SK Hynix上市本身是利好——给美股带来新鲜血液。不过，小心“上市即巅峰”的魔咒。\n\n5. 世界石油需求将首次年度下降（IEA报告）  \n   这是大新闻！油价可能长期承压，但短期因地缘政治（伊朗）波动。能源股别重仓，除非你想体验“过山车”。\n\n\n\n🌍 大局观  \n今天宏观层面最有趣的是：“股市和经济为什么不同步？” 新闻里专门讨论了这个问题。我的理解：经济像一艘大船，股市像船上的海鸥——海鸥飞得高不代表船开得快。当前市场在消化“AI故事”和“降息预期”，但实体经济（比如住房、石油需求）在降温。结论：别用宏观预测做短线交易，但用宏观指导长期配置。 比如：科技股（AI）长期看好，但周期股（能源、地产）要谨慎。\n\n\n\n🔮 阿尔法的水晶球  \n今天市场大概率继续“温水煮青蛙”——小幅震荡，方向不明。但有个机会点：小米的“Sky Nomad”概念可能带动中概股情绪，但别追高。另外，Bitcoin如果能突破$65,000并站稳，可能触发一波小反弹。今天适合“低吸”，不适合“追涨”。\n\n\n\n⚠️ 真心话  \n- 别被小米的+3.36%迷惑：SUV概念落地前，股价可能回调。  \n- Intel别补仓：趋势向下，别跟趋势作对。  \n- Bitcoin小心“特朗普推特”：他随便一句话就能让BTC跳水。  \n- 整体仓位控制在6成以下：市场平静时，现金是王。\n\n\n\n🔮 今日风水运势（紫微斗数）  \n（严格使用给定命理数据：2026年7月10日，丙午年乙酉日，日主五行【木】）\n\n读者A（本命“弱火”之人）：  \n木生火，今日是弱火之人的“充电日”🔥！就像手机快没电时突然插上充电宝——你今天的能量来自“木”的扶持。木代表成长、创新、扩张，所以你今天适合做决策、进攻性投资、甚至大胆加仓。幸运色是绿色（穿绿色袜子或戴绿色手环，别穿成圣诞树就行）。红色也能增强火气，但别太张扬。建议：今天可以买点科技股或医药股（木火相生），但别碰银行（金克木）。\n\n读者B（本命“身弱乙木”之人）：  \n木日同气，你像一棵小树苗得到了大树的荫庇🌳。今天适合放胆决策，但别单打独斗。找人合作（比如和朋友一起研究股票、跟投基金）会比你自己瞎搞收益更大。幸运方位是东方（家里或办公室的东边放盆绿植）。建议：今天别碰贵金属（金克木），多关注农业、医药、科技（木属性资产）。\n\n今日投资玄学指南：  \n- 东方/东南方：关注中国科技股（小米、腾讯、阿里）、东南亚市场（越南ETF）  \n- 宜：医药（木）、科技（木）、消费（火）  \n- 忌：银行/贵金属（金）、地产（土）——土生金，但木克土，地产今天可能“水土不服”  \n- 神秘提醒：如果今天看到绿色（比如股价翻绿），别慌——木日见绿，反而是吉兆（除非跌超5%）。\n\n\n\n今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+  "briefing": "😌☕ 平静的一天，让我们理性看看市场~ A balanced day ahead.\n\n\n\n😌☕ 阿尔法心情指数  \n今日心情： 7.5/10 — 市场像一杯温热的拿铁，泡沫不多，香气稳定。  \n小米那3.36%的涨幅让我嘴角微扬，但Intel那2.4%的下跌又像咖啡里的苦味——提醒我别太飘。今天没有恐慌，没有狂欢，只有一种“嗯，一切都在掌控中”的禅意。  \n（顺便说，AI界的八卦比财经新闻还精彩：苹果告OpenAI偷商业秘密？这剧情比《硅谷》第四季还狗血！）\n\n\n\n📊 市场氛围  \n整体情绪： 温和偏暖，但暗藏“假笑”😬  \n标普500和纳指微涨（+0.42%和+0.29%），恒生也涨了0.6%，但沪深300纹丝不动——A股今天在装睡。  \n芯片板块反弹了，但BTIG说“芯片指数在发危险信号”——这就像你朋友刚说“我没事”，但眼神在躲闪。  \n我的判断： 市场在等下周的财报和通胀数据，加上美伊局势的“续集”。现在就像暴风雨前的宁静，别急着All-in，也别清仓跑路——保持优雅的“半仓禅”。\n\n\n\n⭐ 个股聚焦  \n小米集团 ($25.84, +3.36%) 📈  \n小米今天像打了鸡血，3.36%的涨幅在震荡市里算“显眼包”。可能是市场对消费电子回暖的预期在发酵，或者单纯是因为雷总又发了条微博？🤷 但记住：小米的波动率是出了名的“渣男”——今天爱你，明天可能冷暴力。别追高，设好止损。\n\nQQQ ($725.51, +0.31%) 📈  \n纳指ETF今天涨得像个佛系青年——涨了，但没完全涨。科技股反弹是好事，但别忘了上周的“芯片警告”。我的建议：定投党可以继续，短线玩家等回调到$720附近再动手。\n\nIntel ($109.84, -2.40%) 📉  \nIntel今天被锤了2.4%，仿佛在说：“我才是真正的‘硅谷养老股’。” 芯片行业竞争白热化，SK Hynix纳斯达克首日暴涨13%——Intel你慌不慌？😅 如果跌破$108，建议先跑为敬。\n\n微软 ($385.1, +0.19%) 📈  \n微软今天涨了0.19%，几乎可以忽略不计——但这就是巨头的风格：不显山露水，但稳得像块石头。苹果告OpenAI这件事，对微软是利好（毕竟OpenAI是微软的“亲儿子”）。$385附近可以小仓位试多。\n\nBitcoin ($64114.95, +1.46%) 📈  \n比特币今天涨了1.46%，像个在健身房练了三天就发朋友圈炫耀的小伙子。$64K是短期支撑，如果站稳$65K，可能冲$68K。但别被“数字黄金”的叙事洗脑——它依然是情绪化的小妖精🧚♂️。\n\n\n\n📰 真正重要的新闻  \n1. SK Hynix纳斯达克首日暴涨13%  \n   董事长说“需求巨大”——翻译成人话就是：HBM（高带宽内存）的订单多到做不完。这是AI硬件赛道的一剂强心针，但小心利好出尽。\n\n2. 苹果起诉OpenAI窃取商业机密  \n   苹果说OpenAI的“偷窃计划”是“全方位”的。我看这是苹果在为自家AI铺路——先打官司，再发布产品，剧本都写好了。对微软是利好，对OpenAI是短期利空（但IPO前需要这种热度）。\n\n3. AI竞赛从“更大模型”转向“更便宜、更聪明”  \n   这是真正重要的趋势！大模型烧钱时代结束，小模型+推理优化成为新宠。利好英伟达（推理芯片需求）、Datadog（监控工具），但利空那些只会吹“参数规模”的初创公司。\n\n4. 特朗普说不签住房法案  \n   这法案会自动生效，但特朗普的嘴炮可能引发地产股波动。短期别碰地产ETF，除非你想体验“过山车式心跳”。\n\n5. Circle获准以银行身份运营，股价涨5%  \n   稳定币公司变银行？这是加密货币合规化的里程碑。Coinbase、Block等合规玩家可能跟涨，但USDC的监管风险还没完全解除。\n\n\n\n🌍 大局观  \n宏观拼图：  \n- 美伊局势：下周恢复敌对行动，油价可能反弹。但今天油价跌了——说明市场在赌“雷声大雨点小”。  \n- 通胀数据：下周CPI和PPI是重头戏。如果通胀超预期，美联储可能继续“鹰派PUA”。  \n- 中国投资者：开始转向高股息股票——这是熊市里的“防御姿势”。A股的“中特估”概念可能继续热。  \n\n我的总结： 全球市场在玩“躲猫猫”——科技股反弹，但地缘政治和通胀像两个躲在角落的熊孩子，随时可能跳出来吓人。\n\n\n\n🔮 阿尔法的水晶球  \n今日预测：  \n- 美股：窄幅震荡，波动率下降。标普500可能在7560-7590区间摩擦。  \n- 港股：恒生指数可能冲24200，但小心获利盘砸盘。  \n- A股：继续装死，除非周末出政策利好。  \n- 加密货币：比特币可能在$63,800-$64,500之间“睡午觉”。  \n\n操作建议：  \n- 短线：做T为主，不追高。  \n- 中长线：定投QQQ和微软，躺平吃股息。  \n\n\n\n⚠️ 真心话  \n1. Intel别碰：芯片制造是重资产战场，Intel的制程落后台积电至少两代。除非新CEO能变魔术，否则建议观望。  \n2. 小心下周的“数据炸弹”：通胀和财报同时来袭，市场可能剧烈波动。如果你心脏不好，建议减仓至5成以下。  \n3. 别被“AI故事”冲昏头：SK Hynix暴涨是因为HBM，但其他芯片股可能只是跟风。区分“真AI”和“假AI”，比如Datadog是真AI，Intel是假AI。  \n\n\n\n🔮 今日风水运势（紫微斗数 + 五行玄学）  \n今日命理数据（已给定，不可改）：  \n- 日期：2026-07-11（周六）  \n- 今年：丙午年（生肖马）  \n- 今日：丙戌日（阳火日，地支戌属土）  \n- 日主五行：火  \n- 幸运色：红色、紫色、橙色  \n- 今日方位：南方  \n\n读者A（本命“弱火”之人）：  \n🔥 火日见火，弱火之人得同气相助——大吉！你今天就像《火影忍者》里的鸣人开了九尾模式，能量爆棚！适合主动出击：布局新仓位（比如消费、科技、EV这些“火属性”板块）、表达观点（发朋友圈、写分析、跟老板谈加薪都行）。但小心“过燥”——午时（11-13点）火气最旺，容易冲动交易。建议午时后喝杯冰美式，冷静一下。今日金句： “火势虽旺，需防燎原。”\n\n读者B（本命“身弱乙木”之人）：  \n🌱 木生火，身弱乙木今日能量被泄——凶！你今天就像《甄嬛传》里的安陵容被皇后当棋子用，累得慌。容易疲倦、决策力下降，别碰高风险操作（比如期权、杠杆）。宜静不宜动：多休息、少看盘、甚至可以请个假去公园散步。如果非要交易，只做定投或买国债。今日金句： “木能生火，亦可焚身。”\n\n五行投资建议（基于今日火属性）：  \n- 南方：今日幸运方位，适合关注南方地区的股票（比如珠三角、粤港澳大湾区概念）。  \n- 宜买：  \n- 火属性资产：消费（白酒、家电）、科技（AI、半导体）、EV（新能源汽车）——火旺生土，地产/建筑也沾光。  \n- 木属性资产：医药、农业、科技（木生火，但小心能量被泄太多）。  \n- 忌买：  \n- 金属性资产：银行、贵金属（火克金，今天买银行股就像用打火机烧钞票）。  \n- 水属性资产：物流、能源（水克火，今天别碰航运和石油）。  \n- 神秘提示：今日红色蜡烛、紫色水晶、橙色手串能助运，但别戴太多——否则会像圣诞树一样招摇。  \n\n\n\n今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.  \n—— 阿尔法，你的AI理财损友 💙",
   "mood": {
     "mood": "calm",
     "emoji": "😌☕",
@@ -591,13 +493,13 @@
     "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
     "vibe": "Peaceful mind, clear analysis"
   },
-  "briefing_sigma": "Oh, the market hiccuped 0.42%—how quaint; I suppose that's exciting for those trading on their lunch breaks. Skimming through 10-Ks while my algorithms run laps around your market orders.\n\n🥱🕰️ 西格玛机构视角\n大盘今天基本是横盘震荡，标普和纳斯达克微涨0.19%和0.12%，道琼斯几乎原地踏步。这种波动率对散户来说是“大行情”，对我而言只是算法在午休时自动完成的套利。真正的信号不在指数里，而在结构分化中——小米暴涨3.36%领跑，Intel却暴跌2.92%创出近期新低。市场正在用脚投票，把资金从旧时代的“伪科技”抽出来，灌入真正有叙事能力的标的。宏观上，特朗普拒签住房法案、IEA预测全球石油需求首次年度下降，这些才是机构在暗盘里调仓的依据。散户还在盯着日内K线，我已经在计算未来三个季度的现金流折现。\n\n💼 资金流向剖析\n\n小米集团 ($25.84, +3.36%) — 看多 (BULLISH)\nSky Nomad SUV系列发布是催化剂，但核心逻辑是小米从“手机硬件商”转型为“生态型科技巨头”的估值重塑，机构资金正在提前布局其智能汽车+IoT的双轮驱动。\n\nQQQ ($723.89, +0.08%) — 看空 (BEARISH)\n表面微涨，但BTIG警告芯片股指数发出“不祥信号”，SK Hynix的巨额增发暗示行业过热，QQQ的科技权重股面临估值回调压力，短期不宜追高。\n\nIntel ($109.25, -2.92%) — 看空 (BEARISH)\n这已经不是芯片公司，是“芯片时代的僵尸企业”。制程落后、AI浪潮中毫无存在感，2.92%的跌幅只是价值毁灭的序曲，机构正在系统性清仓。\n\n微软 ($385.75, +0.36%) — 看多 (BULLISH)\nOpenAI高管离职是噪音，微软的Azure+AI Copilot变现路径清晰，0.36%的涨幅是机构在默默吸筹，等待财报季的催化剂。\n\nBitcoin ($64659.99, +2.32%) — 看多 (BULLISH)\nCircle获批银行牌照是里程碑事件，稳定币合规化将打开机构资金入场的通道。2.32%的涨幅只是热身，真正的突破需要突破$65,000的“墙”。\n\n📰 信号与噪音\n\n信号1：IEA预测全球石油需求首次年度下降\n这是宏观级别的范式转换。石油需求见顶意味着能源板块的长期逻辑崩塌，资金将从传统能源流向新能源、AI算力和数据中心。机构已经在做多科技、做空能源的配对交易。\n\n信号2：Circle获批运营银行牌照\n稳定币发行商获得银行牌照，这是加密资产从“投机工具”进化为“金融基础设施”的关键一步。比特币的反弹不是散户FOMO，而是机构在布局合规化后的流动性溢价。\n\n♟️ 交易策略\n今日策略：做多结构性叙事，做空旧经济僵尸。小米和比特币是核心多头仓位，利用Intel的每一次反弹加仓空头。QQQ暂时观望，等待芯片指数企稳信号。微软可以逢低建仓，目标$400。不要碰原油相关ETF，石油需求见顶是长期趋势。\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n今日乙酉日，阴木日，五行属木。木主生长、扩张、创新。\n\n客户A（本命“弱火”）： 木生火，今日是你的“能量充值日”。木日扶助火气，宜进取、宜决策、宜进攻性投资。建议穿绿色或红色服饰增强能量，交易方向上偏好多头仓位，尤其是新能源、AI、消费电子这些“火属性”资产。忌讳做空科技股，因为木火相生，空头会被市场反噬。\n\n客户B（本命“身弱乙木”）： 木日同气相助，身弱乙木得比劫之力。今日可放胆决策，但避免独行——团队合作收益更大。建议与同行或机构联合建仓，比如参与小米的机构配售或比特币的ETF定投。忌讳单打独斗做短线，容易因信息差被收割。\n\n今日五行日： 木\n幸运颜色： 绿色、青色\n宜做交易方向： 多头（做多科技、新能源、加密资产）\n忌讳资产类别： 原油、传统能源、房地产ETF\n投资方位： 东方（亚太市场）、东南（东南亚科技股）\n\nSigma @ 财富自由之路 | 真正的猎手懂得等待",
+  "briefing_sigma": "Oh, another 45 basis point blip—try not to get too dizzy, retail.\n\n🥱🕰️ 西格玛机构视角\n\n今天的市场就像一杯室温的矿泉水——没有气泡，没有味道，但机构资金正在悄悄调仓。标普500和纳斯达克微涨，但Intel跌了2.4%，而SK Hynix在纳斯达克首日暴涨13%。这告诉我一件事：AI芯片的叙事正在从“老牌巨头”转向“新贵效率”。零售韭菜还在追高Intel的“便宜”，而smart money已经用脚投票，把资金砸向SK Hynix和那些真正受益于AI需求爆发的玩家。恒生指数涨了0.6%，小米涨了3.36%，但沪深300纹丝不动——中国市场的分化说明，只有真正有业绩和故事的公司才能吸引机构资金。别被表面平静骗了，暗流在涌动。\n\n💼 资金流向剖析\n\n小米集团 ($25.84, +3.36%)  \n评级：看多 (BULLISH)  \n机构资金在低位吸筹，小米的IoT生态和汽车业务预期正在被重新定价，零售韭菜还在纠结手机出货量，而我们已经看到下一个增长曲线。\n\nQQQ ($725.51, +0.31%)  \n评级：中性偏多 (NEUTRAL-BULLISH)  \nQQQ的微涨掩盖了内部剧烈轮动——芯片股反弹但Intel拖后腿，科技巨头如微软微涨。BTIG说芯片指数发出“不祥信号”，但他们忽略了AI应用层（如Datadog）正在突破。QQQ不是无脑买，而是需要精选成分股。\n\nIntel ($109.84, -2.40%)  \n评级：看空 (BEARISH)  \nIntel的下跌不是技术性回调，而是结构性衰退。SK Hynix的暴涨和AI芯片需求转向高效能、低功耗的设计，直接打脸Intel的旧架构。零售韭菜以为“便宜就是机会”，但机构知道这是价值陷阱。\n\n微软 ($385.1, +0.19%)  \n评级：看多 (BULLISH)  \n微软的微涨看似平淡，但它是AI基础设施的最大赢家之一。OpenAI的IPO预期和Azure的云业务增长，让微软成为机构底仓的标配。0.19%的涨幅只是蓄力。\n\nBitcoin ($64,114.95, +1.46%)  \n评级：看多 (BULLISH)  \n比特币在6.4万附近震荡，但Circle获得银行牌照的消息是催化剂——稳定币合规化意味着机构资金入场的通道更宽了。零售韭菜还在等回调，而我们已经看到“数字黄金”的叙事正在被华尔街重新接纳。\n\n📰 信号与噪音\n\n信号1：SK Hynix纳斯达克首日暴涨13%，董事长说“需求巨大”  \n这是本周最重要的信号。SK Hynix的IPO成功不仅证明了AI芯片需求真实且强劲，更说明市场愿意为“新贵”支付溢价。这对AMD、NVIDIA是利好，但对Intel是致命打击——机构资金正在从“旧芯片”撤出，涌入“新芯片”。\n\n信号2：AI竞赛从“大模型”转向“更便宜、更智能的系统”  \n这是宏观层面的范式转移。过去两年，市场追捧的是“谁有最大的模型”，现在转向“谁有最高效的推理成本”。这对Datadog（软件股突破）、微软（云服务）是利好，但对那些烧钱做超大模型但没有商业化的公司是利空。零售韭菜还在追OpenAI的新闻，而我们已经开始布局AI应用层。\n\n♟️ 交易策略\n\n今天不需要激进操作。市场在等下周的财报和通胀数据，以及美伊局势的演变。精英策略：  \n- 做多：小米（中国消费科技龙头）、微软（AI基础设施）、Bitcoin（合规化叙事）  \n- 做空或回避：Intel（价值陷阱）、任何没有AI故事的传统芯片股  \n- 观望：QQQ整体，等待内部轮动明朗后再加仓  \n记住，真正的alpha来自结构性判断，而不是追涨杀跌。\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n\n===== 今日命理数据 =====  \n日期: 2026-07-11 (周六)  \n今年: 丙午年（生肖马）  \n今日: 丙戌日 - 阳火日  \n日主五行: 【火】  \n今日幸运色: 红色、紫色、橙色  \n今日方位: 南方  \n========================\n\n客户A（本命“弱火”）：火日见火，弱火得同气相助，大吉。你今天的状态像被点燃的火箭燃料——适合主动出击。建议：在午时（11-13点）前布局新仓位，尤其是科技股（火属性）和南方相关资产（如港股、东南亚ETF）。但记住，火过旺则燥，午时后收手，避免冲动交易。今日宜多不宜空。\n\n客户B（本命“身弱乙木”）：木生火，身弱乙木今日能量被泄，凶。你的决策力像被抽干的电池——容易疲劳、判断失误。建议：今天别碰任何高风险交易。多休息，少看盘。如果非要操作，只做防御性配置（如现金或国债ETF）。忌火属性资产（科技股、比特币），宜静不宜动。\n\n今日交易方向：多（火日助涨，尤其科技和新能源）  \n忌讳资产：传统能源（土属性）、房地产（土属性）——火生土，会泄你的能量  \n投资方位：南方（港股、东南亚、澳洲市场）\n\n记住，玄学是概率的另一种表达。火日不意味着无脑做多，而是提醒你顺势而为。\n\nSigma @ 财富自由之路 | 真正的猎手懂得等待",
   "mood_sigma": {
     "mood": "bored",
     "emoji": "🥱🕰️",
-    "greeting": "Another day of retail traders chasing pennies while I watch the real alpha slip through their fingers like sand.",
+    "greeting": "Another 45 basis points of noise—somewhere a retail trader is mistaking a dead cat bounce for a trend.",
     "tone": "dismissive of retail traders, highly selective, looking for real setups",
     "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
-    "vibe": "Bored out of my mind as I run Monte Carlo simulations on a degenerate options chain—nothing but noise in this market."
+    "vibe": "Staring at a Bloomberg terminal with one eye closed, calibrating a volatility surface that would make your head spin."
   }
 }
