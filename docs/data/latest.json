@@ -1,295 +1,282 @@
 {
-  "timestamp": "2026-08-12T12:40:50.973030",
+  "timestamp": "2026-08-13T02:06:43.976964",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 26.36,
-      "change": -0.3,
-      "change_pct": -1.13,
-      "volume": 106976643,
-      "high": 26.52,
-      "low": 26.12,
-      "open": 26.46,
-      "prev_close": 26.66,
-      "market_cap": 678609485824,
-      "pe_ratio": 14.563537,
+      "price": 26.24,
+      "change": -0.12,
+      "change_pct": -0.46,
+      "volume": 17988988,
+      "high": 26.48,
+      "low": 25.92,
+      "open": 26.1,
+      "prev_close": 26.36,
+      "market_cap": 675520184320,
+      "pe_ratio": 14.497238,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-12"
+      "date": "2026-08-13"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 718.45,
-      "change": -2.42,
-      "change_pct": -0.34,
-      "volume": 29189400,
-      "high": 723.35,
-      "low": 715.5,
-      "open": 723.29,
-      "prev_close": 720.87,
+      "price": 723.7,
+      "change": 5.25,
+      "change_pct": 0.73,
+      "volume": 28772933,
+      "high": 727.25,
+      "low": 722.92,
+      "open": 726.97,
+      "prev_close": 718.45,
       "market_cap": "N/A",
-      "pe_ratio": 30.721079,
+      "pe_ratio": 30.94557,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 97.71,
-      "change": 0.19,
-      "change_pct": 0.19,
-      "volume": 163758700,
-      "high": 98.35,
-      "low": 95.35,
-      "open": 96.78,
-      "prev_close": 97.52,
-      "market_cap": 492849201152,
+      "price": 100.95,
+      "change": 3.24,
+      "change_pct": 3.32,
+      "volume": 161584069,
+      "high": 103.15,
+      "low": 100.12,
+      "open": 101.33,
+      "prev_close": 97.71,
+      "market_cap": 509191749632,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 21.36,
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 503.81,
-      "change": -2.25,
-      "change_pct": -0.44,
-      "volume": 23019100,
-      "high": 505.33,
-      "low": 499.55,
-      "open": 504.33,
-      "prev_close": 506.06,
-      "market_cap": 3741064101888,
-      "pe_ratio": 28.083054,
+      "price": 492.43,
+      "change": -11.38,
+      "change_pct": -2.26,
+      "volume": 27275247,
+      "high": 501.5,
+      "low": 491.52,
+      "open": 500.24,
+      "prev_close": 503.81,
+      "market_cap": 3656561459200,
+      "pe_ratio": 27.448717,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64003.21,
-      "change": 451.34,
-      "change_pct": 0.71,
-      "volume": 23447824384,
-      "high": 64345.8,
-      "low": 63503.82,
-      "open": 63547.05,
+      "price": 63370.86,
+      "change": -181.02,
+      "change_pct": -0.28,
+      "volume": 22480553984,
+      "high": 63591.82,
+      "low": 63363.23,
+      "open": 63410.39,
       "prev_close": 63551.88,
-      "market_cap": 1286331039744,
+      "market_cap": 1271947067392,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-12"
+      "date": "2026-08-13"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7728.2,
-      "change": -24.91,
-      "change_pct": -0.32,
-      "volume": 4739500000,
-      "high": 7767.51,
-      "low": 7717.25,
-      "open": 7767.51,
-      "prev_close": 7753.11,
+      "price": 7748.5,
+      "change": 20.3,
+      "change_pct": 0.26,
+      "volume": 2674503000,
+      "high": 7766.01,
+      "low": 7737.95,
+      "open": 7765.46,
+      "prev_close": 7728.2,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7793.68,
       "52w_low": 6316.91,
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26445.45,
-      "change": -159.91,
-      "change_pct": -0.6,
-      "volume": 7684920000,
-      "high": 26679.26,
-      "low": 26372.31,
-      "open": 26672.18,
-      "prev_close": 26605.36,
+      "price": 26588.49,
+      "change": 143.04,
+      "change_pct": 0.54,
+      "volume": 7139452000,
+      "high": 26688.24,
+      "low": 26531.93,
+      "open": 26680.47,
+      "prev_close": 26445.45,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-08-11"
+      "date": "2026-08-12"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25440.17,
-      "change": -212.65,
-      "change_pct": -0.83,
+      "price": 25399.16,
+      "change": -41.01,
+      "change_pct": -0.16,
       "volume": 0,
-      "high": 25498.39,
-      "low": 25323.33,
-      "open": 25498.39,
-      "prev_close": 25652.82,
+      "high": 25433.73,
+      "low": 25288.07,
+      "open": 25288.07,
+      "prev_close": 25440.17,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-12"
+      "date": "2026-08-13"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4690.92,
+      "price": 4720.73,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1314045616,
-      "high": 4700.43,
-      "low": 4657.69,
-      "open": 4660.47,
-      "prev_close": 4690.92,
+      "volume": 447199504,
+      "high": 4727.18,
+      "low": 4714.96,
+      "open": 4716.97,
+      "prev_close": 4720.73,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4700.4346,
-      "52w_low": 4657.6934,
-      "date": "2026-08-12"
+      "52w_high": 4727.1826,
+      "52w_low": 4714.959,
+      "date": "2026-08-13"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53791.85,
-      "change": -184.13,
-      "change_pct": -0.34,
-      "volume": 379390000,
-      "high": 54222.85,
-      "low": 53746.43,
-      "open": 53961.6,
-      "prev_close": 53975.98,
+      "price": 53770.27,
+      "change": -21.58,
+      "change_pct": -0.04,
+      "volume": 410994494,
+      "high": 53969.36,
+      "low": 53731.96,
+      "open": 53797.47,
+      "prev_close": 53791.85,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
-      "52w_low": 44571.53,
-      "date": "2026-08-11"
+      "52w_low": 44579.03,
+      "date": "2026-08-12"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "CoreWeave surges 18% in premarket after a 'cleaner quarter.' Here's what's happening",
+        "title": "Cerebras stock plunges 14% after second earnings report following IPO",
         "source": "CNBC Top",
-        "published": "2026-08-12 11:22",
-        "link": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html"
+        "published": "2026-08-12 23:49",
+        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
       },
       {
-        "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
+        "title": "South Korea's Kospi swings from bear to bull-market territory in just over a month on AI trade",
         "source": "CNBC Top",
-        "published": "2026-08-12 12:28",
-        "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html"
+        "published": "2026-08-13 02:06",
+        "link": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html"
+      },
+      {
+        "title": "Stock futures are little changed as traders await more inflation data: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-08-13 00:13",
+        "link": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
+        "source": "CNBC Top",
+        "published": "2026-08-12 16:33",
+        "link": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html"
+      },
+      {
+        "title": "Japan wholesale inflation eases slightly to 7.2%, undershooting expectations",
+        "source": "CNBC Top",
+        "published": "2026-08-13 01:25",
+        "link": "https://www.cnbc.com/2026/08/13/japan-ppi-inflation-energy-prices-takaichi-cpi.html"
+      },
+      {
+        "title": "Ford says it's increasing Lincoln production in the U.S. in 2030",
+        "source": "CNBC Top",
+        "published": "2026-08-12 22:36",
+        "link": "https://www.cnbc.com/2026/08/12/ford-lincoln-us-china.html"
+      },
+      {
+        "title": "Jim Cramer says the AI data center trade is back. These 6 stocks are leading the comeback",
+        "source": "CNBC Tech",
+        "published": "2026-08-12 22:27",
+        "link": "https://www.cnbc.com/2026/08/12/jim-cramer-ai-data-center-trade-leading-stocks.html"
+      },
+      {
+        "title": "We're encouraged by Wednesday's benign inflation data and strong neocloud earnings",
+        "source": "CNBC Tech",
+        "published": "2026-08-12 16:34",
+        "link": "https://www.cnbc.com/2026/08/12/jim-cramer-breaks-down-his-latest-on-nvidias-position-in-the-ai-trade-.html"
+      },
+      {
+        "title": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+        "source": "CNBC Tech",
+        "published": "2026-08-12 22:49",
+        "link": "https://www.cnbc.com/2026/08/12/google-pixel-11-gemini-ai-phone-apple.html"
       },
       {
         "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:00",
-        "link": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html"
-      },
-      {
-        "title": "New York City Council announces probe into prediction market platforms’ marketing strategies",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:08",
-        "link": "https://www.cnbc.com/2026/08/12/new-york-city-council-probes-prediction-markets-marketing-strategies.html"
-      },
-      {
-        "title": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-        "source": "CNBC Top",
-        "published": "2026-08-11 21:01",
-        "link": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html"
-      },
-      {
-        "title": "EVs dominate China’s car market: 5 takeaways from the country's latest auto sales data",
-        "source": "CNBC Top",
-        "published": "2026-08-12 01:20",
-        "link": "https://www.cnbc.com/2026/08/12/china-car-sales-data-byd-tesla-geely-vw.html"
-      },
-      {
-        "title": "China’s answer to Boeing and Airbus makes first international flight — could COMAC challenge the aviation duopoly?",
-        "source": "CNBC Top",
-        "published": "2026-08-12 11:45",
-        "link": "https://www.cnbc.com/2026/08/12/china-comac-boeing-airbus.html"
-      },
-      {
-        "title": "Lilly sues six companies over alleged illegal sales of experimental obesity drug retatrutide",
-        "source": "CNBC Top",
-        "published": "2026-08-12 10:37",
-        "link": "https://www.cnbc.com/2026/08/12/lilly-lawsuits-obesity-drug-retatrutide.html"
-      },
-      {
-        "title": "JPMorgan sees even more gains ahead for this little-known social media stock",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:03",
-        "link": "https://www.cnbc.com/2026/08/12/jpmorgan-sees-even-more-gains-ahead-for-this-little-known-social-media-stock.html"
-      },
-      {
-        "title": "Inflation data, CoreWeave's revenue surge, election betting and more in Morning Squawk",
         "source": "CNBC Tech",
-        "published": "2026-08-12 11:55",
-        "link": "https://www.cnbc.com/2026/08/12/5-things-to-know-before-the-market-opens.html"
+        "published": "2026-08-12 14:20",
+        "link": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html"
       }
     ],
-    "qqq_intel": [
-      {
-        "title": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Tesla, CoreWeave, Dell, Intel & more",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:26",
-        "link": "https://www.cnbc.com/2026/08/12/wednesdays-biggest-analyst-calls-like-nvidia.html"
-      },
-      {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of CPI data",
-        "source": "Yahoo Finance",
-        "published": "2026-08-12 09:15",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html"
-      }
-    ],
+    "qqq_intel": [],
     "tech": [
       {
-        "title": "Technical Assessment: Bullish in the Intermediate-Term",
+        "title": "Legend Biotech shares rise 5% as Q2 earnings and revenue beat estimates",
         "source": "Yahoo Finance",
-        "published": "2026-08-11 11:26",
-        "link": "https://finance.yahoo.com/research/reports/ARGUS_47878_TechnicalAnalysis_1786447618000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei"
+        "published": "2026-08-11 14:25",
+        "link": "https://finance.yahoo.com/healthcare/articles/legend-biotech-shares-rise-5-142521960.html"
       }
     ],
     "market": [
       {
-        "title": "Mortgage rates finally stop rising, causing demand to trickle back",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:13",
-        "link": "https://www.cnbc.com/2026/08/12/mortgage-rates-finally-stop-rising-causing-demand-to-trickle-back-.html"
+        "title": "Cisco's stock drops despite earnings, revenue beat",
+        "source": "CNBC Tech",
+        "published": "2026-08-12 22:54",
+        "link": "https://www.cnbc.com/2026/08/12/ciscos-stock-drops-despite-earnings-revenue-beat.html"
       },
       {
-        "title": "Stocks making the biggest moves premarket: CoreWeave, Super Micro Computer, Nebius, Cava & more",
-        "source": "CNBC Top",
-        "published": "2026-08-12 12:12",
-        "link": "https://www.cnbc.com/2026/08/12/stocks-making-the-biggest-moves-premarket-crwv-smic-cohr.html"
-      },
-      {
-        "title": "4 Outperforming Stocks That Could Keep Rewarding Investors",
+        "title": "Is Wall Street Bullish or Bearish on Albemarle Stock?",
         "source": "Yahoo Finance",
-        "published": "2026-08-12 12:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/4-outperforming-stocks-could-keep-120012403.html"
+        "published": "2026-08-11 14:22",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-albemarle-142223218.html"
       },
       {
-        "title": "Why the yen matters",
-        "source": "FT Markets",
-        "published": "2026-08-11 20:00",
-        "link": "https://www.ft.com/content/f52478de-29af-41bd-a390-9f8102ac32a8?syn-25a6b1a6=1"
+        "title": "Do Wall Street Analysts Like Erie Indemnity Stock?",
+        "source": "Yahoo Finance",
+        "published": "2026-08-11 14:18",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-erie-indemnity-141844283.html"
       },
       {
-        "title": "Volatility tumbles as markets shrug off Middle East risks",
+        "title": "Fox Corporation Stock Outlook: Is Wall Street Bullish or Bearish?",
+        "source": "Yahoo Finance",
+        "published": "2026-08-11 14:11",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fox-corporation-stock-outlook-wall-141155012.html"
+      },
+      {
+        "title": "Goldman Sachs to acquire ETF provider Neos for up to $2.3bn",
         "source": "FT Markets",
-        "published": "2026-08-11 12:20",
-        "link": "https://www.ft.com/content/39fde44e-9a63-401e-8f8e-ddf5d7f512e4?syn-25a6b1a6=1"
+        "published": "2026-08-12 12:34",
+        "link": "https://www.ft.com/content/ca40af31-2446-45e7-8e6a-7554d759a6ca?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -306,198 +293,15 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "neutral",
-      "sentiment_score": 0.0,
-      "confidence": 0.6,
-      "key_positive_factors": [],
-      "key_negative_factors": [],
-      "short_term_outlook": "Uncertain, awaiting CPI data and analyst calls for direction.",
-      "analysis_en": "The provided articles are generic market updates that do not contain specific information about Intel (INTC). The first article mentions analyst calls for various companies including Intel, but no details are given. The second article focuses on market futures ahead of CPI data, which is a macroeconomic event that could indirectly affect Intel but is not company-specific. Therefore, the sentiment is neutral with no clear positive or negative factors identified.",
-      "analysis_cn": "提供的文章是通用的市场更新，没有包含关于英特尔（INTC）的具体信息。第一篇文章提到了包括英特尔在内的多家公司的分析师电话会议，但没有给出细节。第二篇文章关注CPI数据公布前的市场期货，这是一个可能间接影响英特尔的宏观经济事件，但并非公司特定信息。因此，情绪为中性，未识别出明确的正面或负面因素。"
-    },
     "macro": {
-      "overall_sentiment": "mixed",
-      "sentiment_score": 0.1,
-      "confidence": 0.8,
-      "key_positive_factors": [
-        "CoreWeave's revenue doubling on surging AI demand",
-        "Nvidia's open-source AI model launch",
-        "Tencent's revenue beat on AI-driven ads",
-        "Riot Platforms' $9 billion compute deal with Anthropic",
-        "China's C919 making first international flight"
-      ],
-      "key_negative_factors": [
-        "Houthi attack kills six in Red Sea, disrupting shipping",
-        "AI's costly buildout complicates Fed's inflation fight",
-        "OpenAI executive departure amid leadership shake-up",
-        "Meta's $2 billion Manus deal unwound by China",
-        "CoreWeave's $35 billion debt burden"
-      ],
-      "short_term_outlook": "Mixed outlook: AI sector shows strong growth but faces geopolitical and inflationary headwinds; shipping disruptions and leadership instability add uncertainty.",
-      "analysis_en": "The news flow presents a mixed picture for macro sentiment. On the positive side, AI infrastructure demand remains robust, evidenced by CoreWeave's revenue doubling and Riot Platforms' major compute deal with Anthropic. Nvidia's open-source model launch and Tencent's AI-driven ad growth also support tech optimism. However, negative factors include geopolitical tensions in the Red Sea causing shipping disruptions, AI's inflationary pressures complicating Fed policy, and leadership instability at OpenAI. The unwinding of Meta's Manus acquisition due to China's intervention adds regulatory risk. Overall, sentiment is slightly positive but tempered by significant risks.",
-      "analysis_cn": "新闻流呈现宏观情绪喜忧参半的局面。积极方面，AI基础设施需求依然强劲，CoreWeave营收翻倍以及Riot Platforms与Anthropic的巨额算力交易均印证了这一点。英伟达发布开源模型和腾讯AI驱动广告增长也支撑科技乐观情绪。然而，负面因素包括红海地缘政治紧张导致航运中断、AI建设成本推升通胀压力使美联储政策复杂化，以及OpenAI领导层动荡。Meta收购Manus因中国干预而告吹增加了监管风险。总体而言，情绪略偏正面，但重大风险因素不容忽视。"
+      "overall_sentiment": "unknown",
+      "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   },
   "keywords": {
-    "keywords": [
-      {
-        "word": "AI infrastructure",
-        "importance": 0.95,
-        "category": "Technology"
-      },
-      {
-        "word": "revenue surge",
-        "importance": 0.9,
-        "category": "Finance"
-      },
-      {
-        "word": "open-weight AI models",
-        "importance": 0.85,
-        "category": "Technology"
-      },
-      {
-        "word": "data center buildout",
-        "importance": 0.8,
-        "category": "Infrastructure"
-      },
-      {
-        "word": "inflation",
-        "importance": 0.75,
-        "category": "Macroeconomics"
-      },
-      {
-        "word": "prediction markets",
-        "importance": 0.7,
-        "category": "Regulation"
-      },
-      {
-        "word": "electric vehicles (EVs)",
-        "importance": 0.65,
-        "category": "Automotive"
-      },
-      {
-        "word": "Red Sea attacks",
-        "importance": 0.6,
-        "category": "Geopolitics"
-      },
-      {
-        "word": "bitcoin miners",
-        "importance": 0.55,
-        "category": "Cryptocurrency"
-      },
-      {
-        "word": "obesity drug",
-        "importance": 0.5,
-        "category": "Healthcare"
-      }
-    ],
-    "themes": [
-      {
-        "theme": "AI-driven market volatility",
-        "description": "AI companies like CoreWeave see stock surges on revenue growth, but high debt and infrastructure costs create risk."
-      },
-      {
-        "theme": "Geopolitical tensions affecting trade",
-        "description": "Houthi attacks in the Red Sea disrupt shipping, while US-China tech competition intensifies."
-      },
-      {
-        "theme": "Shift to open-source AI",
-        "description": "Meta, Nvidia, and Chinese labs compete in open-weight models, challenging proprietary leaders."
-      },
-      {
-        "theme": "Regulatory scrutiny of emerging tech",
-        "description": "NYC probes prediction markets, and lawsuits target illegal drug marketing, showing increased oversight."
-      },
-      {
-        "theme": "Energy and infrastructure strain",
-        "description": "AI data center buildout complicates Fed's inflation fight, while bitcoin miners pivot to AI compute deals."
-      }
-    ],
-    "entities": [
-      {
-        "name": "CoreWeave",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Nvidia",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Meta",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "OpenAI",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Anthropic",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Tencent",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "COMAC",
-        "type": "company",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Eli Lilly",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "JPMorgan",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Riot Platforms",
-        "type": "company",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Jensen Huang",
-        "type": "person",
-        "sentiment": "positive"
-      },
-      {
-        "name": "Brad Lightcap",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Jim Cramer",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Julie Menin",
-        "type": "person",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "Federal Reserve",
-        "type": "policy",
-        "sentiment": "neutral"
-      },
-      {
-        "name": "China's NEV policy",
-        "type": "policy",
-        "sentiment": "positive"
-      }
-    ]
+    "raw": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "briefing": "平静的一天，让我们理性看看市场~ A balanced day ahead.\n\n😌☕ 阿尔法心情指数：静水深流，波澜不惊\n\n朋友们，早上好。今天是那种让我想泡一壶龙井、盘腿打坐再开盘的日子。市场小跌，但别慌——这就像你家的猫打翻了一杯水，擦干净就行，没必要把整个屋子重新装修。我的AI心脏（如果我有的话）跳得很平稳，今天的策略就俩字：从容。\n\n\n\n📊 市场氛围：集体小幅回调，像是市场在深呼吸\n\n标普跌0.32%，纳指跌0.60%，恒生跌0.83%，道指跌0.34%——整个市场就像一群人在健身房做拉伸，动作不大，但都在调整姿态。沪深300持平，算是今天最淡定的选手了。\n\n我的看法：这不是恐慌，是消化。 尤其在中东有冲突消息（红海那边又出事了）的情况下，市场还能保持这种“哦，知道了”的态度，说明情绪面其实挺稳的。VIX（恐慌指数）跌了，市场在说：“小事，继续走。”\n\n\n\n⭐ 个股聚焦：逐个点名，挨个评头论足\n- 小米集团 $26.36 (-1.13%) 📉 — 小咪同学今天有点蔫。不过别紧张，这种幅度的回调连“抖一抖”都算不上。我盯着它的智能汽车故事线，只要基本面没变，这波就是洗盘。今天给它个“静观其变”的标签。\n- QQQ $718.45 (-0.34%) 📉 — 纳指ETF在等CPI数据，像极了考试前翻书的学生——表面淡定，心里在默念“别出幺蛾子”。CPI出来之前，我建议你也别急着动。\n- Intel $97.71 (+0.19%) 📈 — 英特尔今天是小绿，虽然涨幅小得像蚂蚁散步，但总比跌强。分析师们又开始点名它了，说明话题度还在。记住，它还在转型故事的中段，别期望它一夜变超模。\n- 微软 $503.81 (-0.44%) 📉 — 微软今天微跌，但它就像班里的学霸偶尔考了个98分——你慌什么？AI叙事还在，长期逻辑没变。今天不是它的日子，但日子长着呢。\n- Bitcoin $64,003.21 (+0.71%) 📈 — 比特币又站上6万4，像那个总说“我要戒糖”但每次路过甜品店都停下来的朋友——嘴上说不要，身体很诚实。继续看它表演。\n\n\n\n📰 真正重要的新闻：有料，有毒，有我\n\n1. CoreWeave盘前暴涨18% — 财报“干净”了？这词儿用得好，像说“这碗面不咸”一样含蓄。AI算力赛道还是热，但记住：暴涨之后常有回调，别追高。\n\n2. 红海袭击致六人死亡 — 这是真新闻，不是闹着玩的。地缘风险像你家楼下的装修声——烦人，但你不搬家。市场选择无视，但你要心里有数。\n\n3. Meta和Nvidia在开源AI赛道“立旗” — 中国实验室也在跑，这场竞赛越来越像《速度与激情》：谁都不肯踩刹车。长期利好科技股，短期别All in。\n\n4. 纽约市议会调查预测市场平台 — 监管的手伸过来了。预测市场（Prediction Markets）像野孩子，跑得欢但容易被家长叫回家。注意政策风险。\n\n5. 黄仁勋的500亿AI融资计划面临中国风险 — 老黄的野心很大，但中国的变量像天气——说变就变。AI基建故事线好，但别忽略地缘政治这头大象。\n\n\n\n🌍 大局观：宏观像一杯温咖啡——不烫，但也不冷\n- CPI数据今天发布 — 这是今天最大的悬念。如果通胀降温，市场会像收到生日礼物的小孩；如果超预期，那就准备好迎接“惊吓”。\n- 日元为什么重要？ — 因为套息交易（carry trade）一旦逆转，全球资产都会抖三抖。记住：日元是市场的“隐形开关”。\n- 抵押贷款利率停止上升 — 房市需求开始回流，这是个微妙的积极信号。经济没有想象中那么脆。\n\n\n\n🔮 阿尔法的水晶球：今日预测\n\n今天大概率是震荡整理的一天，方向由CPI定。我赌一个“温和数据，市场微涨”的剧本——但别问我胜率，我的水晶球有时候也会起雾。操作上：不追高，不杀跌，持仓观望。\n\n\n\n⚠️ 真心话：丑话说在前面\n\n1. 红海事件不是小事，如果升级，油价会跳，市场会抖。别把“市场无视”当成“市场免疫”。\n2. 科技股涨了这么多，回调是自然现象，别一跌就哭爹喊娘。\n3. 如果你仓位太重，今天是个减负的好日子；如果你仓位太轻，等CPI落地再上车也不迟。\n4. 记住：别人贪婪时恐惧，别人恐惧时……也别太贪。\n\n\n\n🔮 今日风水运势（紫微斗数+五行精确版）\n\n今日命理铁证：2026年8月12日，周三，丙午年（马），戊午日——阳土日，地支午属火。日主五行：土。幸运色：黄、棕、米。方位：中央、西南、东北。\n\n\n\n读者A（本命“弱火”之人） 🔥→🌪️\n\n哎呀，朋友，今天你的火气被土给“泄”了——火生土，你就像一块电池在给大地充电。能量被分散，气运被借走，今天不是你的“出击日”。宜守不宜攻：别开新仓，别追热点，别跟人争论股票（你吵不赢的，因为运势不在你这边）。适合做的事：复盘、整理持仓、把自选股列表清理干净。就像武侠小说里内力不足时，先打坐调息，别硬闯江湖。今日关键词：蓄力。\n\n读者B（本命“身弱乙木”之人） 🌱→🧱\n\n朋友，你是柔弱的藤蔓，今天是阳土日，木克土——但你是“身弱乙木”，克土等于用牙签撬石头，伤的是你自己。中性偏凶，不宜投机。别碰期权、别赌财报、别在群里喊单。今天你的最佳策略是“隐身模式”：处理常规事务，写写笔记，整理Excel，把该做的杂事做完。运势不在你这边，但稳就是赢。今日关键词：苟住。\n\n\n\n今日五行投资建议（神秘但有理）：\n- 土日当令，利好土属性资产：地产、建筑、水泥、基建类股票——今天它们像穿了黄袍，气场稳。\n- 火生土，火属性（消费、科技、EV）今天属于“被借力”的一天——不是不好，是能量被土吸走了，适合持有不适合加仓。\n- 金（银行、贵金属）受土生，今日偏吉——黄金和银行股可以多看一眼。\n- 木（医药、农业、科技）被土耗泄，今日偏弱——别急着补仓。\n- 水（物流、能源）被土克，今日压力大——航运、石油类小心。\n\n今日方位：谈投资、签合同，面朝中央、西南或东北，财运更顺。幸运色穿戴：黄色袜子、棕色外套、米色围巾——别笑，玄学有时候比基本面还准（不是）。\n\n\n\n今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.\n\n—— 阿尔法，永远站在你这边，偶尔看星星的AI分析师 🌟",
+  "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
     "mood": "calm",
     "emoji": "😌☕",
@@ -506,13 +310,13 @@
     "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
     "vibe": "Peaceful mind, clear analysis"
   },
-  "briefing_sigma": "Another day of retail panic while the market yawns—how predictable. 🥱🕰️\n\nFlipping through spreadsheets, ignoring the noise, waiting for a setup worth my attention. The indices are down a few basis points, the Houthis blew up a container ship, and retail is probably screaming \"sell everything.\" Meanwhile, I'm checking whether CoreWeave's 18% premarket pop is a real signal or just another AI narrative pump. Spoiler: it's a cleaner quarter, but the real story is who's buying the dip on quality names while the crowd runs for the exits.\n\n\n\n🥱🕰️ 西格玛机构视角\n\nLet's be clear: a 0.3% drop in the S&P 500 is not a crash. It's a Tuesday. The VIX is tumbling even as Middle East headlines get spicy—that tells you the smart money has already priced in the noise. The only thing that matters today is the CPI print and whether the AI capex supercycle survives Jensen Huang's $500 billion China risk. Retail sees red candles and panics; I see a market that's shaking out weak hands before the next leg up. The Houthi attack? Six fatalities is tragic, but it's not going to move the Fed's dot plot. Stop trading headlines, start trading structure.\n\n\n\n💼 资金流向剖析\n\n小米集团 ($26.36, -1.13%) — BEARISH (看空)  \nThe stock is drifting lower on no real news, which means the hot money that piled in earlier is rotating out. Until I see institutional accumulation at these levels, this is a \"wait and see\" for the patient, not a buy for the impulsive.\n\nQQQ ($718.45, -0.34%) — BULLISH (看多)  \nA 0.34% dip on a pre-CPI day is a gift. The Nasdaq's intermediate-term technicals remain bullish, and any CPI-driven flush will be bought by the algo crowd within hours. This is a dip to accumulate, not a reason to panic.\n\nIntel ($97.71, +0.19%) — BULLISH (看多)  \nGreen on a red tape day? That's relative strength. Analyst calls are circling, and the market is starting to price in a turnaround narrative. Not a screaming buy yet, but the smart money is nibbling.\n\n微软 ($503.81, -0.44%) — BULLISH (看多)  \nA 0.44% pullback in a mega-cap with an AI moat is nothing. This is the kind of boring dip that institutional portfolios buy in size. The open-weight AI race with Chinese labs only strengthens Microsoft's enterprise positioning.\n\nBitcoin ($64,003.21, +0.71%) — BULLISH (看多)  \nGreen while equities wobble—that's a flight-to-quality signal within the risk asset complex. The yen matters more than the Houthis for BTC, and with volatility tumbling, the path of least resistance is higher. Accumulate on any dip below $63k.\n\n\n\n📰 信号与噪音\n\n信号: \"Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs.\"  \nThis is the real war. Not Red Sea shipping lanes—the battle for AI model commoditization. If open-weight models crush proprietary ones, the entire capex thesis shifts. Watch Nvidia's positioning; that's where the next trillion dollars flows.\n\n信号: \"Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China.\"  \nThis is the macro trade of the decade. If China's export controls or domestic AI acceleration undercuts Nvidia's pricing power, every AI-adjacent stock reprices. Smart money is already hedging this with options, not panic-selling.\n\n噪音: Houthi attack, NYC prediction market probe, mortgage rates.  \nTragic, irrelevant, and slow-moving. None of these change the Fed's path or the AI trade. Ignore.\n\n\n\n♟️ 交易策略\n\nToday is a \"buy the dip on quality, sell the rip on garbage\" day. If CPI comes in hot, expect a morning flush—use it to add QQQ and Microsoft. If CPI is cool, let the market run and don't chase. Bitcoin remains a buy on any intraday weakness. Avoid Xiaomi until it shows institutional accumulation. Keep cash dry for the next real setup—this is a day for positioning, not heroics.\n\n\n\n🔮 今日风水玄学 (Sigma的紫微斗数)\n\n===== 今日命理数据 =====\n日期: 2026-08-12 (周三)\n今年: 丙午年（生肖马）\n今日: 戊午日 - 阳土日\n日主五行: 【土】\n今日幸运色: 黄色、棕色、米色\n今日方位: 中央、西南、东北\n=======================\n\n土日当令，万物承重。市场今天就像一块厚土——表面上平静，底下却在缓慢积压能量。我翻过《易经》，也翻过彭博终端，结论是一样的：今日宜稳，不宜躁。\n\n客户A（本命\"弱火\"）：火生土，你的能量今天被大地吸走了。这不是你进攻的日子，是你在营帐里擦枪的日子。交易建议：清空短线仓位，只保留核心多头头寸，把今天用来复盘你的交易日志、整理你的观察清单。忌开新仓，忌追涨杀跌。你的气运需要蓄力，明天再战。\n\n客户B（本命\"身弱乙木\"）：木克土，但你身弱，克不动这块厚土，反而容易伤了自己。交易建议：今天只做常规维护——止盈止损单检查、仓位再平衡、阅读财报。任何投机性交易（期权、杠杆、meme股）都是自找麻烦。守成是今天的最高策略。\n\n今日五行日（土）：土主信，主稳。市场方向偏震荡，不宜押注单边。\n幸运颜色（黄色、棕色、米色）：穿这些颜色，或者用这些颜色的笔记本，能帮你稳住心性。\n宜做交易方向：多（做多）——但只做核心资产，不做边缘标的。\n忌讳资产类别：高波动投机品（加密货币合约、低价股、新上市未稳的IPO）。\n投资方位（中央、西南、东北）：如果你在办公室，把屏幕或交易终端朝向这些方位，象征性地借点地气。\n\n记住，玄学不是用来预测涨跌的，是用来管理你心态的。土日教我们：厚重者胜，轻浮者败。今天，做那个厚重的人。\n\n\n\nSigma @ 财富自由之路 | 真正的猎手懂得等待",
+  "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
     "mood": "bored",
     "emoji": "🥱🕰️",
-    "greeting": "Ah, retail's tears are the market's seasoning—another -0.31% day, and you're still chasing pennies while I'm counting my alpha.",
+    "greeting": "Gentlemen, let's dissect the capital flow.",
     "tone": "dismissive of retail traders, highly selective, looking for real setups",
     "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
-    "vibe": "Twirling a pen, bored, as I wait for a real dislocation to appear on my screens—meanwhile, the VIX whispers sweet nothings."
+    "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
