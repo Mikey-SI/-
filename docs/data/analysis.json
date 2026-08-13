@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T02:07:26.413479",
+  "timestamp": "2026-08-13T12:41:12.743811",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,14 +7,14 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 675520184320,
-      "enterprise_value": 624401448960,
-      "pe_ratio": 14.497238,
-      "forward_pe": 15.971883,
+      "market_cap": 666252410880,
+      "enterprise_value": 616669184000,
+      "pe_ratio": 14.298343,
+      "forward_pe": 15.752755,
       "peg_ratio": 2.98,
-      "pb_ratio": 2.1864157,
-      "ps_ratio": 1.5175626,
-      "ev_ebitda": 18.535,
+      "pb_ratio": 2.156419,
+      "ps_ratio": 1.4967425,
+      "ev_ebitda": 18.305,
       "revenue": 445134962688,
       "revenue_growth": -0.109,
       "gross_margins": 0.22062999,
@@ -31,29 +31,29 @@
       "52w_low": 21.3,
       "50d_avg": 26.1884,
       "200d_avg": 33.408,
-      "analyst_target": 38.374237,
+      "analyst_target": 38.361042,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 26.24,
-      "ma5": 26.79,
-      "ma20": 27.83,
-      "ma60": 26.66,
+      "price": 25.88,
+      "ma5": 26.72,
+      "ma20": 27.81,
+      "ma60": 26.65,
       "ma120": 29.62,
-      "rsi_14": 48.1,
-      "macd": 0.104,
-      "ret_1w": -3.03,
-      "ret_1m": 1.47,
-      "ret_3m": -17.22,
-      "ret_6m": -27.75,
+      "rsi_14": 46.7,
+      "macd": 0.075,
+      "ret_1w": -4.36,
+      "ret_1m": 0.08,
+      "ret_3m": -18.36,
+      "ret_6m": -28.74,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -55.86,
-      "pct_from_52w_low": 22.5,
-      "volume_ratio": 0.09,
+      "pct_from_52w_high": -56.47,
+      "pct_from_52w_low": 20.82,
+      "volume_ratio": 0.58,
       "above_ma20": false,
       "above_ma60": false,
       "trend": "MIXED"
@@ -71,8 +71,8 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25402.56,
-        "change_pct": -0.15
+        "price": 25396.51,
+        "change_pct": -0.17
       },
       "SPX": {
         "price": 7748.5,
@@ -83,8 +83,8 @@
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.68,
-        "change_pct": -0.04
+        "price": 4.67,
+        "change_pct": -0.17
       }
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
