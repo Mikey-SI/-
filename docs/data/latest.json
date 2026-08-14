@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-14T02:04:53.798187",
+  "timestamp": "2026-08-14T12:36:45.038547",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 25.68,
-      "change": -0.2,
-      "change_pct": -0.77,
-      "volume": 13671303,
+      "price": 25.62,
+      "change": -0.26,
+      "change_pct": -1.0,
+      "volume": 91057676,
       "high": 26.12,
-      "low": 25.66,
+      "low": 25.46,
       "open": 25.86,
       "prev_close": 25.88,
-      "market_cap": 661054947328,
-      "pe_ratio": 14.187846,
+      "market_cap": 659460980736,
+      "pe_ratio": 14.154697,
       "52w_high": 59.9,
       "52w_low": 21.3,
       "date": "2026-08-14"
@@ -24,10 +24,10 @@
       "price": 732.07,
       "change": 8.37,
       "change_pct": 1.16,
-      "volume": 29782876,
+      "volume": 31530000,
       "high": 733.96,
-      "low": 724.04,
-      "open": 725.12,
+      "low": 724.03,
+      "open": 725.15,
       "prev_close": 723.7,
       "market_cap": "N/A",
       "pe_ratio": 31.303474,
@@ -41,15 +41,15 @@
       "price": 104.56,
       "change": 3.61,
       "change_pct": 3.58,
-      "volume": 111979671,
+      "volume": 116542400,
       "high": 107.57,
       "low": 100.33,
-      "open": 101.49,
+      "open": 101.51,
       "prev_close": 100.95,
-      "market_cap": 549413289984,
+      "market_cap": 552715157504,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
-      "52w_low": 21.9,
+      "52w_low": 22.78,
       "date": "2026-08-13"
     },
     "微软": {
@@ -58,7 +58,7 @@
       "price": 496.88,
       "change": 4.45,
       "change_pct": 0.9,
-      "volume": 22600346,
+      "volume": 23017200,
       "high": 501.34,
       "low": 493.01,
       "open": 493.27,
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 63490.76,
-      "change": 88.33,
-      "change_pct": 0.14,
-      "volume": 18538543104,
-      "high": 63511.79,
-      "low": 63362.91,
+      "price": 62766.09,
+      "change": -636.08,
+      "change_pct": -1.0,
+      "volume": 20411639808,
+      "high": 63542.38,
+      "low": 62690.77,
       "open": 63418.16,
-      "prev_close": 63402.43,
-      "market_cap": 1274269532160,
+      "prev_close": 63402.17,
+      "market_cap": 1260753256448,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -94,7 +94,7 @@
       "price": 7798.99,
       "change": 50.49,
       "change_pct": 0.65,
-      "volume": 2684931000,
+      "volume": 4833230000,
       "high": 7816.7,
       "low": 7763.18,
       "open": 7763.18,
@@ -111,7 +111,7 @@
       "price": 26803.03,
       "change": 214.54,
       "change_pct": 0.81,
-      "volume": 7488350000,
+      "volume": 8380820000,
       "high": 26875.52,
       "low": 26612.85,
       "open": 26631.34,
@@ -125,14 +125,14 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25253.12,
-      "change": -187.05,
-      "change_pct": -0.74,
+      "price": 25116.85,
+      "change": -279.66,
+      "change_pct": -1.1,
       "volume": 0,
-      "high": 25256.54,
-      "low": 25152.43,
+      "high": 25311.86,
+      "low": 25089.14,
       "open": 25219.15,
-      "prev_close": 25440.17,
+      "prev_close": 25396.51,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
@@ -142,18 +142,18 @@
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4670.38,
+      "price": 4665.88,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4026324200,
+      "volume": 663200416,
       "high": 4676.71,
-      "low": 4662.41,
+      "low": 4637.13,
       "open": 4672.98,
-      "prev_close": 4670.38,
+      "prev_close": 4665.88,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4676.7124,
-      "52w_low": 4662.407,
+      "52w_low": 4637.1284,
       "date": "2026-08-14"
     },
     "道琼斯": {
@@ -162,7 +162,7 @@
       "price": 53839.99,
       "change": 69.72,
       "change_pct": 0.13,
-      "volume": 417348252,
+      "volume": 417340000,
       "high": 54049.14,
       "low": 53622.46,
       "open": 53828.55,
@@ -178,34 +178,46 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
+        "title": "Treasury yields are little changed as U.S. threatens Iran with more economic sanctions",
         "source": "CNBC Top",
-        "published": "2026-08-14 01:52",
-        "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html"
+        "published": "2026-08-14 11:52",
+        "link": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html"
       },
       {
-        "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+        "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
         "source": "CNBC Top",
-        "published": "2026-08-14 00:09",
-        "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html"
+        "published": "2026-08-14 05:00",
+        "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html"
       },
       {
-        "title": "Stock futures are little changed after S&P 500 sets record above 7,800, heads for winning week: Live updates",
+        "title": "‘Absolutely unacceptable’: Japan PM Takaichi condemns Putin’s visit to disputed Kuril Islands",
         "source": "CNBC Top",
-        "published": "2026-08-14 01:43",
+        "published": "2026-08-14 12:28",
+        "link": "https://www.cnbc.com/2026/08/14/putin-kuril-islands-japan.html"
+      },
+      {
+        "title": "S&P 500 futures are little changed after benchmark sets record above 7,800, heads for winning week: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-08-14 12:31",
         "link": "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html"
       },
       {
-        "title": "Anthropic CFO Krishna Rao is leading early IPO meetings with investors and has not discussed valuation, sources say",
+        "title": "Stocks making the biggest moves premarket: Reddit, Applied Materials, Sandisk, Wayfair & more",
         "source": "CNBC Top",
-        "published": "2026-08-13 18:44",
-        "link": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html"
+        "published": "2026-08-14 10:46",
+        "link": "https://www.cnbc.com/2026/08/14/stocks-making-the-biggest-moves-premarket-rddt-amat-sndk-w.html"
       },
       {
-        "title": "These are Mizuho's top real estate picks for August. They also offer attractive yields",
+        "title": "Sandisk is up more than 500% this year. JPMorgan says there are more gains ahead",
         "source": "CNBC Top",
-        "published": "2026-08-13 20:19",
-        "link": "https://www.cnbc.com/2026/08/13/mizuhos-top-real-estate-picks-for-august-also-offer-attractive-yields.html"
+        "published": "2026-08-14 11:44",
+        "link": "https://www.cnbc.com/2026/08/14/sndk-is-up-more-than-500percent-this-year-jpmorgan-says-there-are-more-gains-ahead.html"
+      },
+      {
+        "title": "Data breach notices have already blown past last year’s total — and AI is playing a growing role",
+        "source": "CNBC Top",
+        "published": "2026-08-14 12:15",
+        "link": "https://www.cnbc.com/2026/08/14/data-breaches-surge-2026-ai-cyberattacks.html"
       },
       {
         "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
@@ -214,28 +226,16 @@
         "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html"
       },
       {
-        "title": "OpenAI loses revenue chief Denise Dresser, second major executive departure in days",
+        "title": "NATO aircraft shoot down drone over Latvia, which blames 'Russian electromagnetic warfare'",
         "source": "CNBC Top",
-        "published": "2026-08-13 19:59",
-        "link": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html"
+        "published": "2026-08-14 12:21",
+        "link": "https://www.cnbc.com/2026/08/14/nato-drone-latvia.html"
       },
       {
-        "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+        "title": "AI’s infrastructure boom is getting more leveraged — and harder to track",
         "source": "CNBC Top",
-        "published": "2026-08-13 22:56",
-        "link": "https://www.cnbc.com/2026/08/13/fridays-big-stock-stories-whats-likely-to-move-the-market.html"
-      },
-      {
-        "title": "An inside look at SK Hynix $720 billion AI-fueled buildout that's taking over South Korea",
-        "source": "CNBC Top",
-        "published": "2026-08-13 09:00",
-        "link": "https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html"
-      },
-      {
-        "title": "Workday shares post best day in 10 years on Silver Lake takeover report",
-        "source": "CNBC Top",
-        "published": "2026-08-13 20:07",
-        "link": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html"
+        "published": "2026-08-14 12:03",
+        "link": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html"
       }
     ],
     "qqq_intel": [
@@ -244,33 +244,64 @@
         "source": "CNBC Tech",
         "published": "2026-08-13 17:53",
         "link": "https://www.cnbc.com/2026/08/13/heres-a-rapid-fire-update-on-our-32-stock-portfolio-including-cramers-5-favorites-to-buy.html"
+      },
+      {
+        "title": "Intellinetics, Inc. Q2 2026 Earnings Call Summary",
+        "source": "Yahoo Finance",
+        "published": "2026-08-13 01:21",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intellinetics-inc-q2-2026-earnings-012127881.html"
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "title": "Wrap Technologies, Inc. Q2 2026 Earnings Call Summary",
+        "source": "Yahoo Finance",
+        "published": "2026-08-13 00:51",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wrap-technologies-inc-q2-2026-005128906.html"
+      },
+      {
+        "title": "ESS Tech, Inc. Q2 2026 Earnings Call Summary",
+        "source": "Yahoo Finance",
+        "published": "2026-08-13 01:20",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ess-tech-inc-q2-2026-012028775.html"
+      }
+    ],
     "market": [
       {
-        "title": "Reddit stock jumps on inclusion in S&P 500",
+        "title": "Trump sued over Truth Social advance access sale",
         "source": "CNBC Top",
+        "published": "2026-08-13 00:13",
+        "link": "https://www.cnbc.com/2026/08/12/trump-truth-social-lawsuit.html"
+      },
+      {
+        "title": "Data centers in space could be a new frontier for insurers — if they can price the risk",
+        "source": "CNBC Top",
+        "published": "2026-08-14 11:19",
+        "link": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html"
+      },
+      {
+        "title": "Reddit stock jumps on inclusion in S&P 500",
+        "source": "CNBC Tech",
         "published": "2026-08-13 23:04",
         "link": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html"
       },
       {
-        "title": "Are Wall Street Analysts Predicting Costco Wholesale Stock Will Climb or Sink?",
-        "source": "Yahoo Finance",
-        "published": "2026-08-12 14:02",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-costco-140247236.html"
-      },
-      {
-        "title": "Karman Holdings’ (KRMN) CEO Transition Strengthens the Long-Term Bull Case",
-        "source": "Yahoo Finance",
-        "published": "2026-08-12 14:09",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/karman-holdings-krmn-ceo-transition-140912240.html"
-      },
-      {
-        "title": "Buyers should beware the dangers of new ETFs",
+        "title": "Indonesia’s Prabowo retreats on commodities reform amid market pressure",
         "source": "FT Markets",
-        "published": "2026-08-13 17:29",
-        "link": "https://www.ft.com/content/9f299fc0-b3ed-4a60-b228-9b2cc097f222?syn-25a6b1a6=1"
+        "published": "2026-08-14 11:15",
+        "link": "https://www.ft.com/content/c061415a-791d-42e5-9907-736563c7f938?syn-25a6b1a6=1"
+      },
+      {
+        "title": "JPMorgan debanked Polymarket over regulatory concerns",
+        "source": "FT Markets",
+        "published": "2026-08-14 04:00",
+        "link": "https://www.ft.com/content/4e3774b6-52e5-4b8a-be76-0bb87495e1f0?syn-25a6b1a6=1"
+      },
+      {
+        "title": "The Treasury market’s toxic codependency",
+        "source": "FT Markets",
+        "published": "2026-08-14 04:00",
+        "link": "https://www.ft.com/content/e3cd352e-5202-4748-952f-ed623ccdc774"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -301,20 +332,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "happy",
-    "emoji": "😊☀️",
-    "greeting": "Good vibes today! 今天心情不错~",
-    "tone": "warm, optimistic, friendly with occasional humor",
-    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
-    "vibe": "Feeling good, sipping my coffee with a smile"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "calculated",
-    "emoji": "♟️💼",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "analytical, sharp, professional, slightly arrogant",
-    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
