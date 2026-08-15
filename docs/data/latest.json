@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T01:19:37.283811",
+  "timestamp": "2026-08-15T12:14:16.387391",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -24,10 +24,10 @@
       "price": 731.07,
       "change": -1.0,
       "change_pct": -0.14,
-      "volume": 23485289,
+      "volume": 23748000,
       "high": 734.39,
       "low": 728.32,
-      "open": 733.26,
+      "open": 733.41,
       "prev_close": 732.07,
       "market_cap": "N/A",
       "pe_ratio": 31.260714,
@@ -41,10 +41,10 @@
       "price": 102.5,
       "change": -2.06,
       "change_pct": -1.97,
-      "volume": 94307788,
+      "volume": 95105600,
       "high": 106.87,
       "low": 102.05,
-      "open": 104.5,
+      "open": 104.48,
       "prev_close": 104.56,
       "market_cap": 541825761280,
       "pe_ratio": "N/A",
@@ -58,13 +58,13 @@
       "price": 495.4,
       "change": -1.48,
       "change_pct": -0.3,
-      "volume": 14356176,
+      "volume": 16205200,
       "high": 500.01,
       "low": 493.92,
       "open": 496.36,
       "prev_close": 496.88,
       "market_cap": 3678615371776,
-      "pe_ratio": 27.61427,
+      "pe_ratio": 27.706936,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-08-14"
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 62934.94,
-      "change": -467.23,
-      "change_pct": -0.74,
-      "volume": 19931877376,
-      "high": 62977.61,
-      "low": 62938.4,
+      "price": 62925.73,
+      "change": -49.86,
+      "change_pct": -0.08,
+      "volume": 16275952640,
+      "high": 63086.36,
+      "low": 62855.87,
       "open": 62977.61,
-      "prev_close": 63402.17,
-      "market_cap": 1263233925120,
+      "prev_close": 62975.59,
+      "market_cap": 1263057895424,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -94,7 +94,7 @@
       "price": 7785.76,
       "change": -13.23,
       "change_pct": -0.17,
-      "volume": 2210210000,
+      "volume": 4159900000,
       "high": 7810.01,
       "low": 7776.31,
       "open": 7806.6,
@@ -111,7 +111,7 @@
       "price": 26729.16,
       "change": -73.87,
       "change_pct": -0.28,
-      "volume": 6405507000,
+      "volume": 7212180000,
       "high": 26862.17,
       "low": 26661.95,
       "open": 26851.15,
@@ -125,19 +125,19 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25396.51,
-      "change": -43.66,
-      "change_pct": -0.17,
-      "volume": 2868700000,
-      "high": 25519.39,
-      "low": 25288.07,
-      "open": 25288.07,
-      "prev_close": 25440.17,
+      "price": 25116.85,
+      "change": -279.66,
+      "change_pct": -1.1,
+      "volume": 2526200000,
+      "high": 25311.86,
+      "low": 25089.14,
+      "open": 25219.15,
+      "prev_close": 25396.51,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -162,7 +162,7 @@
       "price": 53732.41,
       "change": -107.58,
       "change_pct": -0.2,
-      "volume": 319617349,
+      "volume": 319610000,
       "high": 53890.84,
       "low": 53673.47,
       "open": 53842.8,
@@ -178,10 +178,10 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+        "title": "Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck",
         "source": "CNBC Top",
-        "published": "2026-08-14 19:07",
-        "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html"
+        "published": "2026-08-15 11:00",
+        "link": "https://www.cnbc.com/2026/08/15/iran-rebuffs-trumps-claim-over-hormuz-amid-report-of-ship-strike.html"
       },
       {
         "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
@@ -190,34 +190,40 @@
         "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
       },
       {
+        "title": "Hawaii's Big Island under rare hurricane landfall threat as Tropical Storm Lala strengthens",
+        "source": "CNBC Top",
+        "published": "2026-08-15 10:35",
+        "link": "https://www.cnbc.com/2026/08/15/hawaii-under-hurricane-threat-as-tropical-storm-lala-strengthens.html"
+      },
+      {
         "title": "Situational Awareness filing shows AI bets before forced portfolio sale to Citadel",
         "source": "CNBC Top",
         "published": "2026-08-14 22:27",
         "link": "https://www.cnbc.com/2026/08/14/situational-awareness-filing-shows-ai-bets-before-forced-portfolio-sale-to-citadel.html"
       },
       {
-        "title": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
+        "title": "Beijing is said to move to clarify tax rules stoking confusion among China's ultra-wealthy",
         "source": "CNBC Top",
-        "published": "2026-08-14 19:50",
-        "link": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html"
+        "published": "2026-08-15 06:11",
+        "link": "https://www.cnbc.com/2026/08/15/china-rich-tycoons-tax-overseas-investment-trust-insurance-capital-flows.html"
       },
       {
-        "title": "AI’s infrastructure boom is getting more leveraged — and harder to track",
+        "title": "Extreme heat spurs earliest-ever Champagne harvest, putting its famous taste to the test",
         "source": "CNBC Top",
-        "published": "2026-08-14 12:03",
-        "link": "https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html"
+        "published": "2026-08-15 05:00",
+        "link": "https://www.cnbc.com/2026/08/15/heatwave-champagne-harvest-climate.html"
       },
       {
-        "title": "Mamdani's NYC pied-à-terre tax can continue rollout during court appeal",
+        "title": "Russia's economy has defied the skeptics. Cracks are getting harder to hide",
         "source": "CNBC Top",
-        "published": "2026-08-13 21:31",
-        "link": "https://www.cnbc.com/2026/08/13/mamdani-nyc-pied-a-terre-tax-lawsuit.html"
+        "published": "2026-08-15 05:00",
+        "link": "https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html"
       },
       {
-        "title": "Disney CEO Josh D'Amaro tells CNBC parks were 'big surprise' in last quarter, company has 'clarity' and 'stability'",
+        "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
         "source": "CNBC Top",
-        "published": "2026-08-14 16:27",
-        "link": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html"
+        "published": "2026-08-15 12:00",
+        "link": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html"
       },
       {
         "title": "The one big takeaway from a huge earnings season",
@@ -226,20 +232,21 @@
         "link": "https://www.cnbc.com/2026/08/14/the-one-big-takeaway-from-a-huge-earnings-season.html"
       },
       {
-        "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
+        "title": "Mamdani's NYC pied-à-terre tax can continue rollout during court appeal",
         "source": "CNBC Top",
-        "published": "2026-08-14 13:24",
-        "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html"
-      },
-      {
-        "title": "OpenAI CFO Friar tells investors that enterprise business now bigger than consumer by revenue",
-        "source": "CNBC Tech",
-        "published": "2026-08-14 23:01",
-        "link": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html"
+        "published": "2026-08-13 21:31",
+        "link": "https://www.cnbc.com/2026/08/13/mamdani-nyc-pied-a-terre-tax-lawsuit.html"
       }
     ],
     "qqq_intel": [],
-    "tech": [],
+    "tech": [
+      {
+        "title": "How long will software-defined cars last? The auto industry doesn't know yet",
+        "source": "CNBC Top",
+        "published": "2026-08-15 12:00",
+        "link": "https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html"
+      }
+    ],
     "market": [
       {
         "title": "Regulators and banks step up scrutiny of prediction markets",
@@ -254,16 +261,34 @@
         "link": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html"
       },
       {
-        "title": "Reddit stock jumps on inclusion in S&P 500",
-        "source": "CNBC Tech",
-        "published": "2026-08-13 23:04",
-        "link": "https://www.cnbc.com/2026/08/13/reddit-shares-jump-11percent-on-inclusion-in-sp-500.html"
+        "title": "Do Wall Street Analysts Like Humana Stock?",
+        "source": "Yahoo Finance",
+        "published": "2026-08-14 10:36",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-humana-stock-103656972.html"
       },
       {
-        "title": "Do Wall Street Analysts Like Caterpillar Stock?",
+        "title": "Phillips 66 Stock Outlook: Is Wall Street Bullish or Bearish?",
         "source": "Yahoo Finance",
-        "published": "2026-08-13 18:03",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-caterpillar-stock-180311658.html"
+        "published": "2026-08-14 10:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/phillips-66-stock-outlook-wall-103043363.html"
+      },
+      {
+        "title": "Why Realty Income (O) Is Falling Behind the Market",
+        "source": "Yahoo Finance",
+        "published": "2026-08-14 10:25",
+        "link": "https://finance.yahoo.com/real-estate/articles/why-realty-income-o-falling-102508694.html"
+      },
+      {
+        "title": "Labor market exhibits ‘continued resilience,’ The Conference Board finds",
+        "source": "Yahoo Finance",
+        "published": "2026-08-14 10:37",
+        "link": "https://finance.yahoo.com/economy/articles/labor-market-exhibits-continued-resilience-103700567.html"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on Lowe's Stock?",
+        "source": "Yahoo Finance",
+        "published": "2026-08-14 10:24",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-lowes-102428304.html"
       },
       {
         "title": "Indonesia’s Prabowo retreats on commodities reform amid market pressure",
@@ -278,22 +303,10 @@
         "link": "https://www.ft.com/content/4e3774b6-52e5-4b8a-be76-0bb87495e1f0?syn-25a6b1a6=1"
       },
       {
-        "title": "The Treasury market’s toxic codependency",
-        "source": "FT Markets",
-        "published": "2026-08-14 04:00",
-        "link": "https://www.ft.com/content/e3cd352e-5202-4748-952f-ed623ccdc774"
-      },
-      {
         "title": "Chinese Investors With Few Options Turn to Dividends",
         "source": "WSJ Markets",
         "published": "2025-01-27 10:30",
         "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
@@ -308,20 +321,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "calm",
-    "emoji": "😌☕",
-    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
-    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
-    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
-    "vibe": "Peaceful mind, clear analysis"
+    "mood": "concerned",
+    "emoji": "😟📉",
+    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
+    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
+    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
+    "vibe": "Biting my nails a little, but staying professional"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "bored",
-    "emoji": "🥱🕰️",
+    "mood": "predatory",
+    "emoji": "🦅📉",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "dismissive of retail traders, highly selective, looking for real setups",
-    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
+    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
+    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
