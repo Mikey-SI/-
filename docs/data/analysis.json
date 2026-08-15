@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T12:37:26.862828",
+  "timestamp": "2026-08-15T01:20:15.175911",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -10,7 +10,7 @@
       "market_cap": 659460980736,
       "enterprise_value": 604297560064,
       "pe_ratio": 14.154697,
-      "forward_pe": 15.5918865,
+      "forward_pe": 15.589015,
       "peg_ratio": 2.98,
       "pb_ratio": 2.1343973,
       "ps_ratio": 1.4814855,
@@ -31,7 +31,7 @@
       "52w_low": 21.3,
       "50d_avg": 26.1136,
       "200d_avg": 33.3166,
-      "analyst_target": 38.39073,
+      "analyst_target": 38.361042,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25116.85,
-        "change_pct": -1.1
+        "price": 25396.51,
+        "change_pct": -0.17
       },
       "SPX": {
-        "price": 7798.99,
-        "change_pct": 0.65
+        "price": 7785.76,
+        "change_pct": -0.17
       },
       "USD/CNH": {
         "price": 6.74,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.64,
-        "change_pct": 0.04
+        "price": 4.7,
+        "change_pct": 1.19
       }
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
