@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-08-16T12:15:19.359120",
+  "timestamp": "2026-08-17T01:21:13.958529",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
       "price": 25.62,
-      "change": -0.26,
-      "change_pct": -1.0,
+      "change": 0.0,
+      "change_pct": 0.0,
       "volume": 91055676,
       "high": 26.12,
       "low": 25.44,
       "open": 25.86,
-      "prev_close": 25.88,
+      "prev_close": 25.62,
       "market_cap": 659460980736,
       "pe_ratio": 14.154697,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 62954.98,
-      "change": -69.34,
-      "change_pct": -0.11,
-      "volume": 8448687104,
-      "high": 63085.9,
-      "low": 62901.25,
-      "open": 63024.64,
+      "price": 63000.94,
+      "change": -23.38,
+      "change_pct": -0.04,
+      "volume": 9814758400,
+      "high": 63051.34,
+      "low": 62723.61,
+      "open": 62829.64,
       "prev_close": 63024.32,
-      "market_cap": 1263505768448,
+      "market_cap": 1264313040896,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-16"
+      "date": "2026-08-17"
     }
   },
   "indices": {
@@ -153,7 +153,7 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4676.7124,
-      "52w_low": 3458.44,
+      "52w_low": 4637.1284,
       "date": "2026-08-14"
     },
     "道琼斯": {
@@ -178,22 +178,22 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Japan second-quarter GDP grows 1.1% on an annualized basis, missing expectations",
+        "source": "CNBC Top",
+        "published": "2026-08-17 00:50",
+        "link": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html"
+      },
+      {
+        "title": "Stock futures are little changed after S&P 500 posts three-week win streak: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-08-17 01:08",
+        "link": "https://www.cnbc.com/2026/08/16/stock-market-today-live-updates-.html"
+      },
+      {
         "title": "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
         "source": "CNBC Top",
         "published": "2026-08-15 14:19",
         "link": "https://www.cnbc.com/2026/08/15/strategic-petroleum-reserve-spr-oil-iran-war-caverns.html"
-      },
-      {
-        "title": "Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck",
-        "source": "CNBC Top",
-        "published": "2026-08-15 20:38",
-        "link": "https://www.cnbc.com/2026/08/15/iran-rebuffs-trumps-claim-over-hormuz-amid-report-of-ship-strike.html"
-      },
-      {
-        "title": "Nvidia eyes investing $3 billion in SoftBank's SB Energy under OpenAI data center deal, Information says",
-        "source": "CNBC Top",
-        "published": "2026-08-15 20:32",
-        "link": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html"
       },
       {
         "title": "JPMorgan could soon be the first $1 trillion bank. Top analyst Mayo says next stop is $2 trillion",
@@ -202,22 +202,16 @@
         "link": "https://www.cnbc.com/2026/08/16/jpmorgan-may-become-first-1-trillion-bank-next-stop-could-be-2-trillion.html"
       },
       {
+        "title": "Trump's envoys meet with Egyptian, Qatari and Turkish mediators in Cairo as Israel strikes Gaza",
+        "source": "CNBC Top",
+        "published": "2026-08-16 20:55",
+        "link": "https://www.cnbc.com/2026/08/16/trumps-envoys-meet-mediators-israel-strikes-gaza.html"
+      },
+      {
         "title": "Prediction markets and sports betting: How this UK exchange is trying to do both in the U.S.",
         "source": "CNBC Top",
         "published": "2026-08-15 14:46",
         "link": "https://www.cnbc.com/2026/08/15/prediction-markets-and-sports-betting-how-this-uk-exchange-is-trying-to-do-both-in-the-us.html"
-      },
-      {
-        "title": "U.S. to tell partners they must pick sides in AI race with China: Reuters",
-        "source": "CNBC Top",
-        "published": "2026-08-15 22:49",
-        "link": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html"
-      },
-      {
-        "title": "Hurricane Lala leaves thousands without power in Hawaii amid 'life-threatening' conditions",
-        "source": "CNBC Top",
-        "published": "2026-08-16 06:43",
-        "link": "https://www.cnbc.com/2026/08/16/hurricane-lala-leaves-thousands-without-power-in-hawaii.html"
       },
       {
         "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
@@ -226,16 +220,22 @@
         "link": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html"
       },
       {
-        "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
-        "source": "CNBC Top",
-        "published": "2026-08-14 21:45",
-        "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
-      },
-      {
         "title": "Goldman Sachs picks China stocks poised to benefit from a new wave of AI-related hardware exports",
         "source": "CNBC Top",
         "published": "2026-08-16 11:55",
         "link": "https://www.cnbc.com/2026/08/16/goldman-picks-china-stocks-poised-to-benefit-from-wave-of-ai-related-exports.html"
+      },
+      {
+        "title": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
+        "source": "CNBC Tech",
+        "published": "2026-08-15 14:22",
+        "link": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html"
+      },
+      {
+        "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+        "source": "CNBC Tech",
+        "published": "2026-08-14 21:45",
+        "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
       }
     ],
     "qqq_intel": [],
@@ -261,10 +261,10 @@
         "link": "https://www.cnbc.com/2026/08/16/goldman-stock-market-outperformance.html"
       },
       {
-        "title": "Top Wall Street analysts like these 3 dividend stocks for steady income",
+        "title": "Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market",
         "source": "CNBC Top",
-        "published": "2026-08-16 11:58",
-        "link": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html"
+        "published": "2026-08-15 12:30",
+        "link": "https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html"
       },
       {
         "title": "Data centers in space could be a new frontier for insurers — if they can price the risk",
@@ -273,28 +273,46 @@
         "link": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html"
       },
       {
-        "title": "SanDisk CEO reveals what's next after explosive 3,150% stock rally",
+        "title": "Piper Sandler Is Bullish on Unusual Machines Stock. Here's Why.",
         "source": "Yahoo Finance",
-        "published": "2026-08-15 01:37",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-ceo-reveals-whats-next-013700105.html"
+        "published": "2026-08-15 13:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-bullish-unusual-machines-133002502.html"
+      },
+      {
+        "title": "Prediction market operator Kalshi hits back at Nevada regulator over geofencing fine",
+        "source": "Yahoo Finance",
+        "published": "2026-08-15 14:58",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/prediction-market-operator-kalshi-hits-145839600.html"
+      },
+      {
+        "title": "NOW Stock Has Rebounded Over 54% — Why ServiceNow’s Rally Could Have Further Room to Run",
+        "source": "Yahoo Finance",
+        "published": "2026-08-15 15:00",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/now-stock-rebounded-over-54-150002323.html"
+      },
+      {
+        "title": "Warren Buffett named these 3 stocks as favorites for a reason",
+        "source": "Yahoo Finance",
+        "published": "2026-08-15 14:04",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-named-3-stocks-140400163.html"
+      },
+      {
+        "title": "Alphabet Stock to $515: 3 Reasons the Bull Case Is Getting Stronger",
+        "source": "Yahoo Finance",
+        "published": "2026-08-15 15:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-515-3-reasons-153002451.html"
+      },
+      {
+        "title": "China’s energy strategy vindicated by Iran war",
+        "source": "FT Markets",
+        "published": "2026-08-16 23:01",
+        "link": "https://www.ft.com/content/3aa706c2-50bb-4187-a053-c09e3c063d72"
       },
       {
         "title": "Indonesia’s Prabowo retreats on commodities reform amid market pressure",
         "source": "FT Markets",
         "published": "2026-08-14 11:15",
         "link": "https://www.ft.com/content/c061415a-791d-42e5-9907-736563c7f938?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Chinese Investors With Few Options Turn to Dividends",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 10:30",
-        "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
@@ -309,20 +327,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
