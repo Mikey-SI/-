@@ -1,143 +1,143 @@
 {
-  "timestamp": "2026-08-17T12:18:24.537301",
+  "timestamp": "2026-08-18T01:18:43.273523",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 25.88,
-      "change": 0.26,
-      "change_pct": 1.01,
+      "price": 25.24,
+      "change": -0.64,
+      "change_pct": -2.47,
       "volume": 100097535,
       "high": 26.24,
       "low": 25.8,
       "open": 25.8,
-      "prev_close": 25.62,
-      "market_cap": 666153385984,
-      "pe_ratio": 14.298343,
+      "prev_close": 25.88,
+      "market_cap": 649679732736,
+      "pe_ratio": 13.944752,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-17"
+      "date": "2026-08-18"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 731.07,
-      "change": -1.0,
-      "change_pct": -0.14,
-      "volume": 23748000,
-      "high": 734.39,
-      "low": 728.32,
-      "open": 733.41,
-      "prev_close": 732.07,
+      "price": 729.87,
+      "change": -1.2,
+      "change_pct": -0.16,
+      "volume": 26102182,
+      "high": 734.58,
+      "low": 729.27,
+      "open": 732.96,
+      "prev_close": 731.07,
       "market_cap": "N/A",
-      "pe_ratio": 31.260714,
+      "pe_ratio": 31.2094,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 102.5,
-      "change": -2.06,
-      "change_pct": -1.97,
-      "volume": 95105600,
-      "high": 106.87,
-      "low": 102.05,
-      "open": 104.48,
-      "prev_close": 104.56,
-      "market_cap": 541825761280,
+      "price": 103.49,
+      "change": 0.99,
+      "change_pct": 0.97,
+      "volume": 86440747,
+      "high": 105.97,
+      "low": 101.8,
+      "open": 103.7,
+      "prev_close": 102.5,
+      "market_cap": 547059007488,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 22.78,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 495.4,
-      "change": -1.48,
-      "change_pct": -0.3,
-      "volume": 16205200,
-      "high": 500.01,
-      "low": 493.92,
-      "open": 496.36,
-      "prev_close": 496.88,
-      "market_cap": 3678615371776,
-      "pe_ratio": 27.62967,
+      "price": 480.35,
+      "change": -15.05,
+      "change_pct": -3.04,
+      "volume": 28250867,
+      "high": 492.66,
+      "low": 478.41,
+      "open": 490.22,
+      "prev_close": 495.4,
+      "market_cap": 3566861025280,
+      "pe_ratio": 27.622198,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 63539.38,
-      "change": 720.73,
-      "change_pct": 1.15,
-      "volume": 14695499776,
-      "high": 63661.28,
-      "low": 62723.61,
-      "open": 62829.64,
+      "price": 64260.85,
+      "change": 1442.2,
+      "change_pct": 2.3,
+      "volume": 21251192832,
+      "high": 64487.65,
+      "low": 64259.78,
+      "open": 64487.65,
       "prev_close": 62818.65,
-      "market_cap": 1275964162048,
+      "market_cap": 1290432806912,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-17"
+      "date": "2026-08-18"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7785.76,
-      "change": -13.23,
-      "change_pct": -0.17,
-      "volume": 4159900000,
-      "high": 7810.01,
-      "low": 7776.31,
-      "open": 7806.6,
-      "prev_close": 7798.99,
+      "price": 7745.06,
+      "change": -40.7,
+      "change_pct": -0.52,
+      "volume": 2506498000,
+      "high": 7790.68,
+      "low": 7744.88,
+      "open": 7790.68,
+      "prev_close": 7785.76,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26729.16,
-      "change": -73.87,
-      "change_pct": -0.28,
-      "volume": 7212180000,
-      "high": 26862.17,
-      "low": 26661.95,
-      "open": 26851.15,
-      "prev_close": 26803.03,
+      "price": 26644.91,
+      "change": -84.25,
+      "change_pct": -0.32,
+      "volume": 6844754000,
+      "high": 26798.4,
+      "low": 26626.38,
+      "open": 26784.65,
+      "prev_close": 26729.16,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25453.23,
-      "change": 336.38,
-      "change_pct": 1.34,
-      "volume": 0,
-      "high": 25578.27,
-      "low": 25303.41,
-      "open": 25303.41,
-      "prev_close": 25116.85,
+      "price": 25116.85,
+      "change": -279.66,
+      "change_pct": -1.1,
+      "volume": 2526200000,
+      "high": 25311.86,
+      "low": 25089.14,
+      "open": 25219.15,
+      "prev_close": 25396.51,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-17"
+      "date": "2026-08-14"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -153,53 +153,59 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4742.4043,
-      "52w_low": 4662.715,
+      "52w_low": 3458.44,
       "date": "2026-08-17"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53732.41,
-      "change": -107.58,
-      "change_pct": -0.2,
-      "volume": 319610000,
-      "high": 53890.84,
-      "low": 53673.47,
-      "open": 53842.8,
-      "prev_close": 53839.99,
+      "price": 53459.78,
+      "change": -272.63,
+      "change_pct": -0.51,
+      "volume": 436708050,
+      "high": 53663.11,
+      "low": 53395.23,
+      "open": 53663.11,
+      "prev_close": 53732.41,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
       "52w_low": 44579.03,
-      "date": "2026-08-14"
+      "date": "2026-08-17"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "Trump threatens to 'bomb' Oman if it 'gets in the way' as U.S.-Iran ceasefire expires",
+        "title": "30-year Treasury yield tops 5.31%, the highest in 19 years",
         "source": "CNBC Top",
-        "published": "2026-08-17 11:55",
+        "published": "2026-08-17 20:04",
+        "link": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html"
+      },
+      {
+        "title": "Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'gets in the way'",
+        "source": "CNBC Top",
+        "published": "2026-08-17 19:24",
         "link": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html"
       },
       {
-        "title": "Vista Energy up 5% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
+        "title": "Meta faces ‘astronomical’ consequences as legal fight reaches critical moment in California",
         "source": "CNBC Top",
-        "published": "2026-08-17 11:05",
-        "link": "https://www.cnbc.com/2026/08/17/peter-thiel-hedge-fund-vista-energy-argentina-stake.html"
+        "published": "2026-08-17 16:06",
+        "link": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html"
       },
       {
-        "title": "Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war",
+        "title": "Goldman says AI productivity gains are not here yet. But these stocks will benefit most when they begin",
         "source": "CNBC Top",
-        "published": "2026-08-17 09:46",
-        "link": "https://www.cnbc.com/2026/08/17/ukraine-war-russia-putin-moscow.html"
+        "published": "2026-08-17 19:59",
+        "link": "https://www.cnbc.com/2026/08/17/these-stocks-will-benefit-most-from-ai-productivity-gains-per-goldman.html"
       },
       {
-        "title": "Alibaba answers Meta’s AI challenge with new laptop-ready model",
+        "title": "Stanley Druckenmiller loaded up on Amazon and chip stocks before July rout",
         "source": "CNBC Top",
-        "published": "2026-08-17 11:24",
-        "link": "https://www.cnbc.com/2026/08/17/alibaba-meta-qwen-open-weight-ai-laptop-models.html"
+        "published": "2026-08-17 17:44",
+        "link": "https://www.cnbc.com/2026/08/17/druckenmiller-loaded-up-on-amazon-and-chip-stocks-before-july-rout.html"
       },
       {
         "title": "College can cost $100,000 a year. Here's how families are covering the tab",
@@ -208,62 +214,43 @@
         "link": "https://www.cnbc.com/2026/08/15/how-families-pay-for-college-as-tuition-costs-soar.html"
       },
       {
-        "title": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
-        "source": "CNBC Tech",
-        "published": "2026-08-15 14:22",
-        "link": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html"
-      },
-      {
-        "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 12:06",
-        "link": "https://www.cnbc.com/2026/08/15/rivian-tesla-self-driving-adas-fsd.html"
-      },
-      {
-        "title": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
-        "source": "CNBC Tech",
-        "published": "2026-08-14 21:45",
-        "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
-      },
-      {
-        "title": "OpenAI CFO Friar tells investors that enterprise business now bigger than consumer by revenue",
-        "source": "CNBC Tech",
-        "published": "2026-08-14 23:01",
-        "link": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html"
-      },
-      {
-        "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-        "source": "CNBC Tech",
-        "published": "2026-08-14 19:07",
-        "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html"
-      }
-    ],
-    "qqq_intel": [
-      {
-        "title": "Stocks making the biggest moves premarket: Alibaba, Intel, Sandisk & more",
+        "title": "Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks",
         "source": "CNBC Top",
-        "published": "2026-08-17 11:37",
-        "link": "https://www.cnbc.com/2026/08/17/stocks-making-the-biggest-moves-premarket-baba-intc-sndk.html"
+        "published": "2026-08-17 22:20",
+        "link": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html"
+      },
+      {
+        "title": "Nvidia's stock has started to come alive. Here's 3 reasons why it can continue",
+        "source": "CNBC Tech",
+        "published": "2026-08-17 20:07",
+        "link": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html"
+      },
+      {
+        "title": "Jim Cramer says these 2 cybersecurity stocks can keep climbing as AI threats grow",
+        "source": "CNBC Tech",
+        "published": "2026-08-17 16:13",
+        "link": "https://www.cnbc.com/2026/08/17/cramer-2-cybersecurity-stocks-can-keep-climbing-as-ai-threats-grow.html"
+      },
+      {
+        "title": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
+        "source": "CNBC Tech",
+        "published": "2026-08-17 21:22",
+        "link": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html"
       }
     ],
+    "qqq_intel": [],
     "tech": [
-      {
-        "title": "The SoFi rebound has only just begun, says Piper Sandler",
-        "source": "CNBC Top",
-        "published": "2026-08-17 11:54",
-        "link": "https://www.cnbc.com/2026/08/17/the-sofi-rebound-has-only-just-begun-says-piper-sandler.html"
-      },
-      {
-        "title": "Apple can get a big boost from a foldable iPhone, says Rothschild",
-        "source": "CNBC Top",
-        "published": "2026-08-17 11:19",
-        "link": "https://www.cnbc.com/2026/08/17/apple-can-get-a-big-boost-from-a-foldable-iphone-says-rothschild.html"
-      },
       {
         "title": "How long will software-defined cars last? The auto industry doesn't know yet",
         "source": "CNBC Tech",
         "published": "2026-08-15 12:00",
         "link": "https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html"
+      },
+      {
+        "title": "US tech stock correction likely, warn ECB economists",
+        "source": "FT Markets",
+        "published": "2026-08-17 14:40",
+        "link": "https://www.ft.com/content/cb4b22ab-4183-4d19-be60-6d2fab86d86d?syn-25a6b1a6=1"
       },
       {
         "title": "Big Tech’s data centre boom poised to drive up carbon emissions",
@@ -274,28 +261,40 @@
     ],
     "market": [
       {
-        "title": "What will TV look like in three years? Media insiders share their predictions",
+        "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
         "source": "CNBC Top",
-        "published": "2026-08-17 11:00",
-        "link": "https://www.cnbc.com/2026/08/17/tv-media-insiders-predictions.html"
+        "published": "2026-08-17 23:39",
+        "link": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html"
       },
       {
-        "title": "Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be",
+        "title": "This small-cap ETF just hit a fresh high and its members have lots of cash. Wall Street likes these stocks",
         "source": "CNBC Top",
-        "published": "2026-08-17 10:31",
-        "link": "https://www.cnbc.com/2026/08/17/santoli-earnings-bonanza-that-lifted-market-to-record-may-not-be-all-that-it-appears-to-be.html"
+        "published": "2026-08-17 19:44",
+        "link": "https://www.cnbc.com/2026/08/17/this-small-cap-etf-just-hit-a-fresh-high-and-its-members-have-lots-of-cash.html"
       },
       {
-        "title": "Between earn-nothing cash, broken long-term bonds, these are the safety trades of 2026 market",
-        "source": "CNBC Top",
-        "published": "2026-08-15 12:30",
-        "link": "https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html"
-      },
-      {
-        "title": "Data centers in space could be a new frontier for insurers — if they can price the risk",
+        "title": "Looking for under-the-radar stocks? Cramer gives his take on 5 unfamiliar names",
         "source": "CNBC Tech",
-        "published": "2026-08-14 11:19",
-        "link": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html"
+        "published": "2026-08-17 23:24",
+        "link": "https://www.cnbc.com/2026/08/17/cramer-under-the-radar-stocks.html"
+      },
+      {
+        "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars — and high fees aren't helping",
+        "source": "Yahoo Finance",
+        "published": "2026-08-16 14:00",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html"
+      },
+      {
+        "title": "This ETF Is the Most Important in the Market. You Probably Haven’t Heard of It.",
+        "source": "Yahoo Finance",
+        "published": "2026-08-16 14:00",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/etf-most-important-market-probably-140002357.html"
+      },
+      {
+        "title": "Private credit’s woes continue",
+        "source": "FT Markets",
+        "published": "2026-08-17 04:00",
+        "link": "https://www.ft.com/content/50d51030-980d-4bae-908a-3649c55ae197?syn-25a6b1a6=1"
       },
       {
         "title": "China’s energy strategy vindicated by Iran war",
@@ -318,10 +317,6 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
