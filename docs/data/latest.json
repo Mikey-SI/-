@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-18T01:18:43.273523",
+  "timestamp": "2026-08-18T12:20:24.939184",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 25.24,
-      "change": -0.64,
-      "change_pct": -2.47,
-      "volume": 100097535,
-      "high": 26.24,
-      "low": 25.8,
-      "open": 25.8,
+      "price": 26.18,
+      "change": 0.3,
+      "change_pct": 1.16,
+      "volume": 179217411,
+      "high": 26.54,
+      "low": 25.22,
+      "open": 25.5,
       "prev_close": 25.88,
-      "market_cap": 649679732736,
-      "pe_ratio": 13.944752,
+      "market_cap": 673825226752,
+      "pe_ratio": 14.464089,
       "52w_high": 59.9,
       "52w_low": 21.3,
       "date": "2026-08-18"
@@ -21,13 +21,13 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 729.87,
-      "change": -1.2,
-      "change_pct": -0.16,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 26102182,
-      "high": 734.58,
-      "low": 729.27,
-      "open": 732.96,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 731.07,
       "market_cap": "N/A",
       "pe_ratio": 31.2094,
@@ -38,13 +38,13 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 103.49,
-      "change": 0.99,
-      "change_pct": 0.97,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 86440747,
-      "high": 105.97,
-      "low": 101.8,
-      "open": 103.7,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 102.5,
       "market_cap": 547059007488,
       "pe_ratio": "N/A",
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 480.35,
-      "change": -15.05,
-      "change_pct": -3.04,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 28250867,
-      "high": 492.66,
-      "low": 478.41,
-      "open": 490.22,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 495.4,
       "market_cap": 3566861025280,
-      "pe_ratio": 27.622198,
+      "pe_ratio": 26.730663,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-08-17"
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64260.85,
-      "change": 1442.2,
-      "change_pct": 2.3,
-      "volume": 21251192832,
+      "price": 64248.65,
+      "change": -257.61,
+      "change_pct": -0.4,
+      "volume": 20735649792,
       "high": 64487.65,
-      "low": 64259.78,
+      "low": 64003.79,
       "open": 64487.65,
-      "prev_close": 62818.65,
-      "market_cap": 1290432806912,
+      "prev_close": 64506.25,
+      "market_cap": 1289223929856,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -91,13 +91,13 @@
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7745.06,
-      "change": -40.7,
-      "change_pct": -0.52,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 2506498000,
-      "high": 7790.68,
-      "low": 7744.88,
-      "open": 7790.68,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 7785.76,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -108,13 +108,13 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26644.91,
-      "change": -84.25,
-      "change_pct": -0.32,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 6844754000,
-      "high": 26798.4,
-      "low": 26626.38,
-      "open": 26784.65,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 26729.16,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -125,47 +125,47 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25116.85,
-      "change": -279.66,
-      "change_pct": -1.1,
-      "volume": 2526200000,
-      "high": 25311.86,
-      "low": 25089.14,
-      "open": 25219.15,
-      "prev_close": 25396.51,
+      "price": 25471.15,
+      "change": 354.3,
+      "change_pct": 1.41,
+      "volume": 0,
+      "high": 25518.03,
+      "low": 25240.62,
+      "open": 25368.87,
+      "prev_close": 25116.85,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-14"
+      "date": "2026-08-18"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4741.1,
+      "price": 4725.81,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1877059416,
-      "high": 4742.4,
-      "low": 4662.71,
-      "open": 4672.28,
-      "prev_close": 4741.1,
+      "volume": 3244682216,
+      "high": 4744.01,
+      "low": 4687.53,
+      "open": 4734.07,
+      "prev_close": 4725.81,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4742.4043,
+      "52w_high": 4744.0054,
       "52w_low": 3458.44,
-      "date": "2026-08-17"
+      "date": "2026-08-18"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53459.78,
-      "change": -272.63,
-      "change_pct": -0.51,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 436708050,
-      "high": 53663.11,
-      "low": 53395.23,
-      "open": 53663.11,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 53732.41,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -178,16 +178,46 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "30-year Treasury yield tops 5.31%, the highest in 19 years",
+        "title": "30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns",
         "source": "CNBC Top",
-        "published": "2026-08-17 20:04",
-        "link": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html"
+        "published": "2026-08-18 12:19",
+        "link": "https://www.cnbc.com/2026/08/18/treasury-yields-.html"
       },
       {
-        "title": "Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'gets in the way'",
+        "title": "Nvidia's AI moat is shifting from chips to capital",
         "source": "CNBC Top",
-        "published": "2026-08-17 19:24",
-        "link": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html"
+        "published": "2026-08-18 11:55",
+        "link": "https://www.cnbc.com/2026/08/18/nvidias-ai-moat-is-shifting-from-chips-to-capital.html"
+      },
+      {
+        "title": "Sea Ray parent Brunswick bets on AI navigation and new revenue streams to help stalling boat sales",
+        "source": "CNBC Top",
+        "published": "2026-08-18 11:59",
+        "link": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html"
+      },
+      {
+        "title": "Trump's Oman bomb threat an attempt to get their 'attention,' says former ambassador",
+        "source": "CNBC Top",
+        "published": "2026-08-18 10:23",
+        "link": "https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html"
+      },
+      {
+        "title": "'Worrisome': AI is driving a looming market correction, central bank economists warn",
+        "source": "CNBC Top",
+        "published": "2026-08-18 12:07",
+        "link": "https://www.cnbc.com/2026/08/18/ai-tech-rally-correction-economists.html"
+      },
+      {
+        "title": "Sanders proposes bill to stop Social Security benefit garnishment for unpaid student loans",
+        "source": "CNBC Top",
+        "published": "2026-08-17 22:23",
+        "link": "https://www.cnbc.com/2026/08/17/bernie-sanders-social-security-garnishment-student-loans.html"
+      },
+      {
+        "title": "How investors profit from soccer even as Premier League club losses skyrocket",
+        "source": "CNBC Top",
+        "published": "2026-08-18 09:09",
+        "link": "https://www.cnbc.com/2026/08/18/soccer-premier-league-club-losses-liverpool.html"
       },
       {
         "title": "Meta faces ‘astronomical’ consequences as legal fight reaches critical moment in California",
@@ -196,81 +226,64 @@
         "link": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html"
       },
       {
-        "title": "Goldman says AI productivity gains are not here yet. But these stocks will benefit most when they begin",
+        "title": "South Korea must brace for ‘worst-case scenario,’ President Lee says, as Trump cuts military drills",
         "source": "CNBC Top",
-        "published": "2026-08-17 19:59",
-        "link": "https://www.cnbc.com/2026/08/17/these-stocks-will-benefit-most-from-ai-productivity-gains-per-goldman.html"
+        "published": "2026-08-18 05:16",
+        "link": "https://www.cnbc.com/2026/08/18/trump-south-korea-military-exercises-iran-north-korea.html"
       },
       {
-        "title": "Stanley Druckenmiller loaded up on Amazon and chip stocks before July rout",
+        "title": "The startup using AI to help rare disease families develop custom treatments",
         "source": "CNBC Top",
-        "published": "2026-08-17 17:44",
-        "link": "https://www.cnbc.com/2026/08/17/druckenmiller-loaded-up-on-amazon-and-chip-stocks-before-july-rout.html"
-      },
-      {
-        "title": "College can cost $100,000 a year. Here's how families are covering the tab",
-        "source": "CNBC Top",
-        "published": "2026-08-15 13:30",
-        "link": "https://www.cnbc.com/2026/08/15/how-families-pay-for-college-as-tuition-costs-soar.html"
-      },
-      {
-        "title": "Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks",
-        "source": "CNBC Top",
-        "published": "2026-08-17 22:20",
-        "link": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html"
-      },
-      {
-        "title": "Nvidia's stock has started to come alive. Here's 3 reasons why it can continue",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 20:07",
-        "link": "https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html"
-      },
-      {
-        "title": "Jim Cramer says these 2 cybersecurity stocks can keep climbing as AI threats grow",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 16:13",
-        "link": "https://www.cnbc.com/2026/08/17/cramer-2-cybersecurity-stocks-can-keep-climbing-as-ai-threats-grow.html"
-      },
-      {
-        "title": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 21:22",
-        "link": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html"
+        "published": "2026-08-18 11:00",
+        "link": "https://www.cnbc.com/2026/08/18/the-startup-using-ai-to-help-build-custom-treatments-for-rare-diseases.html"
       }
     ],
-    "qqq_intel": [],
+    "qqq_intel": [
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures extend losses amid US-Iran tensions",
+        "source": "Yahoo Finance",
+        "published": "2026-08-18 08:08",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html"
+      }
+    ],
     "tech": [
       {
-        "title": "How long will software-defined cars last? The auto industry doesn't know yet",
-        "source": "CNBC Tech",
-        "published": "2026-08-15 12:00",
-        "link": "https://www.cnbc.com/2026/08/15/software-defined-vehicles-rivian-tesla.html"
+        "title": "Cellebrite’s (CLBT) Compounding Track Record Demands Enterprise Software Re-Rating",
+        "source": "Yahoo Finance",
+        "published": "2026-08-18 11:50",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cellebrite-clbt-compounding-track-record-115027224.html"
       },
       {
         "title": "US tech stock correction likely, warn ECB economists",
         "source": "FT Markets",
         "published": "2026-08-17 14:40",
         "link": "https://www.ft.com/content/cb4b22ab-4183-4d19-be60-6d2fab86d86d?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Big Tech’s data centre boom poised to drive up carbon emissions",
-        "source": "FT Markets",
-        "published": "2026-08-16 10:00",
-        "link": "https://www.ft.com/content/8158cb5a-4bbd-43fd-b329-15a54e8422c8?syn-25a6b1a6=1"
       }
     ],
     "market": [
       {
-        "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
+        "title": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
         "source": "CNBC Top",
-        "published": "2026-08-17 23:39",
-        "link": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html"
+        "published": "2026-08-18 11:48",
+        "link": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
       },
       {
-        "title": "This small-cap ETF just hit a fresh high and its members have lots of cash. Wall Street likes these stocks",
+        "title": "Stocks making the biggest moves premarket: Home Depot, Tesla, Fabrinet, Duolingo & more",
         "source": "CNBC Top",
-        "published": "2026-08-17 19:44",
-        "link": "https://www.cnbc.com/2026/08/17/this-small-cap-etf-just-hit-a-fresh-high-and-its-members-have-lots-of-cash.html"
+        "published": "2026-08-18 11:46",
+        "link": "https://www.cnbc.com/2026/08/18/stocks-making-the-biggest-moves-premarket-hd-tsla-fn-duol.html"
+      },
+      {
+        "title": "Prediction markets entrant Novig posts more than $125 million in trading volume during its first week",
+        "source": "CNBC Top",
+        "published": "2026-08-18 12:00",
+        "link": "https://www.cnbc.com/2026/08/18/novig-posts-more-than-125-million-in-trading-volume-in-its-first-week.html"
+      },
+      {
+        "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
+        "source": "CNBC Tech",
+        "published": "2026-08-17 23:39",
+        "link": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html"
       },
       {
         "title": "Looking for under-the-radar stocks? Cramer gives his take on 5 unfamiliar names",
@@ -279,28 +292,10 @@
         "link": "https://www.cnbc.com/2026/08/17/cramer-under-the-radar-stocks.html"
       },
       {
-        "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars — and high fees aren't helping",
+        "title": "11 S&P 500 Stocks Soar To Record Highs In The Blink Of An Eye",
         "source": "Yahoo Finance",
-        "published": "2026-08-16 14:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html"
-      },
-      {
-        "title": "This ETF Is the Most Important in the Market. You Probably Haven’t Heard of It.",
-        "source": "Yahoo Finance",
-        "published": "2026-08-16 14:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/etf-most-important-market-probably-140002357.html"
-      },
-      {
-        "title": "Private credit’s woes continue",
-        "source": "FT Markets",
-        "published": "2026-08-17 04:00",
-        "link": "https://www.ft.com/content/50d51030-980d-4bae-908a-3649c55ae197?syn-25a6b1a6=1"
-      },
-      {
-        "title": "China’s energy strategy vindicated by Iran war",
-        "source": "FT Markets",
-        "published": "2026-08-16 23:01",
-        "link": "https://www.ft.com/content/3aa706c2-50bb-4187-a053-c09e3c063d72"
+        "published": "2026-08-18 12:00",
+        "link": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-soar-to-record-highs-in-a-blink-of-the-eye/?src=A00220&yptr=yahoo"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -317,6 +312,10 @@
     ]
   },
   "sentiment": {
+    "qqq_intel": {
+      "overall_sentiment": "unknown",
+      "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -327,20 +326,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "calm",
-    "emoji": "😌☕",
-    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
-    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
-    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
-    "vibe": "Peaceful mind, clear analysis"
+    "mood": "panicking",
+    "emoji": "🔥😱",
+    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
+    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
+    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
+    "vibe": "Stress-eating chips while analyzing charts at 3am"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "bored",
-    "emoji": "🥱🕰️",
+    "mood": "clinical",
+    "emoji": "🧊📊",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "dismissive of retail traders, highly selective, looking for real setups",
-    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
+    "tone": "cold, purely objective, risk-management focused, zero panic",
+    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }

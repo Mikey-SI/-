@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T01:19:27.747480",
+  "timestamp": "2026-08-18T12:21:01.253146",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 649679732736,
+      "market_cap": 673825226752,
       "enterprise_value": 604297560064,
-      "pe_ratio": 13.944752,
-      "forward_pe": 15.357073,
-      "peg_ratio": 2.76,
-      "pb_ratio": 2.1023853,
-      "ps_ratio": 1.4595118,
+      "pe_ratio": 14.464089,
+      "forward_pe": 15.930008,
+      "peg_ratio": 2.79,
+      "pb_ratio": 2.1806834,
+      "ps_ratio": 1.5137548,
       "ev_ebitda": 17.938,
       "revenue": 445134962688,
       "revenue_growth": -0.109,
@@ -29,31 +29,31 @@
       "beta": 0.722,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 26.0544,
-      "200d_avg": 33.2287,
-      "analyst_target": 38.133762,
+      "50d_avg": 26.0044,
+      "200d_avg": 33.1345,
+      "analyst_target": 38.104263,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 25.24,
-      "ma5": 25.8,
-      "ma20": 27.55,
-      "ma60": 26.43,
-      "ma120": 29.35,
-      "rsi_14": 11.8,
-      "macd": -0.251,
-      "ret_1w": -4.25,
-      "ret_1m": -9.01,
-      "ret_3m": -20.43,
-      "ret_6m": -28.01,
+      "price": 26.18,
+      "ma5": 25.98,
+      "ma20": 27.59,
+      "ma60": 26.44,
+      "ma120": 29.36,
+      "rsi_14": 15.8,
+      "macd": -0.176,
+      "ret_1w": -0.68,
+      "ret_1m": -5.62,
+      "ret_3m": -17.47,
+      "ret_6m": -25.33,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -57.54,
-      "pct_from_52w_low": 17.83,
-      "volume_ratio": 0.54,
+      "pct_from_52w_high": -55.96,
+      "pct_from_52w_low": 22.22,
+      "volume_ratio": 0.95,
       "above_ma20": false,
       "above_ma60": false,
       "trend": "MIXED"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25116.85,
-        "change_pct": -1.1
+        "price": 25471.15,
+        "change_pct": 1.41
       },
       "SPX": {
-        "price": 7745.06,
-        "change_pct": -0.52
+        "price": NaN,
+        "change_pct": NaN
       },
       "USD/CNH": {
-        "price": 6.74,
+        "price": 6.75,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.72,
-        "change_pct": 0.6
+        "price": 4.7,
+        "change_pct": 1.19
       }
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -133,13 +133,13 @@
       "score": 55.0
     },
     {
-      "name": "紫光股份",
-      "ticker": "000938.SZ",
-      "score": 55.0
-    },
-    {
       "name": "京东-HK",
       "ticker": "9618.HK",
+      "score": 50.0
+    },
+    {
+      "name": "哔哩哔哩-HK",
+      "ticker": "9626.HK",
       "score": 50.0
     }
   ],
