@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T01:19:57.962166",
+  "timestamp": "2026-08-20T12:22:29.411431",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,14 +7,14 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 722212945920,
-      "enterprise_value": 619425103872,
-      "pe_ratio": 19.760563,
-      "forward_pe": 17.898714,
-      "peg_ratio": 2.79,
-      "pb_ratio": 2.3372793,
-      "ps_ratio": 1.6485097,
-      "ev_ebitda": 20.922,
+      "market_cap": 714491494400,
+      "enterprise_value": 623537160192,
+      "pe_ratio": 19.549297,
+      "forward_pe": 17.860823,
+      "peg_ratio": 2.95,
+      "pb_ratio": 2.3122907,
+      "ps_ratio": 1.6308849,
+      "ev_ebitda": 21.774,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
       "gross_margins": 0.21392,
@@ -24,36 +24,36 @@
       "roa": 0.02636,
       "debt_to_equity": 14.557,
       "current_ratio": 1.491,
-      "free_cashflow": -9348428800,
+      "free_cashflow": -8154982912,
       "dividend_yield": "N/A",
-      "beta": "N/A",
+      "beta": 0.722,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 25.972,
-      "200d_avg": 33.0483,
-      "analyst_target": 37.750626,
+      "50d_avg": 25.9732,
+      "200d_avg": 32.9689,
+      "analyst_target": 36.977097,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 28.06,
-      "ma5": 26.64,
-      "ma20": 27.68,
-      "ma60": 26.37,
+      "price": 27.76,
+      "ma5": 26.58,
+      "ma20": 27.66,
+      "ma60": 26.36,
       "ma120": 29.22,
-      "rsi_14": 44.9,
-      "macd": 0.004,
-      "ret_1w": 9.52,
-      "ret_1m": 5.17,
-      "ret_3m": -8.48,
-      "ret_6m": -17.37,
+      "rsi_14": 42.5,
+      "macd": -0.02,
+      "ret_1w": 8.35,
+      "ret_1m": 4.05,
+      "ret_3m": -9.46,
+      "ret_6m": -18.26,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -52.8,
-      "pct_from_52w_low": 31.0,
-      "volume_ratio": 1.61,
+      "pct_from_52w_high": -53.31,
+      "pct_from_52w_low": 29.6,
+      "volume_ratio": 0.88,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "MIXED"
@@ -71,15 +71,15 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25471.15,
-        "change_pct": 0.07
+        "price": 25698.49,
+        "change_pct": 0.8
       },
       "SPX": {
         "price": 7707.98,
         "change_pct": 0.21
       },
       "USD/CNH": {
-        "price": 6.73,
+        "price": 6.72,
         "change_pct": 0.0
       },
       "US10Y": {
