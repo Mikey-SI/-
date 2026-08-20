@@ -1,143 +1,143 @@
 {
-  "timestamp": "2026-08-19T12:20:29.815254",
+  "timestamp": "2026-08-20T01:19:27.656858",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.44,
-      "change": 1.26,
-      "change_pct": 4.81,
+      "price": 28.06,
+      "change": 0.62,
+      "change_pct": 2.26,
       "volume": 339792411,
       "high": 28.08,
       "low": 26.38,
       "open": 26.96,
-      "prev_close": 26.18,
-      "market_cap": 706255323136,
-      "pe_ratio": 15.160222,
+      "prev_close": 27.44,
+      "market_cap": 722212945920,
+      "pe_ratio": 19.760563,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 717.51,
-      "change": -12.36,
-      "change_pct": -1.69,
-      "volume": 48736100,
-      "high": 722.13,
-      "low": 715.92,
-      "open": 720.21,
-      "prev_close": 729.87,
+      "price": 716.08,
+      "change": -1.43,
+      "change_pct": -0.2,
+      "volume": 34834540,
+      "high": 721.5,
+      "low": 712.61,
+      "open": 720.41,
+      "prev_close": 717.51,
       "market_cap": "N/A",
-      "pe_ratio": 30.680885,
+      "pe_ratio": 30.619738,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 96.69,
-      "change": -6.8,
-      "change_pct": -6.57,
-      "volume": 121341000,
-      "high": 99.31,
-      "low": 95.25,
-      "open": 99.22,
-      "prev_close": 103.49,
-      "market_cap": 511087050752,
+      "price": 92.8,
+      "change": -3.89,
+      "change_pct": -4.02,
+      "volume": 108826782,
+      "high": 98.2,
+      "low": 91.28,
+      "open": 97.18,
+      "prev_close": 96.69,
+      "market_cap": 490550558720,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 22.78,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 481.63,
-      "change": 1.28,
-      "change_pct": 0.27,
-      "volume": 24059700,
-      "high": 484.27,
-      "low": 477.15,
-      "open": 481.54,
-      "prev_close": 480.35,
-      "market_cap": 3576365580288,
-      "pe_ratio": 26.742365,
+      "price": 484.31,
+      "change": 2.68,
+      "change_pct": 0.56,
+      "volume": 19853191,
+      "high": 489.29,
+      "low": 479.55,
+      "open": 479.81,
+      "prev_close": 481.63,
+      "market_cap": 3596265979904,
+      "pe_ratio": 26.966038,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64432.21,
-      "change": -248.5,
-      "change_pct": -0.38,
-      "volume": 16979617792,
-      "high": 64681.22,
-      "low": 64121.28,
-      "open": 64681.22,
+      "price": 69241.82,
+      "change": 4561.11,
+      "change_pct": 7.05,
+      "volume": 48019197952,
+      "high": 69715.68,
+      "low": 69289.44,
+      "open": 69289.44,
       "prev_close": 64680.71,
-      "market_cap": 1293512605696,
+      "market_cap": 1392115318784,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7691.76,
-      "change": -53.3,
-      "change_pct": -0.69,
-      "volume": 4602700000,
-      "high": 7713.95,
-      "low": 7688.63,
-      "open": 7700.04,
-      "prev_close": 7745.06,
+      "price": 7707.98,
+      "change": 16.22,
+      "change_pct": 0.21,
+      "volume": 2981221000,
+      "high": 7743.93,
+      "low": 7700.07,
+      "open": 7716.74,
+      "prev_close": 7691.76,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26289.71,
-      "change": -355.2,
-      "change_pct": -1.33,
-      "volume": 7360790000,
-      "high": 26422.5,
-      "low": 26266.68,
-      "open": 26346.88,
-      "prev_close": 26644.91,
+      "price": 26331.09,
+      "change": 41.38,
+      "change_pct": 0.16,
+      "volume": 7051514000,
+      "high": 26456.78,
+      "low": 26185.13,
+      "open": 26393.89,
+      "prev_close": 26289.71,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25495.07,
-      "change": 23.92,
-      "change_pct": 0.09,
-      "volume": 0,
-      "high": 25537.19,
-      "low": 25315.32,
-      "open": 25346.9,
-      "prev_close": 25471.15,
+      "price": 25471.15,
+      "change": 17.92,
+      "change_pct": 0.07,
+      "volume": 2716900000,
+      "high": 25518.03,
+      "low": 25240.62,
+      "open": 25368.87,
+      "prev_close": 25453.23,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-19"
+      "date": "2026-08-18"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -159,124 +159,129 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53343.4,
-      "change": -116.38,
-      "change_pct": -0.22,
-      "volume": 427990000,
-      "high": 53478.76,
-      "low": 53256.34,
-      "open": 53354.43,
-      "prev_close": 53459.78,
+      "price": 53463.05,
+      "change": 119.65,
+      "change_pct": 0.22,
+      "volume": 451465247,
+      "high": 53710.06,
+      "low": 53399.53,
+      "open": 53463.47,
+      "prev_close": 53343.4,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
       "52w_low": 44579.03,
-      "date": "2026-08-18"
+      "date": "2026-08-19"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "Target hikes outlook as sales rebound and huge tariff refund boosts bottom line",
+        "title": "Bessent moves to curb Treasury yields, putting new pressure on Warsh's Fed",
         "source": "CNBC Top",
-        "published": "2026-08-19 11:41",
-        "link": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html"
+        "published": "2026-08-19 20:02",
+        "link": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html"
       },
       {
-        "title": "Trump pauses 50% scheduled tariffs on Canada for three days, announces 'deal' with Ottawa",
+        "title": "Trump announces 'economic warfare' on Iran, threatens ‘tremendous’ consequences for its backers",
         "source": "CNBC Top",
-        "published": "2026-08-19 03:18",
-        "link": "https://www.cnbc.com/2026/08/18/trump-carney-canada-tariffs-dealine-talks.html"
+        "published": "2026-08-20 01:02",
+        "link": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html"
       },
       {
-        "title": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
+        "title": "Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains",
         "source": "CNBC Top",
-        "published": "2026-08-19 10:45",
-        "link": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html"
+        "published": "2026-08-20 00:30",
+        "link": "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html"
       },
       {
-        "title": "World’s largest olive oil company pops over 15% as rivals circle in takeover battle",
+        "title": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
         "source": "CNBC Top",
-        "published": "2026-08-19 09:48",
-        "link": "https://www.cnbc.com/2026/08/19/deoleo-takeover-battle-olive-oil-dcoop.html"
+        "published": "2026-08-19 23:57",
+        "link": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html"
       },
       {
-        "title": "Zelenskyy faces challenge to his wartime rule as former defense chief calls for election",
+        "title": "Getting in on single-stock futures? Watch for these potential tax surprises",
         "source": "CNBC Top",
-        "published": "2026-08-19 09:30",
-        "link": "https://www.cnbc.com/2026/08/19/ukraine-war-fedorov-zelenskky-election.html"
+        "published": "2026-08-19 19:59",
+        "link": "https://www.cnbc.com/2026/08/19/getting-in-on-single-stock-futures-watch-for-these-potential-tax-surprises.html"
       },
       {
-        "title": "Goldman studied where AI is squeezing labor markets. Here's what it found",
+        "title": "Inside India newsletter: Chip squeeze hits Chinese smartphones in India as Apple, Samsung gain an edge",
         "source": "CNBC Top",
-        "published": "2026-08-19 06:55",
-        "link": "https://www.cnbc.com/2026/08/19/goldman-ai-impact-employment-jobs.html"
+        "published": "2026-08-20 00:17",
+        "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html"
       },
       {
-        "title": "Car dealerships are relying more on parts and service for profits",
+        "title": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
         "source": "CNBC Top",
-        "published": "2026-08-19 11:00",
-        "link": "https://www.cnbc.com/2026/08/19/car-dealerships-parts-and-service.html"
+        "published": "2026-08-19 20:10",
+        "link": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html"
       },
       {
-        "title": "Weekly mortgage demand stalls along with interest rates, but rates are now moving higher again.",
+        "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
         "source": "CNBC Top",
-        "published": "2026-08-19 11:00",
-        "link": "https://www.cnbc.com/2026/08/19/mortgage-demand-stalls-along-with-interest-rates.html"
+        "published": "2026-08-19 20:07",
+        "link": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html"
       },
       {
-        "title": "Retail investors aren't entirely giving up on AI trade, but they appear more cautious",
+        "title": "Cramer on Treasury buying: People want to preserve the stock rally ‘in the worst way’",
         "source": "CNBC Top",
-        "published": "2026-08-19 11:09",
-        "link": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
+        "published": "2026-08-19 16:44",
+        "link": "https://www.cnbc.com/2026/08/19/cramer-on-treasury-buying-people-want-to-preserve-the-stock-rally-in-the-worst-way.html"
       },
       {
-        "title": "U.S. retreat from global order ‘eroding’ European competitiveness, central bank boss warns",
-        "source": "CNBC Tech",
-        "published": "2026-08-19 11:27",
-        "link": "https://www.cnbc.com/2026/08/19/lagarde-ecb-europe-economy-trump.html"
+        "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+        "source": "CNBC Top",
+        "published": "2026-08-19 21:29",
+        "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
       }
     ],
-    "qqq_intel": [
-      {
-        "title": "Analog Devices Tops Views On Strong Data Center, Industrial Chip Sales",
-        "source": "Yahoo Finance",
-        "published": "2026-08-19 11:56",
-        "link": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q3-2026-earnings/?src=A00220&yptr=yahoo"
-      }
-    ],
+    "qqq_intel": [],
     "tech": [],
     "market": [
       {
-        "title": "Stocks making the biggest moves premarket: Moderna, Lowe's, Estee Lauder & more",
+        "title": "Cancer vaccine from Moderna, Merck shows promise in late-stage trial; both stocks soar",
         "source": "CNBC Top",
-        "published": "2026-08-19 11:32",
-        "link": "https://www.cnbc.com/2026/08/19/stocks-making-the-biggest-moves-premarket-mrna-low-el.html"
+        "published": "2026-08-19 20:34",
+        "link": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html"
       },
       {
-        "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 23:39",
-        "link": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html"
+        "title": "Treasury doubles debt buybacks as Bessent moves to steady bond market",
+        "source": "CNBC Top",
+        "published": "2026-08-19 19:49",
+        "link": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html"
       },
       {
-        "title": "Looking for under-the-radar stocks? Cramer gives his take on 5 unfamiliar names",
-        "source": "CNBC Tech",
-        "published": "2026-08-17 23:24",
-        "link": "https://www.cnbc.com/2026/08/17/cramer-under-the-radar-stocks.html"
-      },
-      {
-        "title": "What Makes Alcon (ALC) a Bullish Bet?",
+        "title": "New Prediction Market Novig Sees $125 Million In Trading Volumes",
         "source": "Yahoo Finance",
-        "published": "2026-08-19 11:58",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/makes-alcon-alc-bullish-bet-115858989.html"
+        "published": "2026-08-18 13:36",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/prediction-market-novig-sees-125-133600488.html"
       },
       {
-        "title": "Multi Year Growth Runway Fuels Visa’s (V) Bullish Case",
+        "title": "International Flavors & Fragrances Stock Outlook: Is Wall Street Bullish or Bearish?",
         "source": "Yahoo Finance",
-        "published": "2026-08-19 11:49",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/multi-growth-runway-fuels-visa-114955075.html"
+        "published": "2026-08-18 13:48",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/international-flavors-fragrances-stock-outlook-134844348.html"
+      },
+      {
+        "title": "Global bond sell-off pressures stocks: AlphaCheck",
+        "source": "Yahoo Finance",
+        "published": "2026-08-18 13:50",
+        "link": "https://finance.yahoo.com/markets/article/global-bond-sell-off-pressures-stocks-alphacheck-135011383.html"
+      },
+      {
+        "title": "Zcash Fights Off Bears as Arthur Hayes’ $1K ZEC Price Target Looms",
+        "source": "Yahoo Finance",
+        "published": "2026-08-18 13:20",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/zcash-fights-off-bears-arthur-132033602.html"
+      },
+      {
+        "title": "US Treasury to boost long-term bond purchases in bid to steady market",
+        "source": "FT Markets",
+        "published": "2026-08-19 18:02",
+        "link": "https://www.ft.com/content/777c9014-2f12-45cf-8224-6bbe808c62cb?syn-25a6b1a6=1"
       },
       {
         "title": "The defence stocks aren’t defensive",
@@ -295,20 +300,10 @@
         "source": "WSJ Markets",
         "published": "2025-01-27 10:30",
         "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -319,20 +314,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
+    "mood": "calculated",
+    "emoji": "♟️💼",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
