@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T01:23:41.460388",
+  "timestamp": "2026-08-21T12:22:03.214239",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 741259149312,
+      "market_cap": 746921590784,
       "enterprise_value": 631768809472,
-      "pe_ratio": 20.28169,
-      "forward_pe": 18.499962,
+      "pe_ratio": 20.43662,
+      "forward_pe": 18.641281,
       "peg_ratio": 2.95,
-      "pb_ratio": 2.3989182,
-      "ps_ratio": 1.6919843,
+      "pb_ratio": 2.4172435,
+      "ps_ratio": 1.7049093,
       "ev_ebitda": 22.061,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -29,31 +29,31 @@
       "beta": 0.722,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 25.9732,
-      "200d_avg": 32.9689,
-      "analyst_target": 36.95172,
+      "50d_avg": 25.9844,
+      "200d_avg": 32.8905,
+      "analyst_target": 36.977097,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 28.8,
-      "ma5": 27.21,
-      "ma20": 27.77,
-      "ma60": 26.37,
+      "price": 29.02,
+      "ma5": 27.26,
+      "ma20": 27.78,
+      "ma60": 26.38,
       "ma120": 29.16,
-      "rsi_14": 56.0,
-      "macd": 0.129,
-      "ret_1w": 11.28,
-      "ret_1m": 6.12,
-      "ret_3m": -6.01,
-      "ret_6m": -17.53,
+      "rsi_14": 57.3,
+      "macd": 0.146,
+      "ret_1w": 12.13,
+      "ret_1m": 6.93,
+      "ret_3m": -5.29,
+      "ret_6m": -16.9,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -51.56,
-      "pct_from_52w_low": 34.45,
-      "volume_ratio": 0.86,
+      "pct_from_52w_high": -51.19,
+      "pct_from_52w_low": 35.48,
+      "volume_ratio": 0.87,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "MIXED"
@@ -71,8 +71,8 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25698.49,
-        "change_pct": 0.8
+        "price": 26009.46,
+        "change_pct": 1.21
       },
       "SPX": {
         "price": 7641.16,
