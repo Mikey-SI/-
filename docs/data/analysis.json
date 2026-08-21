@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T12:22:29.411431",
+  "timestamp": "2026-08-21T01:23:41.460388",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,14 +7,14 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 714491494400,
-      "enterprise_value": 623537160192,
-      "pe_ratio": 19.549297,
-      "forward_pe": 17.860823,
+      "market_cap": 741259149312,
+      "enterprise_value": 631768809472,
+      "pe_ratio": 20.28169,
+      "forward_pe": 18.499962,
       "peg_ratio": 2.95,
-      "pb_ratio": 2.3122907,
-      "ps_ratio": 1.6308849,
-      "ev_ebitda": 21.774,
+      "pb_ratio": 2.3989182,
+      "ps_ratio": 1.6919843,
+      "ev_ebitda": 22.061,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
       "gross_margins": 0.21392,
@@ -31,42 +31,42 @@
       "52w_low": 21.3,
       "50d_avg": 25.9732,
       "200d_avg": 32.9689,
-      "analyst_target": 36.977097,
+      "analyst_target": 36.95172,
       "recommendation": "buy"
     },
-    "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 27.76,
-      "ma5": 26.58,
-      "ma20": 27.66,
-      "ma60": 26.36,
-      "ma120": 29.22,
-      "rsi_14": 42.5,
-      "macd": -0.02,
-      "ret_1w": 8.35,
-      "ret_1m": 4.05,
-      "ret_3m": -9.46,
-      "ret_6m": -18.26,
+      "price": 28.8,
+      "ma5": 27.21,
+      "ma20": 27.77,
+      "ma60": 26.37,
+      "ma120": 29.16,
+      "rsi_14": 56.0,
+      "macd": 0.129,
+      "ret_1w": 11.28,
+      "ret_1m": 6.12,
+      "ret_3m": -6.01,
+      "ret_6m": -17.53,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -53.31,
-      "pct_from_52w_low": 29.6,
-      "volume_ratio": 0.88,
+      "pct_from_52w_high": -51.56,
+      "pct_from_52w_low": 34.45,
+      "volume_ratio": 0.86,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "MIXED"
     },
-    "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim3_sentiment": {
     "article_count": 0,
     "headlines": [],
-    "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim4_competitive": {
-    "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim5_macro": {
     "indices": {
@@ -75,21 +75,21 @@
         "change_pct": 0.8
       },
       "SPX": {
-        "price": 7707.98,
-        "change_pct": 0.21
+        "price": 7641.16,
+        "change_pct": -0.87
       },
       "USD/CNH": {
         "price": 6.72,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.65,
-        "change_pct": -1.13
+        "price": 4.7,
+        "change_pct": 0.92
       }
     },
-    "analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "final_verdict": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "final_verdict": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "pair_direction": "short",
   "top_candidates": [
     {
@@ -106,11 +106,6 @@
       "name": "理想汽车-HK",
       "ticker": "2015.HK",
       "score": 60.0
-    },
-    {
-      "name": "汇顶科技",
-      "ticker": "603160.SS",
-      "score": 58.0
     },
     {
       "name": "蔚来-HK",
@@ -141,7 +136,12 @@
       "name": "商汤",
       "ticker": "0020.HK",
       "score": 45.0
+    },
+    {
+      "name": "零跑汽车",
+      "ticker": "9863.HK",
+      "score": 45.0
     }
   ],
-  "pair_recommendation": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+  "pair_recommendation": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
 }

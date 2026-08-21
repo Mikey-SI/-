@@ -1,126 +1,126 @@
 {
-  "timestamp": "2026-08-20T12:21:58.140466",
+  "timestamp": "2026-08-21T01:23:11.708186",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.76,
-      "change": 0.32,
-      "change_pct": 1.17,
-      "volume": 178685584,
+      "price": 28.8,
+      "change": 1.04,
+      "change_pct": 3.75,
+      "volume": 178680184,
       "high": 28.64,
       "low": 27.5,
       "open": 27.78,
-      "prev_close": 27.44,
-      "market_cap": 714491494400,
-      "pe_ratio": 19.549297,
+      "prev_close": 27.76,
+      "market_cap": 741259149312,
+      "pe_ratio": 20.28169,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-20"
+      "date": "2026-08-21"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.08,
-      "change": -1.43,
-      "change_pct": -0.2,
-      "volume": 35653500,
-      "high": 721.5,
-      "low": 712.61,
-      "open": 720.39,
-      "prev_close": 717.51,
+      "price": 710.93,
+      "change": -5.15,
+      "change_pct": -0.72,
+      "volume": 33271359,
+      "high": 714.94,
+      "low": 708.52,
+      "open": 712.28,
+      "prev_close": 716.08,
       "market_cap": "N/A",
-      "pe_ratio": 30.619738,
+      "pe_ratio": 30.399523,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 92.8,
-      "change": -3.89,
-      "change_pct": -4.02,
-      "volume": 109605300,
-      "high": 98.2,
-      "low": 91.28,
-      "open": 97.41,
-      "prev_close": 96.69,
-      "market_cap": 490550558720,
+      "price": 92.13,
+      "change": -0.67,
+      "change_pct": -0.72,
+      "volume": 85370362,
+      "high": 92.68,
+      "low": 89.85,
+      "open": 91.91,
+      "prev_close": 92.8,
+      "market_cap": 487008862208,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 22.78,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 484.31,
-      "change": 2.68,
-      "change_pct": 0.56,
-      "volume": 19885600,
-      "high": 489.3,
-      "low": 479.36,
-      "open": 480.07,
-      "prev_close": 481.63,
-      "market_cap": 3596265979904,
-      "pe_ratio": 26.95103,
+      "price": 481.15,
+      "change": -2.25,
+      "change_pct": -0.47,
+      "volume": 20003604,
+      "high": 484.16,
+      "low": 479.5,
+      "open": 483.0,
+      "prev_close": 483.4,
+      "market_cap": 3572801208320,
+      "pe_ratio": 26.955181,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 71757.6,
-      "change": 2491.41,
-      "change_pct": 3.6,
-      "volume": 68951302144,
-      "high": 72297.63,
-      "low": 68932.98,
-      "open": 69289.44,
+      "price": 74287.62,
+      "change": 5021.43,
+      "change_pct": 7.25,
+      "volume": 55703339008,
+      "high": 74644.19,
+      "low": 73013.0,
+      "open": 73013.0,
       "prev_close": 69266.19,
-      "market_cap": 1439304122368,
+      "market_cap": 1498222034944,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-20"
+      "date": "2026-08-21"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7707.98,
-      "change": 16.22,
-      "change_pct": 0.21,
-      "volume": 5184100000,
-      "high": 7743.93,
-      "low": 7700.07,
-      "open": 7716.74,
-      "prev_close": 7691.76,
+      "price": 7641.16,
+      "change": -66.82,
+      "change_pct": -0.87,
+      "volume": 2706581000,
+      "high": 7699.96,
+      "low": 7639.01,
+      "open": 7690.49,
+      "prev_close": 7707.98,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26331.09,
-      "change": 41.38,
-      "change_pct": 0.16,
-      "volume": 8173140000,
-      "high": 26456.78,
-      "low": 26185.13,
-      "open": 26393.89,
-      "prev_close": 26289.71,
+      "price": 26067.17,
+      "change": -263.92,
+      "change_pct": -1.0,
+      "volume": 7244638000,
+      "high": 26263.47,
+      "low": 26023.12,
+      "open": 26211.52,
+      "prev_close": 26331.09,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     },
     "恒生指数": {
       "ticker": "^HSI",
@@ -128,7 +128,7 @@
       "price": 25698.49,
       "change": 203.42,
       "change_pct": 0.8,
-      "volume": 0,
+      "volume": 3777000000,
       "high": 25842.91,
       "low": 25632.39,
       "open": 25779.08,
@@ -159,86 +159,93 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53463.05,
-      "change": 119.65,
-      "change_pct": 0.22,
-      "volume": 451460000,
-      "high": 53710.06,
-      "low": 53399.53,
-      "open": 53463.47,
-      "prev_close": 53343.4,
+      "price": 52759.21,
+      "change": -703.84,
+      "change_pct": -1.32,
+      "volume": 445163800,
+      "high": 53381.22,
+      "low": 52754.9,
+      "open": 53381.22,
+      "prev_close": 53463.05,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
       "52w_low": 44579.03,
-      "date": "2026-08-19"
+      "date": "2026-08-20"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "Walmart hikes full-year outlook, says it will use huge tariff refund to keep prices low",
+        "title": "AI data center outrage is showing up everywhere from ads to elections",
         "source": "CNBC Top",
-        "published": "2026-08-20 12:05",
-        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
+        "published": "2026-08-20 15:56",
+        "link": "https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html"
+      },
+      {
+        "title": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
+        "source": "CNBC Top",
+        "published": "2026-08-20 21:53",
+        "link": "https://www.cnbc.com/2026/08/20/bessent-warsh-fed-bond-market-treasury-yields.html"
+      },
+      {
+        "title": "Wall Street loves these high-yielding AI bonds. What income investors should know",
+        "source": "CNBC Top",
+        "published": "2026-08-20 19:21",
+        "link": "https://www.cnbc.com/2026/08/20/wall-street-loves-these-high-yielding-ai-bonds-what-income-investors-should-know-.html"
+      },
+      {
+        "title": "Japan headline inflation rate hits highest this year as energy prices bite",
+        "source": "CNBC Top",
+        "published": "2026-08-21 00:22",
+        "link": "https://www.cnbc.com/2026/08/21/japan-inflation-iran-war-energy.html"
+      },
+      {
+        "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+        "source": "CNBC Top",
+        "published": "2026-08-20 21:13",
+        "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html"
+      },
+      {
+        "title": "Hyundai considering U.S. production increase at new Georgia plant, CEO tells CNBC",
+        "source": "CNBC Top",
+        "published": "2026-08-20 21:54",
+        "link": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html"
       },
       {
         "title": "How Micron's $50 billion Boise buildout is reshaping its hometown",
         "source": "CNBC Top",
-        "published": "2026-08-20 11:00",
+        "published": "2026-08-20 16:07",
         "link": "https://www.cnbc.com/2026/08/20/micron-boise-chip-fab-expansion.html"
       },
       {
-        "title": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers",
-        "source": "CNBC Top",
-        "published": "2026-08-20 09:30",
-        "link": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html"
+        "title": "Micron CEO: AI has 'totally changed' the equation for the boom-and-bust memory industry",
+        "source": "CNBC Tech",
+        "published": "2026-08-20 22:51",
+        "link": "https://www.cnbc.com/2026/08/20/micron-ceo-ai-changed-memory-industry.html"
       },
       {
-        "title": "Merck is a buy as strong cancer drug pipeline offsets Keytruda patent expiration, Morgan Stanley says",
-        "source": "CNBC Top",
-        "published": "2026-08-20 12:01",
-        "link": "https://www.cnbc.com/2026/08/20/merck-is-finding-more-ways-to-boost-its-shares-morgan-stanley-says.html"
+        "title": "Jim Cramer says there's an 'incredibly jarring gulf between stock prices and reality'",
+        "source": "CNBC Tech",
+        "published": "2026-08-20 22:28",
+        "link": "https://www.cnbc.com/2026/08/20/jim-cramer-jarring-gulf-stock-prices-reality.html"
       },
       {
-        "title": "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
-        "source": "CNBC Top",
-        "published": "2026-08-20 11:59",
-        "link": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html"
-      },
-      {
-        "title": "Call-buying bonanza around Trump's Hyperliquid comments includes some eyebrow-raising trades",
-        "source": "CNBC Top",
-        "published": "2026-08-19 23:57",
-        "link": "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html"
-      },
-      {
-        "title": "Trump touted a deal to avert new tariffs on Canada. Here's what we know so far",
-        "source": "CNBC Top",
-        "published": "2026-08-19 20:10",
-        "link": "https://www.cnbc.com/2026/08/19/trump-canada-tariffs-deal-carney.html"
-      },
-      {
-        "title": "Hyundai's new flagship vehicle is a large luxury Genesis EV",
-        "source": "CNBC Top",
-        "published": "2026-08-20 03:14",
-        "link": "https://www.cnbc.com/2026/08/19/hyundai-luxury-genesis-ev.html"
-      },
-      {
-        "title": "Alibaba shares fall 3% as AI spending drives 75% drop in net income",
-        "source": "CNBC Top",
-        "published": "2026-08-20 11:14",
-        "link": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html"
-      },
-      {
-        "title": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-        "source": "CNBC Top",
-        "published": "2026-08-19 21:29",
-        "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+        "title": "The Treasury's debt buyback, Walmart earnings, Boise's AI boom and more in Morning Squawk",
+        "source": "CNBC Tech",
+        "published": "2026-08-20 12:29",
+        "link": "https://www.cnbc.com/2026/08/20/5-things-to-know-before-the-stock-market-opens.html"
       }
     ],
-    "qqq_intel": [],
+    "qqq_intel": [
+      {
+        "title": "Deflated Microchip Technology Stock Could Target a Contrarian Move to $85",
+        "source": "Yahoo Finance",
+        "published": "2026-08-19 13:42",
+        "link": "https://finance.yahoo.com/markets/options/articles/deflated-microchip-technology-stock-could-134240950.html"
+      }
+    ],
     "tech": [
       {
         "title": "Europe, the secret outperformer",
@@ -249,52 +256,40 @@
     ],
     "market": [
       {
-        "title": "Dow futures drop 300 points as Treasury yields reverse Bessent-driven decline, Walmart tumbles: Live updates",
+        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC Top",
-        "published": "2026-08-20 12:17",
-        "link": "https://www.cnbc.com/2026/08/19/stock-market-today-live-updates.html"
+        "published": "2026-08-20 20:01",
+        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
       },
       {
-        "title": "Stocks making the biggest moves premarket: Walmart, Coinbase, Moderna, Alibaba & more",
+        "title": "CFTC’s Innovation Advisory Committee meeting addresses emerging prediction market risks",
         "source": "CNBC Top",
-        "published": "2026-08-20 12:06",
-        "link": "https://www.cnbc.com/2026/08/20/stocks-making-the-biggest-moves-premarket-.html"
+        "published": "2026-08-21 00:45",
+        "link": "https://www.cnbc.com/2026/08/20/cftcs-committee-meeting-addresses-prediction-market-risks.html"
       },
       {
-        "title": "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings",
+        "title": "Robinhood CEO Calls On U.S. To Approve Tokenized Stocks",
         "source": "Yahoo Finance",
-        "published": "2026-08-20 11:49",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-bitcoin-jump-walmart-earnings/?src=A00220&yptr=yahoo"
+        "published": "2026-08-19 13:20",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/robinhood-ceo-calls-u-approve-132000671.html"
       },
       {
-        "title": "After Moderna stock surge of 177% on cancer drug breakthrough, here's what Wall Street thinks happens next",
+        "title": "Do Wall Street Analysts Like Dover Stock?",
         "source": "Yahoo Finance",
-        "published": "2026-08-20 09:10",
-        "link": "https://finance.yahoo.com/healthcare/article/after-moderna-stock-surge-of-177-on-cancer-drug-breakthrough-heres-what-wall-street-thinks-happens-next-091040601.html"
+        "published": "2026-08-19 13:36",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-dover-stock-133600053.html"
       },
       {
-        "title": "Here Are Thursday’s Top Wall Street Analyst Research Calls: Alphabet, Analog Devices, Crown Castle, Ebay, EPR Properties, Etsy, Merck & Co., Shopify, TJX Companies, and More",
-        "source": "Yahoo Finance",
-        "published": "2026-08-20 12:01",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/thursday-top-wall-street-analyst-120139380.html"
+        "title": "What is Bessent doing with the $32tn Treasury market — and will it work?",
+        "source": "FT Markets",
+        "published": "2026-08-20 23:08",
+        "link": "https://www.ft.com/content/14b25583-c64d-4a97-9f6d-359908638e28?syn-25a6b1a6=1"
       },
       {
         "title": "Singapore police look into iron ore trader Radiant World",
         "source": "FT Markets",
         "published": "2026-08-20 04:39",
         "link": "https://www.ft.com/content/91e95fcd-00ac-45d0-a4cf-a28a941f8a2c?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Private equity’s escapades in the legal market",
-        "source": "FT Markets",
-        "published": "2026-08-20 04:00",
-        "link": "https://www.ft.com/content/65d1e0f3-f056-49dc-907a-b76a7f2794c8?syn-25a6b1a6=1"
-      },
-      {
-        "title": "US Treasury tries to soothe the bond market",
-        "source": "FT Markets",
-        "published": "2026-08-20 04:00",
-        "link": "https://www.ft.com/content/4c345a70-24d4-451f-8423-68eb32b3b654?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -311,30 +306,34 @@
     ]
   },
   "sentiment": {
+    "qqq_intel": {
+      "overall_sentiment": "unknown",
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "briefing": "AI Analysis Error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "calm",
-    "emoji": "😌☕",
-    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
-    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
-    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
-    "vibe": "Peaceful mind, clear analysis"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "bored",
-    "emoji": "🥱🕰️",
+    "mood": "calculated",
+    "emoji": "♟️💼",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "dismissive of retail traders, highly selective, looking for real setups",
-    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
