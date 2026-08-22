@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T01:18:54.160201",
+  "timestamp": "2026-08-22T12:15:30.609791",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -24,9 +24,9 @@
       "price": 713.44,
       "change": 2.51,
       "change_pct": 0.35,
-      "volume": 33084596,
+      "volume": 33297600,
       "high": 715.67,
-      "low": 709.21,
+      "low": 709.2,
       "open": 715.23,
       "prev_close": 710.93,
       "market_cap": "N/A",
@@ -41,15 +41,15 @@
       "price": 90.07,
       "change": -2.06,
       "change_pct": -2.24,
-      "volume": 90790387,
+      "volume": 91192100,
       "high": 92.77,
       "low": 89.75,
-      "open": 92.77,
+      "open": 92.71,
       "prev_close": 92.13,
       "market_cap": 476119498752,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
-      "52w_low": 23.65,
+      "52w_low": 23.68,
       "date": "2026-08-21"
     },
     "微软": {
@@ -58,7 +58,7 @@
       "price": 483.24,
       "change": 2.09,
       "change_pct": 0.43,
-      "volume": 21856586,
+      "volume": 22489200,
       "high": 486.36,
       "low": 478.53,
       "open": 479.88,
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78013.17,
-      "change": 4980.41,
-      "change_pct": 6.82,
-      "volume": 73280937984,
-      "high": 78326.97,
-      "low": 77818.71,
+      "price": 77229.73,
+      "change": -1105.46,
+      "change_pct": -1.41,
+      "volume": 60361863168,
+      "high": 78767.34,
+      "low": 76628.17,
       "open": 78326.97,
-      "prev_close": 73032.76,
-      "market_cap": 1568522764288,
+      "prev_close": 78335.19,
+      "market_cap": 1550186184704,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -94,7 +94,7 @@
       "price": 7674.37,
       "change": 33.21,
       "change_pct": 0.43,
-      "volume": 2737363000,
+      "volume": 4497270000,
       "high": 7697.11,
       "low": 7660.06,
       "open": 7665.68,
@@ -111,10 +111,10 @@
       "price": 26180.46,
       "change": 113.29,
       "change_pct": 0.43,
-      "volume": 6318725000,
+      "volume": 7410100000,
       "high": 26269.85,
       "low": 26049.29,
-      "open": 26198.83,
+      "open": 26198.84,
       "prev_close": 26067.17,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -153,7 +153,7 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4628.9995,
-      "52w_low": 3458.44,
+      "52w_low": 4579.2607,
       "date": "2026-08-21"
     },
     "道琼斯": {
@@ -162,7 +162,7 @@
       "price": 53277.01,
       "change": 517.8,
       "change_pct": 0.98,
-      "volume": 424065337,
+      "volume": 424060000,
       "high": 53355.92,
       "low": 52768.87,
       "open": 52768.87,
@@ -177,6 +177,18 @@
   "news": {
     "xiaomi": [],
     "macro": [
+      {
+        "title": "U.S., Canada fail to reach a tariff deal, deepening trade war",
+        "source": "CNBC Top",
+        "published": "2026-08-22 11:52",
+        "link": "https://www.cnbc.com/2026/08/21/us-canada-fail-to-reach-a-tariff-deal-deepen-trade-war.html"
+      },
+      {
+        "title": "Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon",
+        "source": "CNBC Top",
+        "published": "2026-08-22 11:27",
+        "link": "https://www.cnbc.com/2026/08/22/ukrainian-drones-hit-warehouse-of-russian-online-retailer-ozon.html"
+      },
       {
         "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
         "source": "CNBC Top",
@@ -202,30 +214,6 @@
         "link": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html"
       },
       {
-        "title": "Pentagon fires U.S. military newspaper leadership",
-        "source": "CNBC Top",
-        "published": "2026-08-22 00:05",
-        "link": "https://www.cnbc.com/2026/08/21/pentagon-fires-us-military-newspaper-leadership.html"
-      },
-      {
-        "title": "Boeing engineers, technical workers reject contract offer",
-        "source": "CNBC Top",
-        "published": "2026-08-21 21:51",
-        "link": "https://www.cnbc.com/2026/08/21/boeing-engineers-technical-workers-reject-contract-offer.html"
-      },
-      {
-        "title": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms",
-        "source": "CNBC Top",
-        "published": "2026-08-21 21:31",
-        "link": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html"
-      },
-      {
-        "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
-        "source": "CNBC Top",
-        "published": "2026-08-21 22:35",
-        "link": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html"
-      },
-      {
         "title": "Broadcom debt deal expected to reach upwards of $70 billion, sources say",
         "source": "CNBC Tech",
         "published": "2026-08-21 15:59",
@@ -236,23 +224,53 @@
         "source": "CNBC Tech",
         "published": "2026-08-21 14:44",
         "link": "https://www.cnbc.com/2026/08/21/4-memory-stocks-are-darlings-of-the-ai-boom-how-they-differ-and-why-we-own-micron.html"
+      },
+      {
+        "title": "New York unseats San Francisco as the top market for tech talent, CBRE reports",
+        "source": "CNBC Tech",
+        "published": "2026-08-21 10:36",
+        "link": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html"
+      },
+      {
+        "title": "Micron CEO: AI has 'totally changed' the equation for the boom-and-bust memory industry",
+        "source": "CNBC Tech",
+        "published": "2026-08-20 22:51",
+        "link": "https://www.cnbc.com/2026/08/20/micron-ceo-ai-changed-memory-industry.html"
       }
     ],
     "qqq_intel": [],
     "tech": [
       {
-        "title": "Neocloud stocks like CoreWeave are having a moment — and time’s running out to cash in",
-        "source": "Yahoo Finance",
-        "published": "2026-08-20 18:20",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/neocloud-stocks-coreweave-having-moment-182000679.html"
+        "title": "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers",
+        "source": "CNBC Top",
+        "published": "2026-08-22 12:12",
+        "link": "https://www.cnbc.com/2026/08/22/meet-yvonne-gonzalez-rogers-judge-taking-on-meta.html"
+      },
+      {
+        "title": "Klarna’s stock crash shows the price of being a small fish in a big pond",
+        "source": "FT Markets",
+        "published": "2026-08-22 04:00",
+        "link": "https://www.ft.com/content/73755e41-8a6d-4fb4-9f4e-5d768450fc54?syn-25a6b1a6=1"
+      },
+      {
+        "title": "EU slips further behind US in race for critical minerals",
+        "source": "FT Markets",
+        "published": "2026-08-22 04:00",
+        "link": "https://www.ft.com/content/c6220205-ee40-4b71-95c0-d53399a17cd1?syn-25a6b1a6=1"
       }
     ],
     "market": [
       {
-        "title": "Dow surges 500 points Friday, but index posts back-to-back weekly losses",
+        "title": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
         "source": "CNBC Top",
-        "published": "2026-08-21 22:53",
-        "link": "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html"
+        "published": "2026-08-22 12:06",
+        "link": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html"
+      },
+      {
+        "title": "Six investors reveal the biggest market risks — and one strategy they agree on",
+        "source": "CNBC Top",
+        "published": "2026-08-22 05:00",
+        "link": "https://www.cnbc.com/2026/08/22/investors-market-risks-diversification-stocks-kospi.html"
       },
       {
         "title": "Big week coming up with PCE, Nvidia earnings and then Jackson Hole. Here's what to expect",
@@ -261,46 +279,46 @@
         "link": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html"
       },
       {
-        "title": "The Biggest Players in a $500 Billion Market Are Exiting. Here’s Why Costco Just Entered.",
-        "source": "Yahoo Finance",
-        "published": "2026-08-20 18:30",
-        "link": "https://finance.yahoo.com/healthcare/articles/biggest-players-500-billion-market-183044850.html"
+        "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
+        "source": "CNBC Top",
+        "published": "2026-08-21 20:05",
+        "link": "https://www.cnbc.com/2026/08/21/treasury-yields-bonds-inflation-rates.html"
       },
       {
-        "title": "Bitcoin Forms Bullish ‘Golden Cross’ Chart Pattern",
+        "title": "Palantir, Freeport Break Out, Lead Five Stocks Near Buy Points",
         "source": "Yahoo Finance",
-        "published": "2026-08-20 18:44",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-forms-bullish-golden-cross-184400121.html"
+        "published": "2026-08-22 12:00",
+        "link": "https://www.investors.com/news/palantir-stock-freeport-mcmoran-stocks-near-buy-points/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Morning Bid: Big, bad bond market",
+        "source": "Yahoo Finance",
+        "published": "2026-08-21 10:34",
+        "link": "https://finance.yahoo.com/economy/policy/articles/morning-bid-big-bad-bond-103411837.html"
+      },
+      {
+        "title": "Bank of America strategist warns market just flashed a 2000 dot-com bubble signal. Here’s how to protect your portfolio",
+        "source": "Yahoo Finance",
+        "published": "2026-08-21 10:15",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-strategist-warns-market-101500180.html"
+      },
+      {
+        "title": "Bossing the bond market around never works",
+        "source": "FT Markets",
+        "published": "2026-08-22 04:00",
+        "link": "https://www.ft.com/content/b9e7a620-1018-4004-a3b0-3c85d494d21d?syn-25a6b1a6=1"
+      },
+      {
+        "title": "How Germany’s doctors, lawyers and dentists got burnt by private markets bets",
+        "source": "FT Markets",
+        "published": "2026-08-22 04:00",
+        "link": "https://www.ft.com/content/00342102-98ee-47a7-b2cf-7878b9131afd?syn-25a6b1a6=1"
       },
       {
         "title": "Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar",
         "source": "FT Markets",
         "published": "2026-08-21 21:46",
         "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Apollo says hackers accessed personal data in latest Wall Street breach",
-        "source": "FT Markets",
-        "published": "2026-08-21 16:15",
-        "link": "https://www.ft.com/content/ac3f252d-bd49-4340-8565-f27a29652759?syn-25a6b1a6=1"
-      },
-      {
-        "title": "How money-market funds are providing stock market rocket fuel",
-        "source": "FT Markets",
-        "published": "2026-08-21 05:00",
-        "link": "https://www.ft.com/content/a079e741-9104-4557-8772-470fe12f46ba"
-      },
-      {
-        "title": "Chinese Investors With Few Options Turn to Dividends",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 10:30",
-        "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
@@ -315,20 +333,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "happy",
-    "emoji": "😊☀️",
-    "greeting": "Good vibes today! 今天心情不错~",
-    "tone": "warm, optimistic, friendly with occasional humor",
-    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
-    "vibe": "Feeling good, sipping my coffee with a smile"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "calculated",
-    "emoji": "♟️💼",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "analytical, sharp, professional, slightly arrogant",
-    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
