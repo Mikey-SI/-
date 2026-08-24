@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T12:16:17.247548",
+  "timestamp": "2026-08-24T01:23:50.104819",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 746921590784,
+      "market_cap": 746406805504,
       "enterprise_value": 664180948992,
-      "pe_ratio": 20.43662,
-      "forward_pe": 18.619623,
+      "pe_ratio": 20.422535,
+      "forward_pe": 18.60679,
       "peg_ratio": 3.09,
-      "pb_ratio": 2.373185,
-      "ps_ratio": 1.7049093,
+      "pb_ratio": 2.3715494,
+      "ps_ratio": 1.7037343,
       "ev_ebitda": 23.193,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -31,32 +31,32 @@
       "52w_low": 21.3,
       "50d_avg": 26.0384,
       "200d_avg": 32.8244,
-      "analyst_target": 36.498528,
+      "analyst_target": 36.495396,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 29.02,
-      "ma5": 27.26,
-      "ma20": 27.78,
+      "price": 29.0,
+      "ma5": 27.88,
+      "ma20": 27.79,
       "ma60": 26.38,
-      "ma120": 29.16,
-      "rsi_14": 57.3,
-      "macd": 0.146,
-      "ret_1w": 12.13,
-      "ret_1m": 6.93,
-      "ret_3m": -5.29,
-      "ret_6m": -16.9,
+      "ma120": 29.11,
+      "rsi_14": 57.1,
+      "macd": 0.273,
+      "ret_1w": 10.77,
+      "ret_1m": 8.53,
+      "ret_3m": -3.78,
+      "ret_6m": -17.57,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -51.19,
-      "pct_from_52w_low": 35.48,
-      "volume_ratio": 0.87,
+      "pct_from_52w_high": -51.22,
+      "pct_from_52w_low": 35.39,
+      "volume_ratio": 0.89,
       "above_ma20": true,
       "above_ma60": true,
-      "trend": "MIXED"
+      "trend": "UP"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
@@ -135,7 +135,7 @@
     {
       "name": "商汤",
       "ticker": "0020.HK",
-      "score": 45.0
+      "score": 50.0
     },
     {
       "name": "零跑汽车",
