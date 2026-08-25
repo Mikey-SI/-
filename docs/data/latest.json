@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-25T01:20:28.400685",
+  "timestamp": "2026-08-25T12:22:55.973718",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.58,
-      "change": -0.24,
-      "change_pct": -0.86,
-      "volume": 158055822,
-      "high": 28.84,
-      "low": 27.54,
-      "open": 28.6,
+      "price": 27.76,
+      "change": -0.06,
+      "change_pct": -0.22,
+      "volume": 81490138,
+      "high": 28.48,
+      "low": 27.64,
+      "open": 28.32,
       "prev_close": 27.82,
-      "market_cap": 709858623488,
-      "pe_ratio": 19.422535,
+      "market_cap": 714453549056,
+      "pe_ratio": 19.549297,
       "52w_high": 59.9,
       "52w_low": 21.3,
       "date": "2026-08-25"
@@ -24,10 +24,10 @@
       "price": 706.32,
       "change": -7.12,
       "change_pct": -1.0,
-      "volume": 37094975,
+      "volume": 37344900,
       "high": 709.79,
       "low": 702.7,
-      "open": 709.62,
+      "open": 709.66,
       "prev_close": 713.44,
       "market_cap": "N/A",
       "pe_ratio": 30.202398,
@@ -41,10 +41,10 @@
       "price": 87.26,
       "change": -2.81,
       "change_pct": -3.12,
-      "volume": 96389505,
+      "volume": 96590600,
       "high": 88.91,
       "low": 85.14,
-      "open": 88.68,
+      "open": 88.86,
       "prev_close": 90.07,
       "market_cap": 461265534976,
       "pe_ratio": "N/A",
@@ -58,13 +58,13 @@
       "price": 487.31,
       "change": 4.07,
       "change_pct": 0.84,
-      "volume": 16754809,
+      "volume": 17216300,
       "high": 490.61,
       "low": 481.86,
-      "open": 483.2,
+      "open": 483.21,
       "prev_close": 483.24,
       "market_cap": 3618542714880,
-      "pe_ratio": 26.952986,
+      "pe_ratio": 27.17847,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-08-24"
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 79725.25,
-      "change": 1969.98,
-      "change_pct": 2.53,
-      "volume": 56485834752,
-      "high": 79935.75,
+      "price": 78835.37,
+      "change": -129.12,
+      "change_pct": -0.16,
+      "volume": 60881518592,
+      "high": 81023.41,
       "low": 78769.96,
       "open": 78982.27,
-      "prev_close": 77755.27,
-      "market_cap": 1596634038272,
+      "prev_close": 78964.48,
+      "market_cap": 1584583671808,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -94,7 +94,7 @@
       "price": 7652.86,
       "change": -21.51,
       "change_pct": -0.28,
-      "volume": 2488280000,
+      "volume": 4400800000,
       "high": 7670.3,
       "low": 7638.17,
       "open": 7663.38,
@@ -111,7 +111,7 @@
       "price": 25980.19,
       "change": -200.27,
       "change_pct": -0.76,
-      "volume": 6449341000,
+      "volume": 7318150000,
       "high": 26109.96,
       "low": 25910.82,
       "open": 26065.32,
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 26009.46,
-      "change": 310.97,
-      "change_pct": 1.21,
-      "volume": 3350100000,
-      "high": 26009.46,
-      "low": 25807.61,
-      "open": 25807.61,
-      "prev_close": 25698.49,
+      "price": 25511.1,
+      "change": -6.23,
+      "change_pct": -0.02,
+      "volume": 0,
+      "high": 25676.77,
+      "low": 25403.44,
+      "open": 25634.22,
+      "prev_close": 25517.33,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-21"
+      "date": "2026-08-25"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4563.13,
+      "price": 4552.03,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3481818016,
-      "high": 4621.39,
-      "low": 4527.49,
-      "open": 4620.95,
-      "prev_close": 4563.13,
+      "volume": 4266114912,
+      "high": 4573.38,
+      "low": 4523.02,
+      "open": 4542.24,
+      "prev_close": 4552.03,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4621.389,
-      "52w_low": 4527.4873,
-      "date": "2026-08-24"
+      "52w_high": 4573.378,
+      "52w_low": 4523.023,
+      "date": "2026-08-25"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -162,7 +162,7 @@
       "price": 53417.16,
       "change": 140.15,
       "change_pct": 0.26,
-      "volume": 416038344,
+      "volume": 416030000,
       "high": 53508.18,
       "low": 53261.95,
       "open": 53261.95,
@@ -178,68 +178,74 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Stock futures are flat as investors await Nvidia earnings, inflation report due later this week: Live updates",
+        "title": "Dick's Sporting Goods stock falls 15% as retailer misses expectations, cites 'challenging' footwear market",
         "source": "CNBC Top",
-        "published": "2026-08-25 00:09",
+        "published": "2026-08-25 11:41",
+        "link": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+      },
+      {
+        "title": "Trump targets Iran’s trade lifelines — here are the countries most exposed",
+        "source": "CNBC Top",
+        "published": "2026-08-25 06:24",
+        "link": "https://www.cnbc.com/2026/08/25/us-iran-secondary-sanctions-china-india-uae-hormuz-trade-.html"
+      },
+      {
+        "title": "United Airlines adds 2027 flights spanning Sardinia to Okinawa. Here's what it says about travel today",
+        "source": "CNBC Top",
+        "published": "2026-08-25 11:32",
+        "link": "https://www.cnbc.com/2026/08/25/united-airlines-2027-international-routes.html"
+      },
+      {
+        "title": "Stock futures rise as Treasury yields decline, chipmakers gain ahead of Nvidia earnings: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-08-25 12:11",
         "link": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html"
       },
       {
-        "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+        "title": "Buy this semiconductor stock that could soon overtake Intel in CPU market, Raymond James says",
         "source": "CNBC Top",
-        "published": "2026-08-24 23:27",
-        "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html"
+        "published": "2026-08-25 10:53",
+        "link": "https://www.cnbc.com/2026/08/25/this-semiconductor-stock-could-soon-overtake-intel-raymond-james-says.html"
       },
       {
-        "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-        "source": "CNBC Top",
-        "published": "2026-08-24 13:17",
-        "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
+        "title": "OpenAI bans Russian ChatGPT accounts used in covert misinformation campaign",
+        "source": "CNBC Tech",
+        "published": "2026-08-25 11:21",
+        "link": "https://www.cnbc.com/2026/08/25/openai-russia-chatgpt-influence-campaign.html"
       },
       {
-        "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
-        "source": "CNBC Top",
-        "published": "2026-08-24 23:48",
-        "link": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html"
+        "title": "Jim Cramer says the data center trade is under attack. Here’s who could benefit",
+        "source": "CNBC Tech",
+        "published": "2026-08-24 22:31",
+        "link": "https://www.cnbc.com/2026/08/24/cramer-data-center-trade-under-attack-who-could-benefit.html"
       },
       {
-        "title": "Mark Walter's TWG Global hires Goldman veteran Markowitz as top lawyer amid probe of insurers",
-        "source": "CNBC Top",
-        "published": "2026-08-24 23:16",
-        "link": "https://www.cnbc.com/2026/08/24/mark-walter-twg-david-markowitz-goldman-federal-probe.html"
+        "title": "Jim Cramer says don't sell Meta on litigation risk — the stock is worth the wait",
+        "source": "CNBC Tech",
+        "published": "2026-08-24 20:15",
+        "link": "https://www.cnbc.com/2026/08/24/jim-cramer-says-dont-sell-meta-on-litigation-risk-the-stock-is-worth-the-wait.html"
       },
       {
-        "title": "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'",
-        "source": "CNBC Top",
-        "published": "2026-08-24 15:45",
-        "link": "https://www.cnbc.com/2026/08/24/trump-canada-trade-tariffs-greer.html"
+        "title": "Nvidia says Groq racks will be online this year following $20 billion purchase",
+        "source": "CNBC Tech",
+        "published": "2026-08-24 17:19",
+        "link": "https://www.cnbc.com/2026/08/24/nvidia-says-groq-racks-will-be-online-this-year-after-20-billion-deal.html"
       },
       {
-        "title": "Supreme Court allows some Trump vote-by-mail limits ahead of midterm election",
-        "source": "CNBC Top",
-        "published": "2026-08-24 21:38",
-        "link": "https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html"
-      },
-      {
-        "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
-        "source": "CNBC Top",
-        "published": "2026-08-24 11:51",
-        "link": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html"
-      },
-      {
-        "title": "United's next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
-        "source": "CNBC Top",
-        "published": "2026-08-23 12:00",
-        "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html"
-      },
-      {
-        "title": "Here's what Jim Cramer says stock investors need to know about the bond market",
-        "source": "CNBC Top",
-        "published": "2026-08-24 22:40",
-        "link": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html"
+        "title": "Goldman Sachs partner warns of 'huge danger' in letting AI replace bankers' reasoning skills",
+        "source": "CNBC Tech",
+        "published": "2026-08-24 15:50",
+        "link": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html"
       }
     ],
     "qqq_intel": [],
     "tech": [
+      {
+        "title": "BlackBerry CEO says robotics is one of its fastest-growing businesses",
+        "source": "CNBC Top",
+        "published": "2026-08-25 09:26",
+        "link": "https://www.cnbc.com/2026/08/25/blackberry-qnx-robotics-physical-ai.html"
+      },
       {
         "title": "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers",
         "source": "CNBC Tech",
@@ -249,16 +255,22 @@
     ],
     "market": [
       {
-        "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
-        "source": "Yahoo Finance",
-        "published": "2026-08-23 14:55",
-        "link": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html"
+        "title": "Stocks making the biggest moves premarket: Dick's Sporting Goods, Advanced Micro Devices, Kura Oncology & more",
+        "source": "CNBC Top",
+        "published": "2026-08-25 11:38",
+        "link": "https://www.cnbc.com/2026/08/25/stocks-making-the-biggest-moves-premarket-dks-amd-kura.html"
       },
       {
-        "title": "Nervous About the Stock Market? History Has Encouraging News for Long-Term Investors.",
+        "title": "Nearly Two-Thirds Of The S&P 500 Already Sell Off In A Big Way",
         "source": "Yahoo Finance",
-        "published": "2026-08-23 13:15",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nervous-stock-market-history-encouraging-131500467.html"
+        "published": "2026-08-25 11:18",
+        "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-nearly-two-thirds-of-already-sold-off-in-a-big-way/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "NatWest plots push into US market",
+        "source": "FT Markets",
+        "published": "2026-08-25 04:00",
+        "link": "https://www.ft.com/content/940339db-b5b5-4b53-95e6-cfbc42eb6c06?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
