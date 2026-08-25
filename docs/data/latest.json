@@ -1,143 +1,143 @@
 {
-  "timestamp": "2026-08-24T12:22:42.224748",
+  "timestamp": "2026-08-25T01:20:28.400685",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.82,
-      "change": -1.2,
-      "change_pct": -4.14,
-      "volume": 158119222,
+      "price": 27.58,
+      "change": -0.24,
+      "change_pct": -0.86,
+      "volume": 158055822,
       "high": 28.84,
       "low": 27.54,
       "open": 28.6,
-      "prev_close": 29.02,
-      "market_cap": 716035784704,
-      "pe_ratio": 19.591549,
+      "prev_close": 27.82,
+      "market_cap": 709858623488,
+      "pe_ratio": 19.422535,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 713.44,
-      "change": 2.51,
-      "change_pct": 0.35,
-      "volume": 33297600,
-      "high": 715.67,
-      "low": 709.2,
-      "open": 715.23,
-      "prev_close": 710.93,
+      "price": 706.32,
+      "change": -7.12,
+      "change_pct": -1.0,
+      "volume": 37094975,
+      "high": 709.79,
+      "low": 702.7,
+      "open": 709.62,
+      "prev_close": 713.44,
       "market_cap": "N/A",
-      "pe_ratio": 30.506851,
+      "pe_ratio": 30.202398,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 90.07,
-      "change": -2.06,
-      "change_pct": -2.24,
-      "volume": 91192100,
-      "high": 92.77,
-      "low": 89.75,
-      "open": 92.71,
-      "prev_close": 92.13,
-      "market_cap": 476119498752,
+      "price": 87.26,
+      "change": -2.81,
+      "change_pct": -3.12,
+      "volume": 96389505,
+      "high": 88.91,
+      "low": 85.14,
+      "open": 88.68,
+      "prev_close": 90.07,
+      "market_cap": 461265534976,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 23.68,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 483.24,
-      "change": 2.09,
-      "change_pct": 0.43,
-      "volume": 22489200,
-      "high": 486.36,
-      "low": 478.53,
-      "open": 479.88,
-      "prev_close": 481.15,
-      "market_cap": 3588320657408,
-      "pe_ratio": 26.951477,
+      "price": 487.31,
+      "change": 4.07,
+      "change_pct": 0.84,
+      "volume": 16754809,
+      "high": 490.61,
+      "low": 481.86,
+      "open": 483.2,
+      "prev_close": 483.24,
+      "market_cap": 3618542714880,
+      "pe_ratio": 26.952986,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78329.8,
-      "change": 574.53,
-      "change_pct": 0.74,
-      "volume": 35624550400,
-      "high": 78539.18,
-      "low": 76838.73,
-      "open": 77727.62,
+      "price": 79725.25,
+      "change": 1969.98,
+      "change_pct": 2.53,
+      "volume": 56485834752,
+      "high": 79935.75,
+      "low": 78769.96,
+      "open": 78982.27,
       "prev_close": 77755.27,
-      "market_cap": 1570337718272,
+      "market_cap": 1596634038272,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7674.37,
-      "change": 33.21,
-      "change_pct": 0.43,
-      "volume": 4497270000,
-      "high": 7697.11,
-      "low": 7660.06,
-      "open": 7665.68,
-      "prev_close": 7641.16,
+      "price": 7652.86,
+      "change": -21.51,
+      "change_pct": -0.28,
+      "volume": 2488280000,
+      "high": 7670.3,
+      "low": 7638.17,
+      "open": 7663.38,
+      "prev_close": 7674.37,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26180.46,
-      "change": 113.29,
-      "change_pct": 0.43,
-      "volume": 7410100000,
-      "high": 26269.85,
-      "low": 26049.29,
-      "open": 26198.84,
-      "prev_close": 26067.17,
+      "price": 25980.19,
+      "change": -200.27,
+      "change_pct": -0.76,
+      "volume": 6449341000,
+      "high": 26109.96,
+      "low": 25910.82,
+      "open": 26065.32,
+      "prev_close": 26180.46,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25517.33,
-      "change": -492.13,
-      "change_pct": -1.89,
-      "volume": 0,
-      "high": 25780.12,
-      "low": 25430.94,
-      "open": 25780.12,
-      "prev_close": 26009.46,
+      "price": 26009.46,
+      "change": 310.97,
+      "change_pct": 1.21,
+      "volume": 3350100000,
+      "high": 26009.46,
+      "low": 25807.61,
+      "open": 25807.61,
+      "prev_close": 25698.49,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-24"
+      "date": "2026-08-21"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -153,59 +153,71 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4621.389,
-      "52w_low": 3458.44,
+      "52w_low": 4527.4873,
       "date": "2026-08-24"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53277.01,
-      "change": 517.8,
-      "change_pct": 0.98,
-      "volume": 424060000,
-      "high": 53355.92,
-      "low": 52768.87,
-      "open": 52768.87,
-      "prev_close": 52759.21,
+      "price": 53417.16,
+      "change": 140.15,
+      "change_pct": 0.26,
+      "volume": 416038344,
+      "high": 53508.18,
+      "low": 53261.95,
+      "open": 53261.95,
+      "prev_close": 53277.01,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
       "52w_low": 44948.16,
-      "date": "2026-08-21"
+      "date": "2026-08-24"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
+        "title": "Stock futures are flat as investors await Nvidia earnings, inflation report due later this week: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-08-25 00:09",
+        "link": "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+        "source": "CNBC Top",
+        "published": "2026-08-24 23:27",
+        "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html"
+      },
+      {
         "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
         "source": "CNBC Top",
-        "published": "2026-08-24 12:22",
+        "published": "2026-08-24 13:17",
         "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
       },
       {
-        "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
+        "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
         "source": "CNBC Top",
-        "published": "2026-08-24 11:42",
-        "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html"
+        "published": "2026-08-24 23:48",
+        "link": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html"
       },
       {
-        "title": "UPS is investing $2 billion in international, healthcare and supply chain businesses",
+        "title": "Mark Walter's TWG Global hires Goldman veteran Markowitz as top lawyer amid probe of insurers",
         "source": "CNBC Top",
-        "published": "2026-08-24 11:00",
-        "link": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html"
+        "published": "2026-08-24 23:16",
+        "link": "https://www.cnbc.com/2026/08/24/mark-walter-twg-david-markowitz-goldman-federal-probe.html"
       },
       {
-        "title": "Santoli: Why all the fuss about bond yields is happening now",
+        "title": "U.S. Trade Rep Greer blames Canada for failed tariff talks: 'They wanted more'",
         "source": "CNBC Top",
-        "published": "2026-08-24 11:56",
-        "link": "https://www.cnbc.com/2026/08/24/why-all-the-fuss-about-bond-yields-is-happening-now.html"
+        "published": "2026-08-24 15:45",
+        "link": "https://www.cnbc.com/2026/08/24/trump-canada-trade-tariffs-greer.html"
       },
       {
-        "title": "CoreWeave shares are set to nearly double even as chip costs rise, Truist says",
+        "title": "Supreme Court allows some Trump vote-by-mail limits ahead of midterm election",
         "source": "CNBC Top",
-        "published": "2026-08-24 12:08",
-        "link": "https://www.cnbc.com/2026/08/24/coreweave-shares-are-set-to-nearly-double-even-as-chip-costs-rise-truist-says.html"
+        "published": "2026-08-24 21:38",
+        "link": "https://www.cnbc.com/2026/08/24/supreme-court-mail-voting-trump.html"
       },
       {
         "title": "U.S. to unveil 'greatest financial offensive' against Iran as Tehran threatens ship seizures",
@@ -220,38 +232,13 @@
         "link": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html"
       },
       {
-        "title": "Marvell Technology has nearly tripled in 2026. Wells Fargo says there are more gains ahead",
+        "title": "Here's what Jim Cramer says stock investors need to know about the bond market",
         "source": "CNBC Top",
-        "published": "2026-08-24 11:20",
-        "link": "https://www.cnbc.com/2026/08/24/mrvl-has-nearly-tripled-in-2026-wells-fargo-says-there-are-more-gains-ahead.html"
-      },
-      {
-        "title": "Alibaba plunges after announcing $10.2 billion share placement to fund AI push",
-        "source": "CNBC Top",
-        "published": "2026-08-24 08:21",
-        "link": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html"
-      },
-      {
-        "title": "Shein targets $27 billion Hong Kong IPO — a fraction of its 2022 valuation",
-        "source": "CNBC Tech",
-        "published": "2026-08-24 07:34",
-        "link": "https://www.cnbc.com/2026/08/24/shein-ipo-valuation-hong-kong.html"
+        "published": "2026-08-24 22:40",
+        "link": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html"
       }
     ],
-    "qqq_intel": [
-      {
-        "title": "Arm Holdings (ARM) Shifts Strategy to Sell Own Data Center Chips",
-        "source": "Yahoo Finance",
-        "published": "2026-08-24 11:38",
-        "link": "https://finance.yahoo.com/technology/articles/arm-holdings-arm-shifts-strategy-113825935.html"
-      },
-      {
-        "title": "Investors try to catch ‘falling knife’ with bets on risky funds during chip rout",
-        "source": "FT Markets",
-        "published": "2026-08-23 04:00",
-        "link": "https://www.ft.com/content/5e8072a7-cb99-47a6-9478-e46e7de3b4a2?syn-25a6b1a6=1"
-      }
-    ],
+    "qqq_intel": [],
     "tech": [
       {
         "title": "Meta is the latest tech giant to land in her courtroom. Meet Judge Yvonne Gonzalez Rogers",
@@ -262,28 +249,16 @@
     ],
     "market": [
       {
-        "title": "Stocks making the biggest moves premarket: Alibaba, Marvell, Sandisk, Coinbase and more",
-        "source": "CNBC Top",
-        "published": "2026-08-24 11:31",
-        "link": "https://www.cnbc.com/2026/08/24/stocks-making-the-biggest-moves-premarket-baba-mrvl-sndk-and-more.html"
-      },
-      {
-        "title": "Stock Market Today: Dow Falls Ahead of 'Economic D-Day'; Alibaba Slides On Offering (Live Coverage)",
+        "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
         "source": "Yahoo Finance",
-        "published": "2026-08-24 12:02",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-economic-d-day-alibaba-stock-baba/?src=A00220&yptr=yahoo"
+        "published": "2026-08-23 14:55",
+        "link": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html"
       },
       {
-        "title": "U.S. Steel Stocks Nucor, Steel Dynamics Rally As Canada Trade Talks Collapse",
+        "title": "Nervous About the Stock Market? History Has Encouraging News for Long-Term Investors.",
         "source": "Yahoo Finance",
-        "published": "2026-08-24 11:36",
-        "link": "https://www.investors.com/news/u-s-steel-stocks-nucor-steel-dynamics-canada-trade-talks-collapse/?src=A00220&yptr=yahoo"
-      },
-      {
-        "title": "‘I don’t have any close friends in business’: Euronext CEO on a decade shaping Europe’s markets",
-        "source": "FT Markets",
-        "published": "2026-08-23 04:00",
-        "link": "https://www.ft.com/content/72783ac2-d6d4-4507-b50f-88861506ad76?syn-25a6b1a6=1"
+        "published": "2026-08-23 13:15",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nervous-stock-market-history-encouraging-131500467.html"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -300,10 +275,6 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
