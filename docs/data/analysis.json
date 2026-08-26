@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T01:24:19.312328",
+  "timestamp": "2026-08-26T12:25:48.996839",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 719086223360,
+      "market_cap": 732469329920,
       "enterprise_value": 631768809472,
-      "pe_ratio": 19.676058,
-      "forward_pe": 18.137207,
+      "pe_ratio": 20.042253,
+      "forward_pe": 18.48478,
       "peg_ratio": 2.96,
-      "pb_ratio": 2.2848833,
-      "ps_ratio": 1.6413728,
+      "pb_ratio": 2.3286695,
+      "ps_ratio": 1.6719208,
       "ev_ebitda": 22.061,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -29,8 +29,8 @@
       "beta": 0.722,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 26.078,
-      "200d_avg": 32.7517,
+      "50d_avg": 26.1092,
+      "200d_avg": 32.6756,
       "analyst_target": 36.50077,
       "recommendation": "buy"
     },
@@ -38,22 +38,22 @@
   },
   "dim2_technicals": {
     "data": {
-      "price": 27.94,
-      "ma5": 28.06,
-      "ma20": 27.46,
+      "price": 28.46,
+      "ma5": 28.16,
+      "ma20": 27.49,
       "ma60": 26.35,
       "ma120": 29.0,
-      "rsi_14": 57.1,
-      "macd": 0.225,
-      "ret_1w": 0.65,
-      "ret_1m": -4.51,
-      "ret_3m": -6.87,
-      "ret_6m": -21.47,
+      "rsi_14": 59.9,
+      "macd": 0.266,
+      "ret_1w": 2.52,
+      "ret_1m": -2.73,
+      "ret_3m": -5.13,
+      "ret_6m": -20.01,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -53.0,
-      "pct_from_52w_low": 30.44,
-      "volume_ratio": 0.47,
+      "pct_from_52w_high": -52.13,
+      "pct_from_52w_low": 32.87,
+      "volume_ratio": 0.81,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "UP"
@@ -71,8 +71,8 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25517.33,
-        "change_pct": -1.89
+        "price": 25652.97,
+        "change_pct": 0.56
       },
       "SPX": {
         "price": 7677.28,
@@ -138,8 +138,8 @@
       "score": 45.0
     },
     {
-      "name": "澜起科技",
-      "ticker": "688008.SS",
+      "name": "ASM太平洋",
+      "ticker": "0522.HK",
       "score": 45.0
     }
   ],
