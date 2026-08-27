@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T12:25:48.996839",
+  "timestamp": "2026-08-27T08:07:25.194014",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,14 +7,14 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 732469329920,
-      "enterprise_value": 631768809472,
-      "pe_ratio": 20.042253,
-      "forward_pe": 18.48478,
-      "peg_ratio": 2.96,
-      "pb_ratio": 2.3286695,
-      "ps_ratio": 1.6719208,
-      "ev_ebitda": 22.061,
+      "market_cap": 705703051264,
+      "enterprise_value": 649775546368,
+      "pe_ratio": 19.30986,
+      "forward_pe": 17.8093,
+      "peg_ratio": 3.02,
+      "pb_ratio": 2.2435744,
+      "ps_ratio": 1.6108246,
+      "ev_ebitda": 22.69,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
       "gross_margins": 0.21392,
@@ -29,31 +29,31 @@
       "beta": 0.722,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 26.1092,
-      "200d_avg": 32.6756,
-      "analyst_target": 36.50077,
+      "50d_avg": 26.1532,
+      "200d_avg": 32.5994,
+      "analyst_target": 36.51027,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 28.46,
-      "ma5": 28.16,
-      "ma20": 27.49,
-      "ma60": 26.35,
-      "ma120": 29.0,
-      "rsi_14": 59.9,
-      "macd": 0.266,
-      "ret_1w": 2.52,
-      "ret_1m": -2.73,
-      "ret_3m": -5.13,
-      "ret_6m": -20.01,
+      "price": 27.44,
+      "ma5": 28.1,
+      "ma20": 27.31,
+      "ma60": 26.32,
+      "ma120": 28.97,
+      "rsi_14": 52.1,
+      "macd": 0.236,
+      "ret_1w": -5.44,
+      "ret_1m": -13.93,
+      "ret_3m": -7.8,
+      "ret_6m": -26.04,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -52.13,
-      "pct_from_52w_low": 32.87,
-      "volume_ratio": 0.81,
+      "pct_from_52w_high": -53.84,
+      "pct_from_52w_low": 28.1,
+      "volume_ratio": 0.76,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "UP"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25652.97,
-        "change_pct": 0.56
+        "price": 25541.12,
+        "change_pct": -0.44
       },
       "SPX": {
-        "price": 7677.28,
-        "change_pct": 0.32
+        "price": 7675.7,
+        "change_pct": -0.02
       },
       "USD/CNH": {
         "price": 6.72,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.64,
-        "change_pct": -1.38
+        "price": 4.66,
+        "change_pct": 0.54
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -123,6 +123,11 @@
       "score": 50.0
     },
     {
+      "name": "卓胜微",
+      "ticker": "300782.SZ",
+      "score": 48.0
+    },
+    {
       "name": "中芯国际-HK",
       "ticker": "0981.HK",
       "score": 45.0
@@ -135,11 +140,6 @@
     {
       "name": "小鹏汽车-HK",
       "ticker": "9868.HK",
-      "score": 45.0
-    },
-    {
-      "name": "ASM太平洋",
-      "ticker": "0522.HK",
       "score": 45.0
     }
   ],
