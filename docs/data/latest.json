@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-08-27T21:28:17.043859",
+  "timestamp": "2026-08-28T10:09:44.995124",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.48,
-      "change": -0.98,
-      "change_pct": -3.44,
-      "volume": 145686928,
-      "high": 28.64,
+      "price": 27.82,
+      "change": 0.34,
+      "change_pct": 1.24,
+      "volume": 85332131,
+      "high": 28.26,
       "low": 27.36,
-      "open": 28.46,
-      "prev_close": 28.46,
-      "market_cap": 707247276032,
-      "pe_ratio": 19.352114,
+      "open": 27.48,
+      "prev_close": 27.48,
+      "market_cap": 715997773824,
+      "pe_ratio": 19.591549,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-27"
+      "date": "2026-08-28"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -24,10 +24,10 @@
       "price": 721.11,
       "change": 9.74,
       "change_pct": 1.37,
-      "volume": 28443051,
+      "volume": 28627600,
       "high": 721.35,
       "low": 714.53,
-      "open": 716.98,
+      "open": 716.93,
       "prev_close": 711.37,
       "market_cap": "N/A",
       "pe_ratio": 30.83482,
@@ -41,10 +41,10 @@
       "price": 92.09,
       "change": 3.85,
       "change_pct": 4.36,
-      "volume": 99979854,
+      "volume": 100251700,
       "high": 92.95,
       "low": 88.46,
-      "open": 89.95,
+      "open": 89.91,
       "prev_close": 88.24,
       "market_cap": 486797410304,
       "pe_ratio": "N/A",
@@ -58,13 +58,13 @@
       "price": 505.06,
       "change": 8.69,
       "change_pct": 1.75,
-      "volume": 28615865,
-      "high": 506.47,
+      "volume": 28649300,
+      "high": 506.48,
       "low": 490.08,
-      "open": 494.65,
+      "open": 494.88,
       "prev_close": 496.37,
       "market_cap": 3750346096640,
-      "pe_ratio": 28.105732,
+      "pe_ratio": 27.6291,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-08-27"
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 80062.13,
-      "change": 1034.71,
-      "change_pct": 1.31,
-      "volume": 35120889856,
-      "high": 80793.76,
-      "low": 78622.33,
-      "open": 79026.75,
-      "prev_close": 79027.42,
-      "market_cap": 1607712768000,
+      "price": 79042.87,
+      "change": -1214.67,
+      "change_pct": -1.51,
+      "volume": 35787051008,
+      "high": 81148.51,
+      "low": 79064.56,
+      "open": 80261.86,
+      "prev_close": 80257.54,
+      "market_cap": 1587320717312,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-27"
+      "date": "2026-08-28"
     }
   },
   "indices": {
@@ -94,7 +94,7 @@
       "price": 7730.99,
       "change": 55.29,
       "change_pct": 0.72,
-      "volume": 2856239000,
+      "volume": 4362240000,
       "high": 7741.27,
       "low": 7689.89,
       "open": 7710.34,
@@ -111,7 +111,7 @@
       "price": 26541.35,
       "change": 411.15,
       "change_pct": 1.57,
-      "volume": 6375872000,
+      "volume": 7448410000,
       "high": 26553.9,
       "low": 26273.87,
       "open": 26356.98,
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25652.97,
-      "change": 141.87,
-      "change_pct": 0.56,
-      "volume": 3001700000,
-      "high": 25800.22,
-      "low": 25615.94,
-      "open": 25635.24,
-      "prev_close": 25511.1,
+      "price": 25584.79,
+      "change": 19.05,
+      "change_pct": 0.07,
+      "volume": 0,
+      "high": 25699.09,
+      "low": 25410.46,
+      "open": 25410.46,
+      "prev_close": 25565.74,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-26"
+      "date": "2026-08-28"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4630.28,
+      "price": 4609.18,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3021855816,
-      "high": 4631.35,
-      "low": 4584.99,
-      "open": 4594.48,
-      "prev_close": 4630.28,
+      "volume": 919080316,
+      "high": 4643.33,
+      "low": 4608.46,
+      "open": 4615.84,
+      "prev_close": 4609.18,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4631.3486,
-      "52w_low": 3458.44,
-      "date": "2026-08-27"
+      "52w_high": 4643.335,
+      "52w_low": 4608.462,
+      "date": "2026-08-28"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -162,7 +162,7 @@
       "price": 53569.44,
       "change": 105.56,
       "change_pct": 0.2,
-      "volume": 653738196,
+      "volume": 640810000,
       "high": 53707.62,
       "low": 53345.62,
       "open": 53613.66,
@@ -178,16 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Iran says return to diplomacy 'isn't impossible' — but all Mideast wars must end to reopen Hormuz",
+        "source": "CNBC Top",
+        "published": "2026-08-28 07:20",
+        "link": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html"
+      },
+      {
         "title": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
         "source": "CNBC Top",
-        "published": "2026-08-27 21:03",
+        "published": "2026-08-27 22:58",
         "link": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html"
       },
       {
-        "title": "Trump signs order to rename Lake Ontario 'Lake America' amid Canada trade war",
+        "title": "Russian forces intensify attacks in Donetsk as Ukraine lauds fresh EU push to unlock frozen assets",
         "source": "CNBC Top",
-        "published": "2026-08-27 21:16",
-        "link": "https://www.cnbc.com/2026/08/27/trump-canada-lake-america-ontario.html"
+        "published": "2026-08-28 09:33",
+        "link": "https://www.cnbc.com/2026/08/28/russia-donetsk-ukraine-frozen-assets.html"
+      },
+      {
+        "title": "Trump ratchets up rhetoric against Beijing as U.S.-China officials meet for Xi's Washington visit",
+        "source": "CNBC Top",
+        "published": "2026-08-28 01:35",
+        "link": "https://www.cnbc.com/2026/08/28/trump-x-meeting-us-china-iran-sanctions.html"
       },
       {
         "title": "There's one metric that shows investors are being pickier about the stocks they buy",
@@ -196,28 +208,22 @@
         "link": "https://www.cnbc.com/2026/08/27/one-metric-shows-investors-are-being-pickier-about-the-stocks-they-buy.html"
       },
       {
-        "title": "Salesforce rockets 22% for second-best day ever, leading software rally",
+        "title": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
         "source": "CNBC Top",
-        "published": "2026-08-27 20:04",
-        "link": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html"
+        "published": "2026-08-28 02:50",
+        "link": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html"
       },
       {
-        "title": "UAE ‘spy sheikh’ backs 49% stake in Trump family’s crypto bank venture, WSJ reports",
+        "title": "CrowdStrike CEO: AI exposes dangerous cyber gaps that legacy tools can’t handle",
         "source": "CNBC Top",
-        "published": "2026-08-27 21:22",
-        "link": "https://www.cnbc.com/2026/08/27/uae-spy-sheikh-trump-family-crypto-bank.html"
+        "published": "2026-08-27 22:45",
+        "link": "https://www.cnbc.com/2026/08/27/crowdstrike-ceo-ai-exposes-dangerous-cyber-gaps.html"
       },
       {
-        "title": "What Warsh will say and how the market will react, according to prediction markets",
+        "title": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
         "source": "CNBC Top",
-        "published": "2026-08-27 21:17",
-        "link": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html"
-      },
-      {
-        "title": "AI needs more power. Stephanie Link is buying this natural gas stock while it's cheap",
-        "source": "CNBC Top",
-        "published": "2026-08-27 19:03",
-        "link": "https://www.cnbc.com/2026/08/27/ai-needs-more-power-stephanie-link-is-buying-this-natural-gas-stock-while-its-cheap.html"
+        "published": "2026-08-27 21:49",
+        "link": "https://www.cnbc.com/2026/08/27/fda-approves-gilead-hiv-pill-bixlenvo-designed-to-simplify-treatment.html"
       },
       {
         "title": "AI bursts to the front of Massachusetts Democratic Senate primary",
@@ -226,45 +232,26 @@
         "link": "https://www.cnbc.com/2026/08/27/ai-massachusetts-democratic-senate-primary-markey-moulton.html"
       },
       {
-        "title": "Anthropic pushes into physical world with new standard to help AI agents operate machines",
-        "source": "CNBC Tech",
-        "published": "2026-08-27 19:08",
-        "link": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html"
-      },
-      {
-        "title": "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
-        "source": "CNBC Tech",
-        "published": "2026-08-27 18:22",
-        "link": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html"
-      }
-    ],
-    "qqq_intel": [
-      {
-        "title": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance: Live updates",
+        "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
         "source": "CNBC Top",
-        "published": "2026-08-27 20:39",
-        "link": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html"
+        "published": "2026-08-28 07:07",
+        "link": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html"
       }
     ],
+    "qqq_intel": [],
     "tech": [],
     "market": [
       {
-        "title": "Stocks making the biggest moves after hours: Gap, Workday, Autodesk and more",
+        "title": "S&P 500 futures mixed as investors count down to Warsh's Jackson Hole address: Live updates",
         "source": "CNBC Top",
-        "published": "2026-08-27 21:10",
-        "link": "https://www.cnbc.com/2026/08/27/stocks-making-the-biggest-moves-after-hours-gap-wday-adsk-and-more.html"
+        "published": "2026-08-28 09:33",
+        "link": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
       },
       {
-        "title": "Donald Trump Jr. told Republican state attorneys not to fight prediction markets, NY Times reports",
-        "source": "CNBC Top",
-        "published": "2026-08-27 19:51",
-        "link": "https://www.cnbc.com/2026/08/27/trump-jr-told-gop-state-attorneys-general-dont-fight-prediction-markets-nyt-reports.html"
-      },
-      {
-        "title": "BitGo to acquire NYDIG’s institutional trading business as crypto trading rebounds",
-        "source": "CNBC Top",
-        "published": "2026-08-27 20:36",
-        "link": "https://www.cnbc.com/2026/08/27/bitgo-to-acquire-nydigs-institutional-trading-business-as-crypto-trading-rebounds.html"
+        "title": "DeepSeek looks for fresh capital as founder’s quant empire navigates China’s choppy IPO market",
+        "source": "CNBC Tech",
+        "published": "2026-08-28 02:17",
+        "link": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html"
       },
       {
         "title": "Why Jim Cramer sees CrowdStrike as a buy despite its incredible comeback rally",
@@ -273,28 +260,10 @@
         "link": "https://www.cnbc.com/2026/08/27/why-jim-cramer-sees-crowdstrike-as-a-buy-despite-its-incredible-comeback-rally.html"
       },
       {
-        "title": "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
+        "title": "Will the housing market crash in 2026? What the economy says",
         "source": "Yahoo Finance",
-        "published": "2026-08-26 17:15",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-bets-disrupter-stock-171503487.html"
-      },
-      {
-        "title": "3 Stocks to Buy Now to Invest Like President Trump",
-        "source": "Yahoo Finance",
-        "published": "2026-08-26 13:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-buy-now-invest-130002652.html"
-      },
-      {
-        "title": "Northern Trust Stock: Is Wall Street Bullish or Bearish?",
-        "source": "Yahoo Finance",
-        "published": "2026-08-26 13:35",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/northern-trust-stock-wall-street-133533410.html"
-      },
-      {
-        "title": "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?",
-        "source": "Yahoo Finance",
-        "published": "2026-08-26 12:43",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-charles-124331922.html"
+        "published": "2024-07-05 17:00",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-economy-says-170038540.html"
       },
       {
         "title": "In asset management, the race for scale is becoming urgent",
@@ -307,14 +276,22 @@
         "source": "FT Markets",
         "published": "2026-08-27 15:56",
         "link": "https://www.ft.com/content/fb082509-a00b-44b0-9d55-a7f34b6f7b41?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Chinese Investors With Few Options Turn to Dividends",
+        "source": "WSJ Markets",
+        "published": "2025-01-27 10:30",
+        "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
+      },
+      {
+        "title": "Heard on the Street's Stock-Picking Series",
+        "source": "WSJ Markets",
+        "published": "2025-01-27 03:33",
+        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
