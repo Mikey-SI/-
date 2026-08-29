@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-08-28T21:34:14.295930",
+  "timestamp": "2026-08-29T06:08:40.238134",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 85332131,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 27.82,
+      "change": 0.34,
+      "change_pct": 1.24,
+      "volume": 85331331,
+      "high": 28.26,
+      "low": 27.36,
+      "open": 27.48,
       "prev_close": 27.48,
       "market_cap": 715997773824,
       "pe_ratio": 19.591549,
@@ -21,13 +21,13 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.43,
-      "change": -4.68,
-      "change_pct": -0.65,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 33891826,
-      "high": 724.12,
-      "low": 715.09,
-      "open": 719.75,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 721.11,
       "market_cap": "N/A",
       "pe_ratio": 30.634703,
@@ -38,13 +38,13 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 89.47,
-      "change": -2.62,
-      "change_pct": -2.85,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 85801756,
-      "high": 93.7,
-      "low": 89.05,
-      "open": 90.27,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 92.09,
       "market_cap": 472947818496,
       "pe_ratio": "N/A",
@@ -55,13 +55,13 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 513.53,
-      "change": 8.47,
-      "change_pct": 1.68,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 28953449,
-      "high": 517.78,
-      "low": 504.87,
-      "open": 505.33,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 505.06,
       "market_cap": 3813240733696,
       "pe_ratio": 28.640827,
@@ -72,32 +72,32 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77505.45,
-      "change": -2752.09,
-      "change_pct": -3.43,
-      "volume": 39158374400,
-      "high": 81148.51,
-      "low": 77077.59,
-      "open": 80261.86,
+      "price": 77577.02,
+      "change": -2680.52,
+      "change_pct": -3.34,
+      "volume": 33497894912,
+      "high": 77897.88,
+      "low": 77508.94,
+      "open": 77838.39,
       "prev_close": 80257.54,
-      "market_cap": 1553913085952,
+      "market_cap": 1557622030336,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-28"
+      "date": "2026-08-29"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7711.76,
-      "change": -19.23,
-      "change_pct": -0.25,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 2589484000,
-      "high": 7771.48,
-      "low": 7700.91,
-      "open": 7735.17,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 7730.99,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -108,13 +108,13 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26402.42,
-      "change": -138.93,
-      "change_pct": -0.52,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 7526280000,
-      "high": 26700.68,
-      "low": 26359.27,
-      "open": 26515.99,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 26541.35,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -153,19 +153,19 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4643.335,
-      "52w_low": 3458.44,
+      "52w_low": 4608.462,
       "date": "2026-08-28"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53559.99,
-      "change": -9.45,
-      "change_pct": -0.02,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
       "volume": 507511504,
-      "high": 53819.65,
-      "low": 53489.41,
-      "open": 53611.94,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 53569.44,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -178,16 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "S&P 500 falls Friday after Fed’s Warsh highlights inflation worries, but index posts positive week",
+        "title": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
         "source": "CNBC Top",
-        "published": "2026-08-28 20:50",
-        "link": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
+        "published": "2026-08-28 23:42",
+        "link": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
       },
       {
         "title": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
         "source": "CNBC Top",
         "published": "2026-08-28 20:31",
         "link": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html"
+      },
+      {
+        "title": "Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike",
+        "source": "CNBC Top",
+        "published": "2026-08-28 17:44",
+        "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html"
+      },
+      {
+        "title": "Stocks wrap up winning week even as inflation becomes top of mind for investors",
+        "source": "CNBC Top",
+        "published": "2026-08-28 20:28",
+        "link": "https://www.cnbc.com/2026/08/28/stocks-post-winning-week-as-inflation-becomes-top-of-mind-for-traders.html"
       },
       {
         "title": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
@@ -198,7 +210,7 @@
       {
         "title": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes",
         "source": "CNBC Top",
-        "published": "2026-08-28 20:42",
+        "published": "2026-08-29 02:43",
         "link": "https://www.cnbc.com/2026/08/28/mark-walter-delaware-life-truist-fifth-third-banks.html"
       },
       {
@@ -210,7 +222,7 @@
       {
         "title": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
         "source": "CNBC Top",
-        "published": "2026-08-28 19:32",
+        "published": "2026-08-29 02:23",
         "link": "https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html"
       },
       {
@@ -224,26 +236,14 @@
         "source": "CNBC Top",
         "published": "2026-08-28 12:39",
         "link": "https://www.cnbc.com/2026/08/28/us-iran-war-trump-hormuz-oman-centcom.html"
-      },
-      {
-        "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
-        "source": "CNBC Top",
-        "published": "2026-08-28 16:11",
-        "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-      },
-      {
-        "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
-        "source": "CNBC Top",
-        "published": "2026-08-28 20:08",
-        "link": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Earnings spur software and chip rally, offsetting weakness in other areas of the market: AlphaCheck",
+        "title": "Nancy Pelosi Buys Intel. What Comes Next and If You Should Buy INTC Stock Too.",
         "source": "Yahoo Finance",
-        "published": "2026-08-27 13:56",
-        "link": "https://finance.yahoo.com/markets/article/earnings-spur-software-and-chip-rally-offsetting-weakness-in-other-areas-of-the-market-alphacheck-135658418.html"
+        "published": "2026-08-27 21:57",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nancy-pelosi-buys-intel-comes-215722404.html"
       }
     ],
     "tech": [
@@ -252,32 +252,20 @@
         "source": "CNBC Tech",
         "published": "2026-08-28 14:40",
         "link": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html"
-      },
-      {
-        "title": "Are Wall Street Analysts Bullish on Align Technology Stock?",
-        "source": "Yahoo Finance",
-        "published": "2026-08-27 13:56",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-align-135637561.html"
-      },
-      {
-        "title": "ATRenew (RERE): Secondhand Tech Giant Quietly Posting Record Profits",
-        "source": "Yahoo Finance",
-        "published": "2026-08-27 13:46",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/atrenew-rere-secondhand-tech-giant-134627979.html"
       }
     ],
     "market": [
-      {
-        "title": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
-        "source": "CNBC Top",
-        "published": "2026-08-28 19:35",
-        "link": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html"
-      },
       {
         "title": "Bolster your portfolio with these dividend-paying cash cows as midterms approach",
         "source": "CNBC Top",
         "published": "2026-08-28 18:41",
         "link": "https://www.cnbc.com/2026/08/28/bolster-your-portfolio-with-these-dividend-paying-cash-cows-as-midterms-approach.html"
+      },
+      {
+        "title": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+        "source": "CNBC Top",
+        "published": "2026-08-28 19:35",
+        "link": "https://www.cnbc.com/2026/08/28/stock-traders-warm-up-to-warsh-as-volatility-index-touches-year-to-date-low.html"
       },
       {
         "title": "DeepSeek looks for fresh capital as founder’s quant empire navigates China’s choppy IPO market",
@@ -286,22 +274,10 @@
         "link": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html"
       },
       {
-        "title": "Are Wall Street Analysts Predicting West Pharmaceutical Stock Will Climb or Sink?",
-        "source": "Yahoo Finance",
-        "published": "2026-08-27 13:58",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-west-135825034.html"
-      },
-      {
         "title": "Dunkin' comes back to major market after 12-year absence",
         "source": "Yahoo Finance",
         "published": "2026-08-28 16:17",
         "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html"
-      },
-      {
-        "title": "In asset management, the race for scale is becoming urgent",
-        "source": "FT Markets",
-        "published": "2026-08-27 17:07",
-        "link": "https://www.ft.com/content/a7a5fadb-8e81-4047-9dc7-40feda9bacd0?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
