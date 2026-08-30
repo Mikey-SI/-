@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T15:52:15.553871",
+  "timestamp": "2026-08-30T04:16:57.296118",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 715997773824,
+      "market_cap": 715951374336,
       "enterprise_value": 633312247808,
       "pe_ratio": 19.591549,
       "forward_pe": 18.112867,
       "peg_ratio": 3.02,
       "pb_ratio": 2.2763033,
-      "ps_ratio": 1.6343231,
+      "ps_ratio": 1.6342173,
       "ev_ebitda": 22.115,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25565.74,
-        "change_pct": -0.34
+        "price": 25584.79,
+        "change_pct": 0.07
       },
       "SPX": {
-        "price": NaN,
-        "change_pct": NaN
+        "price": 7711.76,
+        "change_pct": -0.25
       },
       "USD/CNH": {
         "price": 6.73,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.67,
-        "change_pct": 0.17
+        "price": 4.72,
+        "change_pct": 1.03
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"

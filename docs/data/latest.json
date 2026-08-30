@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T15:51:46.148860",
+  "timestamp": "2026-08-30T04:16:29.171238",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -12,7 +12,7 @@
       "low": 27.36,
       "open": 27.48,
       "prev_close": 27.48,
-      "market_cap": 715997773824,
+      "market_cap": 715951374336,
       "pe_ratio": 19.591549,
       "52w_high": 59.9,
       "52w_low": 21.3,
@@ -21,13 +21,13 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 33891826,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 716.43,
+      "change": -4.68,
+      "change_pct": -0.65,
+      "volume": 34043800,
+      "high": 724.13,
+      "low": 715.09,
+      "open": 719.74,
       "prev_close": 721.11,
       "market_cap": "N/A",
       "pe_ratio": 30.634703,
@@ -38,13 +38,13 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 85801756,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 89.47,
+      "change": -2.62,
+      "change_pct": -2.85,
+      "volume": 86001600,
+      "high": 93.7,
+      "low": 89.05,
+      "open": 90.27,
       "prev_close": 92.09,
       "market_cap": 472947818496,
       "pe_ratio": "N/A",
@@ -55,13 +55,13 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 28953449,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 513.53,
+      "change": 8.47,
+      "change_pct": 1.68,
+      "volume": 29178300,
+      "high": 517.78,
+      "low": 504.87,
+      "open": 505.33,
       "prev_close": 505.06,
       "market_cap": 3813240733696,
       "pe_ratio": 28.169502,
@@ -72,32 +72,32 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77860.55,
-      "change": -2396.99,
-      "change_pct": -2.99,
-      "volume": 22763184128,
-      "high": 78040.04,
-      "low": 77408.85,
-      "open": 77838.39,
+      "price": 78174.75,
+      "change": -2082.79,
+      "change_pct": -2.6,
+      "volume": 13716793344,
+      "high": 78277.01,
+      "low": 78015.72,
+      "open": 78234.75,
       "prev_close": 80257.54,
-      "market_cap": 1564371058688,
+      "market_cap": 1569206697984,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-29"
+      "date": "2026-08-30"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 2589484000,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 7711.76,
+      "change": -19.23,
+      "change_pct": -0.25,
+      "volume": 4297560000,
+      "high": 7771.48,
+      "low": 7700.91,
+      "open": 7735.17,
       "prev_close": 7730.99,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -108,13 +108,13 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 7526280000,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 26402.42,
+      "change": -138.93,
+      "change_pct": -0.52,
+      "volume": 8457870000,
+      "high": 26700.68,
+      "low": 26359.27,
+      "open": 26515.99,
       "prev_close": 26541.35,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -125,19 +125,19 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25565.74,
-      "change": -87.23,
-      "change_pct": -0.34,
-      "volume": 2621400000,
-      "high": 25792.01,
-      "low": 25500.96,
-      "open": 25774.87,
-      "prev_close": 25652.97,
+      "price": 25584.79,
+      "change": 19.05,
+      "change_pct": 0.07,
+      "volume": 2533500000,
+      "high": 25699.09,
+      "low": 25410.46,
+      "open": 25410.46,
+      "prev_close": 25565.74,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-27"
+      "date": "2026-08-28"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -159,13 +159,13 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 507511504,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 53559.99,
+      "change": -9.45,
+      "change_pct": -0.02,
+      "volume": 507510000,
+      "high": 53819.65,
+      "low": 53489.41,
+      "open": 53611.94,
       "prev_close": 53569.44,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
@@ -178,9 +178,15 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+        "source": "CNBC Top",
+        "published": "2026-08-29 19:06",
+        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
+      },
+      {
         "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
         "source": "CNBC Top",
-        "published": "2026-08-29 12:16",
+        "published": "2026-08-29 19:55",
         "link": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html"
       },
       {
@@ -188,12 +194,6 @@
         "source": "CNBC Top",
         "published": "2026-08-28 23:42",
         "link": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
-      },
-      {
-        "title": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
-        "source": "CNBC Top",
-        "published": "2026-08-29 11:53",
-        "link": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html"
       },
       {
         "title": "Bank of America says these stocks have upside heading into September",
@@ -208,22 +208,16 @@
         "link": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
       },
       {
-        "title": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
+        "title": "Op-ed: Salesforce just revealed the next battleground in AI — and it's not the models",
         "source": "CNBC Top",
-        "published": "2026-08-28 20:31",
-        "link": "https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html"
+        "published": "2026-08-29 13:00",
+        "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html"
       },
       {
-        "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
+        "title": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
         "source": "CNBC Top",
-        "published": "2026-08-28 13:45",
-        "link": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html"
-      },
-      {
-        "title": "CFTC fines former White House aide $172,000 for trading on Trump speech information",
-        "source": "CNBC Top",
-        "published": "2026-08-29 10:23",
-        "link": "https://www.cnbc.com/2026/08/29/cftc-fines-ex-white-house-aide-for-trading-on-trump-speech-information.html"
+        "published": "2026-08-29 11:53",
+        "link": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html"
       },
       {
         "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
@@ -232,25 +226,24 @@
         "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html"
       },
       {
-        "title": "Op-ed: Salesforce just revealed the next battleground in AI — and it's not the models",
+        "title": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
         "source": "CNBC Tech",
-        "published": "2026-08-29 13:00",
-        "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html"
-      }
-    ],
-    "qqq_intel": [
+        "published": "2026-08-28 19:09",
+        "link": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html"
+      },
       {
-        "title": "Stock Market Week Ahead: Chips, Cybersecurity And Jobs",
-        "source": "Yahoo Finance",
-        "published": "2026-08-29 13:07",
-        "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo"
+        "title": "Big Tech's massive AI spending is putting one of its longtime strengths to the test",
+        "source": "CNBC Tech",
+        "published": "2026-08-28 15:50",
+        "link": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html"
       }
     ],
+    "qqq_intel": [],
     "tech": [
       {
         "title": "Nepal resumes flood rescue, seeks technical help and billions of dollars",
         "source": "CNBC Top",
-        "published": "2026-08-29 14:28",
+        "published": "2026-08-29 19:44",
         "link": "https://www.cnbc.com/2026/08/29/nepal-seeks-technical-help-and-billions-of-dollars-for-flood-recovery.html"
       },
       {
@@ -260,10 +253,10 @@
         "link": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html"
       },
       {
-        "title": "Microsoft, Palantir Among Stocks To Watch As Software Bounces Back",
+        "title": "A16z's new $1.1B fund admits hardware is eating the world, too",
         "source": "Yahoo Finance",
-        "published": "2026-08-29 11:55",
-        "link": "https://www.investors.com/news/microsoft-palantir-stocks-near-buy-points-software/?src=A00220&yptr=yahoo"
+        "published": "2026-08-28 20:54",
+        "link": "https://finance.yahoo.com/technology/ai/articles/a16zs-1-1b-fund-admits-205434021.html"
       }
     ],
     "market": [
@@ -274,28 +267,22 @@
         "link": "https://www.cnbc.com/2026/08/29/stocks-eked-out-a-winning-week-here-are-the-names-that-are-now-overbought.html"
       },
       {
-        "title": "DeepSeek looks for fresh capital as founder’s quant empire navigates China’s choppy IPO market",
-        "source": "CNBC Tech",
-        "published": "2026-08-28 02:17",
-        "link": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html"
-      },
-      {
         "title": "Dunkin' comes back to major market after 12-year absence",
         "source": "Yahoo Finance",
         "published": "2026-08-28 16:17",
         "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html"
       },
       {
-        "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
+        "title": "Revolution Medicines (RVMD) Made Pancreatic-Cancer History. At $47B Valuation, the Market Already Assumed It",
         "source": "Yahoo Finance",
-        "published": "2026-08-29 12:00",
-        "link": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo"
+        "published": "2026-08-28 20:54",
+        "link": "https://finance.yahoo.com/healthcare/articles/revolution-medicines-rvmd-made-pancreatic-205401673.html"
       },
       {
-        "title": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.",
+        "title": "Hovnanian’s (HOV) Turnaround Bet Meets A Choppier Housing Market",
         "source": "Yahoo Finance",
-        "published": "2026-08-29 11:56",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo"
+        "published": "2026-08-28 20:54",
+        "link": "https://finance.yahoo.com/real-estate/articles/hovnanian-hov-turnaround-bet-meets-205430122.html"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -312,10 +299,6 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -326,20 +309,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
