@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-08-30T15:37:55.147423",
+  "timestamp": "2026-08-31T04:21:54.341951",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.82,
-      "change": 0.34,
-      "change_pct": 1.24,
-      "volume": 85331331,
-      "high": 28.26,
-      "low": 27.36,
-      "open": 27.48,
-      "prev_close": 27.48,
-      "market_cap": 715951374336,
-      "pe_ratio": 19.591549,
+      "price": 27.6,
+      "change": -0.22,
+      "change_pct": -0.79,
+      "volume": 34848103,
+      "high": 27.96,
+      "low": 27.42,
+      "open": 27.88,
+      "prev_close": 27.82,
+      "market_cap": 710289653760,
+      "pe_ratio": 19.43662,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-08-28"
+      "date": "2026-08-31"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78800.47,
-      "change": 970.18,
-      "change_pct": 1.25,
-      "volume": 13692042240,
-      "high": 78940.3,
-      "low": 77972.53,
-      "open": 78234.75,
+      "price": 77514.2,
+      "change": -316.09,
+      "change_pct": -0.41,
+      "volume": 22164668416,
+      "high": 78022.8,
+      "low": 77447.71,
+      "open": 77695.48,
       "prev_close": 77830.29,
-      "market_cap": 1582095269888,
+      "market_cap": 1556488257536,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-08-30"
+      "date": "2026-08-31"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25584.79,
-      "change": 19.05,
-      "change_pct": 0.07,
-      "volume": 2533500000,
-      "high": 25699.09,
-      "low": 25410.46,
-      "open": 25410.46,
-      "prev_close": 25565.74,
+      "price": 25402.36,
+      "change": -182.43,
+      "change_pct": -0.71,
+      "volume": 0,
+      "high": 25494.04,
+      "low": 25290.69,
+      "open": 25420.63,
+      "prev_close": 25584.79,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-08-28"
+      "date": "2026-08-31"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4609.18,
+      "price": 4572.06,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 919080316,
-      "high": 4643.33,
-      "low": 4608.46,
-      "open": 4615.84,
-      "prev_close": 4609.18,
+      "volume": 1370810812,
+      "high": 4586.34,
+      "low": 4557.35,
+      "open": 4561.99,
+      "prev_close": 4572.06,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4643.335,
-      "52w_low": 4608.462,
-      "date": "2026-08-28"
+      "52w_high": 4586.3374,
+      "52w_low": 4557.3457,
+      "date": "2026-08-31"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,46 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "The 'choose your own adventure' earnings: Why retailers are handling tariff refunds so differently",
+        "title": "Trump threatens to blow up Iran's Kharg Island oil hub as hostilities escalate once again",
         "source": "CNBC Top",
-        "published": "2026-08-30 12:00",
-        "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html"
+        "published": "2026-08-31 02:48",
+        "link": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html"
+      },
+      {
+        "title": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed `at odds' with Treasury",
+        "source": "CNBC Top",
+        "published": "2026-08-31 03:47",
+        "link": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
       },
       {
         "title": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
         "source": "CNBC Top",
-        "published": "2026-08-30 12:00",
+        "published": "2026-08-30 15:48",
         "link": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html"
       },
       {
-        "title": "Icelanders reject reopening talks to join the EU despite Trump's Greenland threats",
+        "title": "China's factory activity shrinks for second straight month, contracting less than expected",
         "source": "CNBC Top",
-        "published": "2026-08-30 12:32",
-        "link": "https://www.cnbc.com/2026/08/30/iceland-eu-accession-referendum-result.html"
-      },
-      {
-        "title": "U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
-        "source": "CNBC Top",
-        "published": "2026-08-30 13:10",
-        "link": "https://www.cnbc.com/2026/08/30/bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil.html"
-      },
-      {
-        "title": "What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals",
-        "source": "CNBC Top",
-        "published": "2026-08-30 13:00",
-        "link": "https://www.cnbc.com/2026/08/30/us-canada-trade-war-tariffs-steel-aluminum-metals-economy.html"
-      },
-      {
-        "title": "Bank of America says these stocks have upside heading into September",
-        "source": "CNBC Top",
-        "published": "2026-08-29 12:12",
-        "link": "https://www.cnbc.com/2026/08/29/bank-of-america-says-these-stocks-have-upside-heading-into-september.html"
-      },
-      {
-        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-        "source": "CNBC Top",
-        "published": "2026-08-29 19:06",
-        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
+        "published": "2026-08-31 03:15",
+        "link": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html"
       },
       {
         "title": "Analysts like this humanoid supplier, even if the robots remain concepts — for now",
@@ -226,30 +208,48 @@
         "link": "https://www.cnbc.com/2026/08/30/analysts-favor-humanoid-supplier-even-as-robots-remain-concepts-for-now.html"
       },
       {
-        "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
+        "title": "Meta- and Google-backed Indian telecom operator Jio Platforms gets regulatory nod for IPO",
         "source": "CNBC Top",
-        "published": "2026-08-29 19:55",
-        "link": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html"
+        "published": "2026-08-31 02:35",
+        "link": "https://www.cnbc.com/2026/08/31/jio-ipo-nse-india-shares-meta-google.html"
       },
       {
-        "title": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
+        "title": "Bank of America says these stocks have upside heading into September",
         "source": "CNBC Top",
-        "published": "2026-08-30 07:27",
-        "link": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
+        "published": "2026-08-29 12:12",
+        "link": "https://www.cnbc.com/2026/08/29/bank-of-america-says-these-stocks-have-upside-heading-into-september.html"
+      },
+      {
+        "title": "U.S. plans to sanction another bank in effort to clamp down on Iran transactions: Bessent",
+        "source": "CNBC Top",
+        "published": "2026-08-30 22:37",
+        "link": "https://www.cnbc.com/2026/08/30/bessent-bank-sanction-iran-transactions.html"
+      },
+      {
+        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+        "source": "CNBC Tech",
+        "published": "2026-08-29 19:06",
+        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
+      },
+      {
+        "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+        "source": "CNBC Tech",
+        "published": "2026-08-29 13:25",
+        "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Stock Market Week Ahead: Chips, Cybersecurity And Jobs",
+        "title": "Is Procter & Gamble Stock Underperforming the Nasdaq?",
         "source": "Yahoo Finance",
-        "published": "2026-08-29 13:07",
-        "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo"
+        "published": "2026-08-29 17:19",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stock-underperforming-nasdaq-171921912.html"
       },
       {
-        "title": "Is Walmart Stock Underperforming the Nasdaq?",
+        "title": "Intel vs. AMD: Why the Market Share Number Is Misleading",
         "source": "Yahoo Finance",
-        "published": "2026-08-29 12:57",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-underperforming-nasdaq-125750941.html"
+        "published": "2026-08-29 18:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-amd-why-market-183002932.html"
       }
     ],
     "tech": [
@@ -262,22 +262,34 @@
     ],
     "market": [
       {
-        "title": "Top Wall Street analysts suggest these 3 dividend stocks for consistent income",
+        "title": "Stock futures fall after U.S. strikes Iran; Wall Street heads for winning month: Live updates",
         "source": "CNBC Top",
-        "published": "2026-08-30 10:42",
-        "link": "https://www.cnbc.com/2026/08/30/top-analysts-suggest-these-dividend-stocks-for-consistent-income.html"
+        "published": "2026-08-31 03:21",
+        "link": "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
       },
       {
-        "title": "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
-        "source": "Yahoo Finance",
-        "published": "2026-08-30 13:28",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo"
+        "title": "Trump criticizes NBC over election comment as Treasury denies some NYT, WSJ and Bloomberg reporters G20 credentials",
+        "source": "CNBC Top",
+        "published": "2026-08-30 19:40",
+        "link": "https://www.cnbc.com/2026/08/30/trump-nbc-election-comment-treasury-g20-reporter-access.html"
       },
       {
-        "title": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+        "title": "Is Oracle Stock Underperforming the S&P 500?",
         "source": "Yahoo Finance",
-        "published": "2026-08-30 14:55",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html"
+        "published": "2026-08-29 16:44",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html"
+      },
+      {
+        "title": "If a Stock Market Crash Is on the Way, History Says This Is the Smartest Thing Investors Can Do",
+        "source": "Yahoo Finance",
+        "published": "2026-08-29 16:57",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-crash-way-history-165700081.html"
+      },
+      {
+        "title": "How Is Home Depot’s Stock Performance Compared to Other Consumer Discretionary Stocks",
+        "source": "Yahoo Finance",
+        "published": "2026-08-29 17:27",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-performance-compared-172747281.html"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",

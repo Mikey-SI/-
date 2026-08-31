@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-30T15:38:21.470002",
+  "timestamp": "2026-08-31T04:22:21.656498",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 715951374336,
+      "market_cap": 710289653760,
       "enterprise_value": 633312247808,
-      "pe_ratio": 19.591549,
-      "forward_pe": 18.112867,
+      "pe_ratio": 19.43662,
+      "forward_pe": 17.969631,
       "peg_ratio": 3.02,
-      "pb_ratio": 2.275753,
-      "ps_ratio": 1.6342173,
+      "pb_ratio": 2.2577565,
+      "ps_ratio": 1.6212939,
       "ev_ebitda": 22.115,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -31,29 +31,29 @@
       "52w_low": 21.3,
       "50d_avg": 26.2376,
       "200d_avg": 32.4466,
-      "analyst_target": 36.48209,
+      "analyst_target": 36.507137,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 27.82,
-      "ma5": 27.87,
-      "ma20": 27.26,
-      "ma60": 26.31,
-      "ma120": 28.93,
-      "rsi_14": 51.2,
-      "macd": 0.242,
-      "ret_1w": 0.0,
-      "ret_1m": -10.37,
-      "ret_3m": -2.04,
-      "ret_6m": -23.82,
+      "price": 27.6,
+      "ma5": 27.82,
+      "ma20": 27.24,
+      "ma60": 26.29,
+      "ma120": 28.89,
+      "rsi_14": 55.9,
+      "macd": 0.223,
+      "ret_1w": -0.58,
+      "ret_1m": -4.1,
+      "ret_3m": -3.36,
+      "ret_6m": -25.08,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -53.2,
-      "pct_from_52w_low": 29.88,
-      "volume_ratio": 0.55,
+      "pct_from_52w_high": -53.57,
+      "pct_from_52w_low": 28.85,
+      "volume_ratio": 0.24,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "UP"
@@ -71,15 +71,15 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25584.79,
-        "change_pct": 0.07
+        "price": 25402.36,
+        "change_pct": -0.71
       },
       "SPX": {
         "price": 7711.76,
         "change_pct": -0.25
       },
       "USD/CNH": {
-        "price": 6.73,
+        "price": 6.72,
         "change_pct": 0.0
       },
       "US10Y": {
@@ -108,18 +108,13 @@
       "score": 55.0
     },
     {
+      "name": "零跑汽车",
+      "ticker": "9863.HK",
+      "score": 55.0
+    },
+    {
       "name": "科大讯飞",
       "ticker": "002230.SZ",
-      "score": 55.0
-    },
-    {
-      "name": "浪潮信息",
-      "ticker": "000977.SZ",
-      "score": 55.0
-    },
-    {
-      "name": "中兴通讯-A",
-      "ticker": "000063.SZ",
       "score": 55.0
     },
     {
@@ -128,18 +123,23 @@
       "score": 50.0
     },
     {
-      "name": "卓胜微",
-      "ticker": "300782.SZ",
-      "score": 48.0
-    },
-    {
-      "name": "闻泰科技",
-      "ticker": "600745.SS",
-      "score": 48.0
-    },
-    {
       "name": "中芯国际-HK",
       "ticker": "0981.HK",
+      "score": 45.0
+    },
+    {
+      "name": "小鹏汽车-HK",
+      "ticker": "9868.HK",
+      "score": 45.0
+    },
+    {
+      "name": "澜起科技",
+      "ticker": "688008.SS",
+      "score": 45.0
+    },
+    {
+      "name": "兆易创新",
+      "ticker": "603986.SS",
       "score": 45.0
     }
   ],
