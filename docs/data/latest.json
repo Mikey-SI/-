@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-09-01T15:40:35.717563",
+  "timestamp": "2026-09-02T03:28:10.431430",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.56,
-      "change": -0.06,
-      "change_pct": -0.22,
-      "volume": 86643519,
-      "high": 28.12,
-      "low": 27.36,
-      "open": 27.52,
-      "prev_close": 27.62,
-      "market_cap": 709260279808,
-      "pe_ratio": 19.408451,
+      "price": 27.74,
+      "change": 0.18,
+      "change_pct": 0.65,
+      "volume": 57450998,
+      "high": 28.14,
+      "low": 27.08,
+      "open": 27.5,
+      "prev_close": 27.56,
+      "market_cap": 713892560896,
+      "pe_ratio": 19.535212,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 711.16,
-      "change": -5.6,
-      "change_pct": -0.78,
-      "volume": 13209665,
-      "high": 711.19,
-      "low": 705.62,
+      "price": 707.64,
+      "change": -9.12,
+      "change_pct": -1.27,
+      "volume": 34409539,
+      "high": 712.3,
+      "low": 704.66,
       "open": 707.43,
       "prev_close": 716.76,
       "market_cap": "N/A",
-      "pe_ratio": 30.41064,
+      "pe_ratio": 30.258842,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-01"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 89.08,
-      "change": -0.43,
-      "change_pct": -0.48,
-      "volume": 36815346,
-      "high": 89.12,
+      "price": 88.97,
+      "change": -0.54,
+      "change_pct": -0.6,
+      "volume": 73437030,
+      "high": 89.41,
       "low": 85.72,
       "open": 86.9,
       "prev_close": 89.51,
-      "market_cap": 470833364992,
+      "market_cap": 470304784384,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 23.68,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 501.21,
-      "change": -6.08,
-      "change_pct": -1.2,
-      "volume": 7637116,
+      "price": 501.02,
+      "change": -6.27,
+      "change_pct": -1.24,
+      "volume": 19129792,
       "high": 505.97,
       "low": 496.78,
       "open": 498.01,
       "prev_close": 507.29,
-      "market_cap": 3721757720576,
-      "pe_ratio": 27.907017,
+      "market_cap": 3720346861568,
+      "pe_ratio": 28.24239,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-01"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77883.74,
-      "change": -664.89,
-      "change_pct": -0.85,
-      "volume": 28960337920,
-      "high": 79159.34,
-      "low": 77602.55,
-      "open": 78559.11,
+      "price": 77660.69,
+      "change": -887.95,
+      "change_pct": -1.13,
+      "volume": 31082471424,
+      "high": 77516.29,
+      "low": 76777.59,
+      "open": 77395.89,
       "prev_close": 78548.63,
-      "market_cap": 1563952414720,
+      "market_cap": 1555971571712,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7658.72,
-      "change": -27.42,
-      "change_pct": -0.36,
-      "volume": 855307465,
-      "high": 7661.69,
-      "low": 7627.87,
+      "price": 7631.47,
+      "change": -54.67,
+      "change_pct": -0.71,
+      "volume": 2742281000,
+      "high": 7663.63,
+      "low": 7611.2,
       "open": 7635.47,
       "prev_close": 7686.14,
       "market_cap": "N/A",
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26214.26,
-      "change": -156.63,
-      "change_pct": -0.59,
-      "volume": 2564773000,
-      "high": 26216.14,
+      "price": 26099.77,
+      "change": -271.12,
+      "change_pct": -1.03,
+      "volume": 5809876000,
+      "high": 26260.68,
       "low": 25995.53,
       "open": 26031.67,
       "prev_close": 26370.89,
@@ -125,46 +125,46 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25329.73,
-      "change": -237.26,
-      "change_pct": -0.93,
+      "price": 25057.47,
+      "change": -272.26,
+      "change_pct": -1.07,
       "volume": 0,
-      "high": 25478.98,
-      "low": 25240.2,
-      "open": 25415.72,
-      "prev_close": 25566.99,
+      "high": 25305.13,
+      "low": 25008.87,
+      "open": 25280.82,
+      "prev_close": 25329.73,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4611.44,
+      "price": 4546.56,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 12121620,
-      "high": 4640.08,
-      "low": 4604.77,
-      "open": 4618.73,
-      "prev_close": 4611.44,
+      "volume": 3179997708,
+      "high": 4583.27,
+      "low": 4534.39,
+      "open": 4581.51,
+      "prev_close": 4546.56,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4640.081,
-      "52w_low": 4604.7695,
-      "date": "2026-09-01"
+      "52w_high": 4583.271,
+      "52w_low": 4534.389,
+      "date": "2026-09-02"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52993.54,
-      "change": -192.36,
-      "change_pct": -0.36,
-      "volume": 146027069,
+      "price": 52766.9,
+      "change": -419.0,
+      "change_pct": -0.79,
+      "volume": 403942797,
       "high": 53176.6,
-      "low": 52815.89,
+      "low": 52691.31,
       "open": 53083.58,
       "prev_close": 53185.9,
       "market_cap": "N/A",
@@ -178,112 +178,130 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+        "title": "Trump says U.S. is not forcing Iran to negotiate after fresh round of strikes",
         "source": "CNBC Top",
-        "published": "2026-09-01 14:48",
-        "link": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html"
+        "published": "2026-09-02 01:34",
+        "link": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
       },
       {
         "title": "Canada's Carney slaps Trump admin for 'doing memes ... throwing shade'",
         "source": "CNBC Top",
-        "published": "2026-09-01 15:35",
+        "published": "2026-09-01 18:52",
         "link": "https://www.cnbc.com/2026/09/01/canada-carney-trump-trade-ontario.html"
       },
       {
-        "title": "Fed Governor Barr says he'll support rate hike if inflation doesn't ease",
+        "title": "Stock futures are little changed after Wall Street posts third straight losing day: Live updates",
         "source": "CNBC Top",
-        "published": "2026-09-01 14:01",
-        "link": "https://www.cnbc.com/2026/09/01/fed-governor-barr-says-hell-support-rate-hike-if-inflation-doesnt-ease.html"
+        "published": "2026-09-02 03:04",
+        "link": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
+        "source": "CNBC Top",
+        "published": "2026-09-01 21:40",
+        "link": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html"
+      },
+      {
+        "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
+        "source": "CNBC Top",
+        "published": "2026-09-02 03:05",
+        "link": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html"
       },
       {
         "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
         "source": "CNBC Top",
-        "published": "2026-09-01 11:00",
+        "published": "2026-09-01 16:27",
         "link": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
       },
       {
-        "title": "U.S. House aims to avoid government shutdown amid GOP hard-liner resistance",
+        "title": "Used cars under $20,000 tend to sell quickly — but there are trade-offs for buyers",
         "source": "CNBC Top",
-        "published": "2026-09-01 14:56",
-        "link": "https://www.cnbc.com/2026/09/01/congress-government-shutdown-vote.html"
-      },
-      {
-        "title": "Toyota's hybrid RAV4 is in demand as dealers wait for more supply",
-        "source": "CNBC Top",
-        "published": "2026-09-01 12:00",
-        "link": "https://www.cnbc.com/2026/09/01/toyota-rav4-dealer-inventory.html"
-      },
-      {
-        "title": "New data shows this language learning stock can bounce back, Evercore ISI says",
-        "source": "CNBC Top",
-        "published": "2026-09-01 14:29",
-        "link": "https://www.cnbc.com/2026/09/01/this-language-learning-stock-can-bounce-back-evercore-isi-data-shows.html"
-      },
-      {
-        "title": "Used cars under $20,000 tend to sell quickly — but there are tradeoffs for buyers",
-        "source": "CNBC Top",
-        "published": "2026-09-01 11:00",
+        "published": "2026-09-01 15:49",
         "link": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html"
       },
       {
-        "title": "How one of the largest investors in student housing is playing this school year",
+        "title": "Jim Cramer says Nvidia should do a half-trillion dollar, Apple-style stock buyback",
         "source": "CNBC Top",
-        "published": "2026-09-01 15:32",
-        "link": "https://www.cnbc.com/2026/09/01/university-student-housing-investor.html"
+        "published": "2026-09-01 23:13",
+        "link": "https://www.cnbc.com/2026/09/01/jim-cramer-says-nvidia-should-do-a-half-trillion-dollar-apple-style-stock-buyback.html"
       },
       {
-        "title": "OneRail launches AI platform with Nvidia for retailers to make faster delivery decisions",
+        "title": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
+        "source": "CNBC Top",
+        "published": "2026-09-01 21:41",
+        "link": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html"
+      },
+      {
+        "title": "Palo Alto CEO says $1 trillion of cybersecurity infrastructure isn’t ready for AI",
         "source": "CNBC Tech",
-        "published": "2026-09-01 12:50",
-        "link": "https://www.cnbc.com/2026/09/01/onerail-nvidia-ai-delivery-platform.html"
+        "published": "2026-09-01 23:20",
+        "link": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html"
       }
     ],
     "qqq_intel": [
       {
         "title": "Hugging Face's new duck robot is selling fast. A Chinese chip powers it",
         "source": "CNBC Top",
-        "published": "2026-09-01 07:30",
+        "published": "2026-09-02 00:11",
         "link": "https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html"
-      },
-      {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq drop as rising bond yields, oil prices weigh on stocks",
-        "source": "Yahoo Finance",
-        "published": "2026-09-01 08:06",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-1-dow-sp-500-nasdaq-080617884.html"
       }
     ],
     "tech": [
       {
-        "title": "Cramer: Why Tim Cook deserves more credit for his accomplishments as Apple CEO",
-        "source": "CNBC Tech",
-        "published": "2026-08-31 17:16",
-        "link": "https://www.cnbc.com/2026/08/31/cramer-why-tim-cook-deserves-more-credit-for-his-accomplishments-as-apple-ceo.html"
+        "title": "Big Tech stocks have lagged the broader market nearly all year. Here's what's going on",
+        "source": "CNBC Top",
+        "published": "2026-09-01 20:00",
+        "link": "https://www.cnbc.com/2026/09/01/big-tech-has-lagged-the-market-nearly-all-year-whats-happening.html"
+      },
+      {
+        "title": "This Little-Known Software Stock Just Set a New All-Time High",
+        "source": "Yahoo Finance",
+        "published": "2026-08-31 15:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/little-known-software-stock-just-153003029.html"
       }
     ],
     "market": [
       {
-        "title": "Stocks are starting out September under pressure. Bank of America zeroes in on key level",
+        "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
         "source": "CNBC Top",
-        "published": "2026-09-01 13:24",
-        "link": "https://www.cnbc.com/2026/09/01/stocks-start-september-under-pressure-bank-of-america-stresses-key-level.html"
+        "published": "2026-09-01 23:52",
+        "link": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
+      },
+      {
+        "title": "Japanese green tea giant Ito En surges 8%, defying a broad market sell-off",
+        "source": "CNBC Top",
+        "published": "2026-09-02 02:24",
+        "link": "https://www.cnbc.com/2026/09/02/japan-green-tea-ito-en-surges-earnings.html"
       },
       {
         "title": "Waymo and Zoox expand into more U.S. markets as robotaxi race heats up",
-        "source": "CNBC Top",
+        "source": "CNBC Tech",
         "published": "2026-09-01 14:00",
         "link": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html"
       },
       {
-        "title": "Charter Communications (CHTR) Strengthens Market Position Amid Fierce Competition",
+        "title": "Say No to Tokenmaxxing. How Alex Karp’s War on the ‘Token Industrial Complex’ Is Fueling the Next NVDA and PLTR Bull Run.",
         "source": "Yahoo Finance",
-        "published": "2026-09-01 14:23",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-chtr-strengthens-market-142325751.html"
+        "published": "2026-08-31 15:42",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/no-tokenmaxxing-alex-karp-war-154206406.html"
       },
       {
-        "title": "LSE prepares to launch tokenised stocks in digital markets push",
+        "title": "Global Liquidity Could Drive Crypto Markets in September, Expert Says",
+        "source": "Yahoo Finance",
+        "published": "2026-08-31 15:43",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html"
+      },
+      {
+        "title": "FirstFT: Global bond sell-off deepens",
         "source": "FT Markets",
-        "published": "2026-09-01 06:30",
-        "link": "https://www.ft.com/content/64511a2c-34e7-4f98-be24-9e8427b65027?syn-25a6b1a6=1"
+        "published": "2026-09-01 21:42",
+        "link": "https://www.ft.com/content/bc2e4206-a702-4a66-8b94-2538fa249862?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Politics keeps European stocks in America’s shadow",
+        "source": "FT Markets",
+        "published": "2026-09-01 16:32",
+        "link": "https://www.ft.com/content/066b0d08-421b-46a1-8bf1-7698aec161d2?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
