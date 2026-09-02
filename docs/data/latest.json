@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-09-02T03:28:10.431430",
+  "timestamp": "2026-09-02T15:28:46.825932",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.74,
-      "change": 0.18,
-      "change_pct": 0.65,
-      "volume": 57450998,
+      "price": 28.06,
+      "change": 0.5,
+      "change_pct": 1.81,
+      "volume": 115696798,
       "high": 28.14,
       "low": 27.08,
       "open": 27.5,
       "prev_close": 27.56,
-      "market_cap": 713892560896,
-      "pe_ratio": 19.535212,
+      "market_cap": 722127814656,
+      "pe_ratio": 19.760563,
       "52w_high": 59.9,
       "52w_low": 21.3,
       "date": "2026-09-02"
@@ -21,66 +21,66 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 707.64,
-      "change": -9.12,
-      "change_pct": -1.27,
-      "volume": 34409539,
-      "high": 712.3,
-      "low": 704.66,
-      "open": 707.43,
-      "prev_close": 716.76,
+      "price": 709.49,
+      "change": 1.85,
+      "change_pct": 0.26,
+      "volume": 10469564,
+      "high": 709.8,
+      "low": 705.11,
+      "open": 707.11,
+      "prev_close": 707.64,
       "market_cap": "N/A",
-      "pe_ratio": 30.258842,
+      "pe_ratio": 30.337948,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 88.97,
-      "change": -0.54,
-      "change_pct": -0.6,
-      "volume": 73437030,
-      "high": 89.41,
-      "low": 85.72,
-      "open": 86.9,
-      "prev_close": 89.51,
-      "market_cap": 470304784384,
+      "price": 89.93,
+      "change": 0.96,
+      "change_pct": 1.08,
+      "volume": 25127780,
+      "high": 90.12,
+      "low": 87.5,
+      "open": 88.75,
+      "prev_close": 88.97,
+      "market_cap": 475405844480,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
-      "52w_low": 23.68,
-      "date": "2026-09-01"
+      "52w_low": 23.72,
+      "date": "2026-09-02"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 501.02,
-      "change": -6.27,
-      "change_pct": -1.24,
-      "volume": 19129792,
-      "high": 505.97,
-      "low": 496.78,
-      "open": 498.01,
-      "prev_close": 507.29,
-      "market_cap": 3720346861568,
-      "pe_ratio": 28.24239,
+      "price": 497.7,
+      "change": -3.32,
+      "change_pct": -0.66,
+      "volume": 4965044,
+      "high": 500.27,
+      "low": 495.3,
+      "open": 500.17,
+      "prev_close": 501.02,
+      "market_cap": 3695731015680,
+      "pe_ratio": 27.742752,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77660.69,
-      "change": -887.95,
-      "change_pct": -1.13,
-      "volume": 31082471424,
-      "high": 77516.29,
-      "low": 76777.59,
+      "price": 77021.82,
+      "change": -381.8,
+      "change_pct": -0.49,
+      "volume": 29369040896,
+      "high": 77719.54,
+      "low": 76391.16,
       "open": 77395.89,
-      "prev_close": 78548.63,
-      "market_cap": 1555971571712,
+      "prev_close": 77403.62,
+      "market_cap": 1545452257280,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -91,45 +91,45 @@
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7631.47,
-      "change": -54.67,
-      "change_pct": -0.71,
-      "volume": 2742281000,
-      "high": 7663.63,
-      "low": 7611.2,
-      "open": 7635.47,
-      "prev_close": 7686.14,
+      "price": 7679.42,
+      "change": 47.95,
+      "change_pct": 0.63,
+      "volume": 833863103,
+      "high": 7681.0,
+      "low": 7633.62,
+      "open": 7634.58,
+      "prev_close": 7631.47,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26099.77,
-      "change": -271.12,
-      "change_pct": -1.03,
-      "volume": 5809876000,
-      "high": 26260.68,
-      "low": 25995.53,
-      "open": 26031.67,
-      "prev_close": 26370.89,
+      "price": 26239.46,
+      "change": 139.69,
+      "change_pct": 0.54,
+      "volume": 2807333000,
+      "high": 26245.04,
+      "low": 26062.68,
+      "open": 26094.0,
+      "prev_close": 26099.77,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27190.21,
       "52w_low": 20690.25,
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25057.47,
-      "change": -272.26,
-      "change_pct": -1.07,
+      "price": 25311.21,
+      "change": -18.52,
+      "change_pct": -0.07,
       "volume": 0,
-      "high": 25305.13,
+      "high": 25311.21,
       "low": 25008.87,
       "open": 25280.82,
       "prev_close": 25329.73,
@@ -142,14 +142,14 @@
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4546.56,
+      "price": 4547.96,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3179997708,
+      "volume": 1519319616,
       "high": 4583.27,
       "low": 4534.39,
       "open": 4581.51,
-      "prev_close": 4546.56,
+      "prev_close": 4547.96,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4583.271,
@@ -159,149 +159,160 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52766.9,
-      "change": -419.0,
-      "change_pct": -0.79,
-      "volume": 403942797,
-      "high": 53176.6,
-      "low": 52691.31,
-      "open": 53083.58,
-      "prev_close": 53185.9,
+      "price": 53075.92,
+      "change": 309.04,
+      "change_pct": 0.59,
+      "volume": 144911632,
+      "high": 53227.5,
+      "low": 52829.58,
+      "open": 52829.58,
+      "prev_close": 52766.88,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
-      "52w_low": 44948.16,
-      "date": "2026-09-01"
+      "52w_low": 44980.36,
+      "date": "2026-09-02"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "Trump says U.S. is not forcing Iran to negotiate after fresh round of strikes",
+        "title": "New York Fed's Williams says yield surge due to strong economic prospects",
         "source": "CNBC Top",
-        "published": "2026-09-02 01:34",
+        "published": "2026-09-02 13:45",
+        "link": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html"
+      },
+      {
+        "title": "G20 live updates: Alberta premier pushes back on Lutnick's Canada barb",
+        "source": "CNBC Top",
+        "published": "2026-09-02 15:09",
+        "link": "https://www.cnbc.com/2026/09/02/g20-innovation-ministerial-live-updates.html"
+      },
+      {
+        "title": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
+        "source": "CNBC Top",
+        "published": "2026-09-02 14:30",
+        "link": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+      },
+      {
+        "title": "American Airlines continues premium push with redesigned Boeing planes",
+        "source": "CNBC Top",
+        "published": "2026-09-02 14:00",
+        "link": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html"
+      },
+      {
+        "title": "Thyme Care raises $125 million, pushing cancer care startup's valuation above $2 billion",
+        "source": "CNBC Top",
+        "published": "2026-09-02 15:15",
+        "link": "https://www.cnbc.com/2026/09/02/thyme-care-raises-125-million-cancer-startups-value-over-2-billion.html"
+      },
+      {
+        "title": "There is 'a lot more pushback' on data center construction, Berkshire CEO Greg Abel tells CNBC",
+        "source": "CNBC Top",
+        "published": "2026-09-02 12:41",
+        "link": "https://www.cnbc.com/2026/09/02/there-is-a-lot-more-pushback-on-data-center-construction-berkshire-ceo-greg-abel-tells-cnbc.html"
+      },
+      {
+        "title": "Iran says two tankers have hit Hormuz naval mines, attacks regional targets in retaliation to U.S. strikes",
+        "source": "CNBC Top",
+        "published": "2026-09-02 14:44",
         "link": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
       },
       {
-        "title": "Canada's Carney slaps Trump admin for 'doing memes ... throwing shade'",
-        "source": "CNBC Top",
-        "published": "2026-09-01 18:52",
-        "link": "https://www.cnbc.com/2026/09/01/canada-carney-trump-trade-ontario.html"
-      },
-      {
-        "title": "Stock futures are little changed after Wall Street posts third straight losing day: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-09-02 03:04",
-        "link": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html"
-      },
-      {
-        "title": "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "source": "CNBC Top",
-        "published": "2026-09-01 21:40",
-        "link": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html"
-      },
-      {
-        "title": "Australia posts second-quarter growth of 2.1%, beating expectations",
-        "source": "CNBC Top",
-        "published": "2026-09-02 03:05",
-        "link": "https://www.cnbc.com/2026/09/02/australia-gdp-q2-middle-east-rba.html"
-      },
-      {
-        "title": "Apple enters John Ternus era as AI challenges and memory crunch intensify",
-        "source": "CNBC Top",
-        "published": "2026-09-01 16:27",
-        "link": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
-      },
-      {
-        "title": "Used cars under $20,000 tend to sell quickly — but there are trade-offs for buyers",
-        "source": "CNBC Top",
-        "published": "2026-09-01 15:49",
-        "link": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html"
-      },
-      {
-        "title": "Jim Cramer says Nvidia should do a half-trillion dollar, Apple-style stock buyback",
-        "source": "CNBC Top",
-        "published": "2026-09-01 23:13",
-        "link": "https://www.cnbc.com/2026/09/01/jim-cramer-says-nvidia-should-do-a-half-trillion-dollar-apple-style-stock-buyback.html"
-      },
-      {
-        "title": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
-        "source": "CNBC Top",
-        "published": "2026-09-01 21:41",
-        "link": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html"
-      },
-      {
-        "title": "Palo Alto CEO says $1 trillion of cybersecurity infrastructure isn’t ready for AI",
+        "title": "Dell is now the most important stock in the market. Here's why",
         "source": "CNBC Tech",
-        "published": "2026-09-01 23:20",
-        "link": "https://www.cnbc.com/2026/09/01/palo-alto-ceo-says-1-trillion-of-cybersecurity-infrastructure-isnt-ready-for-ai.html"
-      }
-    ],
-    "qqq_intel": [
+        "published": "2026-09-02 14:33",
+        "link": "https://www.cnbc.com/2026/09/02/dell-is-now-the-most-important-stock-in-the-market-heres-why-.html"
+      },
       {
-        "title": "Hugging Face's new duck robot is selling fast. A Chinese chip powers it",
-        "source": "CNBC Top",
-        "published": "2026-09-02 00:11",
-        "link": "https://www.cnbc.com/2026/09/01/hugging-faces-new-duck-robot-is-selling-fast-a-chinese-chip-powers-it.html"
+        "title": "Palantir CEO Alex Karp backs ousted Ukraine defense minister's new defense tech startup",
+        "source": "CNBC Tech",
+        "published": "2026-09-02 09:30",
+        "link": "https://www.cnbc.com/2026/09/02/palantir-alex-karp-ukraine-federov-defense-startup.html"
+      },
+      {
+        "title": "Meta settlement could clear the way for new AI product launches, Morgan Stanley says",
+        "source": "CNBC Tech",
+        "published": "2026-09-02 09:19",
+        "link": "https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html"
       }
     ],
+    "qqq_intel": [],
     "tech": [
       {
-        "title": "Big Tech stocks have lagged the broader market nearly all year. Here's what's going on",
+        "title": "Google defeats U.S. bid to force ad tech sale",
         "source": "CNBC Top",
-        "published": "2026-09-01 20:00",
-        "link": "https://www.cnbc.com/2026/09/01/big-tech-has-lagged-the-market-nearly-all-year-whats-happening.html"
+        "published": "2026-09-02 15:09",
+        "link": "https://www.cnbc.com/2026/09/02/google-defeats-us-bid-to-force-ad-tech-sale.html"
       },
       {
-        "title": "This Little-Known Software Stock Just Set a New All-Time High",
+        "title": "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
+        "source": "CNBC Top",
+        "published": "2026-09-02 12:10",
+        "link": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html"
+      },
+      {
+        "title": "Google defeats US bid to force ad tech sale",
         "source": "Yahoo Finance",
-        "published": "2026-08-31 15:30",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/little-known-software-stock-just-153003029.html"
+        "published": "2026-09-02 14:47",
+        "link": "https://finance.yahoo.com/media-advertising/articles/google-defeats-us-bid-force-143055450.html"
+      },
+      {
+        "title": "Citi says investors should consider buying tumbling tech stock",
+        "source": "Yahoo Finance",
+        "published": "2026-09-01 16:53",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/citi-says-investors-consider-buying-165315833.html"
+      },
+      {
+        "title": "Russia secretly helping Iran develop supersonic missiles",
+        "source": "FT Markets",
+        "published": "2026-09-02 04:00",
+        "link": "https://www.ft.com/content/8812dfb4-8bae-4459-8de5-016d919c43ff?syn-25a6b1a6=1"
       }
     ],
     "market": [
       {
-        "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
-        "source": "CNBC Top",
-        "published": "2026-09-01 23:52",
-        "link": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
-      },
-      {
-        "title": "Japanese green tea giant Ito En surges 8%, defying a broad market sell-off",
-        "source": "CNBC Top",
-        "published": "2026-09-02 02:24",
-        "link": "https://www.cnbc.com/2026/09/02/japan-green-tea-ito-en-surges-earnings.html"
-      },
-      {
-        "title": "Waymo and Zoox expand into more U.S. markets as robotaxi race heats up",
+        "title": "Stocks' losing streak, Iran strikes, Dell earnings and more in Morning Squawk",
         "source": "CNBC Tech",
-        "published": "2026-09-01 14:00",
-        "link": "https://www.cnbc.com/2026/09/01/waymo-and-zoox-expand-into-more-us-markets-as-robotaxi-race-heats-up.html"
+        "published": "2026-09-02 12:43",
+        "link": "https://www.cnbc.com/2026/09/02/5-things-to-know-before-the-stock-market-opens.html"
       },
       {
-        "title": "Say No to Tokenmaxxing. How Alex Karp’s War on the ‘Token Industrial Complex’ Is Fueling the Next NVDA and PLTR Bull Run.",
+        "title": "The Fund Added GE Aerospace (GE) Amid Market Skepticism",
         "source": "Yahoo Finance",
-        "published": "2026-08-31 15:42",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/no-tokenmaxxing-alex-karp-war-154206406.html"
+        "published": "2026-09-02 14:50",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fund-added-ge-aerospace-ge-145059869.html"
       },
       {
-        "title": "Global Liquidity Could Drive Crypto Markets in September, Expert Says",
-        "source": "Yahoo Finance",
-        "published": "2026-08-31 15:43",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html"
-      },
-      {
-        "title": "FirstFT: Global bond sell-off deepens",
+        "title": "Burnham seeks to reassure bond markets amid public spending fears",
         "source": "FT Markets",
-        "published": "2026-09-01 21:42",
-        "link": "https://www.ft.com/content/bc2e4206-a702-4a66-8b94-2538fa249862?syn-25a6b1a6=1"
+        "published": "2026-09-02 15:10",
+        "link": "https://www.ft.com/content/55ea0ee5-d067-4fc0-81cb-82293e9285de?syn-25a6b1a6=1"
       },
       {
-        "title": "Politics keeps European stocks in America’s shadow",
+        "title": "A key tenet of US equity markets is under threat",
         "source": "FT Markets",
-        "published": "2026-09-01 16:32",
-        "link": "https://www.ft.com/content/066b0d08-421b-46a1-8bf1-7698aec161d2?syn-25a6b1a6=1"
+        "published": "2026-09-02 14:45",
+        "link": "https://www.ft.com/content/38d5c39f-901f-4306-9412-f7e1d7553174?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Energy price surge hits bond markets as European gas reaches three-year high",
+        "source": "FT Markets",
+        "published": "2026-09-02 13:36",
+        "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1"
+      },
+      {
+        "title": "What Japan’s bond sell-off means for global markets",
+        "source": "FT Markets",
+        "published": "2026-09-02 12:03",
+        "link": "https://www.ft.com/content/f394d4ca-d035-4753-b7a0-f21eefa08252?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Advisory firm Interpath looking for its own US deal",
+        "source": "FT Markets",
+        "published": "2026-09-02 04:00",
+        "link": "https://www.ft.com/content/0a019cc6-3ce3-4034-b88f-302a56888095?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -318,10 +329,6 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -332,20 +339,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
