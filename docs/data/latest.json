@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-09-03T15:23:09.556446",
+  "timestamp": "2026-09-04T03:27:49.657005",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.44,
-      "change": -0.62,
-      "change_pct": -2.21,
-      "volume": 117456362,
-      "high": 28.56,
-      "low": 27.02,
-      "open": 28.3,
-      "prev_close": 28.06,
-      "market_cap": 706172092416,
-      "pe_ratio": 19.323944,
+      "price": 28.44,
+      "change": 1.0,
+      "change_pct": 3.64,
+      "volume": 76966359,
+      "high": 28.76,
+      "low": 27.66,
+      "open": 27.68,
+      "prev_close": 27.44,
+      "market_cap": 731858927616,
+      "pe_ratio": 20.02817,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.31,
-      "change": 7.07,
-      "change_pct": 1.0,
-      "volume": 12530993,
-      "high": 716.4,
-      "low": 709.69,
-      "open": 710.85,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
+      "volume": 29342845,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 709.24,
       "market_cap": "N/A",
-      "pe_ratio": 30.629364,
+      "pe_ratio": 30.687725,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-03"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 90.15,
-      "change": 0.1,
-      "change_pct": 0.11,
-      "volume": 26593563,
-      "high": 90.84,
-      "low": 87.72,
-      "open": 89.35,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
+      "volume": 79677381,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 90.05,
-      "market_cap": 476534439936,
+      "market_cap": 484577247232,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 23.75,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 512.51,
-      "change": 15.68,
-      "change_pct": 3.16,
-      "volume": 7981903,
-      "high": 513.27,
-      "low": 500.8,
-      "open": 502.14,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
+      "volume": 24108434,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 496.82,
-      "market_cap": 3805517971456,
-      "pe_ratio": 28.566889,
+      "market_cap": 3787919458304,
+      "pe_ratio": 28.434782,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-03"
@@ -72,30 +72,30 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 80660.23,
-      "change": 3359.75,
-      "change_pct": 4.35,
-      "volume": 30809753600,
-      "high": 80772.5,
-      "low": 76993.97,
-      "open": 77310.17,
+      "price": 80882.65,
+      "change": 3582.17,
+      "change_pct": 4.63,
+      "volume": 41012105216,
+      "high": 81392.3,
+      "low": 80686.27,
+      "open": 81271.92,
       "prev_close": 77300.48,
-      "market_cap": 1618188304384,
+      "market_cap": 1623463952384,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7735.51,
-      "change": 68.91,
-      "change_pct": 0.9,
-      "volume": 835453480,
-      "high": 7736.08,
+      "price": 7747.71,
+      "change": 81.11,
+      "change_pct": 1.06,
+      "volume": 2695072000,
+      "high": 7756.76,
       "low": 7686.71,
       "open": 7686.71,
       "prev_close": 7666.6,
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26539.99,
-      "change": 322.16,
-      "change_pct": 1.23,
-      "volume": 2679723000,
-      "high": 26543.06,
+      "price": 26584.06,
+      "change": 366.23,
+      "change_pct": 1.4,
+      "volume": 6518648000,
+      "high": 26644.57,
       "low": 26325.06,
       "open": 26336.32,
       "prev_close": 26217.83,
@@ -125,45 +125,45 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 25213.31,
-      "change": -97.9,
-      "change_pct": -0.39,
+      "price": 25746.24,
+      "change": 435.03,
+      "change_pct": 1.72,
       "volume": 0,
-      "high": 25538.15,
-      "low": 25160.38,
-      "open": 25482.56,
+      "high": 25791.38,
+      "low": 25515.74,
+      "open": 25515.74,
       "prev_close": 25311.21,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4552.58,
+      "price": 4572.82,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1044536816,
-      "high": 4585.99,
-      "low": 4536.92,
-      "open": 4570.91,
-      "prev_close": 4552.58,
+      "volume": 2142943208,
+      "high": 4602.2,
+      "low": 4572.72,
+      "open": 4575.32,
+      "prev_close": 4572.82,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4585.9873,
-      "52w_low": 4536.925,
-      "date": "2026-09-03"
+      "52w_high": 4602.1963,
+      "52w_low": 4572.716,
+      "date": "2026-09-04"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53660.35,
-      "change": 598.4,
-      "change_pct": 1.13,
-      "volume": 137140449,
-      "high": 53665.73,
+      "price": 53686.1,
+      "change": 624.15,
+      "change_pct": 1.18,
+      "volume": 410262852,
+      "high": 53746.5,
       "low": 53286.15,
       "open": 53309.17,
       "prev_close": 53061.95,
@@ -178,52 +178,46 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+        "source": "CNBC Top",
+        "published": "2026-09-03 19:18",
+        "link": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html"
+      },
+      {
+        "title": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+        "source": "CNBC Top",
+        "published": "2026-09-03 19:38",
+        "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
+      },
+      {
         "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
         "source": "CNBC Top",
-        "published": "2026-09-03 14:38",
+        "published": "2026-09-03 16:43",
         "link": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
       },
       {
-        "title": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+        "title": "A 'shakeout' in early-stage AI may be coming as VC money gets pickier on valuations",
         "source": "CNBC Top",
-        "published": "2026-09-03 14:06",
-        "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
+        "published": "2026-09-04 00:44",
+        "link": "https://www.cnbc.com/2026/09/04/ai-bubble-valuations-venture-capital.html"
       },
       {
-        "title": "The world appears to be entering a higher-rate era. Here’s who will pay the price",
+        "title": "South Korea's AI rally is reshaping romance, reality shows and academic preferences",
         "source": "CNBC Top",
-        "published": "2026-09-03 04:20",
-        "link": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html"
+        "published": "2026-09-04 00:55",
+        "link": "https://www.cnbc.com/2026/09/04/south-korea-ai-rally-society-impact.html"
       },
       {
-        "title": "Dow rises 400 points as Treasury yields fall on lower Fed rate hike expectations: Live updates",
+        "title": "Carney claps back at Lutnick, says Canada will resume trade talks 'when the Americans are ready'",
         "source": "CNBC Top",
-        "published": "2026-09-03 15:04",
-        "link": "https://www.cnbc.com/2026/09/02/stock-market-today-live-updates.html"
+        "published": "2026-09-03 20:42",
+        "link": "https://www.cnbc.com/2026/09/03/carney-lutnick-trump-trade-canada.html"
       },
       {
-        "title": "One stock on Josh Brown's list is a 'double AI beneficiary' that just climbed to all-time highs",
+        "title": "Goldman just revised this credit-market forecast thanks to the AI sector",
         "source": "CNBC Top",
-        "published": "2026-09-03 15:00",
-        "link": "https://www.cnbc.com/2026/09/03/one-stock-on-josh-browns-list-is-a-double-ai-beneficiary-that-just-climbed-to-all-time-highs.html"
-      },
-      {
-        "title": "Anthropic's distillation battle turns to the dark web as China concerns swell",
-        "source": "CNBC Top",
-        "published": "2026-09-03 11:45",
-        "link": "https://www.cnbc.com/2026/09/03/anthropic-distillation-battle-turns-to-dark-web-china-concerns-swell.html"
-      },
-      {
-        "title": "'No steering wheel, no pedals.' Tesla teases fans ahead of long-awaited Cybercab update",
-        "source": "CNBC Top",
-        "published": "2026-09-03 12:15",
-        "link": "https://www.cnbc.com/2026/09/03/tesla-teases-no-steering-wheel-no-pedals-ahead-of-cybercab-update.html"
-      },
-      {
-        "title": "Brent oil price above $96 per barrel after Iran fires missiles at Kuwait",
-        "source": "CNBC Top",
-        "published": "2026-09-03 13:40",
-        "link": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html"
+        "published": "2026-09-04 02:42",
+        "link": "https://www.cnbc.com/2026/09/04/goldman-usd-corporate-debt-bond-yields.html"
       },
       {
         "title": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
@@ -232,38 +226,94 @@
         "link": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html"
       },
       {
-        "title": "Iran strikes Kuwait as Trump says renewed Mideast hostilities will not last 'too long'",
+        "title": "Zscaler stock rises on earnings beat, upbeat guidance",
         "source": "CNBC Top",
-        "published": "2026-09-03 14:32",
-        "link": "https://www.cnbc.com/2026/09/03/us-iran-war-trump-hormuz-israel-middle-east-europe-kuwait.html"
+        "published": "2026-09-03 20:41",
+        "link": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html"
+      },
+      {
+        "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities",
+        "source": "CNBC Tech",
+        "published": "2026-09-03 21:52",
+        "link": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
       }
     ],
-    "qqq_intel": [],
-    "tech": [],
+    "qqq_intel": [
+      {
+        "title": "Is Analog Devices Stock Outperforming the Nasdaq?",
+        "source": "Yahoo Finance",
+        "published": "2026-09-02 15:28",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-stock-outperforming-nasdaq-152857321.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
+        "source": "CNBC Tech",
+        "published": "2026-09-03 19:03",
+        "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html"
+      },
+      {
+        "title": "Indian diaspora comes through with dollars",
+        "source": "FT Markets",
+        "published": "2026-09-04 01:30",
+        "link": "https://www.ft.com/content/96be9e00-0409-48b8-a7aa-97614058f799?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Revolut wins provisional US banking licence",
+        "source": "FT Markets",
+        "published": "2026-09-03 15:48",
+        "link": "https://www.ft.com/content/d6c24b34-1520-4dc4-8996-83eab8e81941?syn-25a6b1a6=1"
+      }
+    ],
     "market": [
       {
-        "title": "Stocks' losing streak, Iran strikes, Dell earnings and more in Morning Squawk",
-        "source": "CNBC Tech",
-        "published": "2026-09-02 12:43",
-        "link": "https://www.cnbc.com/2026/09/02/5-things-to-know-before-the-stock-market-opens.html"
+        "title": "Buy these cheap dividend-paying energy stocks, Goldman Sachs says",
+        "source": "CNBC Top",
+        "published": "2026-09-03 19:34",
+        "link": "https://www.cnbc.com/2026/09/03/buy-these-cheap-dividend-paying-energy-stocks-goldman-sachs-says.html"
       },
       {
-        "title": "Why are home prices so high? How today's market impacts housing costs.",
+        "title": "Stocks Push Higher as Crude Oil and Bond Yields Stabilize",
         "source": "Yahoo Finance",
-        "published": "2024-04-02 18:49",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/why-are-home-prices-so-high-factors-contributing-to-current-housing-costs-184935469.html"
+        "published": "2026-09-02 15:18",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-push-higher-crude-oil-151809400.html"
       },
       {
-        "title": "Wall Street Loves NuScale Power. Here's the Risk Analysts Are Glossing Over.",
+        "title": "Is TJX Companies Stock Underperforming the S&P 500?",
         "source": "Yahoo Finance",
-        "published": "2026-09-03 14:50",
-        "link": "https://finance.yahoo.com/energy/articles/wall-street-loves-nuscale-power-145000761.html"
+        "published": "2026-09-02 15:18",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/tjx-companies-stock-underperforming-p-151833766.html"
       },
       {
-        "title": "The new rivalry on Wall Street",
+        "title": "What Makes Robinhood Markets (HOOD) as an Attractive Bet?",
+        "source": "Yahoo Finance",
+        "published": "2026-09-02 15:30",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/makes-robinhood-markets-hood-attractive-153017756.html"
+      },
+      {
+        "title": "Nvidia Blew Wall Street Away with Its Q2 Results. Cathie Wood Is Celebrating by Buying More Than 243,000 Shares.",
+        "source": "Yahoo Finance",
+        "published": "2026-09-02 15:39",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-blew-wall-street-away-153932231.html"
+      },
+      {
+        "title": "Foreign investors shun Australia after property developer collapses",
         "source": "FT Markets",
-        "published": "2026-09-03 04:00",
-        "link": "https://www.ft.com/content/a9d4cdad-c1bf-4bac-be2b-79d152041b76?syn-25a6b1a6=1"
+        "published": "2026-09-04 03:02",
+        "link": "https://www.ft.com/content/26b050eb-2b32-4d89-b847-4464ada5ff03?syn-25a6b1a6=1"
+      },
+      {
+        "title": "EU enters winter with lowest gas stocks on record",
+        "source": "FT Markets",
+        "published": "2026-09-03 17:46",
+        "link": "https://www.ft.com/content/5e9db3c2-70c0-40da-8767-88dcbaf8cfc5?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Star Citadel trader to step down amid tumult in energy markets",
+        "source": "FT Markets",
+        "published": "2026-09-03 17:29",
+        "link": "https://www.ft.com/content/b4c17a07-f684-44c7-b334-8b7bcb1a21d6?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -280,6 +330,10 @@
     ]
   },
   "sentiment": {
+    "qqq_intel": {
+      "overall_sentiment": "unknown",
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -290,20 +344,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "happy",
-    "emoji": "😊☀️",
-    "greeting": "Good vibes today! 今天心情不错~",
-    "tone": "warm, optimistic, friendly with occasional humor",
-    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
-    "vibe": "Feeling good, sipping my coffee with a smile"
+    "mood": "panicking",
+    "emoji": "🔥😱",
+    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
+    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
+    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
+    "vibe": "Stress-eating chips while analyzing charts at 3am"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "calculated",
-    "emoji": "♟️💼",
+    "mood": "clinical",
+    "emoji": "🧊📊",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "analytical, sharp, professional, slightly arrogant",
-    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+    "tone": "cold, purely objective, risk-management focused, zero panic",
+    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
