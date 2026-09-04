@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T03:28:32.174236",
+  "timestamp": "2026-09-04T15:19:32.402021",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -12,7 +12,7 @@
       "pe_ratio": 20.02817,
       "forward_pe": 18.499369,
       "peg_ratio": 2.83,
-      "pb_ratio": 2.3253894,
+      "pb_ratio": 2.3243139,
       "ps_ratio": 1.6705275,
       "ev_ebitda": 21.774,
       "revenue": 438100492288,
@@ -31,7 +31,7 @@
       "52w_low": 21.3,
       "50d_avg": 26.5736,
       "200d_avg": 32.2037,
-      "analyst_target": 36.52884,
+      "analyst_target": 36.54136,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -53,7 +53,7 @@
       "low_52w": 21.42,
       "pct_from_52w_high": -52.16,
       "pct_from_52w_low": 32.77,
-      "volume_ratio": 0.58,
+      "volume_ratio": 1.29,
       "above_ma20": true,
       "above_ma60": true,
       "trend": "UP"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 25746.74,
-        "change_pct": 1.72
+        "price": 25650.87,
+        "change_pct": 1.74
       },
       "SPX": {
-        "price": 7747.71,
-        "change_pct": 1.06
+        "price": 7708.84,
+        "change_pct": -0.5
       },
       "USD/CNH": {
-        "price": 6.72,
+        "price": 6.71,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.76,
-        "change_pct": -0.71
+        "price": 4.78,
+        "change_pct": 0.34
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
