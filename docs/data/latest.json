@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-05T03:29:21.307870",
+  "timestamp": "2026-09-05T14:07:01.934855",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -64,7 +64,7 @@
       "open": 510.0,
       "prev_close": 510.12,
       "market_cap": 3710545297408,
-      "pe_ratio": 28.408188,
+      "pe_ratio": 27.853958,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-04"
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 79599.0,
-      "change": -1672.74,
-      "change_pct": -2.06,
-      "volume": 35061964800,
-      "high": 79701.14,
-      "low": 79519.85,
+      "price": 79652.23,
+      "change": -19.74,
+      "change_pct": -0.02,
+      "volume": 21074051072,
+      "high": 79767.85,
+      "low": 79480.93,
       "open": 79676.33,
-      "prev_close": 81271.74,
-      "market_cap": 1598480973824,
+      "prev_close": 79671.97,
+      "market_cap": 1599491538944,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -94,7 +94,7 @@
       "price": 7718.6,
       "change": -29.11,
       "change_pct": -0.38,
-      "volume": 2531375000,
+      "volume": 4103570000,
       "high": 7750.19,
       "low": 7706.12,
       "open": 7750.19,
@@ -111,7 +111,7 @@
       "price": 26506.99,
       "change": -77.07,
       "change_pct": -0.29,
-      "volume": 5604391000,
+      "volume": 6529110000,
       "high": 26628.58,
       "low": 26444.84,
       "open": 26587.9,
@@ -159,10 +159,10 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53414.2,
-      "change": -271.91,
+      "price": 53414.25,
+      "change": -271.86,
       "change_pct": -0.51,
-      "volume": 381137227,
+      "volume": 381130000,
       "high": 53635.35,
       "low": 53289.88,
       "open": 53584.89,
@@ -178,118 +178,111 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Meet the CISO: A new front line star in the AI cybersecurity war",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:00",
+        "link": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html"
+      },
+      {
+        "title": "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:14",
+        "link": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html"
+      },
+      {
+        "title": "Many truckers don't feel like the rest of America about AI data centers as business booms",
+        "source": "CNBC Top",
+        "published": "2026-09-05 13:33",
+        "link": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html"
+      },
+      {
+        "title": "Abel: Two ways Berkshire hopes to cash in on AI",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:45",
+        "link": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html"
+      },
+      {
+        "title": "Goldman Sachs says buy the dip in these five stocks before it's too late",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:10",
+        "link": "https://www.cnbc.com/2026/09/05/buy-the-dip-in-these-five-stocks-before-its-too-late-goldman-says.html"
+      },
+      {
         "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
         "source": "CNBC Top",
         "published": "2026-09-04 19:48",
         "link": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html"
       },
       {
-        "title": "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "title": "Americans hit with record-high Labor Day Weekend gasoline prices",
         "source": "CNBC Top",
+        "published": "2026-09-05 12:13",
+        "link": "https://www.cnbc.com/2026/09/05/americans-hit-with-record-high-labor-day-weekend-gasoline-prices.html"
+      },
+      {
+        "title": "This enhanced geothermal project aims to unlock gigawatts of power to fuel the data center boom",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:20",
+        "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html"
+      },
+      {
+        "title": "Anthropic IPO launch shifts toward mid-October: Reuters",
+        "source": "CNBC Top",
+        "published": "2026-09-05 12:02",
+        "link": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html"
+      },
+      {
+        "title": "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
+        "source": "CNBC Tech",
         "published": "2026-09-04 20:06",
         "link": "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html"
-      },
-      {
-        "title": "Dow tumbles more than 260 points after strong jobs report reignites rate hike fears: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-09-04 20:16",
-        "link": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
-      },
-      {
-        "title": "Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years",
-        "source": "CNBC Top",
-        "published": "2026-09-04 20:10",
-        "link": "https://www.cnbc.com/2026/09/04/august-inflation-data-takes-center-stage-in-the-week-ahead.html"
-      },
-      {
-        "title": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
-        "source": "CNBC Top",
-        "published": "2026-09-04 20:22",
-        "link": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html"
-      },
-      {
-        "title": "Women accounted for almost all of job gains in August. Here's why",
-        "source": "CNBC Top",
-        "published": "2026-09-04 18:27",
-        "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
-      },
-      {
-        "title": "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
-        "source": "CNBC Top",
-        "published": "2026-09-04 20:39",
-        "link": "https://www.cnbc.com/2026/09/04/iran-turkey-sanctions-economy-bessent.html"
-      },
-      {
-        "title": "THC drinks could soon be harder to find as Congress delays hemp ban again",
-        "source": "CNBC Top",
-        "published": "2026-09-04 11:00",
-        "link": "https://www.cnbc.com/2026/09/04/thc-drinks-congress-hemp-ban.html"
-      },
-      {
-        "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
-        "source": "CNBC Top",
-        "published": "2026-09-04 15:10",
-        "link": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html"
-      },
-      {
-        "title": "Back-to-school shopping brought to you by AI — how Amazon, Google are positioned to win",
-        "source": "CNBC Tech",
-        "published": "2026-09-04 14:47",
-        "link": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html"
       }
     ],
-    "qqq_intel": [
-      {
-        "title": "Chipmaker Ambarella Posts Mixed Fiscal Q2 Earnings Report",
-        "source": "Yahoo Finance",
-        "published": "2026-09-03 20:51",
-        "link": "https://www.investors.com/news/technology/amba-stock-ambarella-fiscal-q2-2027-earnings/?src=A00220&yptr=yahoo"
-      },
-      {
-        "title": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
-        "source": "Yahoo Finance",
-        "published": "2026-09-03 21:39",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html"
-      }
-    ],
+    "qqq_intel": [],
     "tech": [
       {
         "title": "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
         "source": "CNBC Tech",
         "published": "2026-09-03 19:03",
         "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html"
+      },
+      {
+        "title": "Expansion of Commercial Operations in Focus for BWX Technologies (BWXT)",
+        "source": "Yahoo Finance",
+        "published": "2026-09-05 12:44",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/expansion-commercial-operations-focus-bwx-124456110.html"
       }
     ],
     "market": [
       {
-        "title": "These companies are growing their dividends and may see upside, Morgan Stanley says",
-        "source": "CNBC Top",
-        "published": "2026-09-04 20:26",
-        "link": "https://www.cnbc.com/2026/09/04/these-companies-are-growing-their-dividends-morgan-stanley-says.html"
+        "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Inclusion",
+        "source": "Yahoo Finance",
+        "published": "2026-09-05 13:01",
+        "link": "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/?src=A00220&yptr=yahoo"
       },
       {
-        "title": "Stock Market Today, Sept. 3: Campbell's Stock Slumps on Weaker Profit and Sales Miss",
+        "title": "ServiceNow Leads Five Stocks To Watch Near Buy Points",
         "source": "Yahoo Finance",
-        "published": "2026-09-03 21:17",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211757335.html"
+        "published": "2026-09-05 12:00",
+        "link": "https://www.investors.com/news/servicenow-stocks-to-watch-buy-points/?src=A00220&yptr=yahoo"
       },
       {
-        "title": "Robinhood Breaks Out. Analysts Bullish On Outlook, Prediction Markets.",
+        "title": "Is TransDigm Stock Underperforming the S&P 500?",
         "source": "Yahoo Finance",
-        "published": "2026-09-03 20:54",
-        "link": "https://www.investors.com/research/ibd-stock-of-the-day/robinhood-stock-breakout-ibd-stock-of-the-day-analyst-upgrades-price-target-event-contracts-options-crypto/?src=A00220&yptr=yahoo"
+        "published": "2026-09-04 12:06",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/transdigm-stock-underperforming-p-500-120641693.html"
       },
       {
-        "title": "Ultragenyx's 'Fall From Grace' — Shares Crash 44%, Hitting A Record Low",
-        "source": "Yahoo Finance",
-        "published": "2026-09-03 20:52",
-        "link": "https://www.investors.com/news/technology/ultragenyx-stock-angelman-syndrome-failure/?src=A00220&yptr=yahoo"
+        "title": "The gloves are starting to come off in markets",
+        "source": "FT Markets",
+        "published": "2026-09-05 04:00",
+        "link": "https://www.ft.com/content/d3f7a1a1-7fc1-4349-a202-a6fee6ef4a5b?syn-25a6b1a6=1"
       },
       {
-        "title": "Stocks to Watch Thursday Recap: Snowflake, Broadcom, HPE, Ultragenyx",
-        "source": "Yahoo Finance",
-        "published": "2026-09-03 21:18",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/stocks-to-watch-snowflake-broadcom-hpe-ultragenyx-B5bXTn6F9Ms1A3hGwP4q?siteid=yhoof2&yptr=yahoo"
+        "title": "The repo market is the ‘dark matter’ of finance: powerful and perilous",
+        "source": "FT Markets",
+        "published": "2026-09-05 04:00",
+        "link": "https://www.ft.com/content/8a7e8202-d800-4fb1-a8f0-eeb4536578f7?syn-25a6b1a6=1"
       },
       {
         "title": "Why Berkshire Hathaway might be an active hedge",
@@ -312,10 +305,6 @@
     ]
   },
   "sentiment": {
-    "qqq_intel": {
-      "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
-    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -326,20 +315,20 @@
   },
   "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "calm",
-    "emoji": "😌☕",
-    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
-    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
-    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
-    "vibe": "Peaceful mind, clear analysis"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "bored",
-    "emoji": "🥱🕰️",
+    "mood": "calculated",
+    "emoji": "♟️💼",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "dismissive of retail traders, highly selective, looking for real setups",
-    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
