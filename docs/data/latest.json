@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T15:18:46.890892",
+  "timestamp": "2026-09-05T03:29:21.307870",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -7,7 +7,7 @@
       "price": 28.44,
       "change": 1.0,
       "change_pct": 3.64,
-      "volume": 178924091,
+      "volume": 178857691,
       "high": 28.76,
       "low": 27.66,
       "open": 27.68,
@@ -21,16 +21,16 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 717.72,
-      "change": 0.05,
-      "change_pct": 0.01,
-      "volume": 12770025,
+      "price": 718.96,
+      "change": 1.29,
+      "change_pct": 0.18,
+      "volume": 32784600,
       "high": 721.86,
-      "low": 717.24,
-      "open": 719.36,
+      "low": 716.56,
+      "open": 719.35,
       "prev_close": 717.67,
       "market_cap": "N/A",
-      "pe_ratio": 29.253265,
+      "pe_ratio": 29.303808,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-04"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 95.41,
-      "change": 3.74,
-      "change_pct": 4.08,
-      "volume": 41996915,
-      "high": 95.58,
+      "price": 95.8,
+      "change": 4.13,
+      "change_pct": 4.51,
+      "volume": 97428100,
+      "high": 95.94,
       "low": 91.87,
-      "open": 92.36,
+      "open": 92.45,
       "prev_close": 91.67,
-      "market_cap": 504347295744,
+      "market_cap": 506408894464,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 24.05,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 500.62,
-      "change": -9.5,
-      "change_pct": -1.86,
-      "volume": 5052884,
+      "price": 499.7,
+      "change": -10.42,
+      "change_pct": -2.04,
+      "volume": 18074400,
       "high": 511.0,
-      "low": 500.36,
+      "low": 499.36,
       "open": 510.0,
       "prev_close": 510.12,
-      "market_cap": 3716559929344,
-      "pe_ratio": 27.868042,
+      "market_cap": 3710545297408,
+      "pe_ratio": 28.408188,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-04"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 79213.72,
-      "change": -2058.02,
-      "change_pct": -2.53,
-      "volume": 45365575680,
-      "high": 81392.3,
-      "low": 78671.32,
-      "open": 81271.92,
+      "price": 79599.0,
+      "change": -1672.74,
+      "change_pct": -2.06,
+      "volume": 35061964800,
+      "high": 79701.14,
+      "low": 79519.85,
+      "open": 79676.33,
       "prev_close": 81271.74,
-      "market_cap": 1589837561856,
+      "market_cap": 1598480973824,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-04"
+      "date": "2026-09-05"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7711.21,
-      "change": -36.5,
-      "change_pct": -0.47,
-      "volume": 788099917,
+      "price": 7718.6,
+      "change": -29.11,
+      "change_pct": -0.38,
+      "volume": 2531375000,
       "high": 7750.19,
-      "low": 7706.18,
+      "low": 7706.12,
       "open": 7750.19,
       "prev_close": 7747.71,
       "market_cap": "N/A",
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26466.88,
-      "change": -117.18,
-      "change_pct": -0.44,
-      "volume": 2258002000,
+      "price": 26506.99,
+      "change": -77.07,
+      "change_pct": -0.29,
+      "volume": 5604391000,
       "high": 26628.58,
-      "low": 26447.72,
+      "low": 26444.84,
       "open": 26587.9,
       "prev_close": 26584.06,
       "market_cap": "N/A",
@@ -128,7 +128,7 @@
       "price": 25650.87,
       "change": 437.56,
       "change_pct": 1.74,
-      "volume": 0,
+      "volume": 3576700000,
       "high": 25791.38,
       "low": 25515.74,
       "open": 25515.74,
@@ -159,10 +159,10 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53319.7,
-      "change": -366.41,
-      "change_pct": -0.68,
-      "volume": 138605132,
+      "price": 53414.2,
+      "change": -271.91,
+      "change_pct": -0.51,
+      "volume": 381137227,
       "high": 53635.35,
       "low": 53289.88,
       "open": 53584.89,
@@ -178,34 +178,46 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Trump tells Fed to slash rates or he'll end trade with countries with U.S. surpluses",
+        "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
         "source": "CNBC Top",
-        "published": "2026-09-04 14:47",
+        "published": "2026-09-04 19:48",
         "link": "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html"
       },
       {
-        "title": "Dow falls 300 points after much stronger-than-expected jobs report: Live updates",
+        "title": "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
         "source": "CNBC Top",
-        "published": "2026-09-04 15:01",
+        "published": "2026-09-04 20:06",
+        "link": "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html"
+      },
+      {
+        "title": "Dow tumbles more than 260 points after strong jobs report reignites rate hike fears: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-09-04 20:16",
         "link": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
       },
       {
-        "title": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+        "title": "Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years",
         "source": "CNBC Top",
-        "published": "2026-09-04 14:07",
-        "link": "https://www.cnbc.com/2026/09/04/treasury-bonds-yield-trump-ai-mortgage-rates-analysis.html"
+        "published": "2026-09-04 20:10",
+        "link": "https://www.cnbc.com/2026/09/04/august-inflation-data-takes-center-stage-in-the-week-ahead.html"
       },
       {
-        "title": "U.S. 'Economic Outcast’ operation gains momentum as EU joins sanctions; South Korea weighs military backing",
+        "title": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
         "source": "CNBC Top",
-        "published": "2026-09-04 12:20",
-        "link": "https://www.cnbc.com/2026/09/04/us-iran-war-trump-hormuz-operation-economic-outcast-sanctions-campaign.html"
+        "published": "2026-09-04 20:22",
+        "link": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html"
       },
       {
-        "title": "Global bond sell-off likely not over yet, Mohamed El-Erian tells CNBC",
+        "title": "Women accounted for almost all of job gains in August. Here's why",
         "source": "CNBC Top",
-        "published": "2026-09-04 07:41",
-        "link": "https://www.cnbc.com/2026/09/04/el-erian-government-bond-selloff.html"
+        "published": "2026-09-04 18:27",
+        "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
+      },
+      {
+        "title": "U.S. sanctions Turkish bank accused of enabling Iran as Bessent says he 'hopes for' no further bank penalties",
+        "source": "CNBC Top",
+        "published": "2026-09-04 20:39",
+        "link": "https://www.cnbc.com/2026/09/04/iran-turkey-sanctions-economy-bessent.html"
       },
       {
         "title": "THC drinks could soon be harder to find as Congress delays hemp ban again",
@@ -214,22 +226,10 @@
         "link": "https://www.cnbc.com/2026/09/04/thc-drinks-congress-hemp-ban.html"
       },
       {
-        "title": "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
+        "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
         "source": "CNBC Top",
-        "published": "2026-09-04 11:31",
-        "link": "https://www.cnbc.com/2026/09/04/nvidia-hugging-face-deal-chips.html"
-      },
-      {
-        "title": "Argentina's Milei escalates Falklands dispute as Trump questions U.S. support for Britain",
-        "source": "CNBC Top",
-        "published": "2026-09-04 07:50",
-        "link": "https://www.cnbc.com/2026/09/04/argentina-milei-falklands-oil-uk-trump.html"
-      },
-      {
-        "title": "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
-        "source": "CNBC Top",
-        "published": "2026-09-04 15:02",
-        "link": "https://www.cnbc.com/2026/09/04/treasurys-bonds-nonfarm-payrolls-unemployment-data.html"
+        "published": "2026-09-04 15:10",
+        "link": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html"
       },
       {
         "title": "Back-to-school shopping brought to you by AI — how Amazon, Google are positioned to win",
@@ -240,10 +240,16 @@
     ],
     "qqq_intel": [
       {
-        "title": "Stock Market Today: Nasdaq Slips On Surprise Jobs Report; Chip Name Extends Losing Streak (Live Coverage)",
+        "title": "Chipmaker Ambarella Posts Mixed Fiscal Q2 Earnings Report",
         "source": "Yahoo Finance",
-        "published": "2026-09-04 15:00",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-august-jobs-report-lululemon-lulu/?src=A00220&yptr=yahoo"
+        "published": "2026-09-03 20:51",
+        "link": "https://www.investors.com/news/technology/amba-stock-ambarella-fiscal-q2-2027-earnings/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
+        "source": "Yahoo Finance",
+        "published": "2026-09-03 21:39",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html"
       }
     ],
     "tech": [
@@ -252,44 +258,44 @@
         "source": "CNBC Tech",
         "published": "2026-09-03 19:03",
         "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html"
-      },
-      {
-        "title": "Chime is a winner when consumer finance goes K-shaped",
-        "source": "FT Markets",
-        "published": "2026-09-04 04:00",
-        "link": "https://www.ft.com/content/23489956-0f0a-4ffd-a73b-3f541964aa78?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Indian diaspora comes through with dollars",
-        "source": "FT Markets",
-        "published": "2026-09-04 01:30",
-        "link": "https://www.ft.com/content/96be9e00-0409-48b8-a7aa-97614058f799?syn-25a6b1a6=1"
       }
     ],
     "market": [
       {
-        "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+        "title": "These companies are growing their dividends and may see upside, Morgan Stanley says",
         "source": "CNBC Top",
-        "published": "2026-09-04 14:19",
-        "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+        "published": "2026-09-04 20:26",
+        "link": "https://www.cnbc.com/2026/09/04/these-companies-are-growing-their-dividends-morgan-stanley-says.html"
       },
       {
-        "title": "Stock Market Screens Like This One Capture Shifts In Market Leadership",
+        "title": "Stock Market Today, Sept. 3: Campbell's Stock Slumps on Weaker Profit and Sales Miss",
         "source": "Yahoo Finance",
-        "published": "2026-09-04 14:47",
-        "link": "https://www.investors.com/how-to-invest/investors-corner/stock-market-screen-shift-market-leadership-cf-industries/?src=A00220&yptr=yahoo"
+        "published": "2026-09-03 21:17",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-3-211757335.html"
       },
       {
-        "title": "Analysing CEVA’s (CEVA) Growth in Neural Processing Markets",
+        "title": "Robinhood Breaks Out. Analysts Bullish On Outlook, Prediction Markets.",
         "source": "Yahoo Finance",
-        "published": "2026-09-04 14:41",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/analysing-ceva-ceva-growth-neural-144155084.html"
+        "published": "2026-09-03 20:54",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/robinhood-stock-breakout-ibd-stock-of-the-day-analyst-upgrades-price-target-event-contracts-options-crypto/?src=A00220&yptr=yahoo"
       },
       {
-        "title": "Australian property developer collapse ripples into private credit markets",
+        "title": "Ultragenyx's 'Fall From Grace' — Shares Crash 44%, Hitting A Record Low",
+        "source": "Yahoo Finance",
+        "published": "2026-09-03 20:52",
+        "link": "https://www.investors.com/news/technology/ultragenyx-stock-angelman-syndrome-failure/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Stocks to Watch Thursday Recap: Snowflake, Broadcom, HPE, Ultragenyx",
+        "source": "Yahoo Finance",
+        "published": "2026-09-03 21:18",
+        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/stocks-to-watch-snowflake-broadcom-hpe-ultragenyx-B5bXTn6F9Ms1A3hGwP4q?siteid=yhoof2&yptr=yahoo"
+      },
+      {
+        "title": "Why Berkshire Hathaway might be an active hedge",
         "source": "FT Markets",
-        "published": "2026-09-04 03:02",
-        "link": "https://www.ft.com/content/26b050eb-2b32-4d89-b847-4464ada5ff03?syn-25a6b1a6=1"
+        "published": "2026-09-04 17:00",
+        "link": "https://www.ft.com/content/af5b1fd3-194d-4aed-b1ef-0bf662170952"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
