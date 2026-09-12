@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T15:24:28.342957",
+  "timestamp": "2026-09-12T03:40:01.474933",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -7,7 +7,7 @@
       "price": 26.36,
       "change": 0.44,
       "change_pct": 1.7,
-      "volume": 113534043,
+      "volume": 113533443,
       "high": 26.66,
       "low": 25.44,
       "open": 25.66,
@@ -21,16 +21,16 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.27,
-      "change": 7.58,
-      "change_pct": 1.07,
-      "volume": 12383364,
-      "high": 717.04,
-      "low": 713.65,
-      "open": 715.44,
+      "price": 714.88,
+      "change": 6.19,
+      "change_pct": 0.87,
+      "volume": 26598700,
+      "high": 717.63,
+      "low": 713.63,
+      "open": 715.68,
       "prev_close": 708.69,
       "market_cap": "N/A",
-      "pe_ratio": 29.194166,
+      "pe_ratio": 29.137512,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-11"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 103.49,
-      "change": 3.17,
-      "change_pct": 3.16,
-      "volume": 37994312,
+      "price": 102.94,
+      "change": 2.62,
+      "change_pct": 2.61,
+      "volume": 86840900,
       "high": 104.9,
-      "low": 101.08,
+      "low": 101.07,
       "open": 102.47,
       "prev_close": 100.32,
-      "market_cap": 547079618560,
+      "market_cap": 544151666688,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 24.05,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 495.56,
-      "change": 3.12,
-      "change_pct": 0.63,
-      "volume": 4801998,
+      "price": 495.63,
+      "change": 3.19,
+      "change_pct": 0.65,
+      "volume": 14510500,
       "high": 498.97,
       "low": 492.58,
-      "open": 495.62,
+      "open": 495.65,
       "prev_close": 492.44,
-      "market_cap": 3679803408384,
-      "pe_ratio": 27.577074,
+      "market_cap": 3680323239936,
+      "pe_ratio": 27.580969,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-11"
@@ -72,29 +72,29 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 78689.69,
-      "change": 2121.56,
-      "change_pct": 2.77,
-      "volume": 34154448896,
-      "high": 79503.17,
-      "low": 76535.95,
-      "open": 76535.95,
+      "price": 77243.01,
+      "change": 674.88,
+      "change_pct": 0.88,
+      "volume": 35771064320,
+      "high": 77366.49,
+      "low": 77201.88,
+      "open": 77201.88,
       "prev_close": 76568.12,
-      "market_cap": 1578372825088,
+      "market_cap": 1551350235136,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-11"
+      "date": "2026-09-12"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7669.27,
-      "change": 77.57,
-      "change_pct": 1.02,
-      "volume": 808447309,
+      "price": 7656.98,
+      "change": 65.28,
+      "change_pct": 0.86,
+      "volume": 2659812000,
       "high": 7677.02,
       "low": 7636.75,
       "open": 7636.75,
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26395.73,
-      "change": 314.01,
-      "change_pct": 1.2,
-      "volume": 2183751000,
-      "high": 26412.17,
+      "price": 26333.04,
+      "change": 251.31,
+      "change_pct": 0.96,
+      "volume": 5662986000,
+      "high": 26431.22,
       "low": 26283.11,
       "open": 26289.41,
       "prev_close": 26081.72,
@@ -128,7 +128,7 @@
       "price": 24805.63,
       "change": -148.84,
       "change_pct": -0.6,
-      "volume": 0,
+      "volume": 3138300000,
       "high": 24851.18,
       "low": 24570.24,
       "open": 24718.15,
@@ -153,16 +153,16 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4520.1694,
-      "52w_low": 3458.44,
+      "52w_low": 4461.5693,
       "date": "2026-09-11"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 52590.05,
-      "change": 525.95,
-      "change_pct": 1.01,
-      "volume": 129363221,
+      "price": 52573.3,
+      "change": 509.2,
+      "change_pct": 0.98,
+      "volume": 354468410,
       "high": 52720.24,
       "low": 52204.46,
       "open": 52204.46,
@@ -187,62 +187,62 @@
       {
         "title": "Here’s the inflation breakdown for August 2026 — in one chart",
         "source": "CNBC Top",
-        "published": "2026-09-11 15:07",
+        "published": "2026-09-11 17:14",
         "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html"
       },
       {
-        "title": "Analysis: Hot CPI puts Kevin Warsh’s Fed credibility on the line before rate decision",
+        "title": "Dow rises 500 points to snap 4-day slide as oil cools, traders look past inflation report: Live updates",
         "source": "CNBC Top",
-        "published": "2026-09-11 15:21",
-        "link": "https://www.cnbc.com/2026/09/11/kevin-warsh-fed-cpi-inflation-rate-hike-analysis.html"
-      },
-      {
-        "title": "Dow surges 500 points as traders shake off firm inflation data and oil prices retreat: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-09-11 15:22",
+        "published": "2026-09-11 20:35",
         "link": "https://www.cnbc.com/2026/09/10/stock-market-today-live-updates.html"
       },
       {
-        "title": "Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point",
+        "title": "Dell stock jumps on RBC initiation, now up nearly 350% in 2026",
         "source": "CNBC Top",
-        "published": "2026-09-11 14:35",
-        "link": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
+        "published": "2026-09-11 20:48",
+        "link": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html"
       },
       {
-        "title": "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
+        "title": "Election officials ban certain public workers from trading on prediction markets ahead of midterms",
         "source": "CNBC Top",
-        "published": "2026-09-11 11:59",
-        "link": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
+        "published": "2026-09-11 17:00",
+        "link": "https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html"
       },
       {
-        "title": "Treasury yields remain near multi-year highs as August CPI shows sticky inflation",
+        "title": "Arizona accuses L'Oreal of concealing cancer risks linked to hair relaxers",
         "source": "CNBC Top",
-        "published": "2026-09-11 13:08",
-        "link": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html"
+        "published": "2026-09-11 19:10",
+        "link": "https://www.cnbc.com/2026/09/11/arizona-accuses-loreal-of-concealing-hair-relaxer-cancer-risks.html"
       },
       {
-        "title": "AI regulation calls grow in D.C. after researcher's extinction warning",
+        "title": "Tesla eyes European freight market with long-delayed Semi truck",
         "source": "CNBC Top",
-        "published": "2026-09-11 13:44",
-        "link": "https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html"
+        "published": "2026-09-11 19:49",
+        "link": "https://www.cnbc.com/2026/09/11/tesla-eyes-european-freight-market-with-long-delayed-semi-truck.html"
       },
       {
-        "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
+        "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
         "source": "CNBC Top",
-        "published": "2026-09-11 12:08",
-        "link": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html"
+        "published": "2026-09-11 22:35",
+        "link": "https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html"
       },
       {
-        "title": "Oracle's stock rises on earnings and revenue beat fueled by AI cloud demand",
+        "title": "AI fears have hit this data stock. Investor Sarat Sethi sees a buying opportunity",
+        "source": "CNBC Top",
+        "published": "2026-09-11 16:48",
+        "link": "https://www.cnbc.com/2026/09/11/sarat-sethi-buying-verisk-analytics.html"
+      },
+      {
+        "title": "Bonds are going on tilt. How to play them, says Mike Khouw",
+        "source": "CNBC Top",
+        "published": "2026-09-11 16:26",
+        "link": "https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html"
+      },
+      {
+        "title": "Altimeter's Gerstner blasts researchers voicing AI extinction warnings, questions 'political agenda'",
         "source": "CNBC Tech",
-        "published": "2026-09-11 13:34",
-        "link": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html"
-      },
-      {
-        "title": "Why fears of AI self-improvement are causing ‘existential’ concerns at Anthropic and OpenAI",
-        "source": "CNBC Tech",
-        "published": "2026-09-11 11:00",
-        "link": "https://www.cnbc.com/2026/09/11/anthropic-openai-ai-existential-concerns.html"
+        "published": "2026-09-11 18:48",
+        "link": "https://www.cnbc.com/2026/09/11/altimeters-gerstner-blasts-researchers-voicing-ai-extinction-warnings.html"
       }
     ],
     "qqq_intel": [],
@@ -252,6 +252,12 @@
         "source": "CNBC Top",
         "published": "2026-09-11 11:00",
         "link": "https://www.cnbc.com/2026/09/11/9/11-anniversary-air-travel.html"
+      },
+      {
+        "title": "Oracle's Larry Ellison adopts trading plan to sell up to $7.5 billion worth of stock",
+        "source": "CNBC Tech",
+        "published": "2026-09-12 01:36",
+        "link": "https://www.cnbc.com/2026/09/11/larry-ellison-50-million-trading-plan.html"
       },
       {
         "title": "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles",
@@ -264,32 +270,44 @@
         "source": "CNBC Tech",
         "published": "2026-09-10 18:20",
         "link": "https://www.cnbc.com/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html"
+      },
+      {
+        "title": "Oracle Stock Jumps As Earnings Beat Estimates, Cloud Infrastructure Growth Accelerates",
+        "source": "Yahoo Finance",
+        "published": "2026-09-10 21:30",
+        "link": "https://www.investors.com/news/technology/oracle-stock-orcl-q1-earnings-aug-2026-ai/?src=A00220&yptr=yahoo"
+      },
+      {
+        "title": "Early SpaceX investor Atreides hires co-CIO of Lone Pine",
+        "source": "FT Markets",
+        "published": "2026-09-11 22:55",
+        "link": "https://www.ft.com/content/282a7b82-49b1-48ce-b645-737da2ff093a?syn-25a6b1a6=1"
       }
     ],
     "market": [
       {
-        "title": "Leopold Aschenbrenner's Situational Awareness is active in options market, sources say",
+        "title": "Dan Chung rebuilt a decimated Alger Management after 9/11. He's still finding the market's winners",
         "source": "CNBC Top",
-        "published": "2026-09-11 14:02",
-        "link": "https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html"
+        "published": "2026-09-11 20:21",
+        "link": "https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html"
       },
       {
-        "title": "Our top 3 stocks that bucked the market’s recent pullback — plus, a look at the bottom 3",
-        "source": "CNBC Tech",
-        "published": "2026-09-10 15:00",
-        "link": "https://www.cnbc.com/2026/09/10/our-top-3-stocks-that-bucked-the-markets-recent-pullback-plus-a-look-at-the-bottom-3.html"
-      },
-      {
-        "title": "Stock Market Leaders Often Shine, Helped By This Sign Of Liquidity Strength",
+        "title": "Apple, IBD Stock Of The Day, Rebounds Bullishly After iPhone Duo Debut",
         "source": "Yahoo Finance",
-        "published": "2026-09-11 14:28",
-        "link": "https://www.investors.com/how-to-invest/investors-corner/stock-market-leaders-average-daily-dollar-volume-nutex-health/?src=A00220&yptr=yahoo"
+        "published": "2026-09-10 21:32",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/apple-stock-rises-after-iphone-duo-debut/?src=A00220&yptr=yahoo"
       },
       {
-        "title": "Exelixis, An IBD 50 Stock, Pulls A Bearish Move With Surprise Cancer Delay",
+        "title": "When will mortgage rates go down? The bond market isn't helping.",
         "source": "Yahoo Finance",
-        "published": "2026-09-11 14:10",
-        "link": "https://www.investors.com/news/technology/exelixis-stock-zanzalintinib-pdufa-delay/?src=A00220&yptr=yahoo"
+        "published": "2025-04-22 19:06",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-the-bond-market-isnt-helping-190610094.html"
+      },
+      {
+        "title": "Is Bessent winning the wrong battle in markets?",
+        "source": "FT Markets",
+        "published": "2026-09-11 17:00",
+        "link": "https://www.ft.com/content/c3740cd0-3c4c-44d0-b3e8-4ccb1bac65b0?syn-25a6b1a6=1"
       },
       {
         "title": "Bond markets stabilise after global sell-off",

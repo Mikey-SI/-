@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T15:24:59.745151",
+  "timestamp": "2026-09-12T03:40:28.154275",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -8,13 +8,13 @@
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "market_cap": 678157025280,
-      "enterprise_value": 584436809728,
+      "enterprise_value": 595755335680,
       "pe_ratio": 18.433567,
       "forward_pe": 17.003859,
       "peg_ratio": 2.65,
-      "pb_ratio": 2.1514812,
+      "pb_ratio": 2.1504834,
       "ps_ratio": 1.5479486,
-      "ev_ebitda": 20.408,
+      "ev_ebitda": 20.804,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
       "gross_margins": 0.21392,
@@ -29,9 +29,9 @@
       "beta": 0.716,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 27.0804,
-      "200d_avg": 31.8881,
-      "analyst_target": 36.355835,
+      "50d_avg": 27.1484,
+      "200d_avg": 31.8148,
+      "analyst_target": 36.352726,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -61,10 +61,8 @@
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim3_sentiment": {
-    "article_count": 1,
-    "headlines": [
-      "The iPhone Duo enters China’s crowded foldable market — and faces a price test"
-    ],
+    "article_count": 0,
+    "headlines": [],
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim4_competitive": {
@@ -77,16 +75,16 @@
         "change_pct": -0.6
       },
       "SPX": {
-        "price": 7669.86,
-        "change_pct": 1.03
+        "price": 7656.98,
+        "change_pct": 0.86
       },
       "USD/CNH": {
         "price": 6.71,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.94,
-        "change_pct": -0.04
+        "price": 4.97,
+        "change_pct": 0.63
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
