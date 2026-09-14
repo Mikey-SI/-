@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-09-13T15:12:32.094749",
+  "timestamp": "2026-09-14T03:55:06.893024",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 26.36,
-      "change": 0.44,
-      "change_pct": 1.7,
-      "volume": 113533443,
-      "high": 26.66,
-      "low": 25.44,
-      "open": 25.66,
-      "prev_close": 25.92,
-      "market_cap": 678157025280,
-      "pe_ratio": 18.433567,
+      "price": 27.14,
+      "change": 0.78,
+      "change_pct": 2.96,
+      "volume": 58647352,
+      "high": 27.34,
+      "low": 26.42,
+      "open": 26.42,
+      "prev_close": 26.36,
+      "market_cap": 698223886336,
+      "pe_ratio": 18.979021,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-11"
+      "date": "2026-09-14"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77090.15,
-      "change": -180.32,
-      "change_pct": -0.23,
-      "volume": 13301481472,
-      "high": 77308.94,
-      "low": 76503.83,
-      "open": 77270.22,
+      "price": 77520.14,
+      "change": 249.67,
+      "change_pct": 0.32,
+      "volume": 16851552256,
+      "high": 77793.66,
+      "low": 76452.55,
+      "open": 76806.19,
       "prev_close": 77270.47,
-      "market_cap": 1548442009600,
+      "market_cap": 1556076298240,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-13"
+      "date": "2026-09-14"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24805.63,
-      "change": -148.84,
-      "change_pct": -0.6,
-      "volume": 3138300000,
-      "high": 24851.18,
-      "low": 24570.24,
-      "open": 24718.15,
-      "prev_close": 24954.47,
+      "price": 24885.22,
+      "change": 79.59,
+      "change_pct": 0.32,
+      "volume": 0,
+      "high": 24910.36,
+      "low": 24662.11,
+      "open": 24701.18,
+      "prev_close": 24805.63,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-11"
+      "date": "2026-09-14"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4510.16,
+      "price": 4495.92,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3243133516,
-      "high": 4520.17,
-      "low": 4461.57,
-      "open": 4514.3,
-      "prev_close": 4510.16,
+      "volume": 1095958208,
+      "high": 4504.49,
+      "low": 4473.27,
+      "open": 4474.95,
+      "prev_close": 4495.92,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4520.1694,
-      "52w_low": 3458.44,
-      "date": "2026-09-11"
+      "52w_high": 4504.4893,
+      "52w_low": 4473.2744,
+      "date": "2026-09-14"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,10 +178,34 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
+        "title": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
         "source": "CNBC Top",
-        "published": "2026-09-13 12:29",
-        "link": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
+        "published": "2026-09-13 17:48",
+        "link": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html"
+      },
+      {
+        "title": "Trump says U.S. may keep Iranian oil 'like Venezuela' as Gulf-Iran Hormuz talks stall",
+        "source": "CNBC Top",
+        "published": "2026-09-14 03:01",
+        "link": "https://www.cnbc.com/2026/09/14/us-iran-trump-hormuz-gulf-oil-crude-talks-.html"
+      },
+      {
+        "title": "Stock futures fall as investors weigh AI safety concerns, oil gains: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-09-14 03:26",
+        "link": "https://www.cnbc.com/2026/09/13/stock-futures-today-live-updates.html"
+      },
+      {
+        "title": "Baker Hughes sees no slowdown in energy projects despite higher rates as AI buildouts stoke LNG demand",
+        "source": "CNBC Top",
+        "published": "2026-09-14 03:27",
+        "link": "https://www.cnbc.com/2026/09/14/baker-hughes-ceo-no-slowdown-in-energy-projects-despite-higher-rates-.html"
+      },
+      {
+        "title": "Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown",
+        "source": "CNBC Top",
+        "published": "2026-09-13 16:39",
+        "link": "https://www.cnbc.com/2026/09/13/china-dilemma-ai-slowdown-anthropic.html"
       },
       {
         "title": "Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive",
@@ -190,46 +214,22 @@
         "link": "https://www.cnbc.com/2026/09/13/vessel-struck-strait-of-hormuz-ukmto.html"
       },
       {
-        "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+        "title": "Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
         "source": "CNBC Top",
-        "published": "2026-09-13 11:17",
-        "link": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html"
+        "published": "2026-09-12 13:15",
+        "link": "https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html"
       },
       {
-        "title": "Goldman picks China healthcare stocks for a post-AI trade",
+        "title": "Z.ai shares tumble over 10% after $5 billion fundraising, its second major raise in two months",
         "source": "CNBC Top",
-        "published": "2026-09-13 11:54",
-        "link": "https://www.cnbc.com/2026/09/13/goldman-picks-china-healthcare-stocks-for-a-post-ai-trade.html"
-      },
-      {
-        "title": "Obama voices caution on AI, urges Democrats to tackle it, NYT says",
-        "source": "CNBC Top",
-        "published": "2026-09-13 07:01",
-        "link": "https://www.cnbc.com/2026/09/13/obama-voices-caution-on-ai-urges-democrats-to-tackle-it-nyt-says.html"
-      },
-      {
-        "title": "China's Xi urges BRICS nations to work towards peace in the Middle East",
-        "source": "CNBC Top",
-        "published": "2026-09-13 09:41",
-        "link": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html"
-      },
-      {
-        "title": "Taxing high earners to help fund Social Security gains bipartisan attention — what it could mean for benefits",
-        "source": "CNBC Top",
-        "published": "2026-09-13 13:30",
-        "link": "https://www.cnbc.com/2026/09/13/social-security-payroll-tax-cap.html"
+        "published": "2026-09-14 03:03",
+        "link": "https://www.cnbc.com/2026/09/14/zai-shares-tumble-second-major-raise-two-months-.html"
       },
       {
         "title": "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
         "source": "CNBC Top",
         "published": "2026-09-11 11:59",
         "link": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
-      },
-      {
-        "title": "Iran and UAE back joint BRICS statement urging restraint in war",
-        "source": "CNBC Top",
-        "published": "2026-09-13 10:38",
-        "link": "https://www.cnbc.com/2026/09/13/iran-and-uae-back-joint-brics-statement-urging-restraint-in-war.html"
       },
       {
         "title": "A Fed hike next week seems certain after the latest inflation data. Here's what's ahead",
@@ -242,7 +242,7 @@
     "tech": [
       {
         "title": "Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock",
-        "source": "CNBC Top",
+        "source": "CNBC Tech",
         "published": "2026-09-12 17:14",
         "link": "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html"
       },
@@ -251,26 +251,20 @@
         "source": "CNBC Tech",
         "published": "2026-09-12 01:36",
         "link": "https://www.cnbc.com/2026/09/11/larry-ellison-50-million-trading-plan.html"
-      },
-      {
-        "title": "Intuit vs. Block: 1 Fintech Stock Is Built for the Next Decade",
-        "source": "Yahoo Finance",
-        "published": "2026-09-12 13:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-vs-block-1-fintech-130003367.html"
       }
     ],
     "market": [
+      {
+        "title": "Prediction markets are becoming more professionalized, but also harder to beat",
+        "source": "CNBC Top",
+        "published": "2026-09-14 01:37",
+        "link": "https://www.cnbc.com/2026/09/14/prediction-markets-efficient-win-lose-beat.html"
+      },
       {
         "title": "NFL and midterm elections set up prediction markets for a critical fall season",
         "source": "CNBC Top",
         "published": "2026-09-13 11:52",
         "link": "https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html"
-      },
-      {
-        "title": "Top Wall Street analysts recommend these 3 dividend stocks for higher returns",
-        "source": "CNBC Top",
-        "published": "2026-09-13 11:53",
-        "link": "https://www.cnbc.com/2026/09/13/top-wall-street-analysts-recommend-these-3-dividend-stocks-for-higher-returns.html"
       },
       {
         "title": "Construction robots are tackling America's housing shortage, but we're a long way from humanoid homebuilders",
@@ -283,24 +277,6 @@
         "source": "CNBC Tech",
         "published": "2026-09-12 05:00",
         "link": "https://www.cnbc.com/2026/09/12/ai-data-centers-catastrophe-bonds-insurance.html"
-      },
-      {
-        "title": "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time",
-        "source": "Yahoo Finance",
-        "published": "2026-09-12 13:20",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-crash-coming-history-132000742.html"
-      },
-      {
-        "title": "Goldman Sachs Is Bullish. Here Are 3 Reasons AFRM Stock Could Climb 69%.",
-        "source": "Yahoo Finance",
-        "published": "2026-09-12 13:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-bullish-3-reasons-130003545.html"
-      },
-      {
-        "title": "Ray Dalio and Bloomberg analysts reveal where to put $10,000 as stocks hit highs and bonds sell off in 2026",
-        "source": "Yahoo Finance",
-        "published": "2026-09-12 13:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-bloomberg-analysts-reveal-130000521.html"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
