@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T03:52:57.690246",
+  "timestamp": "2026-09-16T15:41:47.202481",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -31,7 +31,7 @@
       "52w_low": 21.3,
       "50d_avg": 27.294,
       "200d_avg": 31.6781,
-      "analyst_target": 36.372143,
+      "analyst_target": 36.384598,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -53,7 +53,7 @@
       "low_52w": 21.42,
       "pct_from_52w_high": -55.96,
       "pct_from_52w_low": 22.22,
-      "volume_ratio": 0.29,
+      "volume_ratio": 0.58,
       "above_ma20": false,
       "above_ma60": false,
       "trend": "MIXED"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 24657.05,
-        "change_pct": -0.04
+        "price": 24713.78,
+        "change_pct": 0.19
       },
       "SPX": {
-        "price": 7585.73,
-        "change_pct": -0.45
+        "price": 7615.87,
+        "change_pct": 0.4
       },
       "USD/CNH": {
         "price": 6.71,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 5.0,
-        "change_pct": 0.71
+        "price": 4.96,
+        "change_pct": -0.74
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
