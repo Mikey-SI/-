@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T15:50:09.056949",
+  "timestamp": "2026-09-16T03:52:57.690246",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,14 +7,14 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 681758818304,
-      "enterprise_value": 616334491648,
-      "pe_ratio": 18.53147,
-      "forward_pe": 17.088375,
+      "market_cap": 673526251520,
+      "enterprise_value": 599356669952,
+      "pe_ratio": 18.307693,
+      "forward_pe": 16.88087,
       "peg_ratio": 2.78,
-      "pb_ratio": 2.162175,
-      "ps_ratio": 1.55617,
-      "ev_ebitda": 21.522,
+      "pb_ratio": 2.1359196,
+      "ps_ratio": 1.5373784,
+      "ev_ebitda": 20.929,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
       "gross_margins": 0.21392,
@@ -29,33 +29,33 @@
       "beta": 0.716,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "50d_avg": 27.226,
-      "200d_avg": 31.7491,
-      "analyst_target": 36.356583,
+      "50d_avg": 27.294,
+      "200d_avg": 31.6781,
+      "analyst_target": 36.372143,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 26.5,
-      "ma5": 26.46,
-      "ma20": 27.47,
-      "ma60": 26.49,
-      "ma120": 28.25,
-      "rsi_14": 37.9,
-      "macd": -0.175,
-      "ret_1w": 0.45,
-      "ret_1m": 2.4,
-      "ret_3m": 1.15,
-      "ret_6m": -17.7,
+      "price": 26.18,
+      "ma5": 26.42,
+      "ma20": 27.41,
+      "ma60": 26.55,
+      "ma120": 28.2,
+      "rsi_14": 41.3,
+      "macd": -0.226,
+      "ret_1w": 1.0,
+      "ret_1m": 0.0,
+      "ret_3m": -0.3,
+      "ret_6m": -21.66,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -55.42,
-      "pct_from_52w_low": 23.72,
-      "volume_ratio": 0.55,
+      "pct_from_52w_high": -55.96,
+      "pct_from_52w_low": 22.22,
+      "volume_ratio": 0.29,
       "above_ma20": false,
-      "above_ma60": true,
+      "above_ma60": false,
       "trend": "MIXED"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -71,12 +71,12 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 24667.24,
-        "change_pct": -1.0
+        "price": 24657.05,
+        "change_pct": -0.04
       },
       "SPX": {
-        "price": 7581.11,
-        "change_pct": -0.51
+        "price": 7585.73,
+        "change_pct": -0.45
       },
       "USD/CNH": {
         "price": 6.71,
@@ -138,8 +138,8 @@
       "score": 45.0
     },
     {
-      "name": "寒武纪",
-      "ticker": "688256.SS",
+      "name": "圣邦股份",
+      "ticker": "300661.SZ",
       "score": 45.0
     }
   ],

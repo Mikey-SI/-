@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-09-15T15:49:34.267446",
+  "timestamp": "2026-09-16T03:52:19.746497",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 26.5,
-      "change": -0.66,
-      "change_pct": -2.43,
-      "volume": 77301911,
-      "high": 27.4,
-      "low": 26.5,
-      "open": 27.12,
-      "prev_close": 27.16,
-      "market_cap": 681758818304,
-      "pe_ratio": 18.53147,
+      "price": 26.18,
+      "change": -0.32,
+      "change_pct": -1.21,
+      "volume": 35806536,
+      "high": 26.66,
+      "low": 25.92,
+      "open": 26.5,
+      "prev_close": 26.5,
+      "market_cap": 673526251520,
+      "pe_ratio": 18.307693,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-15"
+      "date": "2026-09-16"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 705.11,
-      "change": -4.07,
-      "change_pct": -0.57,
-      "volume": 10805337,
+      "price": 704.54,
+      "change": -4.64,
+      "change_pct": -0.65,
+      "volume": 26453600,
       "high": 709.53,
-      "low": 703.91,
-      "open": 708.76,
+      "low": 703.64,
+      "open": 708.8,
       "prev_close": 709.18,
       "market_cap": "N/A",
-      "pe_ratio": 28.7393,
+      "pe_ratio": 28.716066,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-15"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 98.28,
-      "change": 1.09,
-      "change_pct": 1.12,
-      "volume": 38834221,
+      "price": 97.14,
+      "change": -0.05,
+      "change_pct": -0.05,
+      "volume": 84839200,
       "high": 100.48,
-      "low": 97.9,
-      "open": 98.84,
+      "low": 96.52,
+      "open": 98.83,
       "prev_close": 97.19,
-      "market_cap": 519604076544,
+      "market_cap": 513492254720,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 24.45,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 499.42,
-      "change": -5.99,
-      "change_pct": -1.19,
-      "volume": 5630352,
+      "price": 497.12,
+      "change": -8.29,
+      "change_pct": -1.64,
+      "volume": 17774000,
       "high": 505.9,
-      "low": 498.2,
-      "open": 500.0,
+      "low": 495.54,
+      "open": 500.06,
       "prev_close": 505.41,
-      "market_cap": 3708466757632,
-      "pe_ratio": 27.838356,
+      "market_cap": 3691387289600,
+      "pe_ratio": 28.16544,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-15"
@@ -72,29 +72,29 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 76443.9,
-      "change": -1719.48,
-      "change_pct": -2.2,
-      "volume": 32608694272,
-      "high": 78232.38,
-      "low": 75684.44,
-      "open": 78181.33,
+      "price": 75713.09,
+      "change": -2450.29,
+      "change_pct": -3.13,
+      "volume": 39531589632,
+      "high": 76003.18,
+      "low": 75417.87,
+      "open": 75586.51,
       "prev_close": 78163.38,
-      "market_cap": 1534628200448,
+      "market_cap": 1520885039104,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-15"
+      "date": "2026-09-16"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7583.09,
-      "change": -36.89,
-      "change_pct": -0.48,
-      "volume": 869617339,
+      "price": 7585.73,
+      "change": -34.25,
+      "change_pct": -0.45,
+      "volume": 2810532000,
       "high": 7617.26,
       "low": 7572.69,
       "open": 7612.3,
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 25989.22,
-      "change": -197.19,
-      "change_pct": -0.75,
-      "volume": 2984107000,
+      "price": 25981.57,
+      "change": -204.84,
+      "change_pct": -0.78,
+      "volume": 7070629000,
       "high": 26172.12,
-      "low": 25949.48,
+      "low": 25943.31,
       "open": 26140.23,
       "prev_close": 26186.41,
       "market_cap": "N/A",
@@ -125,44 +125,44 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24667.24,
-      "change": -250.36,
-      "change_pct": -1.0,
+      "price": 24655.41,
+      "change": -11.83,
+      "change_pct": -0.05,
       "volume": 0,
-      "high": 24934.06,
-      "low": 24657.01,
-      "open": 24934.06,
-      "prev_close": 24917.6,
+      "high": 24789.91,
+      "low": 24574.75,
+      "open": 24789.91,
+      "prev_close": 24667.24,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-15"
+      "date": "2026-09-16"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4450.04,
+      "price": 4479.55,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 1386907612,
-      "high": 4496.96,
-      "low": 4444.63,
-      "open": 4473.81,
-      "prev_close": 4450.04,
+      "volume": 1353718908,
+      "high": 4481.19,
+      "low": 4417.6,
+      "open": 4449.88,
+      "prev_close": 4479.55,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4496.9556,
-      "52w_low": 3458.44,
-      "date": "2026-09-15"
+      "52w_high": 4481.185,
+      "52w_low": 4417.597,
+      "date": "2026-09-16"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51956.93,
-      "change": -464.27,
-      "change_pct": -0.89,
-      "volume": 129090348,
+      "price": 52093.1,
+      "change": -328.1,
+      "change_pct": -0.63,
+      "volume": 376836504,
       "high": 52336.61,
       "low": 51875.65,
       "open": 52303.24,
@@ -178,34 +178,34 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Musk urges top AI labs, Chinese companies to test each other's models amid calls for slowdown",
+        "title": "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
         "source": "CNBC Top",
-        "published": "2026-09-15 15:03",
-        "link": "https://www.cnbc.com/2026/09/15/elon-musk-ai-safety-testing.html"
+        "published": "2026-09-15 22:17",
+        "link": "https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html"
       },
       {
-        "title": "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
+        "title": "Stock futures are little changed ahead of pivotal Fed rate decision: Live updates",
         "source": "CNBC Top",
-        "published": "2026-09-15 14:01",
-        "link": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html"
+        "published": "2026-09-16 02:11",
+        "link": "https://www.cnbc.com/2026/09/15/stock-market-today-live-updates.html"
       },
       {
-        "title": "Trump calls Supreme Court mail ballot ruling 'big loss for Republicans'",
+        "title": "Nvidia CEO Huang attending Trump's state dinner for China's Xi: Source",
         "source": "CNBC Top",
-        "published": "2026-09-15 15:37",
-        "link": "https://www.cnbc.com/2026/09/15/trump-supreme-court-mail-ballots-election.html"
+        "published": "2026-09-15 22:06",
+        "link": "https://www.cnbc.com/2026/09/15/nvidia-jensen-huang-trump-xi.html"
       },
       {
-        "title": "Here's what 5% bond yields mean for the stock market — and which stocks to buy",
+        "title": "Adjusting capital gains for inflation could prove a mess for individual investors",
         "source": "CNBC Top",
-        "published": "2026-09-15 14:55",
-        "link": "https://www.cnbc.com/2026/09/15/heres-what-5percent-bond-yields-mean-for-the-stock-market-and-which-stocks-to-buy.html"
+        "published": "2026-09-15 19:48",
+        "link": "https://www.cnbc.com/2026/09/15/adjusting-capital-gains-for-inflation-could-prove-a-mess-for-individual-investors.html"
       },
       {
-        "title": "No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "title": "Will AI really destroy humanity? Pioneers who created the tech weigh in",
         "source": "CNBC Top",
-        "published": "2026-09-15 14:02",
-        "link": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html"
+        "published": "2026-09-15 17:01",
+        "link": "https://www.cnbc.com/2026/09/15/ai-destroy-humanity-extinction-risks.html"
       },
       {
         "title": "U.S. confirms for first time it has weapons deployed in space",
@@ -214,76 +214,51 @@
         "link": "https://www.cnbc.com/2026/09/15/weapons-in-space-us-air-force-meink.html"
       },
       {
-        "title": "Santoli: The youthful phase of AI is over. What it means for investors",
+        "title": "House to vote on bill to rein in AI data center utility costs",
         "source": "CNBC Top",
-        "published": "2026-09-15 12:33",
-        "link": "https://www.cnbc.com/2026/09/15/santoli-the-youthful-phase-of-ai-is-over-what-it-means-for-investors.html"
+        "published": "2026-09-16 00:14",
+        "link": "https://www.cnbc.com/2026/09/15/congress-ai-data-center-utility-costs.html"
       },
       {
-        "title": "Former highflier Palantir is a bargain compared to AI-linked software peers, UBS says",
-        "source": "CNBC Top",
-        "published": "2026-09-15 14:08",
-        "link": "https://www.cnbc.com/2026/09/15/palantir-is-a-bargain-compared-to-ai-linked-software-peers-ubs-says.html"
-      },
-      {
-        "title": "Will AI really destroy humanity? Pioneers who created the tech weigh in",
+        "title": "Meta CEO Mark Zuckerberg sides with Nvidia's Huang on AI safety and slowdown debate",
         "source": "CNBC Tech",
-        "published": "2026-09-15 13:24",
-        "link": "https://www.cnbc.com/2026/09/15/ai-destroy-humanity-extinction-risks.html"
+        "published": "2026-09-16 01:56",
+        "link": "https://www.cnbc.com/2026/09/15/meta-mark-zuckerberg-with-nvidia-huang-ai-safety-slowdown.html"
       },
       {
-        "title": "Private sector is 'the right place' to solve AI threats, White House's Hassett says",
+        "title": "Salesforce CEO Marc Benioff joins growing chorus of tech leaders warning about AI risks",
         "source": "CNBC Tech",
-        "published": "2026-09-15 15:31",
-        "link": "https://www.cnbc.com/2026/09/15/hassett-ai-trump-government-regulation.html"
+        "published": "2026-09-15 22:31",
+        "link": "https://www.cnbc.com/2026/09/15/salesforce-marc-benioff-ai-risks.html"
+      },
+      {
+        "title": "Nvidia's Huang rips Anthropic's proposal for AI safety antitrust waiver: 'Completely unnecessary'",
+        "source": "CNBC Tech",
+        "published": "2026-09-15 22:13",
+        "link": "https://www.cnbc.com/2026/09/15/nvidia-huang-ai-slowdown-antitrust.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq fall after 10-year Treasury yield rises",
+        "title": "Is Archer-Daniels-Midland Stock Outperforming the Nasdaq?",
         "source": "Yahoo Finance",
-        "published": "2026-09-15 08:13",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html"
+        "published": "2026-09-14 16:13",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-midland-stock-outperforming-161317226.html"
       }
     ],
-    "tech": [
-      {
-        "title": "GM launching new customer software experience with redesigned Chevy, GMC pickups",
-        "source": "CNBC Top",
-        "published": "2026-09-15 11:00",
-        "link": "https://www.cnbc.com/2026/09/15/2027-chevy-silverado-gmc-sierra-to-debut-gms-new-software-experience.html"
-      },
-      {
-        "title": "Drill, baby, drill: geothermal energy developers borrow techniques from oil and gas",
-        "source": "FT Markets",
-        "published": "2026-09-15 04:00",
-        "link": "https://www.ft.com/content/720ff9ec-f292-468c-af88-d368fbc88c84?syn-25a6b1a6=1"
-      }
-    ],
+    "tech": [],
     "market": [
       {
-        "title": "Dow falls more than 500 points as losses accelerate following a 19-year high in the 10-year Treasury yield: Live updates",
+        "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
         "source": "CNBC Top",
-        "published": "2026-09-15 15:24",
-        "link": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html"
+        "published": "2026-09-15 23:10",
+        "link": "https://www.cnbc.com/2026/09/15/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html"
       },
       {
-        "title": "Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
-        "source": "CNBC Top",
-        "published": "2026-09-15 11:19",
-        "link": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html"
-      },
-      {
-        "title": "Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets",
-        "source": "CNBC Top",
-        "published": "2026-09-15 10:01",
-        "link": "https://www.cnbc.com/2026/09/15/oil-us-treasurys-stocks-pressure.html"
-      },
-      {
-        "title": "How Allison Transmission Holdings (ALSN) is Capturing New Markets Beyond Commercial Vehicles",
+        "title": "Prediction Markets Hit Trading Record With NFL Season Underway",
         "source": "Yahoo Finance",
-        "published": "2026-09-15 15:32",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/allison-transmission-holdings-alsn-capturing-153216137.html"
+        "published": "2026-09-14 15:54",
+        "link": "https://www.barrons.com/articles/prediction-markets-kalshi-draftkings-nfl-trading-record-67a5e548?siteid=yhoof2&yptr=yahoo"
       },
       {
         "title": "BPRE’s extremely large, very huge, getting-bigger NAV discount",
@@ -296,12 +271,6 @@
         "source": "FT Markets",
         "published": "2026-09-15 10:00",
         "link": "https://www.ft.com/content/43729997-e516-45a9-893b-de7bd729bc2f?syn-25a6b1a6=1"
-      },
-      {
-        "title": "The $1.6bn IPO that could draw millions of Nigerians to the stock market",
-        "source": "FT Markets",
-        "published": "2026-09-15 04:00",
-        "link": "https://www.ft.com/content/bdd5274a-bf02-4ca2-bd72-2c0558605707?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
