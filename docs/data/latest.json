@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-09-17T15:47:16.798858",
+  "timestamp": "2026-09-18T03:44:39.569820",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 26.14,
-      "change": -0.04,
-      "change_pct": -0.15,
-      "volume": 89307650,
-      "high": 26.44,
-      "low": 25.56,
-      "open": 25.7,
-      "prev_close": 26.18,
-      "market_cap": 672451788800,
-      "pe_ratio": 18.27972,
+      "price": 26.34,
+      "change": 0.2,
+      "change_pct": 0.77,
+      "volume": 32636279,
+      "high": 26.66,
+      "low": 25.98,
+      "open": 26.16,
+      "prev_close": 26.14,
+      "market_cap": 677596823552,
+      "pe_ratio": 18.549297,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-17"
+      "date": "2026-09-18"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 716.56,
-      "change": 11.84,
-      "change_pct": 1.68,
-      "volume": 13618222,
-      "high": 716.8,
+      "price": 716.92,
+      "change": 12.2,
+      "change_pct": 1.73,
+      "volume": 37106000,
+      "high": 718.04,
       "low": 713.32,
-      "open": 716.05,
+      "open": 715.95,
       "prev_close": 704.72,
       "market_cap": "N/A",
-      "pe_ratio": 29.206394,
+      "pe_ratio": 29.220657,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-17"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 110.34,
-      "change": 9.29,
-      "change_pct": 9.19,
-      "volume": 76414442,
-      "high": 110.79,
+      "price": 108.8,
+      "change": 7.75,
+      "change_pct": 7.67,
+      "volume": 148929100,
+      "high": 111.37,
       "low": 104.7,
-      "open": 104.78,
+      "open": 104.7,
       "prev_close": 101.05,
-      "market_cap": 583268827136,
+      "market_cap": 575128272896,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 28.73,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 497.29,
-      "change": 6.99,
-      "change_pct": 1.43,
-      "volume": 6262680,
+      "price": 497.75,
+      "change": 7.45,
+      "change_pct": 1.52,
+      "volume": 17819200,
       "high": 501.47,
-      "low": 493.27,
+      "low": 493.17,
       "open": 497.8,
       "prev_close": 490.3,
-      "market_cap": 3692575326208,
-      "pe_ratio": 27.719063,
+      "market_cap": 3696065511424,
+      "pe_ratio": 27.318882,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-17"
@@ -72,30 +72,30 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 76611.57,
-      "change": 461.25,
-      "change_pct": 0.61,
-      "volume": 29454954496,
-      "high": 76968.79,
-      "low": 75951.2,
-      "open": 76143.81,
+      "price": 77269.52,
+      "change": 1119.2,
+      "change_pct": 1.47,
+      "volume": 22231154688,
+      "high": 77373.91,
+      "low": 76300.22,
+      "open": 76350.68,
       "prev_close": 76150.32,
-      "market_cap": 1540418437120,
+      "market_cap": 1551707668480,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-17"
+      "date": "2026-09-18"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7634.69,
-      "change": 82.88,
-      "change_pct": 1.1,
-      "volume": 973839228,
-      "high": 7646.6,
+      "price": 7637.76,
+      "change": 85.95,
+      "change_pct": 1.14,
+      "volume": 2887250000,
+      "high": 7646.86,
       "low": 7611.81,
       "open": 7631.44,
       "prev_close": 7551.81,
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26400.48,
-      "change": 422.05,
-      "change_pct": 1.62,
-      "volume": 4979100000,
-      "high": 26417.91,
+      "price": 26418.3,
+      "change": 439.87,
+      "change_pct": 1.69,
+      "volume": 9127066000,
+      "high": 26460.64,
       "low": 26289.94,
       "open": 26377.86,
       "prev_close": 25978.43,
@@ -125,44 +125,44 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24604.29,
-      "change": -109.49,
-      "change_pct": -0.44,
+      "price": 24783.27,
+      "change": 178.98,
+      "change_pct": 0.73,
       "volume": 0,
-      "high": 24606.15,
-      "low": 24357.69,
-      "open": 24480.57,
-      "prev_close": 24713.78,
+      "high": 24862.98,
+      "low": 24703.92,
+      "open": 24723.85,
+      "prev_close": 24604.29,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-17"
+      "date": "2026-09-18"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4460.16,
+      "price": 4507.1,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 4117662312,
-      "high": 4495.83,
-      "low": 4453.92,
-      "open": 4463.62,
-      "prev_close": 4460.16,
+      "volume": 2096666208,
+      "high": 4507.1,
+      "low": 4480.59,
+      "open": 4492.32,
+      "prev_close": 4507.1,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4495.835,
-      "52w_low": 4453.9185,
-      "date": "2026-09-17"
+      "52w_high": 4507.1016,
+      "52w_low": 3458.44,
+      "date": "2026-09-18"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51786.99,
-      "change": 325.09,
-      "change_pct": 0.63,
-      "volume": 141965743,
+      "price": 51778.0,
+      "change": 316.1,
+      "change_pct": 0.61,
+      "volume": 406102188,
       "high": 51935.97,
       "low": 51607.65,
       "open": 51882.53,
@@ -178,40 +178,34 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Here are five key takeaways from Wednesday's Fed rate hike",
+        "title": "UN mission finds evidence signaling U.S. war crimes in Iran; Washington rejects report",
         "source": "CNBC Top",
-        "published": "2026-09-16 21:23",
-        "link": "https://www.cnbc.com/2026/09/16/here-are-five-key-takeaways-from-wednesdays-fed-rate-hike.html"
+        "published": "2026-09-18 03:09",
+        "link": "https://www.cnbc.com/2026/09/18/us-iran-war-trump-hormuz.html"
       },
       {
-        "title": "AI needs to have 'reasonable guidelines,' Palantir's Karp tells CNBC",
+        "title": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
         "source": "CNBC Top",
-        "published": "2026-09-17 15:45",
-        "link": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html"
+        "published": "2026-09-18 03:31",
+        "link": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
       },
       {
-        "title": "Stocks rise, lifted by falling oil and yields as market attempts comeback after Fed sell-off: Live updates",
+        "title": "Stock futures are little changed after Thursday's post-Fed bounce: Live updates",
         "source": "CNBC Top",
-        "published": "2026-09-17 14:36",
-        "link": "https://www.cnbc.com/2026/09/16/stock-market-today-live-updates.html"
+        "published": "2026-09-18 03:42",
+        "link": "https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html"
       },
       {
-        "title": "SEC clears path for tokenized stocks, bringing the market closer to 24/7 trading",
+        "title": "Anthropic shares 3 metrics to help AI companies monitor pace of development",
         "source": "CNBC Top",
-        "published": "2026-09-17 13:00",
-        "link": "https://www.cnbc.com/2026/09/17/sec-clears-path-for-tokenized-stocks-bringing-24/7-trading-closer.html"
+        "published": "2026-09-17 22:22",
+        "link": "https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html"
       },
       {
-        "title": "'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal",
+        "title": "OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says",
         "source": "CNBC Top",
-        "published": "2026-09-17 14:28",
-        "link": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html"
-      },
-      {
-        "title": "Pennsylvania asks for CDC help on measles outbreak, demands agency recognize measles deaths: Reuters",
-        "source": "CNBC Top",
-        "published": "2026-09-17 15:12",
-        "link": "https://www.cnbc.com/2026/09/17/pennsylvania-cdc-help-measles-outbreak.html"
+        "published": "2026-09-17 09:00",
+        "link": "https://www.cnbc.com/2026/09/17/chinas-ai-models-make-only-10percent-of-us-leaders-revenue-rhodium.html"
       },
       {
         "title": "OpenAI reports 6 new instances of 'concerning model behavior' since March",
@@ -226,26 +220,39 @@
         "link": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html"
       },
       {
-        "title": "CoreWeave launches $3 billion convertible debt sale",
+        "title": "As Fed raises rates, income investors can buy these bonds for solid yields and a portfolio cushion",
         "source": "CNBC Top",
-        "published": "2026-09-17 14:07",
-        "link": "https://www.cnbc.com/2026/09/17/coreweave-launches-3-billion-convertible-debt-sale-.html"
+        "published": "2026-09-17 20:34",
+        "link": "https://www.cnbc.com/2026/09/17/as-fed-raises-rates-income-investors-can-buy-these-bonds-for-solid-yields-and-a-portfolio-cushion-.html"
       },
       {
-        "title": "Fed rate decision and Warsh comments roiled markets. Where to find opportunities",
+        "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
         "source": "CNBC Top",
-        "published": "2026-09-17 14:17",
-        "link": "https://www.cnbc.com/2026/09/17/fed-rate-decision-and-warsh-comments-roiled-markets-where-to-find-opportunities.html"
+        "published": "2026-09-17 17:59",
+        "link": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html"
+      },
+      {
+        "title": "What an Oscar-winning movie can teach us about investing through the AI slowdown debate",
+        "source": "CNBC Tech",
+        "published": "2026-09-17 20:27",
+        "link": "https://www.cnbc.com/2026/09/17/what-an-oscar-winning-movie-can-teach-us-about-investing-through-the-ai-slowdown-debate.html"
       }
     ],
-    "qqq_intel": [],
-    "tech": [
+    "qqq_intel": [
       {
-        "title": "There's a biotech stock on Josh Brown's list that's ignoring the market noise and pushing higher",
+        "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
         "source": "CNBC Top",
-        "published": "2026-09-17 15:34",
-        "link": "https://www.cnbc.com/2026/09/17/theres-a-biotech-stock-on-josh-browns-list-thats-ignoring-the-market-noise-and-pushing-higher.html"
+        "published": "2026-09-17 21:00",
+        "link": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html"
       },
+      {
+        "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
+        "source": "Yahoo Finance",
+        "published": "2026-09-16 16:10",
+        "link": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-apple-stock-aapl-nvidia-chipmaker-tsm-amd-bloom/?src=A00220&yptr=yahoo"
+      }
+    ],
+    "tech": [
       {
         "title": "Revolut planning dual listing in New York and London",
         "source": "FT Markets",
@@ -255,22 +262,22 @@
     ],
     "market": [
       {
+        "title": "A breakout in the 10-year Treasury yield could hold back stocks if it reaches this level",
+        "source": "CNBC Top",
+        "published": "2026-09-17 19:13",
+        "link": "https://www.cnbc.com/2026/09/17/a-breakout-in-the-10-year-treasury-yield-could-hold-back-stocks-if-it-reaches-this-level.html"
+      },
+      {
         "title": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
         "source": "CNBC Tech",
         "published": "2026-09-16 23:40",
         "link": "https://www.cnbc.com/2026/09/16/snap-enterprise-ai-service.html"
       },
       {
-        "title": "VinFast (VFS)-Backed Taxi Firm GSM Plots a US and European Push ahead of its Hong Kong IPO",
+        "title": "Is Broadridge Financial Stock Underperforming the S&P 500?",
         "source": "Yahoo Finance",
-        "published": "2026-09-17 15:00",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/vinfast-vfs-backed-taxi-firm-150001467.html"
-      },
-      {
-        "title": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
-        "source": "Yahoo Finance",
-        "published": "2026-09-17 15:20",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/strategist-wanted-8-400-p-152036941.html"
+        "published": "2026-09-16 15:59",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/broadridge-financial-stock-underperforming-p-155958681.html"
       },
       {
         "title": "Turkish authorities rush to stem fallout from stock market scandal",
@@ -293,6 +300,10 @@
     ]
   },
   "sentiment": {
+    "qqq_intel": {
+      "overall_sentiment": "unknown",
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    },
     "macro": {
       "overall_sentiment": "unknown",
       "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
