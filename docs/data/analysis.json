@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-23T03:50:22.737056",
+  "timestamp": "2026-09-23T15:41:54.328509",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -7,13 +7,13 @@
       "name": "XIAOMI-W",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "market_cap": 684766068736,
+      "market_cap": 673447608320,
       "enterprise_value": 617363406848,
-      "pe_ratio": 18.615385,
-      "forward_pe": 17.155449,
-      "peg_ratio": 2.82,
-      "pb_ratio": 2.1669471,
-      "ps_ratio": 1.5630343,
+      "pe_ratio": 18.307693,
+      "forward_pe": 16.871887,
+      "peg_ratio": 2.78,
+      "pb_ratio": 2.1311297,
+      "ps_ratio": 1.5371989,
       "ev_ebitda": 21.558,
       "revenue": 438100492288,
       "revenue_growth": -0.061,
@@ -31,29 +31,29 @@
       "52w_low": 21.3,
       "50d_avg": 27.4036,
       "200d_avg": 31.3015,
-      "analyst_target": 36.318558,
+      "analyst_target": 36.259552,
       "recommendation": "buy"
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": 26.62,
-      "ma5": 26.79,
-      "ma20": 27.06,
-      "ma60": 26.95,
-      "ma120": 27.96,
-      "rsi_14": 45.0,
-      "macd": -0.151,
-      "ret_1w": 1.84,
-      "ret_1m": -4.11,
-      "ret_3m": 17.68,
-      "ret_6m": -20.11,
+      "price": 26.18,
+      "ma5": 26.7,
+      "ma20": 27.04,
+      "ma60": 26.94,
+      "ma120": 27.95,
+      "rsi_14": 42.7,
+      "macd": -0.187,
+      "ret_1w": 0.15,
+      "ret_1m": -5.69,
+      "ret_3m": 15.74,
+      "ret_6m": -21.43,
       "high_52w": 59.45,
       "low_52w": 21.42,
-      "pct_from_52w_high": -55.22,
-      "pct_from_52w_low": 24.28,
-      "volume_ratio": 0.42,
+      "pct_from_52w_high": -55.96,
+      "pct_from_52w_low": 22.22,
+      "volume_ratio": 1.05,
       "above_ma20": false,
       "above_ma60": false,
       "trend": "MIXED"
@@ -71,20 +71,20 @@
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 24882.39,
-        "change_pct": -0.64
+        "price": 24834.12,
+        "change_pct": -0.83
       },
       "SPX": {
-        "price": 7764.64,
-        "change_pct": -0.0
+        "price": 7718.45,
+        "change_pct": -0.6
       },
       "USD/CNH": {
         "price": 6.71,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 4.97,
-        "change_pct": 0.1
+        "price": 5.07,
+        "change_pct": 2.18
       }
     },
     "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
@@ -113,16 +113,6 @@
       "score": 50.0
     },
     {
-      "name": "澜起科技",
-      "ticker": "688008.SS",
-      "score": 50.0
-    },
-    {
-      "name": "汇顶科技",
-      "ticker": "603160.SS",
-      "score": 48.0
-    },
-    {
       "name": "联想集团",
       "ticker": "0992.HK",
       "score": 45.0
@@ -140,6 +130,16 @@
     {
       "name": "理想汽车-HK",
       "ticker": "2015.HK",
+      "score": 45.0
+    },
+    {
+      "name": "北方华创",
+      "ticker": "002371.SZ",
+      "score": 45.0
+    },
+    {
+      "name": "澜起科技",
+      "ticker": "688008.SS",
       "score": 45.0
     }
   ],
