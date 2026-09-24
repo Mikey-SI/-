@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-09-23T15:41:24.290157",
+  "timestamp": "2026-09-24T03:41:57.693597",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
       "price": 26.18,
-      "change": -1.02,
-      "change_pct": -3.75,
-      "volume": 126020027,
-      "high": 27.28,
-      "low": 26.16,
-      "open": 27.28,
-      "prev_close": 27.2,
-      "market_cap": 673447608320,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "volume": 36418390,
+      "high": 26.46,
+      "low": 26.12,
+      "open": 26.14,
+      "prev_close": 26.18,
+      "market_cap": 673388363776,
       "pe_ratio": 18.307693,
       "52w_high": 59.9,
       "52w_low": 21.3,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 741.15,
-      "change": -0.32,
-      "change_pct": -0.04,
-      "volume": 14414827,
-      "high": 747.12,
+      "price": 741.21,
+      "change": -6.25,
+      "change_pct": -0.84,
+      "volume": 33099900,
+      "high": 747.13,
       "low": 738.19,
-      "open": 746.99,
-      "prev_close": 741.47,
+      "open": 746.97,
+      "prev_close": 747.46,
       "market_cap": "N/A",
-      "pe_ratio": 30.207424,
+      "pe_ratio": 30.210686,
       "52w_high": 748.65,
       "52w_low": 555.6,
       "date": "2026-09-23"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 120.99,
-      "change": -0.79,
-      "change_pct": -0.65,
-      "volume": 39742055,
+      "price": 122.6,
+      "change": -1.26,
+      "change_pct": -1.02,
+      "volume": 85148900,
       "high": 124.25,
       "low": 119.44,
-      "open": 123.81,
-      "prev_close": 121.78,
-      "market_cap": 639539937280,
+      "open": 123.87,
+      "prev_close": 123.86,
+      "market_cap": 648076460032,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 29.23,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 498.64,
-      "change": -2.97,
-      "change_pct": -0.59,
-      "volume": 8700085,
+      "price": 500.59,
+      "change": 2.59,
+      "change_pct": 0.52,
+      "volume": 19415500,
       "high": 509.44,
-      "low": 495.9,
+      "low": 495.88,
       "open": 500.76,
-      "prev_close": 501.61,
-      "market_cap": 3703156768768,
-      "pe_ratio": 27.969994,
+      "prev_close": 498.0,
+      "market_cap": 3717153947648,
+      "pe_ratio": 27.779688,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-09-23"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 84312.87,
-      "change": -1859.41,
-      "change_pct": -2.16,
-      "volume": 45510676480,
-      "high": 87243.36,
-      "low": 84002.98,
-      "open": 86195.28,
+      "price": 83987.45,
+      "change": -2184.83,
+      "change_pct": -2.54,
+      "volume": 45992542208,
+      "high": 84439.65,
+      "low": 83783.22,
+      "open": 84370.41,
       "prev_close": 86172.28,
-      "market_cap": 1694207311872,
+      "market_cap": 1685534539776,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7719.22,
-      "change": -45.48,
-      "change_pct": -0.59,
-      "volume": 982464921,
+      "price": 7706.03,
+      "change": -58.67,
+      "change_pct": -0.76,
+      "volume": 2977393000,
       "high": 7761.94,
-      "low": 7713.3,
+      "low": 7694.89,
       "open": 7761.94,
       "prev_close": 7764.7,
       "market_cap": "N/A",
@@ -108,12 +108,12 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26981.4,
-      "change": -140.69,
-      "change_pct": -0.52,
-      "volume": 3480144000,
+      "price": 26936.04,
+      "change": -186.05,
+      "change_pct": -0.69,
+      "volume": 7578948000,
       "high": 27217.33,
-      "low": 26902.25,
+      "low": 26873.54,
       "open": 27213.52,
       "prev_close": 27122.09,
       "market_cap": "N/A",
@@ -125,46 +125,46 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24834.12,
-      "change": -208.59,
-      "change_pct": -0.83,
+      "price": 24718.95,
+      "change": -115.17,
+      "change_pct": -0.46,
       "volume": 0,
-      "high": 25072.25,
-      "low": 24811.85,
-      "open": 25064.84,
-      "prev_close": 25042.71,
+      "high": 24791.2,
+      "low": 24648.29,
+      "open": 24649.45,
+      "prev_close": 24834.12,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4517.28,
+      "price": 4454.72,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2829481012,
-      "high": 4547.69,
-      "low": 4513.45,
-      "open": 4547.61,
-      "prev_close": 4517.28,
+      "volume": 340553908,
+      "high": 4500.2,
+      "low": 4454.06,
+      "open": 4499.86,
+      "prev_close": 4454.72,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4547.693,
-      "52w_low": 4513.449,
-      "date": "2026-09-23"
+      "52w_high": 4500.2017,
+      "52w_low": 4454.061,
+      "date": "2026-09-24"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51578.91,
-      "change": -469.92,
-      "change_pct": -0.9,
-      "volume": 153941523,
+      "price": 51511.6,
+      "change": -537.23,
+      "change_pct": -1.03,
+      "volume": 428073697,
       "high": 51846.81,
-      "low": 51571.98,
+      "low": 51477.53,
       "open": 51771.41,
       "prev_close": 52048.83,
       "market_cap": "N/A",
@@ -178,106 +178,93 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "10-year Treasury yield leaps to fresh 19-year high after hot economic readings",
+        "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
         "source": "CNBC Top",
-        "published": "2026-09-23 15:20",
+        "published": "2026-09-24 03:31",
+        "link": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+      },
+      {
+        "title": "China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
+        "source": "CNBC Top",
+        "published": "2026-09-24 03:38",
+        "link": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html"
+      },
+      {
+        "title": "Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-09-24 02:22",
+        "link": "https://www.cnbc.com/2026/09/23/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio",
+        "source": "CNBC Top",
+        "published": "2026-09-23 19:51",
+        "link": "https://www.cnbc.com/2026/09/23/bonds-get-thumped-as-yields-surge-what-it-means-for-60/40-portfolio.html"
+      },
+      {
+        "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+        "source": "CNBC Top",
+        "published": "2026-09-23 20:07",
         "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
       },
       {
-        "title": "McDonald's CEO expects high inflation, flat traffic are not going away for restaurant industry",
+        "title": "These stocks have thrived during past rate-hiking cycles. Bank of America says buy them now",
         "source": "CNBC Top",
-        "published": "2026-09-23 14:40",
-        "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html"
+        "published": "2026-09-23 19:31",
+        "link": "https://www.cnbc.com/2026/09/23/these-stocks-have-thrived-during-past-rate-hiking-cycles-bank-of-america-says-buy-them-now.html"
       },
       {
-        "title": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
+        "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
         "source": "CNBC Top",
-        "published": "2026-09-23 15:07",
-        "link": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html"
+        "published": "2026-09-23 19:30",
+        "link": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html"
       },
       {
-        "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
+        "title": "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant as part of AI agent push",
         "source": "CNBC Top",
-        "published": "2026-09-23 15:01",
-        "link": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html"
+        "published": "2026-09-24 01:56",
+        "link": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html"
       },
       {
-        "title": "McDonald's will spend big on restaurant upgrades, training to drive growth",
+        "title": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
         "source": "CNBC Top",
-        "published": "2026-09-23 15:37",
-        "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html"
+        "published": "2026-09-23 20:29",
+        "link": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html"
       },
       {
-        "title": "Surging yields and big bond losses may offer sizable tax savings opportunity to investors right now",
-        "source": "CNBC Top",
-        "published": "2026-09-23 15:23",
-        "link": "https://www.cnbc.com/2026/09/23/bond-yields-taxes-capital-gains-losses.html"
-      },
-      {
-        "title": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-        "source": "CNBC Top",
-        "published": "2026-09-23 12:42",
-        "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html"
-      },
-      {
-        "title": "Michael Burry adds to shorts as Nasdaq-100 hits all time high. Why he's betting against chips",
-        "source": "CNBC Top",
-        "published": "2026-09-23 14:41",
-        "link": "https://www.cnbc.com/2026/09/23/michael-burry-adds-to-shorts-as-nasdaq-100-hits-all-time-high-why-hes-betting-against-chips.html"
-      },
-      {
-        "title": "Texas turning blue may hinge on Democrats harnessing data center opposition",
+        "title": "SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet",
         "source": "CNBC Tech",
-        "published": "2026-09-23 10:00",
-        "link": "https://www.cnbc.com/2026/09/23/texas-data-centers-election.html"
-      },
-      {
-        "title": "AI is killing the grunt work, forcing companies to rethink entry-level hiring",
-        "source": "CNBC Tech",
-        "published": "2026-09-23 08:42",
-        "link": "https://www.cnbc.com/2026/09/23/ai-workplace-graduate-entry-level-junior-hiring.html"
+        "published": "2026-09-24 01:06",
+        "link": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Nasdaq's new record, Paramount settles lawsuit, press pool suspends coverage and more in Morning Squawk",
-        "source": "CNBC Tech",
-        "published": "2026-09-22 13:43",
-        "link": "https://www.cnbc.com/2026/09/22/5-things-to-know-before-the-stock-market-opens.html"
+        "title": "Chip stocks are firming up after a tough summer. Katie Stockton likes the trend in this name",
+        "source": "CNBC Top",
+        "published": "2026-09-23 19:31",
+        "link": "https://www.cnbc.com/2026/09/23/chip-stocks-are-firming-up-after-a-tough-summer-katie-stockton-likes-the-trend-in-this-name.html"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year yield surges, markets eye looming Trump-Xi meeting",
+        "title": "Is FactSet Stock Underperforming the Nasdaq?",
         "source": "Yahoo Finance",
-        "published": "2026-09-23 08:05",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html"
-      },
-      {
-        "title": "Michael Burry Shorts Micron, Palantir; Famed Investor Expects Chip 'Down Cycle'",
-        "source": "Yahoo Finance",
-        "published": "2026-09-23 15:18",
-        "link": "https://www.investors.com/news/micron-technology-michael-burry-palantir-semiconductors-ai-stocks-nebius/?src=A00220&yptr=yahoo"
+        "published": "2026-09-22 16:06",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/factset-stock-underperforming-nasdaq-160607471.html"
       }
     ],
-    "tech": [
-      {
-        "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-        "source": "CNBC Tech",
-        "published": "2026-09-22 22:03",
-        "link": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html"
-      }
-    ],
+    "tech": [],
     "market": [
       {
-        "title": "Kalshi asks CFTC to allow margin trading on prediction markets",
-        "source": "Yahoo Finance",
-        "published": "2026-09-22 12:39",
-        "link": "https://finance.yahoo.com/markets/options/articles/kalshi-asks-cftc-allow-margin-123918880.html"
+        "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+        "source": "CNBC Top",
+        "published": "2026-09-24 01:16",
+        "link": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html"
       },
       {
-        "title": "Home Depot (HD) is Positioned to benefit from Housing Market Recovery",
-        "source": "Yahoo Finance",
-        "published": "2026-09-23 15:15",
-        "link": "https://finance.yahoo.com/real-estate/articles/home-depot-hd-positioned-benefit-151515088.html"
+        "title": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market",
+        "source": "CNBC Top",
+        "published": "2026-09-24 00:01",
+        "link": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html"
       },
       {
         "title": "UK must ‘electrify now’, says energy secretary",
