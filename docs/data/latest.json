@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-09-24T03:41:57.693597",
+  "timestamp": "2026-09-24T16:02:26.717811",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 26.18,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "volume": 36418390,
-      "high": 26.46,
-      "low": 26.12,
-      "open": 26.14,
+      "price": NaN,
+      "change": NaN,
+      "change_pct": NaN,
+      "volume": 82395640,
+      "high": NaN,
+      "low": NaN,
+      "open": NaN,
       "prev_close": 26.18,
-      "market_cap": 673388363776,
-      "pe_ratio": 18.307693,
+      "market_cap": 683676925952,
+      "pe_ratio": 18.587414,
       "52w_high": 59.9,
       "52w_low": 21.3,
       "date": "2026-09-24"
@@ -21,66 +21,66 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 741.21,
-      "change": -6.25,
-      "change_pct": -0.84,
-      "volume": 33099900,
-      "high": 747.13,
-      "low": 738.19,
-      "open": 746.97,
-      "prev_close": 747.46,
+      "price": 735.55,
+      "change": -5.66,
+      "change_pct": -0.76,
+      "volume": 11205776,
+      "high": 738.16,
+      "low": 734.63,
+      "open": 735.16,
+      "prev_close": 741.21,
       "market_cap": "N/A",
-      "pe_ratio": 30.210686,
+      "pe_ratio": 29.979992,
       "52w_high": 748.65,
       "52w_low": 555.6,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 122.6,
-      "change": -1.26,
-      "change_pct": -1.02,
-      "volume": 85148900,
-      "high": 124.25,
-      "low": 119.44,
-      "open": 123.87,
-      "prev_close": 123.86,
+      "price": 122.57,
+      "change": -0.03,
+      "change_pct": -0.02,
+      "volume": 58122842,
+      "high": 125.92,
+      "low": 119.55,
+      "open": 120.61,
+      "prev_close": 122.6,
       "market_cap": 648076460032,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
-      "52w_low": 29.23,
-      "date": "2026-09-23"
+      "52w_low": 31.21,
+      "date": "2026-09-24"
     },
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 500.59,
-      "change": 2.59,
-      "change_pct": 0.52,
-      "volume": 19415500,
-      "high": 509.44,
-      "low": 495.88,
-      "open": 500.76,
-      "prev_close": 498.0,
-      "market_cap": 3717153947648,
-      "pe_ratio": 27.779688,
+      "price": 494.93,
+      "change": -5.66,
+      "change_pct": -1.13,
+      "volume": 6916896,
+      "high": 495.74,
+      "low": 491.22,
+      "open": 495.39,
+      "prev_close": 500.59,
+      "market_cap": 3675125186560,
+      "pe_ratio": 27.542015,
       "52w_high": 553.72,
       "52w_low": 349.2,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 83987.45,
-      "change": -2184.83,
-      "change_pct": -2.54,
-      "volume": 45992542208,
-      "high": 84439.65,
-      "low": 83783.22,
+      "price": 84272.0,
+      "change": -111.01,
+      "change_pct": -0.13,
+      "volume": 39285395456,
+      "high": 84820.44,
+      "low": 82990.08,
       "open": 84370.41,
-      "prev_close": 86172.28,
-      "market_cap": 1685534539776,
+      "prev_close": 84383.01,
+      "market_cap": 1695345672192,
       "pe_ratio": "N/A",
       "52w_high": 126198.07,
       "52w_low": 57747.766,
@@ -91,186 +91,199 @@
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7706.03,
-      "change": -58.67,
-      "change_pct": -0.76,
-      "volume": 2977393000,
-      "high": 7761.94,
-      "low": 7694.89,
-      "open": 7761.94,
-      "prev_close": 7764.7,
+      "price": 7668.66,
+      "change": -37.37,
+      "change_pct": -0.48,
+      "volume": 994877140,
+      "high": 7694.61,
+      "low": 7662.57,
+      "open": 7666.99,
+      "prev_close": 7706.03,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 7816.7,
       "52w_low": 6316.91,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 26936.04,
-      "change": -186.05,
-      "change_pct": -0.69,
-      "volume": 7578948000,
-      "high": 27217.33,
-      "low": 26873.54,
-      "open": 27213.52,
-      "prev_close": 27122.09,
+      "price": 26740.42,
+      "change": -195.62,
+      "change_pct": -0.73,
+      "volume": 3516670000,
+      "high": 26820.64,
+      "low": 26706.14,
+      "open": 26734.51,
+      "prev_close": 26936.04,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 27288.79,
       "52w_low": 20690.25,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     },
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24718.95,
-      "change": -115.17,
-      "change_pct": -0.46,
-      "volume": 0,
-      "high": 24791.2,
-      "low": 24648.29,
-      "open": 24649.45,
-      "prev_close": 24834.12,
+      "price": 24834.12,
+      "change": -208.59,
+      "change_pct": -0.83,
+      "volume": 2029600000,
+      "high": 25072.25,
+      "low": 24811.85,
+      "open": 25064.84,
+      "prev_close": 25042.71,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-09-24"
+      "date": "2026-09-23"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4454.72,
+      "price": 4439.14,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 340553908,
+      "volume": 2311676812,
       "high": 4500.2,
-      "low": 4454.06,
+      "low": 4439.14,
       "open": 4499.86,
-      "prev_close": 4454.72,
+      "prev_close": 4439.14,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4500.2017,
-      "52w_low": 4454.061,
+      "52w_low": 4439.1445,
       "date": "2026-09-24"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51511.6,
-      "change": -537.23,
-      "change_pct": -1.03,
-      "volume": 428073697,
-      "high": 51846.81,
-      "low": 51477.53,
-      "open": 51771.41,
-      "prev_close": 52048.83,
+      "price": 51162.03,
+      "change": -349.56,
+      "change_pct": -0.68,
+      "volume": 139251568,
+      "high": 51485.97,
+      "low": 51124.02,
+      "open": 51415.75,
+      "prev_close": 51511.59,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 54744.33,
       "52w_low": 45057.28,
-      "date": "2026-09-23"
+      "date": "2026-09-24"
     }
   },
   "news": {
     "xiaomi": [],
     "macro": [
       {
-        "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+        "title": "Oracle sends 'force majeure' notice about data center project — stock sinks 5%",
         "source": "CNBC Top",
-        "published": "2026-09-24 03:31",
-        "link": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+        "published": "2026-09-24 15:54",
+        "link": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html"
       },
       {
-        "title": "China's AI chip blitz arms Xi with a message for Trump: 'You can't choke us off'",
+        "title": "White House still blocks some reporters despite judge's order lifting Trump ban",
         "source": "CNBC Top",
-        "published": "2026-09-24 03:38",
-        "link": "https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html"
+        "published": "2026-09-24 15:06",
+        "link": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html"
       },
       {
-        "title": "Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates",
+        "title": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
         "source": "CNBC Top",
-        "published": "2026-09-24 02:22",
-        "link": "https://www.cnbc.com/2026/09/23/stock-market-today-live-updates.html"
+        "published": "2026-09-24 15:40",
+        "link": "https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html"
       },
       {
-        "title": "Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio",
+        "title": "Big business warns Trump against diesel export ban in joint letter",
         "source": "CNBC Top",
-        "published": "2026-09-23 19:51",
-        "link": "https://www.cnbc.com/2026/09/23/bonds-get-thumped-as-yields-surge-what-it-means-for-60/40-portfolio.html"
+        "published": "2026-09-24 14:23",
+        "link": "https://www.cnbc.com/2026/09/24/chamber-commerce-business-roundtable-trump-diesel-export-ban-iran-war.html"
       },
       {
-        "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+        "title": "Philadelphia Fed's Anna Paulson says 'modest' rate moves likely ahead to tame inflation",
         "source": "CNBC Top",
-        "published": "2026-09-23 20:07",
-        "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+        "published": "2026-09-24 14:26",
+        "link": "https://www.cnbc.com/2026/09/24/philadelphia-feds-anna-paulson-says-modest-rate-moves-likely-ahead-to-tame-inflation.html"
       },
       {
-        "title": "These stocks have thrived during past rate-hiking cycles. Bank of America says buy them now",
+        "title": "Trump, Xi to talk Taiwan, AI, trade and Iran as DC summit kicks off",
         "source": "CNBC Top",
-        "published": "2026-09-23 19:31",
-        "link": "https://www.cnbc.com/2026/09/23/these-stocks-have-thrived-during-past-rate-hiking-cycles-bank-of-america-says-buy-them-now.html"
+        "published": "2026-09-24 15:55",
+        "link": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
       },
       {
-        "title": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+        "title": "Hyundai expected to outsell Ford in third quarter as Detroit automakers lack hybrids",
         "source": "CNBC Top",
-        "published": "2026-09-23 19:30",
-        "link": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html"
+        "published": "2026-09-24 15:35",
+        "link": "https://www.cnbc.com/2026/09/24/hyundai-set-to-outsell-ford-in-q3-as-detroit-automakers-lack-hybrids.html"
       },
       {
         "title": "Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant as part of AI agent push",
         "source": "CNBC Top",
-        "published": "2026-09-24 01:56",
+        "published": "2026-09-24 15:56",
         "link": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html"
       },
       {
-        "title": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
+        "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
         "source": "CNBC Top",
-        "published": "2026-09-23 20:29",
-        "link": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html"
+        "published": "2026-09-24 13:49",
+        "link": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html"
       },
       {
-        "title": "SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet",
-        "source": "CNBC Tech",
-        "published": "2026-09-24 01:06",
-        "link": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
+        "title": "MGM Resorts shares sink 9% after Barry Diller's People Inc. rescinds takeover offer",
+        "source": "CNBC Top",
+        "published": "2026-09-24 14:59",
+        "link": "https://www.cnbc.com/2026/09/24/barry-diller-people-mgm-resorts.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Chip stocks are firming up after a tough summer. Katie Stockton likes the trend in this name",
-        "source": "CNBC Top",
-        "published": "2026-09-23 19:31",
-        "link": "https://www.cnbc.com/2026/09/23/chip-stocks-are-firming-up-after-a-tough-summer-katie-stockton-likes-the-trend-in-this-name.html"
+        "title": "SK Hynix Is Eyeing Intel’s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
+        "source": "Yahoo Finance",
+        "published": "2026-09-23 04:33",
+        "link": "https://finance.yahoo.com/technology/articles/sk-hynix-eyeing-intel-intc-043316388.html"
       },
       {
-        "title": "Is FactSet Stock Underperforming the Nasdaq?",
+        "title": "Intel (INTC) Could Get a Fresh Valuation for Altera. AMD (AMD) Is the Rival to Watch",
         "source": "Yahoo Finance",
-        "published": "2026-09-22 16:06",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/factset-stock-underperforming-nasdaq-160607471.html"
+        "published": "2026-09-23 04:17",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-fresh-valuation-041710849.html"
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "title": "Are Big Tech bonds crowding out the US Treasury?",
+        "source": "FT Markets",
+        "published": "2026-09-24 05:00",
+        "link": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac"
+      }
+    ],
     "market": [
       {
-        "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+        "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
         "source": "CNBC Top",
+        "published": "2026-09-24 15:41",
+        "link": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html"
+      },
+      {
+        "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+        "source": "CNBC Tech",
         "published": "2026-09-24 01:16",
         "link": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html"
       },
       {
-        "title": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market",
-        "source": "CNBC Top",
-        "published": "2026-09-24 00:01",
-        "link": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html"
+        "title": "Nike (NKE): Wall Street Tests Whether the Turnaround Can Outrun Weak Demand Ahead of Q1 Results",
+        "source": "Yahoo Finance",
+        "published": "2026-09-23 04:07",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-wall-street-tests-040747520.html"
       },
       {
-        "title": "UK must ‘electrify now’, says energy secretary",
+        "title": "Where are the biggest market risks? You asked, Katie Martin and Robert Armstrong answered",
         "source": "FT Markets",
-        "published": "2026-09-23 11:01",
-        "link": "https://www.ft.com/content/850dde98-834f-4cfe-9ffc-3e41980a4e9d?syn-25a6b1a6=1"
+        "published": "2026-09-24 12:00",
+        "link": "https://www.ft.com/content/79976fed-30c3-46e7-ba90-59e0633575d5?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -289,32 +302,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 2abe1443-b9c5-40b6-a261-56cc57540378)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 78e3793e-6402-4f52-b7b6-cf5f0dfae48f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8186aca1-83ef-4fda-955d-7ea914f7ed7a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f7206795-7683-46df-8dcc-910ad786be10)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "panicking",
+    "emoji": "🔥😱",
+    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
+    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
+    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
+    "vibe": "Stress-eating chips while analyzing charts at 3am"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
+    "mood": "clinical",
+    "emoji": "🧊📊",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "tone": "cold, purely objective, risk-management focused, zero panic",
+    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
