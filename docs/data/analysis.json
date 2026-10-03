@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T16:57:30.813696",
+  "timestamp": "2026-10-03T04:19:58.589623",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -10,9 +10,9 @@
       "market_cap": 624252485632,
       "enterprise_value": 545784365056,
       "pe_ratio": 16.95105,
-      "forward_pe": 15.7548485,
+      "forward_pe": 15.756556,
       "peg_ratio": 2.58,
-      "pb_ratio": 1.9775455,
+      "pb_ratio": 1.9742893,
       "ps_ratio": 1.4249071,
       "ev_ebitda": 19.342,
       "revenue": 438100492288,
@@ -29,73 +29,83 @@
       "beta": 0.716,
       "52w_high": 56.55,
       "52w_low": 21.3,
-      "50d_avg": 27.2612,
-      "200d_avg": 30.8219,
-      "analyst_target": 36.175625,
+      "50d_avg": 27.2032,
+      "200d_avg": 30.7421,
+      "analyst_target": 36.17253,
       "recommendation": "buy"
     },
-    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 95265d91-2aea-4ecc-9c99-bf54ceb1545e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: b1d8c2cc-22c4-4b38-a3e3-bd250abe51ba)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim2_technicals": {
     "data": {
-      "price": NaN,
-      "ma5": NaN,
-      "ma20": NaN,
-      "ma60": NaN,
-      "ma120": NaN,
-      "rsi_14": NaN,
-      "macd": -0.425,
-      "ret_1w": NaN,
-      "ret_1m": NaN,
-      "ret_3m": NaN,
-      "ret_6m": NaN,
+      "price": 24.24,
+      "ma5": 25.29,
+      "ma20": 26.39,
+      "ma60": 27.12,
+      "ma120": 27.65,
+      "rsi_14": 35.8,
+      "macd": -0.545,
+      "ret_1w": -6.41,
+      "ret_1m": -13.61,
+      "ret_3m": 7.26,
+      "ret_6m": -24.39,
       "high_52w": 55.8,
       "low_52w": 21.42,
-      "pct_from_52w_high": NaN,
-      "pct_from_52w_low": NaN,
+      "pct_from_52w_high": -56.56,
+      "pct_from_52w_low": 13.17,
       "volume_ratio": 1.07,
       "above_ma20": false,
       "above_ma60": false,
-      "trend": "MIXED"
+      "trend": "DOWN"
     },
-    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: bace7cb3-4dcf-4860-b3be-c50b29486867)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 082b1512-92ae-425c-9a84-2dc1ae652f78)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim3_sentiment": {
     "article_count": 0,
     "headlines": [],
-    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 6562ca5f-9d67-4b0d-9a19-9fc9f20b2b5a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e21b5a01-1a81-4e8a-ae7d-a9754ee3dede)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim4_competitive": {
-    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c326ebcf-b7b4-4145-935e-519cbefd4c3e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4db6d038-76b1-4cc3-b74a-8548882a42ce)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 24613.27,
-        "change_pct": 0.37
+        "price": 23972.29,
+        "change_pct": -2.6
       },
       "SPX": {
-        "price": 7723.25,
-        "change_pct": 0.74
+        "price": 7722.72,
+        "change_pct": 0.73
       },
       "USD/CNH": {
-        "price": 6.71,
+        "price": 6.7,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 5.27,
-        "change_pct": 0.69
+        "price": 5.28,
+        "change_pct": 0.76
       }
     },
-    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8b070934-0f2a-4adc-a1d8-65450c011765)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4e4592c1-b4db-4142-ad08-eb7d72562e13)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "final_verdict": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 338a7dc8-00ab-42a6-afff-35011e4e91c6)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "final_verdict": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 047655ec-20c4-4304-8129-20455a4eb9cf)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "pair_direction": "short",
   "top_candidates": [
+    {
+      "name": "明源云",
+      "ticker": "0909.HK",
+      "score": 65.0
+    },
     {
       "name": "汇顶科技",
       "ticker": "603160.SS",
       "score": 58.0
+    },
+    {
+      "name": "蔚来-HK",
+      "ticker": "9866.HK",
+      "score": 55.0
     },
     {
       "name": "中兴通讯-A",
@@ -103,14 +113,24 @@
       "score": 55.0
     },
     {
-      "name": "明源云",
-      "ticker": "0909.HK",
+      "name": "百度-HK",
+      "ticker": "9888.HK",
       "score": 50.0
     },
     {
       "name": "TCL科技",
       "ticker": "000100.SZ",
       "score": 50.0
+    },
+    {
+      "name": "中芯国际-HK",
+      "ticker": "0981.HK",
+      "score": 45.0
+    },
+    {
+      "name": "小鹏汽车-HK",
+      "ticker": "9868.HK",
+      "score": 45.0
     },
     {
       "name": "理想汽车-HK",
@@ -121,27 +141,7 @@
       "name": "北方华创",
       "ticker": "002371.SZ",
       "score": 45.0
-    },
-    {
-      "name": "中微公司",
-      "ticker": "688012.SS",
-      "score": 45.0
-    },
-    {
-      "name": "澜起科技",
-      "ticker": "688008.SS",
-      "score": 45.0
-    },
-    {
-      "name": "兆易创新",
-      "ticker": "603986.SS",
-      "score": 45.0
-    },
-    {
-      "name": "圣邦股份",
-      "ticker": "300661.SZ",
-      "score": 45.0
     }
   ],
-  "pair_recommendation": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c70076e8-9a35-4748-a2dd-b66a874c3c3a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+  "pair_recommendation": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 00d48311-1608-4a2f-9315-9bcef6ab03ed)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
 }
