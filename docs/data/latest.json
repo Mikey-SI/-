@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-09T17:38:52.146959",
+  "timestamp": "2026-10-10T04:52:55.332214",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 255626451,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 25.96,
+      "change": 2.3,
+      "change_pct": 9.72,
+      "volume": 255608451,
+      "high": 25.96,
+      "low": 23.78,
+      "open": 23.84,
       "prev_close": 23.66,
       "market_cap": 668392095744,
-      "pe_ratio": 19.088234,
+      "pe_ratio": 17.422817,
       "52w_high": 52.95,
       "52w_low": 21.3,
       "date": "2026-10-09"
@@ -21,16 +21,16 @@
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 750.53,
-      "change": 2.95,
-      "change_pct": 0.39,
-      "volume": 11813121,
-      "high": 752.86,
-      "low": 748.36,
+      "price": 751.27,
+      "change": 3.69,
+      "change_pct": 0.49,
+      "volume": 21122000,
+      "high": 752.87,
+      "low": 748.37,
       "open": 752.55,
       "prev_close": 747.58,
       "market_cap": "N/A",
-      "pe_ratio": 28.738342,
+      "pe_ratio": 28.766678,
       "52w_high": 762.86,
       "52w_low": 555.6,
       "date": "2026-10-09"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 105.61,
-      "change": -1.47,
-      "change_pct": -1.38,
-      "volume": 44381508,
+      "price": 104.7,
+      "change": -2.38,
+      "change_pct": -2.22,
+      "volume": 74726800,
       "high": 108.38,
-      "low": 105.25,
-      "open": 108.38,
+      "low": 104.0,
+      "open": 108.33,
       "prev_close": 107.08,
-      "market_cap": 558239121408,
+      "market_cap": 553455190016,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 32.89,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 533.93,
-      "change": 11.32,
-      "change_pct": 2.17,
-      "volume": 8688683,
-      "high": 535.45,
+      "price": 535.07,
+      "change": 12.46,
+      "change_pct": 2.38,
+      "volume": 18483600,
+      "high": 537.22,
       "low": 526.24,
-      "open": 528.23,
+      "open": 528.24,
       "prev_close": 522.61,
-      "market_cap": 3964751577088,
-      "pe_ratio": 29.745626,
+      "market_cap": 3973186846720,
+      "pe_ratio": 29.111536,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-10-09"
@@ -72,30 +72,30 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 82631.44,
-      "change": 955.1,
-      "change_pct": 1.17,
-      "volume": 27472443392,
-      "high": 83259.63,
-      "low": 81602.41,
-      "open": 81690.49,
+      "price": 82593.09,
+      "change": 916.76,
+      "change_pct": 1.12,
+      "volume": 22137278464,
+      "high": 82650.48,
+      "low": 82475.2,
+      "open": 82554.98,
       "prev_close": 81676.34,
-      "market_cap": 1660630204416,
+      "market_cap": 1659880472576,
       "pe_ratio": "N/A",
-      "52w_high": 122509.664,
+      "52w_high": 116273.31,
       "52w_low": 57747.766,
-      "date": "2026-10-09"
+      "date": "2026-10-10"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7806.62,
-      "change": 41.26,
-      "change_pct": 0.53,
-      "volume": 1389416000,
-      "high": 7813.33,
+      "price": 7811.54,
+      "change": 46.18,
+      "change_pct": 0.59,
+      "volume": 4782640000,
+      "high": 7820.57,
       "low": 7779.34,
       "open": 7786.36,
       "prev_close": 7765.36,
@@ -108,11 +108,11 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 27332.34,
-      "change": 139.0,
-      "change_pct": 0.51,
-      "volume": 3711009000,
-      "high": 27376.85,
+      "price": 27366.17,
+      "change": 172.83,
+      "change_pct": 0.64,
+      "volume": 6845310000,
+      "high": 27395.41,
       "low": 27254.03,
       "open": 27342.27,
       "prev_close": 27193.34,
@@ -125,19 +125,19 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 23785.79,
-      "change": -344.71,
-      "change_pct": -1.43,
-      "volume": 2868700000,
-      "high": 24146.01,
-      "low": 23737.14,
-      "open": 24031.66,
-      "prev_close": 24130.5,
+      "price": 24211.35,
+      "change": 425.56,
+      "change_pct": 1.79,
+      "volume": 2905300000,
+      "high": 24224.05,
+      "low": 23941.26,
+      "open": 23941.26,
+      "prev_close": 23785.79,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-10-08"
+      "date": "2026-10-09"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -159,11 +159,11 @@
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51631.35,
-      "change": 399.71,
-      "change_pct": 0.78,
-      "volume": 185020660,
-      "high": 51650.56,
+      "price": 51654.95,
+      "change": 423.31,
+      "change_pct": 0.83,
+      "volume": 339470000,
+      "high": 51765.11,
       "low": 51258.95,
       "open": 51258.95,
       "prev_close": 51231.64,
@@ -178,10 +178,22 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
+        "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
         "source": "CNBC Top",
-        "published": "2026-10-09 16:10",
-        "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html"
+        "published": "2026-10-10 02:09",
+        "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
+      },
+      {
+        "title": "Two massive trades just happened in Micron and Nvidia. What they could mean for chips",
+        "source": "CNBC Top",
+        "published": "2026-10-09 18:50",
+        "link": "https://www.cnbc.com/2026/10/09/two-massive-trades-just-happened-in-micron-and-nvidia-what-they-could-mean-for-chips.html"
+      },
+      {
+        "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+        "source": "CNBC Top",
+        "published": "2026-10-09 19:19",
+        "link": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html"
       },
       {
         "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
@@ -190,22 +202,10 @@
         "link": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
       },
       {
-        "title": "Verizon stock heads for worst day since 2002 as SpaceX U.S. network plans whack telcos",
+        "title": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
         "source": "CNBC Top",
-        "published": "2026-10-09 17:18",
+        "published": "2026-10-09 20:16",
         "link": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html"
-      },
-      {
-        "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-        "source": "CNBC Top",
-        "published": "2026-10-09 15:07",
-        "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
-      },
-      {
-        "title": "ICE won't pause enforcement in NY after Bronx shooting, DHS' Mullin says",
-        "source": "CNBC Top",
-        "published": "2026-10-09 15:20",
-        "link": "https://www.cnbc.com/2026/10/09/ice-bronx-shooting-mamdani-dhs.html"
       },
       {
         "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
@@ -220,58 +220,45 @@
         "link": "https://www.cnbc.com/2026/10/09/nobel-krugman-france-debt.html"
       },
       {
-        "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "title": "Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
         "source": "CNBC Top",
-        "published": "2026-10-09 13:09",
-        "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
+        "published": "2026-10-09 22:22",
+        "link": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html"
+      },
+      {
+        "title": "Memory stocks have hit a malaise. Jay Woods believes it's a buying opportunity",
+        "source": "CNBC Top",
+        "published": "2026-10-09 19:33",
+        "link": "https://www.cnbc.com/2026/10/09/jay.html"
       },
       {
         "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
         "source": "CNBC Tech",
         "published": "2026-10-09 14:15",
         "link": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html"
-      },
-      {
-        "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
-        "source": "CNBC Tech",
-        "published": "2026-10-09 15:08",
-        "link": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Stocks rise as tech shares rebound following sell-off: Live updates",
+        "title": "Dow rises 400 points on Friday as Wall Street scores winning week: Live updates",
         "source": "CNBC Top",
-        "published": "2026-10-09 17:34",
+        "published": "2026-10-09 20:14",
         "link": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html"
       }
     ],
-    "tech": [
-      {
-        "title": "SpaceX makes big move into wireless. These once 'obsolete' tech stocks could benefit",
-        "source": "CNBC Top",
-        "published": "2026-10-09 15:59",
-        "link": "https://www.cnbc.com/2026/10/09/spacex-wireless-plans-lifts-tower-stocks.html"
-      },
-      {
-        "title": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
-        "source": "CNBC Top",
-        "published": "2026-10-09 13:07",
-        "link": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html"
-      },
-      {
-        "title": "Kremlin-backed money launderer used London fintech to make payments",
-        "source": "FT Markets",
-        "published": "2026-10-09 04:00",
-        "link": "https://www.ft.com/content/1273931a-238d-45a9-85b3-5c847e79b5ea?syn-25a6b1a6=1"
-      }
-    ],
+    "tech": [],
     "market": [
       {
-        "title": "Stocks making the biggest moves midday: T-Mobile, Verizon, AT&T, Crown Castle, Teva & more",
+        "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
         "source": "CNBC Top",
-        "published": "2026-10-09 17:16",
-        "link": "https://www.cnbc.com/2026/10/09/stocks-making-the-biggest-moves-midday-tmus-vz-t-cci-teva.html"
+        "published": "2026-10-09 20:51",
+        "link": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html"
+      },
+      {
+        "title": "French yields are near levels not seen since 2002. Why that could give U.S. Treasurys a boost",
+        "source": "CNBC Top",
+        "published": "2026-10-09 20:57",
+        "link": "https://www.cnbc.com/2026/10/09/french-bond-yields-us-treasurys.html"
       },
       {
         "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
@@ -292,18 +279,6 @@
         "link": "https://www.ft.com/content/7b354a5d-9702-407a-a4bc-8703c6ba7b72?syn-25a6b1a6=1"
       },
       {
-        "title": "Some much-needed American optimism on Europe",
-        "source": "FT Markets",
-        "published": "2026-10-09 04:00",
-        "link": "https://www.ft.com/content/c0bec605-c948-4249-be2d-a76e0e60203b?syn-25a6b1a6=1"
-      },
-      {
-        "title": "US 10-year Treasury yields risk hitting 6% for first time since 2000, Pimco says",
-        "source": "FT Markets",
-        "published": "2026-10-09 04:00",
-        "link": "https://www.ft.com/content/a752a86c-cf05-4152-b842-2ae6b6bf3fe0?syn-25a6b1a6=1"
-      },
-      {
         "title": "Chinese Investors With Few Options Turn to Dividends",
         "source": "WSJ Markets",
         "published": "2025-01-27 10:30",
@@ -320,32 +295,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 9f07bb81-8b44-4baf-a515-cc095156d764)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 3c4cad6b-3f46-4e40-86ad-2844cdb3e986)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 90de050c-ea28-4ba8-98a4-12f33f34c904)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c2ae74df-cfcf-411b-bff7-d70a385627b1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 18411d08-5946-44c3-b139-6a2ceddfa208)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 9d4723c2-bc27-4521-8b11-7e9a2dcc9329)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: d28c59fb-d3e0-4ba0-8f65-044deac232a1)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 20190e5c-a03a-4488-9eae-4ae0f4b8c462)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "calculated",
+    "emoji": "♟️💼",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
