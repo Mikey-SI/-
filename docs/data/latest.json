@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-10-11T16:54:36.626223",
+  "timestamp": "2026-10-12T04:54:39.392687",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 25.96,
-      "change": 2.3,
-      "change_pct": 9.72,
-      "volume": 255608451,
-      "high": 25.96,
-      "low": 23.78,
-      "open": 23.84,
-      "prev_close": 23.66,
-      "market_cap": 668392095744,
-      "pe_ratio": 19.088234,
+      "price": 24.7,
+      "change": -1.26,
+      "change_pct": -4.85,
+      "volume": 90528822,
+      "high": 25.84,
+      "low": 24.64,
+      "open": 25.8,
+      "prev_close": 25.96,
+      "market_cap": 635950923776,
+      "pe_ratio": 18.161764,
       "52w_high": 50.9,
       "52w_low": 21.3,
-      "date": "2026-10-09"
+      "date": "2026-10-12"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -64,7 +64,7 @@
       "open": 528.24,
       "prev_close": 522.61,
       "market_cap": 3973186846720,
-      "pe_ratio": 29.111536,
+      "pe_ratio": 29.808912,
       "52w_high": 553.72,
       "52w_low": 349.2,
       "date": "2026-10-09"
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 83909.14,
-      "change": 996.91,
-      "change_pct": 1.2,
-      "volume": 11688163328,
-      "high": 83864.45,
-      "low": 82744.38,
-      "open": 82911.77,
+      "price": 83993.59,
+      "change": 1081.37,
+      "change_pct": 1.3,
+      "volume": 14761183232,
+      "high": 84002.64,
+      "low": 83418.74,
+      "open": 83673.01,
       "prev_close": 82912.23,
-      "market_cap": 1685399404544,
+      "market_cap": 1687390781440,
       "pe_ratio": "N/A",
       "52w_high": 116273.31,
       "52w_low": 57747.766,
-      "date": "2026-10-11"
+      "date": "2026-10-12"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 24211.35,
-      "change": 425.56,
-      "change_pct": 1.79,
-      "volume": 2905300000,
-      "high": 24224.05,
-      "low": 23941.26,
-      "open": 23941.26,
-      "prev_close": 23785.79,
+      "price": 24253.7,
+      "change": 42.35,
+      "change_pct": 0.17,
+      "volume": 0,
+      "high": 24455.95,
+      "low": 24234.19,
+      "open": 24434.93,
+      "prev_close": 24211.35,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-10-09"
+      "date": "2026-10-12"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4317.25,
+      "price": 4310.86,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2738872416,
-      "high": 4330.74,
-      "low": 4239.74,
-      "open": 4297.25,
-      "prev_close": 4317.25,
+      "volume": 2437232808,
+      "high": 4334.29,
+      "low": 4302.57,
+      "open": 4305.92,
+      "prev_close": 4310.86,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4330.743,
-      "52w_low": 4239.7427,
-      "date": "2026-10-09"
+      "52w_high": 4334.2905,
+      "52w_low": 4302.5693,
+      "date": "2026-10-12"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,16 +178,22 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
+        "title": "Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine",
         "source": "CNBC Top",
-        "published": "2026-10-11 14:08",
-        "link": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html"
+        "published": "2026-10-12 04:21",
+        "link": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html"
       },
       {
-        "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
+        "title": "Judge orders Trump administration to immediately stop taxpayer-funded TV ads",
         "source": "CNBC Top",
-        "published": "2026-10-11 16:29",
-        "link": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
+        "published": "2026-10-12 02:28",
+        "link": "https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html"
+      },
+      {
+        "title": "TikTok CEO sees major scientific breakthroughs from AI within three years",
+        "source": "CNBC Top",
+        "published": "2026-10-12 04:24",
+        "link": "https://www.cnbc.com/2026/10/12/tiktok-ceo-bytedance-ai-scientific-breakthroughs.html"
       },
       {
         "title": "Vance says Microsoft replaced laid-off workers with foreign hires. Here’s what the visa data shows",
@@ -196,16 +202,28 @@
         "link": "https://www.cnbc.com/2026/10/10/vance-microsoft-h1b-layoffs-visa-data.html"
       },
       {
-        "title": "Kyiv pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub",
+        "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
         "source": "CNBC Top",
-        "published": "2026-10-11 10:37",
-        "link": "https://www.cnbc.com/2026/10/11/kyiv-pushes-back-on-trumps-call-for-a-new-ukrainian-president.html"
+        "published": "2026-10-11 21:30",
+        "link": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
       },
       {
-        "title": "AI is automating coding. So why are software developer job postings on the rise?",
+        "title": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
         "source": "CNBC Top",
-        "published": "2026-10-11 13:30",
-        "link": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html"
+        "published": "2026-10-11 19:33",
+        "link": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html"
+      },
+      {
+        "title": "Justice Department investigates TV networks as White House press-access fight escalates",
+        "source": "CNBC Top",
+        "published": "2026-10-11 20:18",
+        "link": "https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html"
+      },
+      {
+        "title": "Plenty is working against this market. Here's why I'm staying invested anyway",
+        "source": "CNBC Top",
+        "published": "2026-10-12 00:23",
+        "link": "https://www.cnbc.com/investingclub/2026/10/11/plenty-is-working-against-this-market-why-im-staying-invested-anyway.html"
       },
       {
         "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
@@ -214,28 +232,10 @@
         "link": "https://www.cnbc.com/2026/10/09/margin-debt-stock-market-risk.html"
       },
       {
-        "title": "Some in Florida and Alabama without power as Isaias moves north to Appalachians and Mid-Atlantic",
+        "title": "From BJ’s to Lululemon, retailers are trimming assortments to boost business",
         "source": "CNBC Top",
-        "published": "2026-10-11 13:55",
-        "link": "https://www.cnbc.com/2026/10/11/some-in-florida-and-alabama-without-power-as-isaias-moves-north.html"
-      },
-      {
-        "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
-        "source": "CNBC Tech",
-        "published": "2026-10-11 05:00",
-        "link": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html"
-      },
-      {
-        "title": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-        "source": "CNBC Tech",
-        "published": "2026-10-10 20:59",
-        "link": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"
-      },
-      {
-        "title": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-        "source": "CNBC Tech",
-        "published": "2026-10-10 15:30",
-        "link": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html"
+        "published": "2026-10-11 17:08",
+        "link": "https://www.cnbc.com/2026/10/10/from-bjs-to-lululemon-retailers-are-trimming-assortments.html"
       }
     ],
     "qqq_intel": [
@@ -248,16 +248,16 @@
     ],
     "tech": [
       {
-        "title": "NBA commissioner Adam Silver says league could introduce ‘smart ball’ technology as soon as next year",
-        "source": "CNBC Top",
-        "published": "2026-10-11 12:54",
-        "link": "https://www.cnbc.com/2026/10/11/commissioner-adam-silver-nba-could-launch-smart-ball-tech-next-year.html"
-      },
-      {
         "title": "Nvidia GPUs are everywhere. Here are the ways companies are accessing them",
         "source": "CNBC Tech",
         "published": "2026-10-10 11:00",
         "link": "https://www.cnbc.com/2026/10/10/nvidia-gpus-are-everywhere-heres-how-companies-access-them.html"
+      },
+      {
+        "title": "City of London hits out at Burnham’s plan to scrap non-compete clauses",
+        "source": "FT Markets",
+        "published": "2026-10-11 23:01",
+        "link": "https://www.ft.com/content/47b02f06-cbfc-49cb-afb8-1ae015399c4e?syn-25a6b1a6=1"
       }
     ],
     "market": [
@@ -290,32 +290,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 376649ea-598f-4601-bad1-018378bfa739)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 58c6ea4a-a28d-46c3-8987-0e84b445fd40)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4f4b5c66-9b36-48b8-b8ba-aca25bf733fb)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: edfe2250-648e-49dc-b42c-868cd5d30645)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 6c841b74-3755-4368-868f-13a137f02b2a)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
+    "raw": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: aad4b9fb-362a-4db8-badd-d143acc87b8e)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: b1814f35-70fc-4a38-85dc-cf8acf76db21)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "briefing": "AI Analysis Error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 280d4623-4cb2-4738-a17e-2be51a05218f)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}",
   "mood": {
-    "mood": "happy",
-    "emoji": "😊☀️",
-    "greeting": "Good vibes today! 今天心情不错~",
-    "tone": "warm, optimistic, friendly with occasional humor",
-    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
-    "vibe": "Feeling good, sipping my coffee with a smile"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400 - [{'error': {'code': 400, 'message': 'Please pass a valid API key', 'status': 'INVALID_ARGUMENT'}}]\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "calculated",
-    "emoji": "♟️💼",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "analytical, sharp, professional, slightly arrogant",
-    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
