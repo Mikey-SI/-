@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-31T04:36:26.627462",
+  "timestamp": "2026-10-31T16:26:15.790608",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -13,7 +13,7 @@
       "open": 26.08,
       "prev_close": 25.68,
       "market_cap": 681435529216,
-      "pe_ratio": 18.914286,
+      "pe_ratio": 19.470587,
       "52w_high": 45.08,
       "52w_low": 21.3,
       "date": "2026-10-30"
@@ -46,7 +46,7 @@
       "low": 63.2,
       "open": 68.36,
       "prev_close": 92.07,
-      "market_cap": 349185605632,
+      "market_cap": 349514399744,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 32.89,
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77006.44,
-      "change": -768.67,
-      "change_pct": -0.99,
-      "volume": 31885645824,
-      "high": 77434.15,
+      "price": 77475.54,
+      "change": 277.33,
+      "change_pct": 0.36,
+      "volume": 17226610688,
+      "high": 77554.92,
       "low": 77000.92,
       "open": 77202.4,
-      "prev_close": 77775.11,
-      "market_cap": 1550165999616,
+      "prev_close": 77198.21,
+      "market_cap": 1558078160896,
       "pe_ratio": "N/A",
       "52w_high": 111167.31,
       "52w_low": 57747.766,
@@ -178,16 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+        "title": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
         "source": "CNBC Top",
-        "published": "2026-10-30 20:30",
-        "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        "published": "2026-10-31 12:49",
+        "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
       },
       {
-        "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
+        "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
         "source": "CNBC Top",
-        "published": "2026-10-30 22:57",
-        "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html"
+        "published": "2026-10-31 12:47",
+        "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html"
+      },
+      {
+        "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+        "source": "CNBC Top",
+        "published": "2026-10-31 16:08",
+        "link": "https://www.cnbc.com/2026/10/31/openai-funding-target-cut-10-billion.html"
+      },
+      {
+        "title": "Humans are still doing the work behind some AI agents",
+        "source": "CNBC Top",
+        "published": "2026-10-31 12:00",
+        "link": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html"
       },
       {
         "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
@@ -196,26 +208,20 @@
         "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html"
       },
       {
-        "title": "Beware these stock funds for big capital gains distributions this year. How to manage the tax bill",
+        "title": "The rise of the 15-foot skeleton—how a viral novelty became a Halloween staple",
         "source": "CNBC Top",
-        "published": "2026-10-30 20:01",
-        "link": "https://www.cnbc.com/2026/10/30/mutual-fund-capital-gains-distributions-2026.html"
+        "published": "2026-10-31 10:27",
+        "link": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html"
       },
       {
-        "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-        "source": "CNBC Top",
-        "published": "2026-10-30 22:52",
-        "link": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html"
-      },
-      {
-        "title": "Trump admin again loses bid to block California from counting alleged noncitizen votes",
-        "source": "CNBC Top",
-        "published": "2026-10-30 20:43",
-        "link": "https://www.cnbc.com/2026/10/30/trump-california-counting-alleged-noncitizen-votes.html"
+        "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+        "source": "CNBC Tech",
+        "published": "2026-10-31 15:37",
+        "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
       },
       {
         "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
-        "source": "CNBC Top",
+        "source": "CNBC Tech",
         "published": "2026-10-30 22:17",
         "link": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html"
       },
@@ -230,20 +236,20 @@
         "source": "CNBC Tech",
         "published": "2026-10-30 15:14",
         "link": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html"
-      },
-      {
-        "title": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
-        "source": "CNBC Tech",
-        "published": "2026-10-30 11:00",
-        "link": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates",
+        "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
         "source": "CNBC Top",
-        "published": "2026-10-30 20:20",
-        "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
+        "published": "2026-10-31 11:00",
+        "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
+      },
+      {
+        "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
+        "source": "CNBC Top",
+        "published": "2026-10-31 13:02",
+        "link": "https://www.cnbc.com/2026/10/31/intel-not-a-buy-after-drop.html"
       },
       {
         "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
@@ -252,15 +258,32 @@
         "link": "https://www.cnbc.com/2026/10/30/tech-trade-nasdaq-futures-crypto-hack.html"
       }
     ],
-    "tech": [
-      {
-        "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
-        "source": "CNBC Tech",
-        "published": "2026-10-29 23:00",
-        "link": "https://www.cnbc.com/2026/10/29/jim-cramer-earnings-guilt-by-association.html"
-      }
-    ],
+    "tech": [],
     "market": [
+      {
+        "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
+        "source": "CNBC Top",
+        "published": "2026-10-30 22:00",
+        "link": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html"
+      },
+      {
+        "title": "Berkshire ekes out some new highs, but October rally stalls",
+        "source": "CNBC Top",
+        "published": "2026-10-31 12:26",
+        "link": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html"
+      },
+      {
+        "title": "Bank of America says buy these stocks ahead of earnings before it's too late",
+        "source": "CNBC Top",
+        "published": "2026-10-31 13:05",
+        "link": "https://www.cnbc.com/2026/10/31/bank-of-america-stocks-to-buy-into-earnings.html"
+      },
+      {
+        "title": "Chart of the Week: Bond investors may cheer gridlock",
+        "source": "FT Markets",
+        "published": "2026-10-31 10:30",
+        "link": "https://www.ft.com/content/9570b122-5418-41e6-b91b-b95af96ec881?syn-25a6b1a6=1"
+      },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
         "source": "WSJ Markets",
@@ -278,17 +301,17 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c629ec91-4190-41ef-926a-586792755ab5)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f485112a-5b9c-4141-9eaf-014a21759191)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e8c2f895-f983-48d2-b5cd-8280322c424c)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 55da9b3c-187b-4167-9d91-3e841f67ca82)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 521fbab6-c3f6-4ffd-bed6-ba68e71a7cae)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: b3c5eedb-9880-4649-a406-d822381c4039)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 54730783-e82d-4229-af05-5dac65abdb79)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: de405c16-7b3d-4846-986d-1c8a5fde3297)",
   "mood": {
     "mood": "panicking",
     "emoji": "🔥😱",
