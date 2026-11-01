@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-31T16:26:15.790608",
+  "timestamp": "2026-11-01T04:56:23.355869",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 77475.54,
-      "change": 277.33,
-      "change_pct": 0.36,
-      "volume": 17226610688,
-      "high": 77554.92,
-      "low": 77000.92,
-      "open": 77202.4,
+      "price": 77682.25,
+      "change": 484.04,
+      "change_pct": 0.63,
+      "volume": 10876346368,
+      "high": 77727.74,
+      "low": 77395.7,
+      "open": 77440.93,
       "prev_close": 77198.21,
-      "market_cap": 1558078160896,
+      "market_cap": 1562531594240,
       "pe_ratio": "N/A",
       "52w_high": 111167.31,
       "52w_low": 57747.766,
-      "date": "2026-10-31"
+      "date": "2026-11-01"
     }
   },
   "indices": {
@@ -153,7 +153,7 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4046.868,
-      "52w_low": 3968.8562,
+      "52w_low": 3458.44,
       "date": "2026-10-30"
     },
     "道琼斯": {
@@ -178,40 +178,46 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+        "source": "CNBC Top",
+        "published": "2026-10-31 23:56",
+        "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html"
+      },
+      {
+        "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+        "source": "CNBC Top",
+        "published": "2026-10-31 20:12",
+        "link": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html"
+      },
+      {
+        "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+        "source": "CNBC Top",
+        "published": "2026-10-31 19:56",
+        "link": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
+      },
+      {
         "title": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
         "source": "CNBC Top",
         "published": "2026-10-31 12:49",
         "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
       },
       {
-        "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+        "title": "Automatic 401(k) rollovers reduce cash-outs, research finds — but few accounts reach new employer plans",
         "source": "CNBC Top",
-        "published": "2026-10-31 12:47",
-        "link": "https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html"
+        "published": "2026-10-31 13:30",
+        "link": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html"
       },
       {
-        "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+        "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
         "source": "CNBC Top",
-        "published": "2026-10-31 16:08",
-        "link": "https://www.cnbc.com/2026/10/31/openai-funding-target-cut-10-billion.html"
+        "published": "2026-10-31 13:47",
+        "link": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html"
       },
       {
-        "title": "Humans are still doing the work behind some AI agents",
+        "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
         "source": "CNBC Top",
-        "published": "2026-10-31 12:00",
-        "link": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html"
-      },
-      {
-        "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
-        "source": "CNBC Top",
-        "published": "2026-10-30 16:55",
-        "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html"
-      },
-      {
-        "title": "The rise of the 15-foot skeleton—how a viral novelty became a Halloween staple",
-        "source": "CNBC Top",
-        "published": "2026-10-31 10:27",
-        "link": "https://www.cnbc.com/make-it/2026/10/23/giant-halloween-skeleton-decorations.html"
+        "published": "2026-10-31 19:04",
+        "link": "https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html"
       },
       {
         "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
@@ -220,31 +226,19 @@
         "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
       },
       {
+        "title": "Humans are still doing the work behind some AI agents",
+        "source": "CNBC Tech",
+        "published": "2026-10-31 12:00",
+        "link": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html"
+      },
+      {
         "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
         "source": "CNBC Tech",
         "published": "2026-10-30 22:17",
         "link": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html"
-      },
-      {
-        "title": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
-        "source": "CNBC Tech",
-        "published": "2026-10-30 12:27",
-        "link": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html"
-      },
-      {
-        "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
-        "source": "CNBC Tech",
-        "published": "2026-10-30 15:14",
-        "link": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html"
       }
     ],
     "qqq_intel": [
-      {
-        "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
-        "source": "CNBC Top",
-        "published": "2026-10-31 11:00",
-        "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
-      },
       {
         "title": "Intel stock plunges 29%. Analysts urge caution on buying the dip",
         "source": "CNBC Top",
@@ -252,26 +246,14 @@
         "link": "https://www.cnbc.com/2026/10/31/intel-not-a-buy-after-drop.html"
       },
       {
-        "title": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
-        "source": "CNBC Tech",
-        "published": "2026-10-30 10:36",
-        "link": "https://www.cnbc.com/2026/10/30/tech-trade-nasdaq-futures-crypto-hack.html"
+        "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+        "source": "CNBC Top",
+        "published": "2026-10-31 11:00",
+        "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
       }
     ],
     "tech": [],
     "market": [
-      {
-        "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
-        "source": "CNBC Top",
-        "published": "2026-10-30 22:00",
-        "link": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html"
-      },
-      {
-        "title": "Berkshire ekes out some new highs, but October rally stalls",
-        "source": "CNBC Top",
-        "published": "2026-10-31 12:26",
-        "link": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html"
-      },
       {
         "title": "Bank of America says buy these stocks ahead of earnings before it's too late",
         "source": "CNBC Top",
@@ -301,17 +283,17 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f485112a-5b9c-4141-9eaf-014a21759191)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: bae23ad9-1dc0-4d62-b36e-da25374cec74)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 55da9b3c-187b-4167-9d91-3e841f67ca82)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 51d52855-b1a3-4658-90cc-f882329f8bf1)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: b3c5eedb-9880-4649-a406-d822381c4039)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 823f23cc-70dd-4608-8df9-448f0f888a3c)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: de405c16-7b3d-4846-986d-1c8a5fde3297)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e1f84e8b-fd4a-4c7a-8b60-238585e332d5)",
   "mood": {
     "mood": "panicking",
     "emoji": "🔥😱",
