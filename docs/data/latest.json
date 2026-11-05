@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-11-04T18:58:31.092387",
+  "timestamp": "2026-11-05T05:39:53.750236",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 180004671,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
-      "prev_close": 28.6,
-      "market_cap": 740108992512,
-      "pe_ratio": 21.147058,
+      "price": 31.08,
+      "change": 2.32,
+      "change_pct": 8.07,
+      "volume": 319697816,
+      "high": 31.26,
+      "low": 29.62,
+      "open": 30.0,
+      "prev_close": 28.76,
+      "market_cap": 799297110016,
+      "pe_ratio": 22.671532,
       "52w_high": 44.62,
       "52w_low": 21.3,
-      "date": "2026-11-04"
+      "date": "2026-11-05"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 692.95,
-      "change": 7.67,
-      "change_pct": 1.12,
-      "volume": 43046826,
+      "price": 691.95,
+      "change": 6.67,
+      "change_pct": 0.97,
+      "volume": 62127700,
       "high": 701.45,
-      "low": 687.9,
-      "open": 688.44,
+      "low": 687.87,
+      "open": 688.43,
       "prev_close": 685.28,
       "market_cap": "N/A",
-      "pe_ratio": 26.532795,
+      "pe_ratio": 28.501547,
       "52w_high": 762.86,
       "52w_low": 555.6,
       "date": "2026-11-04"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 58.04,
-      "change": -2.51,
-      "change_pct": -4.15,
-      "volume": 135310166,
+      "price": 58.27,
+      "change": -2.28,
+      "change_pct": -3.77,
+      "volume": 188619400,
       "high": 60.2,
       "low": 56.77,
-      "open": 58.74,
+      "open": 58.67,
       "prev_close": 60.55,
-      "market_cap": 308481523712,
+      "market_cap": 309705048064,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 32.89,
@@ -55,46 +55,46 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 554.73,
-      "change": 33.74,
-      "change_pct": 6.48,
-      "volume": 30319177,
-      "high": 558.05,
-      "low": 542.34,
-      "open": 543.86,
+      "price": 555.8,
+      "change": 34.81,
+      "change_pct": 6.68,
+      "volume": 50759800,
+      "high": 559.15,
+      "low": 542.3,
+      "open": 543.7,
       "prev_close": 520.99,
-      "market_cap": 4118938910720,
-      "pe_ratio": 28.948332,
-      "52w_high": 558.05,
+      "market_cap": 4127478775808,
+      "pe_ratio": 27.19178,
+      "52w_high": 559.15,
       "52w_low": 349.2,
       "date": "2026-11-04"
     },
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 80262.87,
-      "change": 2917.82,
-      "change_pct": 3.77,
-      "volume": 39083372544,
-      "high": 80746.25,
-      "low": 75709.91,
-      "open": 77338.23,
+      "price": 80496.54,
+      "change": 3151.49,
+      "change_pct": 4.07,
+      "volume": 35787169792,
+      "high": 80794.23,
+      "low": 80237.09,
+      "open": 80428.3,
       "prev_close": 77345.05,
-      "market_cap": 1613956644864,
+      "market_cap": 1618364203008,
       "pe_ratio": "N/A",
       "52w_high": 107428.26,
       "52w_low": 57747.766,
-      "date": "2026-11-04"
+      "date": "2026-11-05"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7696.6,
-      "change": 127.68,
-      "change_pct": 1.69,
-      "volume": 2525118000,
+      "price": 7688.62,
+      "change": 119.7,
+      "change_pct": 1.58,
+      "volume": 7390830000,
       "high": 7715.57,
       "low": 7635.81,
       "open": 7635.81,
@@ -108,10 +108,10 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 25811.84,
-      "change": 439.83,
-      "change_pct": 1.73,
-      "volume": 5432008000,
+      "price": 25736.51,
+      "change": 364.5,
+      "change_pct": 1.44,
+      "volume": 9953250000,
       "high": 26048.83,
       "low": 25602.14,
       "open": 25652.78,
@@ -125,45 +125,45 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 23525.97,
-      "change": 132.65,
-      "change_pct": 0.57,
-      "volume": 3371400000,
-      "high": 23549.31,
-      "low": 23347.03,
-      "open": 23469.64,
-      "prev_close": 23393.32,
+      "price": 24705.61,
+      "change": 786.11,
+      "change_pct": 3.29,
+      "volume": 0,
+      "high": 24749.08,
+      "low": 24281.77,
+      "open": 24316.94,
+      "prev_close": 23919.5,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-11-03"
+      "date": "2026-11-05"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4101.33,
+      "price": 4094.1,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3162361020,
-      "high": 4105.86,
-      "low": 3987.15,
-      "open": 4007.35,
-      "prev_close": 4101.33,
+      "volume": 731763516,
+      "high": 4136.8,
+      "low": 4065.72,
+      "open": 4065.72,
+      "prev_close": 4094.1,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4105.8574,
-      "52w_low": 3987.1516,
-      "date": "2026-11-04"
+      "52w_high": 4136.7983,
+      "52w_low": 4065.7239,
+      "date": "2026-11-05"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 53301.25,
-      "change": 1514.53,
-      "change_pct": 2.92,
-      "volume": 415505291,
-      "high": 53337.27,
+      "price": 53356.12,
+      "change": 1569.4,
+      "change_pct": 3.03,
+      "volume": 712500000,
+      "high": 53492.4,
       "low": 52410.23,
       "open": 52410.23,
       "prev_close": 51786.72,
@@ -178,71 +178,71 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "What Republicans' huge loss means for Trump",
+        "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
         "source": "CNBC Top",
-        "published": "2026-11-04 16:44",
-        "link": "https://www.cnbc.com/2026/11/04/trump-midterm-election-results-congress.html"
+        "published": "2026-11-04 23:17",
+        "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html"
+      },
+      {
+        "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
+        "source": "CNBC Top",
+        "published": "2026-11-05 03:53",
+        "link": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html"
+      },
+      {
+        "title": "Democrats may go after data centers. That's not a reason to dump all your AI stocks",
+        "source": "CNBC Top",
+        "published": "2026-11-04 20:44",
+        "link": "https://www.cnbc.com/2026/11/04/democratic-data-center-pushback-could-help-ai-stocks.html"
+      },
+      {
+        "title": "Citi employee killed in shooting at Florida office, suspect dead",
+        "source": "CNBC Top",
+        "published": "2026-11-05 03:00",
+        "link": "https://www.cnbc.com/2026/11/05/citi-employee-killed-in-shooting-at-florida-office-suspect-dead.html"
       },
       {
         "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
         "source": "CNBC Top",
-        "published": "2026-11-04 17:32",
+        "published": "2026-11-04 22:46",
         "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html"
       },
       {
-        "title": "5 midterm election takeaways: Tech billionaires suffer as Democrats drub Republicans",
+        "title": "What Republicans' huge loss means for Trump",
         "source": "CNBC Top",
-        "published": "2026-11-04 12:51",
-        "link": "https://www.cnbc.com/2026/11/04/midterm-election-blue-wave-trump-billionaires.html"
+        "published": "2026-11-04 21:50",
+        "link": "https://www.cnbc.com/2026/11/04/trump-midterm-election-results-congress.html"
       },
       {
-        "title": "Trump hammers Fox News, blaming network for GOP losses as ratings slide",
+        "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
         "source": "CNBC Top",
-        "published": "2026-11-04 18:37",
-        "link": "https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html"
+        "published": "2026-11-05 01:11",
+        "link": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
       },
       {
-        "title": "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
-        "source": "CNBC Top",
-        "published": "2026-11-04 12:07",
-        "link": "https://www.cnbc.com/2026/11/04/democrats-congress-trump-foreign-policy.html"
-      },
-      {
-        "title": "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
-        "source": "CNBC Top",
-        "published": "2026-11-04 13:43",
-        "link": "https://www.cnbc.com/2026/11/04/us-midterm-elections-iran-war-speaker.html"
-      },
-      {
-        "title": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
-        "source": "CNBC Top",
-        "published": "2026-11-04 15:29",
-        "link": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html"
-      },
-      {
-        "title": "Google responds to political backlash over removing search from schools that ban AI",
+        "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
         "source": "CNBC Tech",
-        "published": "2026-11-04 18:13",
-        "link": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html"
+        "published": "2026-11-04 23:02",
+        "link": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html"
       },
       {
-        "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+        "title": "Snap shares fall over 10% on third-quarter revenue miss",
         "source": "CNBC Tech",
-        "published": "2026-11-03 23:58",
-        "link": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html"
+        "published": "2026-11-05 00:14",
+        "link": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html"
       },
       {
-        "title": "CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says",
+        "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
         "source": "CNBC Tech",
-        "published": "2026-11-03 23:37",
-        "link": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html"
+        "published": "2026-11-04 19:37",
+        "link": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
       }
     ],
     "qqq_intel": [],
     "tech": [
       {
         "title": "SpaceX signs deal with Qualcomm to provide network technology for U.S. mobile service",
-        "source": "CNBC Top",
+        "source": "CNBC Tech",
         "published": "2026-11-04 13:53",
         "link": "https://www.cnbc.com/2026/11/04/spacex-strikes-deal-with-qualcomm-for-mobile-network-infrastructure.html"
       },
@@ -255,16 +255,40 @@
     ],
     "market": [
       {
-        "title": "Stocks making the biggest moves midday: CoreWeave, Micron, Booking Holdings, McDonald's, CVS Health & more",
+        "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
         "source": "CNBC Top",
-        "published": "2026-11-04 17:46",
-        "link": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-midday-crwv-mu-bkng-mcd-cvs.html"
+        "published": "2026-11-04 22:55",
+        "link": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
       },
       {
-        "title": "What Democrats’ midterm sweep means for your investments",
+        "title": "Stock futures are little changed after big rally following Democrats' decisive midterm wins",
         "source": "CNBC Top",
-        "published": "2026-11-04 17:01",
-        "link": "https://www.cnbc.com/2026/11/04/2026-midterms-investments.html"
+        "published": "2026-11-05 03:03",
+        "link": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Jim Cramer warns investors may be reading too much into Wall Street's post-election rally",
+        "source": "CNBC Top",
+        "published": "2026-11-04 23:18",
+        "link": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html"
+      },
+      {
+        "title": "Top stocks to own now after Democrats sweep the midterms, according to CIBC",
+        "source": "CNBC Top",
+        "published": "2026-11-04 19:43",
+        "link": "https://www.cnbc.com/2026/11/04/top-stocks-to-own-now-after-democrats-sweep-the-midterms-according-to-cibc.html"
+      },
+      {
+        "title": "Morning in America, twilight in the markets",
+        "source": "FT Markets",
+        "published": "2026-11-05 05:00",
+        "link": "https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007"
+      },
+      {
+        "title": "How will the Democrats’ sweep shape policy and markets?",
+        "source": "FT Markets",
+        "published": "2026-11-05 05:00",
+        "link": "https://www.ft.com/content/d0f7a709-3c57-4cd4-8467-4516a58d9749?syn-25a6b1a6=1"
       },
       {
         "title": "Seriously, stop worrying about market concentration",
@@ -289,28 +313,28 @@
   "sentiment": {
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 91df234f-eb01-43d7-a9ea-7ae9eecfb0cf)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: fe047ccc-f19e-4e11-8e56-a4a122ad4503)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: edb69043-5ebc-46d7-b99f-d86d7dc80d01)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 5cc00c6e-0421-4b0e-af5f-bd88abb20435)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 36a4e354-ae6b-42e2-a536-87366bd37ecb)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8234a4ff-4b0e-4fbc-b5be-c779bc1682af)",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "ecstatic",
+    "emoji": "🚀🎉",
+    "greeting": "AMAZING DAY!!! 今天市场简直飞起来了！",
+    "tone": "extremely enthusiastic, celebratory, using exclamation marks",
+    "sign_off": "今天的心情：像中了彩票一样开心 🎊 Let's ride this wave!",
+    "vibe": "I'm literally jumping out of my chair right now"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "euphoric",
+    "emoji": "🍷📈",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "sophisticated, highly confident, elite institutional tone",
+    "sign_off": "Sigma @ 财富自由之路 | 顶层思维，降维打击",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
