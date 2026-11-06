@@ -1,36 +1,36 @@
 {
-  "timestamp": "2026-11-05T19:10:15.719634",
+  "timestamp": "2026-11-06T05:37:35.718226",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 490490111,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
-      "prev_close": 28.76,
-      "market_cap": 805473222656,
-      "pe_ratio": 23.014706,
+      "price": 30.92,
+      "change": -0.38,
+      "change_pct": -1.21,
+      "volume": 180970932,
+      "high": 31.74,
+      "low": 30.72,
+      "open": 31.0,
+      "prev_close": 31.3,
+      "market_cap": 795694333952,
+      "pe_ratio": 20.891891,
       "52w_high": 44.62,
       "52w_low": 21.3,
-      "date": "2026-11-05"
+      "date": "2026-11-06"
     },
     "QQQ": {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 652.03,
-      "change": -39.92,
-      "change_pct": -5.77,
-      "volume": 89043827,
-      "high": 683.64,
-      "low": 647.47,
-      "open": 683.17,
+      "price": 647.05,
+      "change": -44.9,
+      "change_pct": -6.49,
+      "volume": 128835900,
+      "high": 683.65,
+      "low": 647.05,
+      "open": 683.12,
       "prev_close": 691.95,
       "market_cap": "N/A",
-      "pe_ratio": 26.857231,
+      "pe_ratio": 26.652107,
       "52w_high": 762.86,
       "52w_low": 555.6,
       "date": "2026-11-05"
@@ -38,15 +38,15 @@
     "Intel": {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 53.97,
-      "change": -4.3,
-      "change_pct": -7.38,
-      "volume": 167937611,
+      "price": 52.25,
+      "change": -6.02,
+      "change_pct": -10.33,
+      "volume": 267415600,
       "high": 56.73,
-      "low": 52.34,
-      "open": 56.47,
+      "low": 51.51,
+      "open": 56.51,
       "prev_close": 58.27,
-      "market_cap": 286850547712,
+      "market_cap": 277708734464,
       "pe_ratio": "N/A",
       "52w_high": 142.35,
       "52w_low": 32.89,
@@ -55,16 +55,16 @@
     "微软": {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 537.84,
-      "change": -17.96,
-      "change_pct": -3.23,
-      "volume": 24927356,
+      "price": 535.93,
+      "change": -19.87,
+      "change_pct": -3.58,
+      "volume": 42355300,
       "high": 557.62,
-      "low": 532.67,
-      "open": 555.75,
+      "low": 532.68,
+      "open": 554.94,
       "prev_close": 555.8,
-      "market_cap": 3993844318208,
-      "pe_ratio": 28.069155,
+      "market_cap": 3979920277504,
+      "pe_ratio": 29.000542,
       "52w_high": 559.15,
       "52w_low": 349.2,
       "date": "2026-11-05"
@@ -72,31 +72,31 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 75915.1,
-      "change": -4490.19,
-      "change_pct": -5.58,
-      "volume": 45229301760,
-      "high": 80794.23,
-      "low": 75616.78,
-      "open": 80428.3,
+      "price": 75505.35,
+      "change": -4899.94,
+      "change_pct": -6.09,
+      "volume": 49286905856,
+      "high": 76282.4,
+      "low": 75385.91,
+      "open": 75982.81,
       "prev_close": 80405.29,
-      "market_cap": 1524903575552,
+      "market_cap": 1518552875008,
       "pe_ratio": "N/A",
       "52w_high": 107428.26,
       "52w_low": 57747.766,
-      "date": "2026-11-05"
+      "date": "2026-11-06"
     }
   },
   "indices": {
     "标普500": {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7379.02,
-      "change": -309.6,
-      "change_pct": -4.03,
-      "volume": 2873330000,
+      "price": 7353.73,
+      "change": -334.89,
+      "change_pct": -4.36,
+      "volume": 7654840000,
       "high": 7681.29,
-      "low": 7362.77,
+      "low": 7350.35,
       "open": 7678.72,
       "prev_close": 7688.62,
       "market_cap": "N/A",
@@ -108,10 +108,10 @@
     "纳斯达克": {
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
-      "price": 24412.76,
-      "change": -1323.75,
-      "change_pct": -5.14,
-      "volume": 7249909000,
+      "price": 24315.0,
+      "change": -1421.51,
+      "change_pct": -5.52,
+      "volume": 12833900000,
       "high": 25559.03,
       "low": 24262.14,
       "open": 25558.11,
@@ -125,46 +125,46 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 23919.5,
-      "change": 393.53,
-      "change_pct": 1.67,
-      "volume": 3385400000,
-      "high": 23919.5,
-      "low": 23385.29,
-      "open": 23451.79,
-      "prev_close": 23525.97,
+      "price": 24478.16,
+      "change": -318.82,
+      "change_pct": -1.29,
+      "volume": 0,
+      "high": 24740.18,
+      "low": 24349.3,
+      "open": 24404.62,
+      "prev_close": 24796.98,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-11-04"
+      "date": "2026-11-06"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4113.41,
+      "price": 4049.02,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2723158120,
-      "high": 4136.8,
-      "low": 4065.72,
-      "open": 4065.72,
-      "prev_close": 4113.41,
+      "volume": 350988912,
+      "high": 4069.07,
+      "low": 4013.79,
+      "open": 4017.94,
+      "prev_close": 4049.02,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4136.7983,
-      "52w_low": 3458.44,
-      "date": "2026-11-05"
+      "52w_high": 4069.0718,
+      "52w_low": 4013.7925,
+      "date": "2026-11-06"
     },
     "道琼斯": {
       "ticker": "^DJI",
       "name": "Dow Jones Industrial Average",
-      "price": 51671.27,
-      "change": -1684.85,
-      "change_pct": -3.16,
-      "volume": 519433017,
+      "price": 51523.06,
+      "change": -1833.06,
+      "change_pct": -3.44,
+      "volume": 854770000,
       "high": 53710.61,
-      "low": 51571.5,
+      "low": 51486.82,
       "open": 53679.01,
       "prev_close": 53356.12,
       "market_cap": "N/A",
@@ -178,86 +178,98 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+        "title": "Three consumer stocks to buy after the midterm elections",
         "source": "CNBC Top",
-        "published": "2026-11-05 19:05",
-        "link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html"
+        "published": "2026-11-05 19:37",
+        "link": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html"
       },
       {
-        "title": "How the midterms could fuel the K-shaped AI trade",
+        "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
         "source": "CNBC Top",
-        "published": "2026-11-05 11:01",
-        "link": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
+        "published": "2026-11-05 20:17",
+        "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
       },
       {
-        "title": "Democrats to probe JPMorgan's relationship with Jeffrey Epstein when they take Senate control",
+        "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
         "source": "CNBC Top",
-        "published": "2026-11-05 17:42",
-        "link": "https://www.cnbc.com/2026/11/05/jpmorgan-epstein-democrats-erdoes-midterm-election.html"
+        "published": "2026-11-06 02:58",
+        "link": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html"
       },
       {
-        "title": "California’s billionaire tax faces defeat, but Democrats plan higher taxes on the wealthy",
+        "title": "IRS announces new federal income tax brackets for 2027",
         "source": "CNBC Top",
-        "published": "2026-11-05 16:19",
-        "link": "https://www.cnbc.com/2026/11/05/as-california-billionaire-tax-fizzles-democrats-plan-taxes-on-wealthy.html"
+        "published": "2026-11-06 01:21",
+        "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
       },
       {
-        "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+        "title": "IRS unveils higher capital gains tax brackets for 2027",
         "source": "CNBC Top",
-        "published": "2026-11-05 13:44",
-        "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html"
+        "published": "2026-11-06 01:00",
+        "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html"
       },
       {
-        "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launch pad",
+        "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
         "source": "CNBC Top",
-        "published": "2026-11-05 19:02",
-        "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
+        "published": "2026-11-05 22:21",
+        "link": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
       },
       {
-        "title": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
+        "title": "Solar stocks rallied on Democratic victories, but policy risks still threaten the group",
+        "source": "CNBC Top",
+        "published": "2026-11-05 19:12",
+        "link": "https://www.cnbc.com/2026/11/05/solar-stocks-democrats-congress.html"
+      },
+      {
+        "title": "Jim Cramer explains why no AI stock seems safe from the market carnage",
         "source": "CNBC Tech",
-        "published": "2026-11-05 18:46",
-        "link": "https://www.cnbc.com/investingclub/2026/11/05/cramer-says-the-ai-trade-is-not-going-away-as-nasdaq-enters-correction.html"
+        "published": "2026-11-05 23:25",
+        "link": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-data-center-uncertainty.html"
       },
       {
-        "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+        "title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
         "source": "CNBC Tech",
-        "published": "2026-11-05 13:34",
-        "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+        "published": "2026-11-05 23:17",
+        "link": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html"
       },
       {
-        "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+        "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
         "source": "CNBC Tech",
-        "published": "2026-11-05 18:52",
-        "link": "https://www.cnbc.com/2026/11/05/meta-spacex-ai-data-centers-use-millions-of-gallons-of-water-a-day.html"
-      },
-      {
-        "title": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke",
-        "source": "CNBC Tech",
-        "published": "2026-11-05 13:44",
-        "link": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html"
+        "published": "2026-11-05 23:25",
+        "link": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Dow tumbles 1,700 points, erasing its postelection rally; Nasdaq plummets 5%: Live updates",
+        "title": "Stock futures mixed after Nasdaq correction; Japan's Nikkei 225 enters bear market: Live updates",
         "source": "CNBC Top",
-        "published": "2026-11-05 19:05",
-        "link": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        "published": "2026-11-06 05:06",
+        "link": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
       },
       {
-        "title": "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
+        "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
         "source": "CNBC Top",
-        "published": "2026-11-05 15:24",
-        "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+        "published": "2026-11-06 02:40",
+        "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+      },
+      {
+        "title": "Wall Street sheds $3.2tn as tech-heavy Nasdaq plunges",
+        "source": "FT Markets",
+        "published": "2026-11-05 22:41",
+        "link": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
       }
     ],
     "tech": [
       {
-        "title": "This stock that sold off in the 'SaasPocalypse' is back at all-time highs. How Josh Brown is trading",
+        "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
         "source": "CNBC Top",
-        "published": "2026-11-05 16:00",
-        "link": "https://www.cnbc.com/2026/11/05/this-stock-that-sold-off-in-the-saaspocalypse-is-back-at-all-time-highs-how-josh-brown-is-trading.html"
+        "published": "2026-11-05 23:39",
+        "link": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
+      },
+      {
+        "title": "Asian tech stocks sink",
+        "source": "FT Markets",
+        "published": "2026-11-06 05:07",
+        "link": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1"
       },
       {
         "title": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack",
@@ -268,16 +280,10 @@
     ],
     "market": [
       {
-        "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+        "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
         "source": "CNBC Top",
-        "published": "2026-11-05 17:34",
-        "link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html"
-      },
-      {
-        "title": "Stocks making the biggest moves midday: Micron, Tesla, Tripadvisor, AppLovin, Nvidia & more",
-        "source": "CNBC Top",
-        "published": "2026-11-05 18:09",
-        "link": "https://www.cnbc.com/2026/11/05/stocks-making-the-biggest-moves-midday-mu-tsla-trip-app-nvda.html"
+        "published": "2026-11-06 03:20",
+        "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
       },
       {
         "title": "Markets cool after the monster midterm rally with Musk's stocks under pressure",
@@ -286,28 +292,22 @@
         "link": "https://www.cnbc.com/2026/11/05/markets-cool-midterm-musk-stocks-under-pressure.html"
       },
       {
-        "title": "From tanks to drones: South Korea’s defense firms face a new battlefield test",
-        "source": "CNBC Tech",
-        "published": "2026-11-05 08:07",
-        "link": "https://www.cnbc.com/2026/11/05/south-korea-defense-weapon-war-stocks-fall.html"
+        "title": "Blackstone doubles lock-up periods for some Asian investors",
+        "source": "FT Markets",
+        "published": "2026-11-06 00:01",
+        "link": "https://www.ft.com/content/97215edc-736f-45f3-84ee-c1ae0c89493a?syn-25a6b1a6=1"
       },
       {
-        "title": "Jim Cramer warns investors may be reading too much into Wall Street's post-election rally",
-        "source": "CNBC Tech",
-        "published": "2026-11-04 23:18",
-        "link": "https://www.cnbc.com/2026/11/04/cramer-midterms-ai-stocks.html"
+        "title": "Taking stock of tumbling stocks",
+        "source": "FT Markets",
+        "published": "2026-11-05 21:40",
+        "link": "https://www.ft.com/content/77afb479-14ce-4ede-80a6-cc10eb5d9ef4?syn-25a6b1a6=1"
       },
       {
         "title": "European stocks overtake Wall Street following Democratic sweep",
         "source": "FT Markets",
         "published": "2026-11-05 17:41",
         "link": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Markets surf the blue wave",
-        "source": "FT Markets",
-        "published": "2026-11-05 06:30",
-        "link": "https://www.ft.com/content/04094401-1966-4bc1-8aa7-b91ea8bf680c?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -326,17 +326,17 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 0e06d0f8-549f-42f5-984b-ad6e90ce77b3)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 67f73711-3948-4e5c-aba8-3273aebf5203)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8ddeefd8-dca3-441f-8deb-e35dae3ca3f0)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e1de106e-3d6d-426e-a81a-9ae642336d3a)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 1d6c00d7-9c39-4425-bdc1-5bb7133c9314)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 92f3f0ac-e143-451a-a824-798d04c44223)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: a91c5b3e-5eb4-40fa-bcaa-166e8d007de7)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 0580ba20-9c7e-4a53-af95-19389695603b)",
   "mood": {
     "mood": "panicking",
     "emoji": "🔥😱",
