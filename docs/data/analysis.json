@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T18:53:14.727706",
+  "timestamp": "2026-11-14T05:27:56.302191",
   "target": "1810.HK",
   "dim1_fundamentals": {
     "data": {
@@ -9,9 +9,9 @@
       "industry": "Consumer Electronics",
       "market_cap": 742624264192,
       "enterprise_value": 664537989120,
-      "pe_ratio": 21.220589,
+      "pe_ratio": 22.030537,
       "forward_pe": 19.580256,
-      "peg_ratio": 3.05,
+      "peg_ratio": 2.93,
       "pb_ratio": 2.3410275,
       "ps_ratio": 1.6951003,
       "ev_ebitda": 23.551,
@@ -29,119 +29,119 @@
       "beta": 0.662,
       "52w_high": 43.64,
       "52w_low": 21.3,
-      "50d_avg": 26.7896,
-      "200d_avg": 29.2122,
-      "analyst_target": 33.91803,
+      "50d_avg": 26.8056,
+      "200d_avg": 29.1734,
+      "analyst_target": 33.944016,
       "recommendation": "buy"
     },
-    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: be070d18-6968-495e-afaf-ca3c0641c0eb)"
+    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 6c435147-0a22-458b-ba68-d71bcf481b2f)"
   },
   "dim2_technicals": {
     "data": {
-      "price": NaN,
-      "ma5": NaN,
-      "ma20": NaN,
-      "ma60": NaN,
-      "ma120": NaN,
-      "rsi_14": NaN,
-      "macd": 1.153,
-      "ret_1w": NaN,
-      "ret_1m": NaN,
-      "ret_3m": NaN,
-      "ret_6m": NaN,
+      "price": 28.86,
+      "ma5": 29.93,
+      "ma20": 28.01,
+      "ma60": 26.99,
+      "ma120": 26.7,
+      "rsi_14": 59.4,
+      "macd": 1.047,
+      "ret_1w": -4.12,
+      "ret_1m": 9.4,
+      "ret_3m": 9.48,
+      "ret_6m": -7.26,
       "high_52w": 43.5,
       "low_52w": 21.42,
-      "pct_from_52w_high": NaN,
-      "pct_from_52w_low": NaN,
-      "volume_ratio": 0.64,
-      "above_ma20": false,
-      "above_ma60": false,
-      "trend": "MIXED"
+      "pct_from_52w_high": -33.66,
+      "pct_from_52w_low": 34.73,
+      "volume_ratio": 0.65,
+      "above_ma20": true,
+      "above_ma60": true,
+      "trend": "UP"
     },
-    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 42a1f9a5-d3a2-4de1-a41c-b2bdf0cd7cf4)"
+    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 7796fa9b-2092-4ddf-accf-a4bb16618987)"
   },
   "dim3_sentiment": {
     "article_count": 0,
     "headlines": [],
-    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f0c2c249-1b12-4dc8-a591-da7bb389d42b)"
+    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 7e378889-ef67-4642-a4a8-58908df10435)"
   },
   "dim4_competitive": {
-    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c707a7ca-ae79-4c04-9889-e00d9078b6ee)"
+    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f2b3d2e3-fa4b-4ce2-8376-ae60aaa51c33)"
   },
   "dim5_macro": {
     "indices": {
       "HSI": {
-        "price": 24008.55,
-        "change_pct": -1.26
+        "price": 23637.6,
+        "change_pct": -1.55
       },
       "SPX": {
-        "price": 7553.98,
-        "change_pct": -0.51
+        "price": 7561.67,
+        "change_pct": -0.4
       },
       "USD/CNH": {
         "price": 6.67,
         "change_pct": 0.0
       },
       "US10Y": {
-        "price": 5.14,
-        "change_pct": 0.74
+        "price": 5.15,
+        "change_pct": 1.0
       }
     },
-    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 2872dda9-84f9-4a85-8d9a-6aabebe868fb)"
+    "analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: d3bd2b52-8e9a-4afd-a1d1-5295daa7ee19)"
   },
-  "final_verdict": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 20847444-351a-45f4-8675-996ffcc712e2)",
+  "final_verdict": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: ef6e7721-3320-4974-8b0d-0625d375aa0e)",
   "pair_direction": "short",
   "top_candidates": [
     {
       "name": "明源云",
       "ticker": "0909.HK",
-      "score": 50.0
-    },
-    {
-      "name": "理想汽车-HK",
-      "ticker": "2015.HK",
-      "score": 45.0
+      "score": 65.0
     },
     {
       "name": "卓胜微",
       "ticker": "300782.SZ",
-      "score": 43.0
-    },
-    {
-      "name": "汇顶科技",
-      "ticker": "603160.SS",
-      "score": 43.0
+      "score": 58.0
     },
     {
       "name": "蔚来-HK",
       "ticker": "9866.HK",
-      "score": 40.0
+      "score": 55.0
     },
     {
       "name": "科大讯飞",
       "ticker": "002230.SZ",
-      "score": 40.0
-    },
-    {
-      "name": "中兴通讯-A",
-      "ticker": "000063.SZ",
-      "score": 40.0
-    },
-    {
-      "name": "金蝶国际",
-      "ticker": "0268.HK",
-      "score": 38.0
+      "score": 55.0
     },
     {
       "name": "零跑汽车",
       "ticker": "9863.HK",
-      "score": 38.0
+      "score": 53.0
     },
     {
       "name": "京东-HK",
       "ticker": "9618.HK",
-      "score": 35.0
+      "score": 50.0
+    },
+    {
+      "name": "百度-HK",
+      "ticker": "9888.HK",
+      "score": 50.0
+    },
+    {
+      "name": "汇顶科技",
+      "ticker": "603160.SS",
+      "score": 48.0
+    },
+    {
+      "name": "闻泰科技",
+      "ticker": "600745.SS",
+      "score": 48.0
+    },
+    {
+      "name": "美团",
+      "ticker": "3690.HK",
+      "score": 45.0
     }
   ],
-  "pair_recommendation": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 81155030-e624-4a23-bf4e-ede4daa742af)"
+  "pair_recommendation": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 819b9386-c435-40a8-896b-ee1025d7a6ec)"
 }
