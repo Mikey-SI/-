@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T05:24:45.849194",
+  "timestamp": "2026-11-15T18:05:43.902695",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
@@ -72,15 +72,15 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64923.45,
-      "change": -3325.82,
-      "change_pct": -4.87,
-      "volume": 50153660416,
-      "high": 65289.01,
+      "price": 64612.46,
+      "change": 484.41,
+      "change_pct": 0.76,
+      "volume": 48035639296,
+      "high": 65889.23,
       "low": 62093.52,
       "open": 64119.78,
-      "prev_close": 68249.27,
-      "market_cap": 1306089750528,
+      "prev_close": 64128.05,
+      "market_cap": 1299440074752,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 57747.766,
@@ -153,7 +153,7 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4052.0598,
-      "52w_low": 3458.44,
+      "52w_low": 4004.4973,
       "date": "2026-11-13"
     },
     "道琼斯": {
@@ -178,10 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
-        "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+        "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
         "source": "CNBC Top",
-        "published": "2026-11-15 02:53",
-        "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+        "published": "2026-11-15 12:00",
+        "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
+      },
+      {
+        "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+        "source": "CNBC Top",
+        "published": "2026-11-15 14:24",
+        "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
+      },
+      {
+        "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+        "source": "CNBC Top",
+        "published": "2026-11-15 16:56",
+        "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html"
+      },
+      {
+        "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
+        "source": "CNBC Top",
+        "published": "2026-11-15 13:00",
+        "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html"
       },
       {
         "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
@@ -190,28 +208,10 @@
         "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html"
       },
       {
-        "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain in attack on U.S. base",
         "source": "CNBC Top",
-        "published": "2026-11-14 15:50",
-        "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html"
-      },
-      {
-        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "source": "CNBC Top",
-        "published": "2026-11-14 15:36",
-        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
-      },
-      {
-        "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
-        "source": "CNBC Top",
-        "published": "2026-11-14 14:30",
-        "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html"
-      },
-      {
-        "title": "Retailers are turning to entertainment to win shoppers’ attention",
-        "source": "CNBC Top",
-        "published": "2026-11-14 13:00",
-        "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html"
+        "published": "2026-11-15 17:43",
+        "link": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
       },
       {
         "title": "Bank of America says these stocks have major upside potential in an uncertain market",
@@ -240,13 +240,26 @@
     ],
     "qqq_intel": [
       {
-        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+        "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
         "source": "CNBC Top",
+        "published": "2026-11-15 16:49",
+        "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
+      },
+      {
+        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+        "source": "CNBC Tech",
         "published": "2026-11-13 23:42",
         "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+        "source": "CNBC Tech",
+        "published": "2026-11-15 08:34",
+        "link": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+      }
+    ],
     "market": [
       {
         "title": "How Canadian stocks could be big winners of U.S. midterms",
@@ -255,28 +268,28 @@
         "link": "https://www.cnbc.com/2026/11/14/canada-stocks-us-midterms-tariffs.html"
       },
       {
-        "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
-        "source": "CNBC Top",
-        "published": "2026-11-14 14:02",
-        "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html"
-      },
-      {
         "title": "$180 million Van Gogh tests the art market and collector confidence",
         "source": "CNBC Top",
         "published": "2026-11-14 22:34",
         "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
       },
       {
+        "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+        "source": "CNBC Top",
+        "published": "2026-11-15 12:49",
+        "link": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html"
+      },
+      {
+        "title": "Hong Kong developer New World unveils $3.2bn rights issue",
+        "source": "FT Markets",
+        "published": "2026-11-15 15:24",
+        "link": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1"
+      },
+      {
         "title": "Chart of the Week: The great market rotation",
         "source": "FT Markets",
         "published": "2026-11-14 10:30",
         "link": "https://www.ft.com/content/936376d1-4a69-4a3c-8975-3c55e9cb9d42?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-        "source": "FT Markets",
-        "published": "2026-11-13 19:45",
-        "link": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -295,17 +308,17 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 3fcc551d-7ab6-4804-9e65-576ffaa9a607)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 77323779-dbdd-4912-b637-f60788b5885d)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8a68a01f-bdfe-470d-9a0c-a18e9fac1509)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 944ea294-5cad-42df-9fa7-b00605fb4ef3)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 2373d45f-be91-43fc-872d-400f32bdea38)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 39277c8d-bfda-4a13-be0d-ae494eee5395)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 42d0c311-92e7-42cc-aa0e-a31c3e0ef3ad)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4c60363c-b49b-4b3c-b361-4c0e767b1326)",
   "mood": {
     "mood": "concerned",
     "emoji": "😟📉",
