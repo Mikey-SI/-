@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-11-15T18:05:43.902695",
+  "timestamp": "2026-11-16T05:22:40.400705",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 28.86,
-      "change": -1.12,
-      "change_pct": -3.74,
-      "volume": 109152387,
-      "high": 29.8,
-      "low": 28.8,
-      "open": 29.74,
-      "prev_close": 29.98,
-      "market_cap": 742574522368,
-      "pe_ratio": 21.220589,
+      "price": 29.26,
+      "change": 0.4,
+      "change_pct": 1.39,
+      "volume": 51748864,
+      "high": 29.44,
+      "low": 28.7,
+      "open": 29.0,
+      "prev_close": 28.86,
+      "market_cap": 752866623488,
+      "pe_ratio": 21.514706,
       "52w_high": 43.64,
       "52w_low": 21.3,
-      "date": "2026-11-13"
+      "date": "2026-11-16"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 64612.46,
-      "change": 484.41,
-      "change_pct": 0.76,
-      "volume": 48035639296,
-      "high": 65889.23,
-      "low": 62093.52,
-      "open": 64119.78,
+      "price": 64810.71,
+      "change": 682.66,
+      "change_pct": 1.06,
+      "volume": 30211477504,
+      "high": 65363.44,
+      "low": 64581.55,
+      "open": 65314.55,
       "prev_close": 64128.05,
-      "market_cap": 1299440074752,
+      "market_cap": 1302809280512,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 57747.766,
-      "date": "2026-11-15"
+      "date": "2026-11-16"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 23637.6,
-      "change": -370.95,
-      "change_pct": -1.55,
-      "volume": 2915600000,
-      "high": 23930.13,
-      "low": 23595.36,
-      "open": 23871.91,
-      "prev_close": 24008.55,
+      "price": 23811.97,
+      "change": 174.37,
+      "change_pct": 0.74,
+      "volume": 0,
+      "high": 23894.01,
+      "low": 23649.1,
+      "open": 23708.6,
+      "prev_close": 23637.6,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 22518.0,
-      "date": "2026-11-13"
+      "date": "2026-11-16"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 4016.29,
+      "price": 3982.19,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 754330616,
-      "high": 4052.06,
-      "low": 4004.5,
-      "open": 4047.77,
-      "prev_close": 4016.29,
+      "volume": 1963545708,
+      "high": 3997.4,
+      "low": 3967.63,
+      "open": 3984.77,
+      "prev_close": 3982.19,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4052.0598,
-      "52w_low": 4004.4973,
-      "date": "2026-11-13"
+      "52w_high": 3997.4043,
+      "52w_low": 3967.6265,
+      "date": "2026-11-16"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,16 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+        "source": "CNBC Top",
+        "published": "2026-11-16 04:34",
+        "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+      },
+      {
         "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
         "source": "CNBC Top",
         "published": "2026-11-15 12:00",
         "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
       },
       {
-        "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+        "title": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
         "source": "CNBC Top",
-        "published": "2026-11-15 14:24",
-        "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
+        "published": "2026-11-16 03:39",
+        "link": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+        "source": "CNBC Top",
+        "published": "2026-11-16 03:53",
+        "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
       },
       {
         "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
@@ -196,22 +208,16 @@
         "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html"
       },
       {
-        "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
+        "title": "'We slept here': Flight delays linger but schedule is back on track for Monday",
         "source": "CNBC Top",
-        "published": "2026-11-15 13:00",
-        "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html"
+        "published": "2026-11-15 22:33",
+        "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
       },
       {
         "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
         "source": "CNBC Top",
         "published": "2026-11-14 14:54",
         "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html"
-      },
-      {
-        "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain in attack on U.S. base",
-        "source": "CNBC Top",
-        "published": "2026-11-15 17:43",
-        "link": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
       },
       {
         "title": "Bank of America says these stocks have major upside potential in an uncertain market",
@@ -230,29 +236,29 @@
         "source": "CNBC Tech",
         "published": "2026-11-14 18:48",
         "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html"
-      },
-      {
-        "title": "Meet the seven co-founders of Anthropic",
-        "source": "CNBC Tech",
-        "published": "2026-11-14 12:15",
-        "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
         "source": "CNBC Top",
-        "published": "2026-11-15 16:49",
-        "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
+        "published": "2026-11-15 19:58",
+        "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
       },
       {
-        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+        "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
         "source": "CNBC Tech",
-        "published": "2026-11-13 23:42",
-        "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+        "published": "2026-11-15 18:10",
+        "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html"
       }
     ],
     "tech": [
+      {
+        "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+        "source": "CNBC Top",
+        "published": "2026-11-16 03:35",
+        "link": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+      },
       {
         "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
         "source": "CNBC Tech",
@@ -270,20 +276,8 @@
       {
         "title": "$180 million Van Gogh tests the art market and collector confidence",
         "source": "CNBC Top",
-        "published": "2026-11-14 22:34",
+        "published": "2026-11-16 02:22",
         "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
-      },
-      {
-        "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-        "source": "CNBC Top",
-        "published": "2026-11-15 12:49",
-        "link": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html"
-      },
-      {
-        "title": "Hong Kong developer New World unveils $3.2bn rights issue",
-        "source": "FT Markets",
-        "published": "2026-11-15 15:24",
-        "link": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1"
       },
       {
         "title": "Chart of the Week: The great market rotation",
@@ -308,32 +302,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 77323779-dbdd-4912-b637-f60788b5885d)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: a1712da1-7e24-4e59-a1de-6f50bd413c55)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 944ea294-5cad-42df-9fa7-b00605fb4ef3)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 50d4a728-7597-4162-bd04-020bc1829f92)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 39277c8d-bfda-4a13-be0d-ae494eee5395)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c3ee4828-a219-4f8c-9f64-15f20f417c54)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4c60363c-b49b-4b3c-b361-4c0e767b1326)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e16dc42b-6fa3-4f05-ac4e-66735cfd4a1b)",
   "mood": {
-    "mood": "concerned",
-    "emoji": "😟📉",
-    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
-    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
-    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
-    "vibe": "Biting my nails a little, but staying professional"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "predatory",
-    "emoji": "🦅📉",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
-    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
