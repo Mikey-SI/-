@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-11-22T18:46:38.566322",
+  "timestamp": "2026-11-23T06:21:43.304325",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": 27.64,
-      "change": -0.88,
-      "change_pct": -3.09,
-      "volume": 157739608,
-      "high": 28.3,
-      "low": 27.4,
-      "open": 28.2,
-      "prev_close": 28.52,
-      "market_cap": 711082967040,
-      "pe_ratio": 20.323528,
+      "price": 27.56,
+      "change": -0.08,
+      "change_pct": -0.29,
+      "volume": 85391792,
+      "high": 27.7,
+      "low": 26.8,
+      "open": 27.16,
+      "prev_close": 27.64,
+      "market_cap": 709024808960,
+      "pe_ratio": 20.264706,
       "52w_high": 43.64,
       "52w_low": 21.3,
-      "date": "2026-11-20"
+      "date": "2026-11-23"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 60641.43,
-      "change": 547.34,
-      "change_pct": 0.91,
-      "volume": 28547170304,
-      "high": 61328.95,
-      "low": 58680.21,
-      "open": 60093.01,
+      "price": 61519.49,
+      "change": 1425.4,
+      "change_pct": 2.37,
+      "volume": 27565152256,
+      "high": 61684.55,
+      "low": 60367.81,
+      "open": 61162.2,
       "prev_close": 60094.09,
-      "market_cap": 1219261759488,
+      "market_cap": 1238342565888,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 55149.566,
-      "date": "2026-11-22"
+      "date": "2026-11-23"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 22410.8,
-      "change": -430.82,
-      "change_pct": -1.89,
-      "volume": 3841700000,
-      "high": 22593.51,
-      "low": 22307.42,
-      "open": 22482.39,
-      "prev_close": 22841.62,
+      "price": 22414.34,
+      "change": 3.54,
+      "change_pct": 0.02,
+      "volume": 0,
+      "high": 22424.61,
+      "low": 21998.05,
+      "open": 22168.19,
+      "prev_close": 22410.8,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
-      "52w_low": 22307.42,
-      "date": "2026-11-20"
+      "52w_low": 21998.05,
+      "date": "2026-11-23"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 3954.56,
+      "price": 3960.19,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3894625116,
-      "high": 3961.07,
-      "low": 3894.47,
-      "open": 3925.74,
-      "prev_close": 3954.56,
+      "volume": 3620705212,
+      "high": 3968.45,
+      "low": 3901.49,
+      "open": 3931.47,
+      "prev_close": 3960.19,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 3961.0671,
-      "52w_low": 3894.4724,
-      "date": "2026-11-20"
+      "52w_high": 3968.4475,
+      "52w_low": 3901.4927,
+      "date": "2026-11-23"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,10 +178,34 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "S&P 500 futures rebound sharply to rise 2%, kick-starting shortened week after tech rout: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-11-23 05:59",
+        "link": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+        "source": "CNBC Top",
+        "published": "2026-11-23 03:52",
+        "link": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
+      },
+      {
         "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
         "source": "CNBC Top",
         "published": "2026-11-22 17:14",
         "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+      },
+      {
+        "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+        "source": "CNBC Top",
+        "published": "2026-11-23 05:58",
+        "link": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html"
+      },
+      {
+        "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+        "source": "CNBC Top",
+        "published": "2026-11-22 18:55",
+        "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
       },
       {
         "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
@@ -190,28 +214,16 @@
         "link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html"
       },
       {
-        "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
-        "source": "CNBC Top",
-        "published": "2026-11-22 13:25",
-        "link": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html"
-      },
-      {
-        "title": "S&P 500 correction: Five forces behind the market sell-off",
-        "source": "CNBC Top",
-        "published": "2026-11-21 11:29",
-        "link": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
-      },
-      {
         "title": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
         "source": "CNBC Top",
         "published": "2026-11-21 12:00",
         "link": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html"
       },
       {
-        "title": "State and federal battle over prediction markets regulation heats up after midterms",
+        "title": "3 big things we're watching in the market this Thanksgiving week",
         "source": "CNBC Top",
-        "published": "2026-11-21 13:12",
-        "link": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html"
+        "published": "2026-11-23 00:42",
+        "link": "https://www.cnbc.com/investingclub/2026/11/22/3-big-things-were-watching-in-the-market-this-thanksgiving-week.html"
       },
       {
         "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
@@ -224,37 +236,25 @@
         "source": "CNBC Tech",
         "published": "2026-11-20 19:42",
         "link": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
-      },
-      {
-        "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
-        "source": "CNBC Tech",
-        "published": "2026-11-20 22:08",
-        "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-      },
-      {
-        "title": "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward",
-        "source": "CNBC Tech",
-        "published": "2026-11-20 18:07",
-        "link": "https://www.cnbc.com/2026/11/20/bitcoin-price-catalysts-tokenization-regulation.html"
       }
     ],
     "qqq_intel": [
+      {
+        "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+        "source": "CNBC Top",
+        "published": "2026-11-23 05:08",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html"
+      },
       {
         "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
         "source": "CNBC Top",
         "published": "2026-11-21 16:40",
         "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html"
-      },
-      {
-        "title": "The Nasdaq is in freefall. Here's one stock to look at",
-        "source": "CNBC Top",
-        "published": "2026-11-22 12:10",
-        "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html"
       }
     ],
     "tech": [
       {
-        "title": "Will Anthropic’s IPO buck the tech sell-off?",
+        "title": "Will Anthropic buck the tech sell-off?",
         "source": "FT Markets",
         "published": "2026-11-22 12:00",
         "link": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1"
@@ -266,18 +266,6 @@
         "source": "CNBC Top",
         "published": "2026-11-22 12:15",
         "link": "https://www.cnbc.com/2026/11/22/draftkings-short-interest-prediction-markets.html"
-      },
-      {
-        "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
-        "source": "CNBC Top",
-        "published": "2026-11-22 12:13",
-        "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html"
-      },
-      {
-        "title": "Inside Anthropic’s historic IPO",
-        "source": "FT Markets",
-        "published": "2026-11-20 21:21",
-        "link": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -296,17 +284,17 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 1858e73c-9073-408b-93bd-7b575040dd93)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: f7736660-84af-42f2-b03e-81fc2f99b6f4)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e4722956-1005-4517-af02-2c82aff5552a)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 7883eaa9-ea53-481b-bcab-5c9c326fa87d)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: cd2defb8-b260-4599-839d-280108e1d4ac)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e75d5367-9c3e-40a1-b3a3-023292d4159d)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 2a78e8cb-34d9-4daa-8b6d-6d8926f0bc79)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: bc4c92dc-a93e-4709-ab0d-1736be7d19ef)",
   "mood": {
     "mood": "panicking",
     "emoji": "🔥😱",
