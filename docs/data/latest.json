@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-11-24T21:38:46.845888",
+  "timestamp": "2026-11-25T07:31:15.850556",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 232838214,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
-      "prev_close": 27.52,
-      "market_cap": 681706782720,
-      "pe_ratio": 19.485294,
+      "price": 26.7,
+      "change": 0.2,
+      "change_pct": 0.75,
+      "volume": 210715155,
+      "high": 28.66,
+      "low": 26.7,
+      "open": 26.86,
+      "prev_close": 26.5,
+      "market_cap": 686851751936,
+      "pe_ratio": 19.632353,
       "52w_high": 43.64,
       "52w_low": 21.3,
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -24,10 +24,10 @@
       "price": 638.1,
       "change": -12.93,
       "change_pct": -1.99,
-      "volume": 55576036,
-      "high": 643.47,
+      "volume": 57091400,
+      "high": 648.0,
       "low": 631.15,
-      "open": 640.02,
+      "open": 640.04,
       "prev_close": 651.03,
       "market_cap": "N/A",
       "pe_ratio": 26.283455,
@@ -41,10 +41,10 @@
       "price": 54.8,
       "change": -4.86,
       "change_pct": -8.15,
-      "volume": 130387526,
+      "volume": 132167700,
       "high": 57.54,
       "low": 53.54,
-      "open": 57.28,
+      "open": 57.3,
       "prev_close": 59.66,
       "market_cap": 291261972480,
       "pe_ratio": "N/A",
@@ -58,10 +58,10 @@
       "price": 496.13,
       "change": 3.63,
       "change_pct": 0.74,
-      "volume": 22036513,
-      "high": 501.8,
+      "volume": 23086900,
+      "high": 501.82,
       "low": 488.43,
-      "open": 490.43,
+      "open": 490.13,
       "prev_close": 492.5,
       "market_cap": 3684357898240,
       "pe_ratio": 25.89405,
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 59808.67,
-      "change": -1402.31,
-      "change_pct": -2.29,
-      "volume": 33261543424,
-      "high": 61502.66,
-      "low": 59261.06,
-      "open": 61211.15,
-      "prev_close": 61210.98,
-      "market_cap": 1204113375232,
+      "price": 58992.22,
+      "change": -755.55,
+      "change_pct": -1.26,
+      "volume": 30661171200,
+      "high": 59745.65,
+      "low": 58902.68,
+      "open": 59745.65,
+      "prev_close": 59747.77,
+      "market_cap": 1186472001536,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 55149.566,
-      "date": "2026-11-24"
+      "date": "2026-11-25"
     }
   },
   "indices": {
@@ -94,7 +94,7 @@
       "price": 7201.09,
       "change": -36.08,
       "change_pct": -0.5,
-      "volume": 3299270000,
+      "volume": 5244060000,
       "high": 7223.95,
       "low": 7138.93,
       "open": 7172.33,
@@ -109,9 +109,9 @@
       "ticker": "^IXIC",
       "name": "NASDAQ Composite",
       "price": 23733.54,
-      "change": -356.03,
+      "change": -356.02,
       "change_pct": -1.48,
-      "volume": 8011579000,
+      "volume": 9222160000,
       "high": 23884.74,
       "low": 23455.84,
       "open": 23745.86,
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 22383.74,
-      "change": -27.06,
-      "change_pct": -0.12,
-      "volume": 3452600000,
-      "high": 22436.18,
-      "low": 21998.05,
-      "open": 22168.19,
-      "prev_close": 22410.8,
+      "price": 22052.55,
+      "change": -167.1,
+      "change_pct": -0.75,
+      "volume": 0,
+      "high": 22507.83,
+      "low": 22003.81,
+      "open": 22252.81,
+      "prev_close": 22219.65,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 21998.05,
-      "date": "2026-11-23"
+      "date": "2026-11-25"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 3963.82,
+      "price": 3898.24,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 2558253816,
-      "high": 4011.69,
-      "low": 3957.92,
-      "open": 4004.04,
-      "prev_close": 3963.82,
+      "volume": 997479516,
+      "high": 3937.33,
+      "low": 3886.92,
+      "open": 3929.84,
+      "prev_close": 3898.24,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 4011.6853,
-      "52w_low": 3957.922,
-      "date": "2026-11-24"
+      "52w_high": 3937.3286,
+      "52w_low": 3886.918,
+      "date": "2026-11-25"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -162,7 +162,7 @@
       "price": 50018.7,
       "change": 423.39,
       "change_pct": 0.85,
-      "volume": 712751658,
+      "volume": 712700000,
       "high": 50075.12,
       "low": 49294.49,
       "open": 49494.6,
@@ -180,8 +180,38 @@
       {
         "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
         "source": "CNBC Top",
-        "published": "2026-11-24 20:42",
+        "published": "2026-11-24 23:13",
         "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
+      },
+      {
+        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+        "source": "CNBC Top",
+        "published": "2026-11-25 06:29",
+        "link": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html"
+      },
+      {
+        "title": "Stock futures slip as traders await key inflation report, assess tech sell-off: Live updates",
+        "source": "CNBC Top",
+        "published": "2026-11-25 07:27",
+        "link": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+      },
+      {
+        "title": "Crypto talent will return ‘when AI implodes,’ Arthur Hayes says",
+        "source": "CNBC Top",
+        "published": "2026-11-25 06:09",
+        "link": "https://www.cnbc.com/2026/11/25/talents-crypto-ai-investment.html"
+      },
+      {
+        "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+        "source": "CNBC Top",
+        "published": "2026-11-25 03:52",
+        "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+      },
+      {
+        "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+        "source": "CNBC Top",
+        "published": "2026-11-25 02:09",
+        "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
       },
       {
         "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
@@ -190,74 +220,44 @@
         "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html"
       },
       {
-        "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
-        "source": "CNBC Top",
-        "published": "2026-11-24 21:29",
-        "link": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
-      },
-      {
-        "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
-        "source": "CNBC Top",
-        "published": "2026-11-24 21:16",
-        "link": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
-      },
-      {
-        "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-        "source": "CNBC Top",
-        "published": "2026-11-24 18:34",
-        "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
-      },
-      {
-        "title": "Retail turnarounds are taking hold just in time for the holiday season",
-        "source": "CNBC Top",
-        "published": "2026-11-24 19:26",
-        "link": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html"
-      },
-      {
-        "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
-        "source": "CNBC Top",
-        "published": "2026-11-24 20:37",
-        "link": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html"
-      },
-      {
-        "title": "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
-        "source": "CNBC Top",
-        "published": "2026-11-23 20:22",
-        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html"
-      },
-      {
-        "title": "Nvidia brought Jensen Huang back. But the investigations aren’t over",
+        "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
         "source": "CNBC Tech",
-        "published": "2026-11-24 15:03",
-        "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-ceo-return.html"
+        "published": "2026-11-25 01:13",
+        "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
       },
       {
-        "title": "Futures turn red as Huang-effect fails to deliver another day of gains",
+        "title": "Jim Cramer says Tuesday's market pullback is an encouraging sign. Here's why",
         "source": "CNBC Tech",
-        "published": "2026-11-24 11:58",
-        "link": "https://www.cnbc.com/2026/11/24/futures-turn-red-as-huang-effect-fails-to-deliver-another-day-of-gains.html"
+        "published": "2026-11-24 23:23",
+        "link": "https://www.cnbc.com/2026/11/24/jim-cramer-market-pullback.html"
+      },
+      {
+        "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+        "source": "CNBC Tech",
+        "published": "2026-11-24 22:03",
+        "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html"
       }
     ],
     "qqq_intel": [
       {
-        "title": "Anthropic closes below $83 IPO price, but analysts are still largely positive",
-        "source": "CNBC Top",
-        "published": "2026-11-24 21:04",
-        "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
-      },
-      {
         "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
-        "source": "CNBC Tech",
+        "source": "CNBC Top",
         "published": "2026-11-24 17:51",
         "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html"
+      },
+      {
+        "title": "Anthropic closes below $83 IPO price, but analysts are still largely positive",
+        "source": "CNBC Tech",
+        "published": "2026-11-24 21:04",
+        "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
       }
     ],
     "tech": [
       {
-        "title": "Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure",
-        "source": "CNBC Tech",
-        "published": "2026-11-24 09:46",
-        "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+        "title": "Nscale says it has option to stay private as tech sell-off threatens $35bn IPO",
+        "source": "FT Markets",
+        "published": "2026-11-24 22:50",
+        "link": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac?syn-25a6b1a6=1"
       },
       {
         "title": "Anthropic closes below IPO price as tech rally fades",
@@ -274,22 +274,16 @@
         "link": "https://www.cnbc.com/2026/11/24/buffer-etfs-downside-protection.html"
       },
       {
-        "title": "Stocks making the biggest moves midday: Dick's Sporting Goods, Analog Devices, Nvidia, Pinterest & more",
+        "title": "Stocks making the biggest moves Tuesday: Ambarella, Dell, Autodesk, Urban Outfitters & more",
         "source": "CNBC Top",
-        "published": "2026-11-24 17:24",
+        "published": "2026-11-24 23:14",
         "link": "https://www.cnbc.com/2026/11/24/stocks-moving-the-most-today-live-updates.html"
       },
       {
-        "title": "BlackRock wants to launch private market ETFs. Because of course it does",
+        "title": "London hedge fund Qube squares up to US rivals in expansion drive",
         "source": "FT Markets",
-        "published": "2026-11-24 12:23",
-        "link": "https://www.ft.com/content/77678ba7-c93f-4d29-b101-b99931b065e9"
-      },
-      {
-        "title": "Compass exit should spur London to beef up its bench",
-        "source": "FT Markets",
-        "published": "2026-11-24 05:00",
-        "link": "https://www.ft.com/content/d23b5a83-0ada-4d94-adb1-de826a896174?syn-25a6b1a6=1"
+        "published": "2026-11-25 05:00",
+        "link": "https://www.ft.com/content/b519698f-6ace-47e9-9cd5-1e18f8fdd71b?syn-25a6b1a6=1"
       },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
@@ -308,32 +302,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 5ec5ee48-8531-4931-92f0-4fd1bd79aea8)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 02064b2f-3fad-4ff7-b35c-fc47e58c499b)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 4f99a2bf-9e1d-4639-83c7-243b5f0cdf39)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8041a667-c407-45bd-a1c2-a3bb887553e5)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: adf7572d-b290-4061-9651-3b065c822c94)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 1feaa9cd-ce29-4ee1-a5cd-11f646bddbb1)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 7145246d-f501-4a64-8343-78f0c37b00a8)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 1f93b507-5d54-448f-9896-20e35e604e72)",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "concerned",
+    "emoji": "😟📉",
+    "greeting": "嗯...今天市场有点让人不安。Let me walk you through the damage...",
+    "tone": "cautious, concerned but reassuring, like a worried friend giving advice",
+    "sign_off": "今天的心情：有点焦虑但还hold得住 😤 We'll get through this.",
+    "vibe": "Biting my nails a little, but staying professional"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "predatory",
+    "emoji": "🦅📉",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "aggressive, contrarian, seeing opportunity in others' fear",
+    "sign_off": "Sigma @ 财富自由之路 | 别人恐慌我贪婪，收割流动性",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
