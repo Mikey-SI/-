@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-11-26T20:39:10.393052",
+  "timestamp": "2026-11-27T07:16:20.799962",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 127000581,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
-      "prev_close": 26.56,
-      "market_cap": 684183584768,
-      "pe_ratio": 19.558825,
+      "price": 27.62,
+      "change": 1.02,
+      "change_pct": 3.83,
+      "volume": 146910452,
+      "high": 27.82,
+      "low": 26.24,
+      "open": 26.3,
+      "prev_close": 26.6,
+      "market_cap": 710419218432,
+      "pe_ratio": 20.308825,
       "52w_high": 43.64,
       "52w_low": 21.3,
-      "date": "2026-11-26"
+      "date": "2026-11-27"
     },
     "QQQ": {
       "ticker": "QQQ",
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 60684.08,
-      "change": 305.88,
-      "change_pct": 0.51,
-      "volume": 23778693120,
-      "high": 61040.95,
-      "low": 60040.08,
-      "open": 60378.57,
-      "prev_close": 60378.2,
-      "market_cap": 1220611932160,
+      "price": 61716.25,
+      "change": 1221.54,
+      "change_pct": 2.02,
+      "volume": 20325396480,
+      "high": 61867.03,
+      "low": 60440.95,
+      "open": 60495.95,
+      "prev_close": 60494.71,
+      "market_cap": 1241376882688,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 55149.566,
-      "date": "2026-11-26"
+      "date": "2026-11-27"
     }
   },
   "indices": {
@@ -125,36 +125,36 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 21966.01,
-      "change": -253.64,
-      "change_pct": -1.14,
-      "volume": 3648600000,
-      "high": 22507.83,
-      "low": 21915.88,
-      "open": 22252.81,
-      "prev_close": 22219.65,
+      "price": 22671.4,
+      "change": 444.52,
+      "change_pct": 2.0,
+      "volume": 0,
+      "high": 22781.03,
+      "low": 22263.7,
+      "open": 22263.7,
+      "prev_close": 22226.88,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 21915.88,
-      "date": "2026-11-25"
+      "date": "2026-11-27"
     },
     "沪深300": {
       "ticker": "000300.SS",
       "name": "CSI 300 Index",
-      "price": 3900.55,
+      "price": 4063.06,
       "change": 0.0,
       "change_pct": 0.0,
-      "volume": 3109821612,
-      "high": 3922.29,
-      "low": 3877.82,
-      "open": 3918.02,
-      "prev_close": 3900.55,
+      "volume": 4201545020,
+      "high": 4067.01,
+      "low": 3883.8,
+      "open": 3909.08,
+      "prev_close": 4063.06,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
-      "52w_high": 3922.295,
-      "52w_low": 3877.8242,
-      "date": "2026-11-26"
+      "52w_high": 4067.0134,
+      "52w_low": 3883.7966,
+      "date": "2026-11-27"
     },
     "道琼斯": {
       "ticker": "^DJI",
@@ -178,22 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+        "source": "CNBC Top",
+        "published": "2026-11-27 07:15",
+        "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+      },
+      {
+        "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+        "source": "CNBC Top",
+        "published": "2026-11-27 03:30",
+        "link": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html"
+      },
+      {
         "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
         "source": "CNBC Top",
-        "published": "2026-11-26 20:25",
+        "published": "2026-11-26 21:13",
         "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
       },
       {
-        "title": "Semiconductor chips are the new oil. Here's why",
+        "title": "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
         "source": "CNBC Top",
-        "published": "2026-11-26 17:52",
-        "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
-      },
-      {
-        "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
-        "source": "CNBC Top",
-        "published": "2026-11-25 16:17",
-        "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+        "published": "2026-11-27 07:15",
+        "link": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
       },
       {
         "title": "The Nobel-winning science turning ‘water harvesting’ into a commercial race",
@@ -202,65 +208,58 @@
         "link": "https://www.cnbc.com/atmospheric-water-harvesting-nobel-prize-atoco-ahbstra/"
       },
       {
-        "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+        "title": "This 170-year historical study says ‘major market collapse’ is coming",
         "source": "CNBC Top",
-        "published": "2026-11-26 18:27",
-        "link": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html"
+        "published": "2026-11-27 04:07",
+        "link": "https://www.cnbc.com/2026/11/27/ai-bubble-burst-market-study.html"
       },
       {
-        "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+        "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "source": "CNBC Top",
-        "published": "2026-11-26 15:28",
-        "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+        "published": "2026-11-26 12:46",
+        "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
       },
       {
-        "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+        "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
         "source": "CNBC Top",
-        "published": "2026-11-26 06:39",
-        "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+        "published": "2026-11-27 06:09",
+        "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
       },
       {
-        "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+        "title": "Planes, trains and automobiles: The best ways to beat travel fatigue—so you can come home feeling rested and fulfilled",
         "source": "CNBC Top",
-        "published": "2026-11-26 12:22",
-        "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+        "published": "2026-11-26 13:00",
+        "link": "https://www.cnbc.com/make-it/2026/11/26/travel-fatigue-holiday-tips.html"
       },
       {
-        "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
+        "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
         "source": "CNBC Top",
-        "published": "2026-11-26 16:12",
-        "link": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html"
-      },
-      {
-        "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
-        "source": "CNBC Top",
-        "published": "2026-11-26 14:47",
-        "link": "https://www.cnbc.com/2026/11/26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands.html"
+        "published": "2026-11-26 04:12",
+        "link": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html"
       }
     ],
     "qqq_intel": [
       {
         "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
-        "source": "CNBC Tech",
+        "source": "CNBC Top",
         "published": "2026-11-26 17:04",
         "link": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
       }
     ],
-    "tech": [
+    "tech": [],
+    "market": [
       {
-        "title": "Futures sink further into the red as tech worries resurge",
-        "source": "CNBC Tech",
-        "published": "2026-11-25 11:43",
-        "link": "https://www.cnbc.com/2026/11/25/futures-sink-further-into-the-red-as-tech-worries-resurge.html"
+        "title": "Private credit’s ‘alpha’ problem",
+        "source": "FT Markets",
+        "published": "2026-11-27 06:00",
+        "link": "https://www.ft.com/content/364fece7-4303-4ed9-afc9-47e953bd4e9f"
       },
       {
-        "title": "The Beauty Tech Group is a reminder of London’s natural assets",
+        "title": "What's a fund manager to do?",
         "source": "FT Markets",
-        "published": "2026-11-26 05:00",
-        "link": "https://www.ft.com/content/abca3bf7-8245-4490-840f-8c0548042f9a?syn-25a6b1a6=1"
-      }
-    ],
-    "market": [
+        "published": "2026-11-26 21:00",
+        "link": "https://www.ft.com/content/ff2a3ebf-d9be-45f6-95e0-00cc67e7c49e?syn-25a6b1a6=1"
+      },
       {
         "title": "Chinese Investors With Few Options Turn to Dividends",
         "source": "WSJ Markets",
@@ -278,32 +277,32 @@
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: a67b8567-ae27-4840-9b44-9f43241388c8)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 2a438576-1c70-4534-95d4-57720fde142d)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8b21d3a7-c808-4b01-8f1b-e2660adaa95e)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 8f06a987-9f65-40db-9c00-8ff8846f61a0)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 95089960-1e5e-48c3-bf6d-4240a2e97344)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: d3c983ea-d131-4fbd-96d4-ad07ae17ed7b)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: ee4256e8-c685-44bb-b4e9-62ce4314f77c)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: fe17959e-5674-4bb0-88dc-a79d848b0927)",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "calm",
+    "emoji": "😌☕",
+    "greeting": "平静的一天，让我们理性看看市场~ A balanced day ahead.",
+    "tone": "composed, thoughtful, zen-like wisdom with gentle humor",
+    "sign_off": "今天的心情：喝杯咖啡看云卷云舒 ☕ Stay chill.",
+    "vibe": "Peaceful mind, clear analysis"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "bored",
+    "emoji": "🥱🕰️",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "dismissive of retail traders, highly selective, looking for real setups",
+    "sign_off": "Sigma @ 财富自由之路 | 真正的猎手懂得等待",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
