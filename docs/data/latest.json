@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-11-27T20:25:05.857202",
+  "timestamp": "2026-11-28T06:49:29.336890",
   "stocks": {
     "小米集团": {
       "ticker": "1810.HK",
       "name": "XIAOMI-W",
-      "price": NaN,
-      "change": NaN,
-      "change_pct": NaN,
-      "volume": 181960125,
-      "high": NaN,
-      "low": NaN,
-      "open": NaN,
+      "price": 27.8,
+      "change": 1.2,
+      "change_pct": 4.51,
+      "volume": 181971325,
+      "high": 27.84,
+      "low": 26.24,
+      "open": 26.3,
       "prev_close": 26.6,
       "market_cap": 715048943616,
-      "pe_ratio": 20.441175,
+      "pe_ratio": 21.060604,
       "52w_high": 43.64,
       "52w_low": 21.3,
       "date": "2026-11-27"
@@ -24,7 +24,7 @@
       "price": 650.99,
       "change": 17.06,
       "change_pct": 2.69,
-      "volume": 34995978,
+      "volume": 35503700,
       "high": 651.34,
       "low": 636.72,
       "open": 645.72,
@@ -41,10 +41,10 @@
       "price": 57.4,
       "change": 2.93,
       "change_pct": 5.38,
-      "volume": 76206386,
-      "high": 58.37,
+      "volume": 76574100,
+      "high": 58.38,
       "low": 54.55,
-      "open": 56.47,
+      "open": 56.55,
       "prev_close": 54.47,
       "market_cap": 305080991744,
       "pe_ratio": "N/A",
@@ -58,10 +58,10 @@
       "price": 492.85,
       "change": 2.92,
       "change_pct": 0.6,
-      "volume": 12423912,
-      "high": 500.46,
+      "volume": 12489400,
+      "high": 500.47,
       "low": 488.83,
-      "open": 499.48,
+      "open": 499.76,
       "prev_close": 489.93,
       "market_cap": 3660000002048,
       "pe_ratio": 25.72286,
@@ -72,19 +72,19 @@
     "Bitcoin": {
       "ticker": "BTC-USD",
       "name": "Bitcoin USD",
-      "price": 59686.92,
-      "change": -807.79,
-      "change_pct": -1.34,
-      "volume": 31763582976,
-      "high": 62085.71,
-      "low": 59007.89,
-      "open": 60495.95,
+      "price": 59800.93,
+      "change": -693.78,
+      "change_pct": -1.15,
+      "volume": 27956101120,
+      "high": 60164.19,
+      "low": 59628.41,
+      "open": 59866.07,
       "prev_close": 60494.71,
-      "market_cap": 1201474371584,
+      "market_cap": 1202869370880,
       "pe_ratio": "N/A",
       "52w_high": 97860.6,
       "52w_low": 55149.566,
-      "date": "2026-11-27"
+      "date": "2026-11-28"
     }
   },
   "indices": {
@@ -94,7 +94,7 @@
       "price": 7297.49,
       "change": 114.71,
       "change_pct": 1.6,
-      "volume": 1715427000,
+      "volume": 2936150000,
       "high": 7304.1,
       "low": 7211.46,
       "open": 7262.61,
@@ -111,7 +111,7 @@
       "price": 24129.5,
       "change": 543.7,
       "change_pct": 2.31,
-      "volume": 4872465000,
+      "volume": 5545100000,
       "high": 24149.09,
       "low": 23690.6,
       "open": 23958.46,
@@ -125,19 +125,19 @@
     "恒生指数": {
       "ticker": "^HSI",
       "name": "HANG SENG INDEX",
-      "price": 22226.88,
-      "change": 260.87,
-      "change_pct": 1.19,
-      "volume": 2819100000,
-      "high": 22543.75,
-      "low": 22217.01,
-      "open": 22234.89,
-      "prev_close": 21966.01,
+      "price": 22694.77,
+      "change": 467.89,
+      "change_pct": 2.11,
+      "volume": 3892100000,
+      "high": 22781.03,
+      "low": 22263.7,
+      "open": 22263.7,
+      "prev_close": 22226.88,
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 28056.1,
       "52w_low": 21915.88,
-      "date": "2026-11-26"
+      "date": "2026-11-27"
     },
     "沪深300": {
       "ticker": "000300.SS",
@@ -153,7 +153,7 @@
       "market_cap": "N/A",
       "pe_ratio": "N/A",
       "52w_high": 4067.0134,
-      "52w_low": 3883.7966,
+      "52w_low": 3458.44,
       "date": "2026-11-27"
     },
     "道琼斯": {
@@ -162,7 +162,7 @@
       "price": 50774.94,
       "change": 591.99,
       "change_pct": 1.18,
-      "volume": 365405114,
+      "volume": 365400000,
       "high": 50830.19,
       "low": 50398.29,
       "open": 50458.86,
@@ -178,22 +178,28 @@
     "xiaomi": [],
     "macro": [
       {
+        "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "source": "CNBC Top",
+        "published": "2026-11-27 22:00",
+        "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+      },
+      {
         "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
         "source": "CNBC Top",
         "published": "2026-11-27 15:52",
         "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
       },
       {
-        "title": "OpenAI countersues Apple for stealing trade secrets",
+        "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
         "source": "CNBC Top",
-        "published": "2026-11-27 19:10",
-        "link": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html"
+        "published": "2026-11-28 06:00",
+        "link": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html"
       },
       {
-        "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+        "title": "OpenAI countersues Apple for stealing trade secrets",
         "source": "CNBC Top",
-        "published": "2026-11-27 16:43",
-        "link": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html"
+        "published": "2026-11-27 23:07",
+        "link": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html"
       },
       {
         "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
@@ -202,40 +208,34 @@
         "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
       },
       {
-        "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-        "source": "CNBC Top",
-        "published": "2026-11-27 20:03",
-        "link": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html"
-      },
-      {
-        "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
-        "source": "CNBC Top",
-        "published": "2026-11-27 18:24",
-        "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
-      },
-      {
         "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
         "source": "CNBC Top",
         "published": "2026-11-25 21:56",
         "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html"
       },
       {
-        "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+        "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
         "source": "CNBC Top",
-        "published": "2026-11-25 16:17",
-        "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
+        "published": "2026-11-27 10:13",
+        "link": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
       },
       {
-        "title": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+        "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
         "source": "CNBC Top",
-        "published": "2026-11-27 14:12",
-        "link": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html"
+        "published": "2026-11-27 20:03",
+        "link": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html"
       },
       {
         "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
         "source": "CNBC Tech",
         "published": "2026-11-27 18:46",
         "link": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html"
+      },
+      {
+        "title": "AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth",
+        "source": "CNBC Tech",
+        "published": "2026-11-27 16:43",
+        "link": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html"
       }
     ],
     "qqq_intel": [
@@ -255,22 +255,34 @@
         "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html"
       },
       {
-        "title": "Stocks making the biggest moves midday: XP, Newmont, Sandisk & more",
-        "source": "CNBC Top",
-        "published": "2026-11-27 17:01",
-        "link": "https://www.cnbc.com/2026/11/27/stocks-moving-the-most-today-live-updates.html"
-      },
-      {
         "title": "Josh Brown lost a bet on Disney. It is now on his Best Stocks in the Market list",
         "source": "CNBC Top",
         "published": "2026-11-27 16:49",
         "link": "https://www.cnbc.com/2026/11/27/josh-brown-lost-a-bet-on-disney-it-is-now-on-his-best-stocks-in-the-market-list.html"
       },
       {
+        "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+        "source": "CNBC Top",
+        "published": "2026-11-28 06:00",
+        "link": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html"
+      },
+      {
+        "title": "Stocks making the biggest moves midday: XP, Newmont, Sandisk & more",
+        "source": "CNBC Top",
+        "published": "2026-11-27 17:01",
+        "link": "https://www.cnbc.com/2026/11/27/stocks-moving-the-most-today-live-updates.html"
+      },
+      {
         "title": "This week’s bounce following a rapid correction may not hold, history shows",
         "source": "CNBC Top",
         "published": "2026-11-27 15:18",
         "link": "https://www.cnbc.com/2026/11/27/this-weeks-bounce-following-a-rapid-correction-may-not-hold-history-shows.html"
+      },
+      {
+        "title": "How to get more UK money into UK equity markets",
+        "source": "FT Markets",
+        "published": "2026-11-28 05:00",
+        "link": "https://www.ft.com/content/71b43a99-b58e-492a-8227-9ea49bec9a5d?syn-25a6b1a6=1"
       },
       {
         "title": "Trump’s Nvidia intervention has a cost for US stocks",
@@ -295,50 +307,38 @@
         "source": "FT Markets",
         "published": "2026-11-27 06:00",
         "link": "https://www.ft.com/content/364fece7-4303-4ed9-afc9-47e953bd4e9f"
-      },
-      {
-        "title": "Chinese Investors With Few Options Turn to Dividends",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 10:30",
-        "link": "https://www.wsj.com/articles/chinese-investors-with-few-options-turn-to-dividends-ad31dcc4?mod=rss_markets_main"
-      },
-      {
-        "title": "Heard on the Street's Stock-Picking Series",
-        "source": "WSJ Markets",
-        "published": "2025-01-27 03:33",
-        "link": "https://www.wsj.com/articles/heard-on-the-streets-stock-picking-series-98f04640?mod=rss_markets_main"
       }
     ]
   },
   "sentiment": {
     "qqq_intel": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 78786625-d13c-4233-98cf-a9d43ebeb7d7)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 699b6052-152c-4895-8110-264018f419e9)"
     },
     "macro": {
       "overall_sentiment": "unknown",
-      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: d17a22f1-4f52-44d0-8118-708a723e800d)"
+      "raw_analysis": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 10771ee5-979d-46f3-bab6-32084a39e6e9)"
     }
   },
   "keywords": {
-    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: 52a9d7ac-673b-40d5-a30c-d5a257fcf6e6)"
+    "raw": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: e975ec53-0422-4af4-ab49-472159ac86cf)"
   },
-  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: c6078079-74e0-4b8a-abb7-6d0b4684627f)",
+  "briefing": "AI Analysis Error: Error code: 401 - Authentication Fails, Your api key: ****d5d9 is invalid (request_id: a45a02f8-c6ac-46ee-a3c3-9f3f5a16040e)",
   "mood": {
-    "mood": "panicking",
-    "emoji": "🔥😱",
-    "greeting": "RED ALERT! 今天市场一片血海...深呼吸...我来帮你分析。",
-    "tone": "urgent but still trying to stay calm, dramatic but informative, like a war correspondent",
-    "sign_off": "今天的心情：想躲在被子里不出来 🫠 但明天太阳照常升起！",
-    "vibe": "Stress-eating chips while analyzing charts at 3am"
+    "mood": "happy",
+    "emoji": "😊☀️",
+    "greeting": "Good vibes today! 今天心情不错~",
+    "tone": "warm, optimistic, friendly with occasional humor",
+    "sign_off": "今天的心情：阳光灿烂的好日子 ☀️ Keep smiling!",
+    "vibe": "Feeling good, sipping my coffee with a smile"
   },
   "briefing_sigma": "Gemini Analysis Error: Error code: 400\n(请检查 .env 中的 GEMINI_BASE_URL 是否正确填写了同学提供的接口地址)",
   "mood_sigma": {
-    "mood": "clinical",
-    "emoji": "🧊📊",
+    "mood": "calculated",
+    "emoji": "♟️💼",
     "greeting": "Gentlemen, let's dissect the capital flow.",
-    "tone": "cold, purely objective, risk-management focused, zero panic",
-    "sign_off": "Sigma @ 财富自由之路 | 敬畏市场，但绝不屈服于市场",
+    "tone": "analytical, sharp, professional, slightly arrogant",
+    "sign_off": "Sigma @ 财富自由之路 | 逻辑重于情绪，数据说明一切",
     "vibe": "Adjusting the Rolex, executing algorithmic trades with precision."
   }
 }
